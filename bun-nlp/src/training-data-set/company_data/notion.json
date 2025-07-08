@@ -1,0 +1,787 @@
+{
+  "Notion": [
+    {
+      "id": "8b213bf9-b433-46a9-9255-b09f145d68c6",
+      "content": {
+        "raw_text": "From: Notion no-reply@notion.so To: neha.sharma@gmail.com Subject: Welcome to Notion Plus, Neha \ud83d\udc4b Hi Neha, Thanks for upgrading! You\u2019ve just subscribed to the Notion Plus Plan. Plan: Plus Workspace: Neha\u2019s Workspace Amount charged: $8.00 Billing cycle: Monthly Next payment date: July 19, 2025 You now have access to unlimited file uploads, 30-day version history, and more. View invoice | Manage billing Cheers, \u2013 The Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 46,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 88,
+          "end": 109,
+          "label": "USER_GMAIL",
+          "value": "neha.sharma@gmail.com"
+        },
+        {
+          "start": 138,
+          "end": 142,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Plus"
+        },
+        {
+          "start": 186,
+          "end": 190,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 190,
+          "end": 194,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.00"
+        },
+        {
+          "start": 238,
+          "end": 255,
+          "label": "RENEWAL_DATE",
+          "value": "July 19, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "e5cf2bff-9be1-44c0-b264-529f92c9f8d5",
+      "content": {
+        "raw_text": "From: Notion Billing billing@notion.so To: aarav.kumar@gmail.com Subject: Your payment to Notion was successful Hi Aarav, Here\u2019s a receipt for your recent payment: Plan: Personal Pro Amount: $48.00 Billing period: June 2025 \u2013 June 2026 Payment method: **** 4242 Download invoice Thanks for being a part of Notion. \u2013 Team Notion"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 121,
+          "end": 142,
+          "label": "USER_GMAIL",
+          "value": "aarav.kumar@gmail.com"
+        },
+        {
+          "start": 188,
+          "end": 192,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 192,
+          "end": 197,
+          "label": "PAYMENT_AMOUNT",
+          "value": "48.00"
+        },
+        {
+          "start": 212,
+          "end": 234,
+          "label": "PAYMENT_DATE",
+          "value": "June 2025 \u2013 June 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "539fdff1-bb9e-4a5c-b943-09a5b014de23",
+      "content": {
+        "raw_text": "From: Notion no-reply@notion.so To: ananya.singh@gmail.com Subject: Your Notion trial ends in 3 days Hey Ananya, Your 14-day free trial of Notion Plus ends on June 22, 2025. Upgrade now to continue enjoying all the premium features \u2014 like unlimited guests, page history, and admin tools. Upgrade Now See you soon, Notion"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 46,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 111,
+          "end": 131,
+          "label": "USER_GMAIL",
+          "value": "ananya.singh@gmail.com"
+        },
+        {
+          "start": 170,
+          "end": 173,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Notion Plus"
+        },
+        {
+          "start": 183,
+          "end": 188,
+          "label": "RENEWAL_DATE",
+          "value": "June 22, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ed65d83e-b8c0-4308-a7fe-bf0e5037f342",
+      "content": {
+        "raw_text": "From: Notion Support support@notion.so To: rohit.verma@gmail.com Subject: Your Notion subscription has been canceled Hi Rohit, Your subscription to the Personal Pro Plan has been canceled. You\u2019ll still have access to premium features until your billing period ends on June 30, 2025. If you change your mind, you can reactivate your subscription anytime. Reactivate Plan Thanks for trying Notion! \u2013 The Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 127,
+          "end": 147,
+          "label": "USER_GMAIL",
+          "value": "rohit.verma@gmail.com"
+        },
+        {
+          "start": 227,
+          "end": 247,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "June 30, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "dfabf3ca-61b5-4a21-b6b9-d7c36a01fd91",
+      "content": {
+        "raw_text": "From: Notion Billing billing@notion.so To: meera.jain@gmail.com Subject: Your Notion plan has been renewed Hi Meera, Thanks for staying with us! Your subscription to the Plus Plan has been renewed. Amount charged: $96.00 Billing period: June 19, 2025 \u2013 June 19, 2026 Payment method: **** 1092 View receipt Have a great day, The Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 121,
+          "end": 138,
+          "label": "USER_GMAIL",
+          "value": "meera.jain@gmail.com"
+        },
+        {
+          "start": 185,
+          "end": 189,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 189,
+          "end": 193,
+          "label": "PAYMENT_AMOUNT",
+          "value": "96.00"
+        },
+        {
+          "start": 229,
+          "end": 249,
+          "label": "PAYMENT_DATE",
+          "value": "June 19, 2025 \u2013 June 19, 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ca20fa3e-87b0-4d3d-94fc-f0debf466a38",
+      "content": {
+        "raw_text": "From: Notion Billing billing@notion.so To: kunal.patel@gmail.com Subject: We couldn\u2019t process your payment Hi Kunal, We tried to process your payment for the Notion Plus Plan, but it didn\u2019t go through. Amount: $8.00 Date: June 19, 2025 Please update your billing information to keep your subscription active. Update Payment Let us know if you need help. \u2013 Notion Support"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 118,
+          "end": 136,
+          "label": "USER_GMAIL",
+          "value": "kunal.patel@gmail.com"
+        },
+        {
+          "start": 178,
+          "end": 182,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 182,
+          "end": 186,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.00"
+        },
+        {
+          "start": 206,
+          "end": 221,
+          "label": "PAYMENT_DATE",
+          "value": "June 19, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c63f9b90-4de7-4d8b-a6d2-94fa9de8c0db",
+      "content": {
+        "raw_text": "From: Notion AI ai@notion.so To: swati.mishra@gmail.com Subject: You\u2019ve started a Notion AI trial Hi Swati, Welcome to your Notion AI trial! For the next 7 days, you can explore all the ways AI can boost your productivity\u2014summarizing notes, generating content, and more. Trial ends on June 26, 2025. See what AI can do Enjoy! \u2013 Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 46,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 114,
+          "end": 134,
+          "label": "USER_GMAIL",
+          "value": "swati.mishra@gmail.com"
+        },
+        {
+          "start": 182,
+          "end": 190,
+          "label": "RENEWAL_DATE",
+          "value": "June 26, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f57e2b7a-3961-43b3-a5d5-8556f25765cc",
+      "content": {
+        "raw_text": "From: Notion Billing billing@notion.so To: raj.singh@gmail.com Subject: Your Notion AI subscription has been renewed Hi Raj, Thanks for continuing with Notion AI. Amount charged: $8.00 Billing period: June 19, 2025 \u2013 July 19, 2025 Payment method: **** 2381 Manage AI subscription Have a productive month, Notion"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 109,
+          "end": 130,
+          "label": "USER_GMAIL",
+          "value": "raj.singh@gmail.com"
+        },
+        {
+          "start": 172,
+          "end": 176,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 176,
+          "end": 180,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.00"
+        },
+        {
+          "start": 204,
+          "end": 218,
+          "label": "RENEWAL_DATE",
+          "value": "July 19, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f23d13fa-d717-41ea-b006-e2a5c7f10d62",
+      "content": {
+        "raw_text": "From: Notion no-reply@notion.so To: shruti.designops@gmail.com Subject: Your workspace is now on the Business Plan Hi Shruti, You\u2019ve upgraded to the Business Plan for your workspace: \u201cDesignOps\u201d. Amount charged: $180.00 Seats: 3 Billing cycle: Annual Access new features like advanced security controls, SAML SSO, and workspace analytics. Explore features Thanks for upgrading, Notion"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 46,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 113,
+          "end": 136,
+          "label": "USER_GMAIL",
+          "value": "shruti.designops@gmail.com"
+        },
+        {
+          "start": 187,
+          "end": 191,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 191,
+          "end": 196,
+          "label": "PAYMENT_AMOUNT",
+          "value": "180.00"
+        },
+        {
+          "start": 206,
+          "end": 217,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Annual"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "52f1a17d-8a7b-4f6f-b14b-b31a10c38e61",
+      "content": {
+        "raw_text": "From: Notion Billing billing@notion.so To: arvind.singh@gmail.com Subject: Your refund from Notion is complete Hi Arvind, We\u2019ve processed your refund for the Plus Plan. Amount refunded: $96.00 Date: June 17, 2025 Payment method: **** 7884 It may take 5\u201310 business days to appear in your bank account. Let us know if you need anything else. \u2013 Notion Billing Support"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 121,
+          "end": 144,
+          "label": "USER_GMAIL",
+          "value": "arvind.singh@gmail.com"
+        },
+        {
+          "start": 198,
+          "end": 202,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 202,
+          "end": 206,
+          "label": "PAYMENT_AMOUNT",
+          "value": "96.00"
+        },
+        {
+          "start": 229,
+          "end": 234,
+          "label": "PAYMENT_DATE",
+          "value": "June 17, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "bb7c69cc-4b7f-415a-9c80-869b300b314b",
+      "content": {
+        "raw_text": "From: Notion no-reply@notion.so To: ishita.patel@gmail.com Subject: Your Notion invoice is ready Hi Ishita, Your invoice for this billing cycle is now available. Invoice #: INV-556432 Amount: $8.00 Date issued: June 19, 2025 Plan: Notion Plus \u2013 Monthly Download Invoice \u2013 Notion"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 46,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 109,
+          "end": 131,
+          "label": "USER_GMAIL",
+          "value": "ishita.patel@gmail.com"
+        },
+        {
+          "start": 159,
+          "end": 163,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 163,
+          "end": 167,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.00"
+        },
+        {
+          "start": 177,
+          "end": 190,
+          "label": "INVOICE_NUMBER",
+          "value": "INV-556432"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c2c21425-d0a5-4d07-8b5b-b3c40a5b6cd6",
+      "content": {
+        "raw_text": "From: Notion Team team@notion.so To: dev.rajput@gmail.com Subject: Your Notion Team trial has started Hi Dev, Thanks for trying out Notion\u2019s Team Plan! You now have 14 days to explore collaboration tools like private teamspaces, admin roles, and shared permissions. Trial ends on July 3, 2025. Start setting up \u2013 Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 108,
+          "end": 130,
+          "label": "USER_GMAIL",
+          "value": "dev.rajput@gmail.com"
+        },
+        {
+          "start": 183,
+          "end": 194,
+          "label": "RENEWAL_DATE",
+          "value": "July 3, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ca2b7ff0-b8a7-4b57-8324-145cd72b9c4b",
+      "content": {
+        "raw_text": "From: Notion Billing billing@notion.so To: aisha.khan@gmail.com Subject: Your payment method has been updated Hi Aisha, You\u2019ve successfully updated your payment method on file for your Notion subscription. No further action is needed. Want to double-check? Manage billing Thanks, Notion Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 126,
+          "end": 145,
+          "label": "USER_GMAIL",
+          "value": "aisha.khan@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "92c36d4e-8269-45ad-b118-c59a07360b62",
+      "content": {
+        "raw_text": "From: Notion no-reply@notion.so To: parth.joshi@gmail.com Subject: 1 new seat added to your plan Hi Parth, You\u2019ve added a new member to your workspace: Creative Team. Your new monthly bill reflects the additional seat: New charge: $16.00/month (2 seats) Manage seats Thanks for growing with us, \u2013 Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 46,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 94,
+          "end": 116,
+          "label": "USER_GMAIL",
+          "value": "parth.joshi@gmail.com"
+        },
+        {
+          "start": 168,
+          "end": 172,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 172,
+          "end": 176,
+          "label": "PAYMENT_AMOUNT",
+          "value": "16.00"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "2a4f7e88-b531-4d7f-a3c6-d4778cf7d3f9",
+      "content": {
+        "raw_text": "From: Notion Support support@notion.so To: isha.mehra@gmail.com Subject: Your plan has been downgraded Hi Isha, Your workspace has been downgraded to the Free Plan. You\u2019ll still be able to access your content, but some premium features will no longer be available. Upgrade again anytime Thanks for using Notion, The Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 119,
+          "end": 139,
+          "label": "USER_GMAIL",
+          "value": "isha.mehra@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d6c0d9ed-d681-4c0c-b28a-bd82f4e02996",
+      "content": {
+        "raw_text": "From: Notion Billing billing@notion.so To: rhea.malik@gmail.com Subject: Auto-renewal enabled for your subscription Hi Rhea, Your Skillshare Plus Plan is now set to auto-renew. Your payment method will be charged automatically on your next billing date: August 20, 2025. If you want to disable auto-renewal, visit: Manage billing Thanks for being with Notion! \u2013 Notion Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 112,
+          "end": 133,
+          "label": "USER_GMAIL",
+          "value": "rhea.malik@gmail.com"
+        },
+        {
+          "start": 182,
+          "end": 203,
+          "label": "RENEWAL_DATE",
+          "value": "August 20, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f7c0cf5a-d00b-4eb4-8611-b723bf76e070",
+      "content": {
+        "raw_text": "From: Notion Support support@notion.so To: vivek.rao@gmail.com Subject: Your Notion subscription is paused Hi Vivek, Your Notion subscription has been paused as per your request. You will retain access until July 15, 2025, after which billing will stop. You can resume anytime via your account dashboard. Resume Subscription \u2014 The Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 113,
+          "end": 134,
+          "label": "USER_GMAIL",
+          "value": "vivek.rao@gmail.com"
+        },
+        {
+          "start": 193,
+          "end": 213,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "July 15, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c983e2f5-8c79-4850-a28c-f907b8c8f133",
+      "content": {
+        "raw_text": "From: Notion Security security@notion.so To: anil.das@gmail.com Subject: Your payment method was updated Hi Anil, We noticed your payment method on file was recently changed. If this wasn\u2019t you, please secure your account immediately: Secure Account If you need help, contact support@notion.so. \u2014 Notion Security Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 112,
+          "end": 130,
+          "label": "USER_GMAIL",
+          "value": "anil.das@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "6c42f1f7-497e-4ab1-bb68-b4209fa97472",
+      "content": {
+        "raw_text": "From: Notion Team team@notion.so To: sangeeta.kumar@gmail.com Subject: You joined the workspace \"Marketing\" Hi Sangeeta, You have successfully joined the workspace \u201cMarketing\u201d. Start collaborating and exploring all the tools your team uses. Go to Workspace Welcome aboard! \u2013 Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 106,
+          "end": 130,
+          "label": "USER_GMAIL",
+          "value": "sangeeta.kumar@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "bd97e99d-51b6-42b3-8a84-e63a865063ea",
+      "content": {
+        "raw_text": "From: Notion Billing billing@notion.so To: david.morris@gmail.com Subject: Your payment method is expiring soon Hi David, The credit card on your account ending in **** 6753 is expiring soon (08/25). Please update your payment information to avoid any interruption in service. Update Payment Info Thanks, Notion Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 113,
+          "end": 134,
+          "label": "USER_GMAIL",
+          "value": "david.morris@gmail.com"
+        },
+        {
+          "start": 157,
+          "end": 163,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Card"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a3de25e4-5329-437b-8a29-3946488c6e7d",
+      "content": {
+        "raw_text": "From: Notion Offers offers@notion.so To: priya.rao@gmail.com Subject: Upgrade to Business Plan and save 20% Hi Priya, Upgrade your workspace to the Business Plan today and save 20% on your first year. Enjoy advanced security, unlimited seats, and priority support. Upgrade Now Offer valid until July 31, 2025. Let\u2019s grow together! \u2013 Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 112,
+          "end": 133,
+          "label": "USER_GMAIL",
+          "value": "priya.rao@gmail.com"
+        },
+        {
+          "start": 201,
+          "end": 205,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b8c5f0e1-0c30-4264-a5a1-0d34ae989871",
+      "content": {
+        "raw_text": "From: Notion no-reply@notion.so To: harshita.mehta@gmail.com Subject: Your Notion trial has ended Hi Harshita, Your free trial has ended. Convert now to keep access to premium features and avoid disruption. Convert to Paid We\u2019d love to have you stay! \u2013 Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 46,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 111,
+          "end": 132,
+          "label": "USER_GMAIL",
+          "value": "harshita.mehta@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "dc3a52b4-bc24-42fc-9a28-1f75b0c2e96f",
+      "content": {
+        "raw_text": "From: Notion Security security@notion.so To: aditya.sharma@gmail.com Subject: Your password was changed Hi Aditya, Your Notion password was successfully changed on June 18, 2025 at 3:45 PM UTC. If this wasn\u2019t you, please reset your password immediately: Reset Password Stay safe, Notion Security Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 114,
+          "end": 133,
+          "label": "USER_GMAIL",
+          "value": "aditya.sharma@gmail.com"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "4a924028-d129-4d45-a6c2-cc12a2fc1426",
+      "content": {
+        "raw_text": "From: Notion Support support@notion.so To: monika.gupta@gmail.com Subject: Your workspace has been deleted Hi Monika, As requested, your workspace \u201cProject Alpha\u201d has been permanently deleted. All data is now removed and cannot be recovered. If you need help or want to restore a workspace, contact support. Thanks for using Notion, The Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 122,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "monika.gupta@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a2f56c90-f4f7-42ac-9121-b1bc96e5c228",
+      "content": {
+        "raw_text": "From: Notion Updates updates@notion.so To: rishi.kapoor@gmail.com Subject: New! Collaborative whiteboards in Notion Hi Rishi, We\u2019re excited to introduce Collaborative Whiteboards \u2014 brainstorm, sketch, and plan in real-time with your team. Try it today and unlock new ways to collaborate! Explore Whiteboards Happy creating, \u2013 Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 111,
+          "end": 131,
+          "label": "USER_GMAIL",
+          "value": "rishi.kapoor@gmail.com"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "8b7b4fcf-d053-47d9-bfd9-e37ed40e5cfc",
+      "content": {
+        "raw_text": "From: Notion Support support@notion.so To: ananya.malik@gmail.com Subject: Your Notion account has been deactivated Hi Ananya, Your Notion account has been deactivated as requested. You will lose access to all your workspaces and content. If this was a mistake, contact us within 14 days to reactivate. Thanks for being with us, The Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 120,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "ananya.malik@gmail.com"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "f44e4f2a-57da-421e-bd75-b6bca6c44fd9",
+      "content": {
+        "raw_text": "From: Notion Support support@notion.so To: ananya.malik@gmail.com Subject: Welcome back to Notion! Your account is reactivated Hi Ananya, Welcome back! Your Notion account has been successfully reactivated. All your data and workspaces are restored. Go to Notion Glad to have you with us again, The Notion Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Notion"
+        },
+        {
+          "start": 117,
+          "end": 139,
+          "label": "USER_GMAIL",
+          "value": "ananya.malik@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

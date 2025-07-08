@@ -1,0 +1,901 @@
+{
+  "Wix": [
+    {
+      "id": "a1b2c3d4-5678-90ef-1234-56789abcdef0",
+      "content": {
+        "raw_text": "Your Wix account (ID WX-814220) is ready. \u2022 Plan: Free Site \u2022 Next step: Pick a template and start building \u2192 https://wix.com/start/814220"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Hannah Cole"
+        },
+        {
+          "start": 39,
+          "end": 51,
+          "label": "USER_GMAIL",
+          "value": "hannah.cole@example.com"
+        },
+        {
+          "start": 72,
+          "end": 80,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Free Site"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "b2c3d4e5-6789-90ab-cdef-123456789abc",
+      "content": {
+        "raw_text": "Your domain wixdemo.shop is live! \u2022 Registration ID: WX-DOM-991430 \u2022 Term: 1 year (23 Jun 2025 \u2013 22 Jun 2026) \u2022 Amount charged: \u20ac11.95 (Visa \u2022\u2022\u2022\u2022 3392)"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 28,
+          "end": 43,
+          "label": "USERNAME",
+          "value": "Jorge Garc\u00eda"
+        },
+        {
+          "start": 72,
+          "end": 94,
+          "label": "USER_GMAIL",
+          "value": "jorge.garcia@example.es"
+        },
+        {
+          "start": 48,
+          "end": 63,
+          "label": "DOMAIN_NAME",
+          "value": "wixdemo.shop"
+        },
+        {
+          "start": 143,
+          "end": 150,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac11.95"
+        },
+        {
+          "start": 143,
+          "end": 144,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "c3d4e5f6-7890-abcd-efgh-23456789abcd",
+      "content": {
+        "raw_text": "Thank you for your annual Premium Unlimited renewal. \u2022 Account ID: WX-667755 \u2022 Amount: \u00a514,400 \u2022 Card: JCB \u2022\u2022\u2022\u2022 5810 \u2022 Coverage: 23 Jun 2025 \u2013 22 Jun 2026"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Yuki Tanaka"
+        },
+        {
+          "start": 62,
+          "end": 87,
+          "label": "USER_GMAIL",
+          "value": "yuki.tanaka@example.jp"
+        },
+        {
+          "start": 56,
+          "end": 75,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Unlimited"
+        },
+        {
+          "start": 104,
+          "end": 113,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u00a514,400"
+        },
+        {
+          "start": 104,
+          "end": 105,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a5"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "d4e5f6g7-8901-abcd-efgh-567890abcdef",
+      "content": {
+        "raw_text": "Your Wix Combo annual plan will renew soon. \u2022 Account ID: WX-553102 \u2022 Upcoming charge: \u20b93,349.00 (RuPay \u2022\u2022\u2022\u2022 9204) \u2022 Renewal term: 01 Jul 2025 \u2013 30 Jun 2026"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 33,
+          "label": "USERNAME",
+          "value": "Fatima Khan"
+        },
+        {
+          "start": 62,
+          "end": 81,
+          "label": "USER_GMAIL",
+          "value": "fatima.khan@example.in"
+        },
+        {
+          "start": 55,
+          "end": 71,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Combo annual plan"
+        },
+        {
+          "start": 101,
+          "end": 113,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b93,349.00"
+        },
+        {
+          "start": 101,
+          "end": 102,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "e5f6g7h8-9012-3456-7890-abcdef123456",
+      "content": {
+        "raw_text": "We couldn\u2019t process \u20ac17.00 for your Monthly Unlimited plan (card \u2022\u2022\u2022\u2022 1452). Update payment by 26 Jun 2025 to avoid interruption."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Leo M\u00fcller"
+        },
+        {
+          "start": 52,
+          "end": 71,
+          "label": "USER_GMAIL",
+          "value": "leo.mueller@example.de"
+        },
+        {
+          "start": 54,
+          "end": 66,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly Unlimited"
+        },
+        {
+          "start": 47,
+          "end": 57,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac17.00"
+        },
+        {
+          "start": 47,
+          "end": 48,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 82,
+          "end": 94,
+          "label": "PAYMENT_DATE",
+          "value": "26 Jun 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "f6g7h8i9-0123-4567-8901-abcdef234567",
+      "content": {
+        "raw_text": "Unlock online-payments, subscriptions and more. Add Business Unlimited for AED 23/mo (regular 29)."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 36,
+          "label": "USERNAME",
+          "value": "Aisha Al-Mansoori"
+        },
+        {
+          "start": 106,
+          "end": 110,
+          "label": "PAYMENT_AMOUNT",
+          "value": "AED 23/mo"
+        },
+        {
+          "start": 106,
+          "end": 107,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "AED"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "g7h8i9j0-1234-5678-9012-abcdef345678",
+      "content": {
+        "raw_text": "We\u2019ve refunded \u20ac48.00 to Mastercard \u2022\u2022\u2022\u2022 8706 for the unused months of your Premium plan. \u2022 Account ID: WX-779001 \u2022 Refund date: 23 Jun 2025"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 33,
+          "label": "USERNAME",
+          "value": "Enzo Rossi"
+        },
+        {
+          "start": 72,
+          "end": 94,
+          "label": "USER_GMAIL",
+          "value": "enzo.rossi@example.it"
+        },
+        {
+          "start": 79,
+          "end": 91,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac48.00"
+        },
+        {
+          "start": 79,
+          "end": 80,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 106,
+          "end": 120,
+          "label": "REFUND_DATE",
+          "value": "23 Jun 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "h8i9j0k1-2345-6789-0123-abcdef456789",
+      "content": {
+        "raw_text": "Enjoy Wix \u5546\u4e1a\u9ad8\u7ea7\u7248 14 \u5929\u514d\u8d39\u8bd5\u7528. \u82e5\u4e0d\u53d6\u6d88\uff0c7 \u6708 8 \u65e5\u5c06\u5411\u94f6\u8054\u5361 \u2022\u2022\u2022\u2022 3614 \u6536\u53d6 \u00a5198.00/\u6708."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 8,
+          "end": 17,
+          "label": "USERNAME",
+          "value": "Chen Wei"
+        },
+        {
+          "start": 47,
+          "end": 66,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u00a5198.00/\u6708"
+        },
+        {
+          "start": 47,
+          "end": 48,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a5"
+        },
+        {
+          "start": 98,
+          "end": 109,
+          "label": "TRIAL_END_DATE",
+          "value": "7 \u6708 8 \u65e5"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "i9j0k1l2-3456-7890-1234-abcdef567890",
+      "content": {
+        "raw_text": "Your password was changed on 24 Jun 2025 03:08 BST. If this wasn\u2019t you, lock your account: https://wix.com/security"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 38,
+          "label": "USERNAME",
+          "value": "Sofia Peterson"
+        },
+        {
+          "start": 64,
+          "end": 87,
+          "label": "USER_GMAIL",
+          "value": "sofia.peterson@example.co.uk"
+        },
+        {
+          "start": 84,
+          "end": 101,
+          "label": "PASSWORD_RESET_TIME",
+          "value": "24 Jun 2025 03:08 BST"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "j0k1l2m3-4567-8901-2345-abcdef678901",
+      "content": {
+        "raw_text": "Your free SSL is now active on https://tomas-studio.cz. Visitors will see \u201cSecure\u201d in the address bar."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 28,
+          "end": 47,
+          "label": "DOMAIN_NAME",
+          "value": "tomas-studio.cz"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "k1l2m3n4-5678-9012-3456-abcdef789012",
+      "content": {
+        "raw_text": "Congratulations\u2014your site baltic-crafts.pl is published and viewable worldwide. View site \u2192 https://baltic-crafts.pl"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 40,
+          "label": "USERNAME",
+          "value": "Natalia Kowalska"
+        },
+        {
+          "start": 65,
+          "end": 84,
+          "label": "DOMAIN_NAME",
+          "value": "baltic-crafts.pl"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "l2m3n4o5-6789-0123-4567-abcdef890123",
+      "content": {
+        "raw_text": "Your domain leesalon.ca has been successfully transferred to Wix. \u2022 Transfer ID: WX-TRF-558844 \u2022 Next renewal: 02 Jul 2026"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 37,
+          "end": 52,
+          "label": "USERNAME",
+          "value": "Rebecca Lee"
+        },
+        {
+          "start": 59,
+          "end": 79,
+          "label": "DOMAIN_NAME",
+          "value": "leesalon.ca"
+        },
+        {
+          "start": 113,
+          "end": 132,
+          "label": "RENEWAL_DATE",
+          "value": "02 Jul 2026"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "m3n4o5p6-7890-1234-5678-abcdef901234",
+      "content": {
+        "raw_text": "Sua Nota Fiscal eletr\u00f4nica est\u00e1 em anexo. \u2022 Conta: WX-881920 \u2022 Plano: Business Unlimited mensal \u2022 Valor: R$ 49,90 (inclui 5 % ISS)"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 31,
+          "label": "USERNAME",
+          "value": "Lucas Silva"
+        },
+        {
+          "start": 65,
+          "end": 95,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Business Unlimited mensal"
+        },
+        {
+          "start": 109,
+          "end": 118,
+          "label": "PAYMENT_AMOUNT",
+          "value": "R$ 49,90"
+        },
+        {
+          "start": 109,
+          "end": 110,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "R$"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "n4o5p6q7-8901-2345-6789-abcdef012345",
+      "content": {
+        "raw_text": "To keep your mailing lists active, confirm you have consent from EU visitors by 30 Jun 2025."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 28,
+          "end": 44,
+          "label": "USERNAME",
+          "value": "Claire Dubois"
+        },
+        {
+          "start": 88,
+          "end": 101,
+          "label": "CONSENT_DEADLINE",
+          "value": "30 Jun 2025"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "o5p6q7r8-9012-3456-7890-abcdef123456",
+      "content": {
+        "raw_text": "Two-step verification is now ON for your Wix account. Backup codes attached\u2014store them safely."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 41,
+          "end": 62,
+          "label": "USERNAME",
+          "value": "Min-seok Noh"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "p6q7r8s9-0123-4567-8901-abcdef234567",
+      "content": {
+        "raw_text": "Your Wix Logo Maker files are available to download. \u2022 Order ID: WX-LOGO-553901 \u2022 Brand: Anderson Outdoors \u2022 Price: A$ 69.00"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 29,
+          "end": 54,
+          "label": "USERNAME",
+          "value": "Daniel Anderson"
+        },
+        {
+          "start": 84,
+          "end": 97,
+          "label": "PAYMENT_AMOUNT",
+          "value": "A$ 69.00"
+        },
+        {
+          "start": 84,
+          "end": 85,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "A$"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "q7r8s9t0-1234-5678-9012-abcdef345678",
+      "content": {
+        "raw_text": "Your campaign reached 1 842 contacts: \u2022 Opens \u2013 48 % \u2022 Clicks \u2013 17 %"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 38,
+          "end": 59,
+          "label": "USERNAME",
+          "value": "Marta \u017buk"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "r8s9t0u1-2345-6789-0123-abcdef456789",
+      "content": {
+        "raw_text": "A new Visa ending 0842 is now your default payment method. \u2022 Account ID: WX-602811 \u2022 Next charge: 01 Aug 2025, TRY 149.00"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 35,
+          "label": "USERNAME",
+          "value": "O\u011fuz Y\u0131lmaz"
+        },
+        {
+          "start": 80,
+          "end": 98,
+          "label": "PAYMENT_AMOUNT",
+          "value": "TRY 149.00"
+        },
+        {
+          "start": 80,
+          "end": 81,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "TRY"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "s9t0u1v2-3456-7890-1234-abcdef567890",
+      "content": {
+        "raw_text": "The editing outage affecting European servers (11:02\u201311:18 UTC) is resolved. We apologise for the inconvenience."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 48,
+          "end": 62,
+          "label": "USER_GMAIL",
+          "value": "olga.ivanova@example.ru"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "t0u1v2w3-4567-8901-2345-abcdef678901",
+      "content": {
+        "raw_text": "Your Premium subscription is cancelled effective 25 Jun 2025. Access stays active until 15 Jul 2025. \u2022 Account ID: WX-712300 \u2022 Refund: US $13.32 to card \u2022\u2022\u2022\u2022 6201"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 37,
+          "label": "USERNAME",
+          "value": "Ethan Brown"
+        },
+        {
+          "start": 72,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "ethan.brown@example.us"
+        },
+        {
+          "start": 118,
+          "end": 128,
+          "label": "PAYMENT_AMOUNT",
+          "value": "US $13.32"
+        },
+        {
+          "start": 118,
+          "end": 119,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 142,
+          "end": 157,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "15 Jul 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "u1v2w3x4-5678-9012-3456-abcdef789012",
+      "content": {
+        "raw_text": "To compensate for recent downtime, we added 2 weeks to your Business Premium plan. \u2022 New expiry: 14 Aug 2026 \u2022 Account ID: WX-226789"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 28,
+          "end": 39,
+          "label": "USERNAME",
+          "value": "Ahmed El-Masry"
+        },
+        {
+          "start": 61,
+          "end": 83,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Business Premium"
+        },
+        {
+          "start": 106,
+          "end": 120,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "14 Aug 2026"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "v2w3x4y5-8901-2345-6789-abcdef012345",
+      "content": {
+        "raw_text": "Your domain duboiscakes.be expires 05 Jul 2025. Renew for \u20ac13.95/year: https://wix.com/domains/511600"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 39,
+          "end": 59,
+          "label": "USERNAME",
+          "value": "Louise Dubois"
+        },
+        {
+          "start": 68,
+          "end": 85,
+          "label": "DOMAIN_NAME",
+          "value": "duboiscakes.be"
+        },
+        {
+          "start": 105,
+          "end": 115,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac13.95"
+        },
+        {
+          "start": 105,
+          "end": 106,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "w3x4y5z6-0123-4567-8901-abcdef234567",
+      "content": {
+        "raw_text": "Hoy solamente: ahorra 50 % en planes anuales Premium. Canjea aqu\u00ed \u2192 https://wix.com/mx/50off"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 35,
+          "label": "USERNAME",
+          "value": "Diego Herrera"
+        },
+        {
+          "start": 55,
+          "end": 67,
+          "label": "PAYMENT_AMOUNT",
+          "value": "50 %"
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "%"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "x4y5z6a7-2345-6789-0123-abcdef345678",
+      "content": {
+        "raw_text": "Jackson Lee added you as Editor on kiwisurf.co.nz. Accept \u2192 https://wix.com/team/780055/join"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 37,
+          "label": "USERNAME",
+          "value": "Emily Carter"
+        },
+        {
+          "start": 78,
+          "end": 96,
+          "label": "DOMAIN_NAME",
+          "value": "kiwisurf.co.nz"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "y5z6a7b8-9012-3456-7890-abcdef456789",
+      "content": {
+        "raw_text": "Your Google Workspace mailbox is set up. \u2022 Alias: aliyah@rahman-studio.my \u2022 Login: Use your Wix credentials \u2192 https://workspace.google.com"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 22,
+          "end": 41,
+          "label": "USERNAME",
+          "value": "Aliyah Rahman"
+        },
+        {
+          "start": 56,
+          "end": 83,
+          "label": "EMAIL_ALIAS",
+          "value": "aliyah@rahman-studio.my"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "z6a7b8c9-2345-6789-0123-abcdef567890",
+      "content": {
+        "raw_text": "Your issue \u201cStore checkout error\u201d is resolved. If the problem returns, reply to reopen ticket #550812."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 31,
+          "end": 50,
+          "label": "USERNAME",
+          "value": "George Miller"
+        },
+        {
+          "start": 91,
+          "end": 102,
+          "label": "TICKET_ID",
+          "value": "#550812"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "a7b8c9d0-3456-7890-1234-abcdef678901",
+      "content": {
+        "raw_text": "You\u2019ve used 45 GB of your included storage. Upgrade or delete files to avoid upload limits."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "label": "COMPANY_NAME",
+          "value": "Wix"
+        },
+        {
+          "start": 28,
+          "end": 48,
+          "label": "USERNAME",
+          "value": "Isabella Johnson"
+        }
+      ],
+      "is_subscription_related": false
+    }
+  ]
+}

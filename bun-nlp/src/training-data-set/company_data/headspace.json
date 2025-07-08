@@ -1,0 +1,298 @@
+{
+  "Headspace": [
+    {
+      "id": "2fef2453-6ea8-4f83-8c84-d0a3df4c4711",
+      "content": {
+        "raw_text": "Subject: Your Headspace Membership Payment Is Confirmed \u2013 Take a Deep Breath From: Headspace info@headspace.com To: elara.anderson@email.com Dear Elara Anderson, We're delighted to confirm that your recent payment for your Headspace membership has been successfully processed. Thank you for continuing your journey towards a healthier, happier mind with us. Your active membership provides you with uninterrupted access to our extensive library of meditations, sleepcasts, mindful movement exercises, and focus music. We are committed to helping you build a consistent meditation practice, reduce stress, improve sleep, and enhance overall well-being, one mindful moment at a time. Payment Details: Plan: Headspace Annual Membership Amount Paid: \u20b94,499.00 INR Payment Date: November 01, 2023 Next Billing Date: November 01, 2024 You can always review your billing history and manage your subscription details by logging into your Headspace account online at https://www.headspace.com/account. Should you have any questions regarding this payment or your membership, our support team is readily available to assist you at https://help.headspace.com/hc/en-us. We appreciate your dedication to mindfulness. Sincerely, The Headspace Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Headspace"
+        },
+        {
+          "start": 61,
+          "end": 86,
+          "label": "USER_GMAIL",
+          "value": "elara.anderson@email.com"
+        },
+        {
+          "start": 93,
+          "end": 108,
+          "label": "USERNAME",
+          "value": "Elara Anderson"
+        },
+        {
+          "start": 498,
+          "end": 527,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Headspace Annual Membership"
+        },
+        {
+          "start": 543,
+          "end": 561,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4,499.00"
+        },
+        {
+          "start": 537,
+          "end": 538,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 579,
+          "end": 595,
+          "label": "PAYMENT_DATE",
+          "value": "November 01, 2023"
+        },
+        {
+          "start": 620,
+          "end": 636,
+          "label": "RENEWAL_DATE",
+          "value": "November 01, 2024"
+        }
+      ]
+    },
+    {
+      "id": "ef9dbff3-52d5-4db5-b79d-8de181e943b8",
+      "content": {
+        "raw_text": "Subject: Your Headspace Membership Refund Has Been Processed From: Headspace support@headspace.com To: hiroki.sato@email.com Dear Hiroki Sato, This email confirms that your refund for your recent Headspace membership has been successfully processed. We understand that sometimes circumstances change, and our aim is to make this process as clear and effortless as possible for you. The refunded amount will be credited back to your original payment method. Please allow 5-10 business days for the funds to reflect on your bank or card statement, as processing times can vary depending on your financial institution. Refund Summary: Plan: Headspace Monthly Membership Amount Refunded: \u20b9499.00 INR Processed Date: August 15, 2022 Payment Method: MasterCard ending in **** 1234 Your Headspace membership associated with this refund has now been deactivated. While your access to our full content library will cease, we hope you found the time spent with us beneficial for your mental well-being. Should you decide to re-engage with mindfulness practices or explore a different plan in the future, you can easily re-subscribe anytime at https://www.headspace.com/subscribe. Thank you for your understanding. Sincerely, The Headspace Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Headspace"
+        },
+        {
+          "start": 61,
+          "end": 83,
+          "label": "USER_GMAIL",
+          "value": "hiroki.sato@email.com"
+        },
+        {
+          "start": 90,
+          "end": 102,
+          "label": "USERNAME",
+          "value": "Hiroki Sato"
+        },
+        {
+          "start": 477,
+          "end": 507,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Headspace Monthly Membership"
+        },
+        {
+          "start": 526,
+          "end": 532,
+          "label": "PAYMENT_AMOUNT",
+          "value": "499.00"
+        },
+        {
+          "start": 520,
+          "end": 521,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 553,
+          "end": 569,
+          "label": "PAYMENT_DATE",
+          "value": "August 15, 2022"
+        },
+        {
+          "start": 591,
+          "end": 611,
+          "label": "PAYMENT_PLATFORM",
+          "value": "MasterCard"
+        }
+      ]
+    },
+    {
+      "id": "ccbd6b97-79c8-41d7-9984-74a030be86c0",
+      "content": {
+        "raw_text": "Subject: Your Headspace Membership Has Been Cancelled From: Headspace info@headspace.com To: julia.schmidt@email.com Dear Julia Schmidt, This is to confirm that your Headspace Annual Membership has been successfully cancelled, as per your recent request. We're sorry to see you go and appreciate you having been part of our community. We hope that our meditations and mindfulness tools provided you with valuable support in your mental health journey. We believe in the power of mindfulness to transform lives, and we value the connection we've built with you. Cancellation Details: Plan: Headspace Annual Membership Cancellation Date: June 20, 2024 Access Ends On: July 20, 2024 (End of your current paid period) You will continue to have full access to all Headspace meditations, sleepcasts, and features until the end of your current paid period. After this date, your access will revert to our free content. Your account will remain active. Should you wish to resume your full membership or explore other plan options in the future, you can easily reactivate your plan anytime through your Headspace account settings at https://www.headspace.com/account. Thank you for being part of the Headspace community. Sincerely, The Headspace Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Headspace"
+        },
+        {
+          "start": 61,
+          "end": 84,
+          "label": "USER_GMAIL",
+          "value": "julia.schmidt@email.com"
+        },
+        {
+          "start": 91,
+          "end": 104,
+          "label": "USERNAME",
+          "value": "Julia Schmidt"
+        },
+        {
+          "start": 162,
+          "end": 192,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Headspace Annual Membership"
+        },
+        {
+          "start": 225,
+          "end": 239,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2024"
+        },
+        {
+          "start": 260,
+          "end": 275,
+          "label": "RENEWAL_DATE",
+          "value": "July 20, 2024"
+        }
+      ]
+    },
+    {
+      "id": "f6bf28c5-2389-413b-9f3d-03570f40cc39",
+      "content": {
+        "raw_text": "Subject: Action Required: Your Headspace Membership Payment Failed From: Headspace billing@headspace.com To: gabriel.silva@email.com Dear Gabriel Silva, We regret to inform you that we encountered an issue processing your recent payment for your Headspace membership. This could be due to several reasons, such as an expired credit card, insufficient funds, or a temporary issue with your bank. To ensure continuous access to your meditations and all premium Headspace features, it is crucial that you update your payment information promptly. We understand that these situations can arise, and we want to help you resolve this quickly to avoid any interruption to your mindfulness practice. Details of Failed Payment: Plan: Headspace Annual Membership Attempted Date: February 05, 2021 Amount Due: \u20b94,499.00 INR To update your payment method and prevent any interruption to your Headspace service, please log into your account at https://www.headspace.com/account and navigate to the \"Subscription & Payments\" section. We will automatically retry the charge once your updated details are received. Please note that if payment is not successfully received within a few days, your access to premium content may be suspended. For assistance, our support team is ready to help at https://help.headspace.com/hc/en-us. Thank you for your immediate attention to this matter. Sincerely, The Headspace Team"
+      },
+      "ner_entities": [
+        {
+          "start": 31,
+          "end": 40,
+          "label": "COMPANY_NAME",
+          "value": "Headspace"
+        },
+        {
+          "start": 109,
+          "end": 132,
+          "label": "USER_GMAIL",
+          "value": "gabriel.silva@email.com"
+        },
+        {
+          "start": 725,
+          "end": 752,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Headspace Annual Membership"
+        },
+        {
+          "start": 799,
+          "end": 812,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b94,499.00 INR"
+        },
+        {
+          "start": 799,
+          "end": 800,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 800,
+          "end": 808,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4,499.00"
+        },
+        {
+          "start": 769,
+          "end": 786,
+          "label": "PAYMENT_DATE",
+          "value": "February 05, 2021"
+        }
+      ]
+    },
+    {
+      "id": "9c4fc87a-5126-4cb4-82b3-82f7e0216b52",
+      "content": {
+        "raw_text": "Subject: Reminder: Your Headspace Membership Will Renew Soon From: Headspace info@headspace.com To: chloe.benson@email.com Dear Chloe Benson, This is a proactive notification to inform you that your Headspace Annual Membership is scheduled for automatic renewal on September 10, 2020. Your ongoing membership ensures continuous access to our full library of mindfulness and meditation resources, helping you cultivate calm, focus, and a more positive outlook. We are committed to continually expanding our content and features to support your evolving well-being needs. Upcoming Renewal Information: Plan: Headspace Annual Membership Renewal Date: September 10, 2020 Amount Due: \u20b94,499.00 INR (plus applicable taxes) Payment Method: Your saved payment method ending in **** 5678 will be charged automatically. No action is required from your side if you wish to continue enjoying uninterrupted access to your mindfulness tools. If you need to manage your subscription, update your payment details, or cancel auto-renewal, please visit your Headspace account online at https://www.headspace.com/account before the renewal date. If you choose not to renew, your access to premium content will expire after this date. Thank you for prioritizing your mental well-being with Headspace. Best regards, The Headspace Team"
+      },
+      "ner_entities": [
+        {
+          "start": 37,
+          "end": 46,
+          "label": "COMPANY_NAME",
+          "value": "Headspace"
+        },
+        {
+          "start": 76,
+          "end": 99,
+          "label": "USER_GMAIL",
+          "value": "chloe.benson@email.com"
+        },
+        {
+          "start": 210,
+          "end": 237,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Headspace Annual Membership"
+        },
+        {
+          "start": 280,
+          "end": 298,
+          "label": "RENEWAL_DATE",
+          "value": "September 10, 2020"
+        },
+        {
+          "start": 332,
+          "end": 349,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b94,499.00 INR"
+        },
+        {
+          "start": 332,
+          "end": 333,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 333,
+          "end": 341,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4,499.00"
+        }
+      ]
+    },
+    {
+      "id": "9e5244e2-ef2a-4ff4-9eb3-2becbe5c832b",
+      "content": {
+        "raw_text": "Subject: Your Headspace Membership is Active \u2013 Continue Your Practice From: Headspace info@headspace.com To: rishi.patel@email.com Dear Rishi Patel, This email confirms that your Headspace Annual Membership is currently active. We wanted to provide you with a quick status update on your subscription, assuring you that you have full access to all its fantastic benefits. Your active plan allows you to seamlessly continue your mindfulness practice, explore new meditations, unwind with sleepcasts, and engage with our diverse range of content designed to support your mental health journey. We are excited for you to continue cultivating a sense of calm and clarity. Your Current Membership Status: Plan: Headspace Annual Membership Subscription Start Date: January 20, 2024 Next Renewal Date: January 20, 2025 Status: Active You can manage all aspects of your Headspace membership, including viewing details, exploring upgrade options, or updating your account information, by logging into your account at https://www.headspace.com/account. We encourage you to explore all the features that your current plan offers to deepen your mindfulness practice. Keep cultivating calm, The Headspace Team"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 21,
+          "label": "COMPANY_NAME",
+          "value": "Headspace"
+        },
+        {
+          "start": 50,
+          "end": 71,
+          "label": "USER_GMAIL",
+          "value": "rishi.patel@email.com"
+        },
+        {
+          "start": 117,
+          "end": 144,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Headspace Annual Membership"
+        },
+        {
+          "start": 470,
+          "end": 489,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "January 20, 2024"
+        },
+        {
+          "start": 514,
+          "end": 533,
+          "label": "RENEWAL_DATE",
+          "value": "January 20, 2025"
+        }
+      ]
+    }
+  ]
+}

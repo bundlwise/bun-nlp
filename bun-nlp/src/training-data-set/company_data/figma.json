@@ -1,0 +1,348 @@
+{
+  "Figma": [
+    {
+      "id": "3df2410a-dc83-45a8-91d7-f3157f6123be",
+      "content": {
+        "raw_text": "Subject: Your Figma Plan Payment Was Successful - Order #FGM-2024-5678 From: Figma noreply@figma.com To: eliza.ivanova@designteam.com Dear Eliza Ivanova, We're pleased to confirm that your recent payment for your Figma plan has been successfully processed. Thank you for choosing Figma to power your design and collaboration workflows. Your active subscription ensures uninterrupted access to our intuitive design tools, real-time collaboration features, and robust prototyping capabilities. We are committed to continually enhancing the Figma platform to help you and your team bring your creative ideas to life with efficiency and seamless teamwork. Payment Details: Plan: Figma Professional (Monthly) Team Name: DesignFlow Studio Amount Paid: \u20b91,199.00 INR Payment Date: February 08, 2024 Next Billing Date: March 08, 2024 You can always review your detailed billing history, manage your subscription, and update your payment information by logging into your Figma account at https://www.figma.com/files/recents and navigating to your billing settings. Should you have any questions regarding this payment or your plan, our dedicated support team is available to assist you at https://help.figma.com/hc/en-us. We appreciate your trust in Figma as your collaborative design solution. Sincerely, The Figma Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Figma"
+        },
+        {
+          "start": 84,
+          "end": 114,
+          "label": "USER_GMAIL",
+          "value": "eliza.ivanova@designteam.com"
+        },
+        {
+          "start": 146,
+          "end": 159,
+          "label": "USERNAME",
+          "value": "Eliza Ivanova"
+        },
+        {
+          "start": 561,
+          "end": 590,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Figma Professional"
+        },
+        {
+          "start": 561,
+          "end": 611,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Figma Professional (Monthly)"
+        },
+        {
+          "start": 628,
+          "end": 646,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,199.00"
+        },
+        {
+          "start": 622,
+          "end": 623,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 665,
+          "end": 681,
+          "label": "PAYMENT_DATE",
+          "value": "February 08, 2024"
+        },
+        {
+          "start": 705,
+          "end": 719,
+          "label": "RENEWAL_DATE",
+          "value": "March 08, 2024"
+        }
+      ]
+    },
+    {
+      "id": "34995cc6-8c26-4c3b-988c-e1baf4d4ff5c",
+      "content": {
+        "raw_text": "Subject: Your Figma Plan Refund Has Been Processed From: Figma support@figma.com To: hiroshi.sato@designteam.com Dear Hiroshi Sato, This email confirms that your refund for your recent Figma plan payment has been successfully processed. We understand that sometimes circumstances can change, and we aim to facilitate a clear and efficient refund experience for our users. The refunded amount will be credited back to your original payment method. Please allow 5-10 business days for the funds to reflect on your bank or card statement, as processing times can vary depending on your financial institution and local banking regulations. Refund Summary: Plan: Figma Professional (Monthly) Amount Refunded: \u20b91,199.00 INR Processed Date: April 15, 2022 Payment Method: Visa ending in **** 8765 Your Figma plan associated with this refund has now been adjusted or cancelled accordingly. While your access to certain premium features may cease, we hope you found the platform beneficial for your design needs. Should you decide to resume your subscription or explore other Figma plans in the future, you can easily re-subscribe anytime at https://www.figma.com/pricing/. Thank you for your understanding. Sincerely, The Figma Team"
+      },
+      "ner_entities": [
+        {
+          "start": 28,
+          "end": 33,
+          "label": "COMPANY_NAME",
+          "value": "Figma"
+        },
+        {
+          "start": 67,
+          "end": 99,
+          "label": "USER_GMAIL",
+          "value": "hiroshi.sato@designteam.com"
+        },
+        {
+          "start": 106,
+          "end": 119,
+          "label": "USERNAME",
+          "value": "Hiroshi Sato"
+        },
+        {
+          "start": 405,
+          "end": 434,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Figma Professional"
+        },
+        {
+          "start": 405,
+          "end": 456,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Figma Professional (Monthly)"
+        },
+        {
+          "start": 475,
+          "end": 483,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 476,
+          "end": 483,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,199.00"
+        },
+        {
+          "start": 504,
+          "end": 520,
+          "label": "PAYMENT_DATE",
+          "value": "April 15, 2022"
+        },
+        {
+          "start": 541,
+          "end": 545,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "id": "5a31eb02-d7e4-4e4f-b68f-2e5974c3088b",
+      "content": {
+        "raw_text": "Subject: Your Figma Professional Plan Has Been Cancelled From: Figma noreply@figma.com To: amara.ndou@designteam.com Dear Amara Ndou, This is to confirm that your Figma Professional plan for your team, \"Creative Minds,\" has been successfully cancelled, as per your recent request. We regret to see you go and appreciate you having used Figma to streamline your design workflows and enhance team collaboration. We hope you found our platform intuitive and powerful in helping you bring your design concepts to fruition. We value your feedback as we continuously strive to improve our services for designers and teams worldwide. Cancellation Details: Plan: Figma Professional Team Name: Creative Minds Cancellation Date: July 01, 2023 Access Ends On: August 01, 2023 (End of your current billing cycle) You will continue to have full access to all Figma Professional features, including unlimited files, enhanced permissions, and shared fonts, until the end of your current billing period. After this date, your team will revert to a more limited Figma Starter (free) plan, and certain features may become restricted. All your existing files and data will remain accessible, subject to Starter plan limitations. Should you wish to resume your subscription, you can reactivate your plan anytime through your Figma account settings at https://www.figma.com/settings/billing. Thank you for being part of the Figma community. Sincerely, The Figma Team"
+      },
+      "ner_entities": [
+        {
+          "start": 28,
+          "end": 33,
+          "label": "COMPANY_NAME",
+          "value": "Figma"
+        },
+        {
+          "start": 67,
+          "end": 97,
+          "label": "USER_GMAIL",
+          "value": "amara.ndou@designteam.com"
+        },
+        {
+          "start": 104,
+          "end": 115,
+          "label": "USERNAME",
+          "value": "Amara Ndou"
+        },
+        {
+          "start": 156,
+          "end": 175,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Figma Professional"
+        },
+        {
+          "start": 245,
+          "end": 260,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "July 01, 2023"
+        },
+        {
+          "start": 279,
+          "end": 296,
+          "label": "RENEWAL_DATE",
+          "value": "August 01, 2023"
+        }
+      ]
+    },
+    {
+      "id": "740c1b53-2819-4b1f-892c-6f81e089d84e",
+      "content": {
+        "raw_text": "Subject: Welcome to Figma! Your Collaborative Design Journey Begins. From: Figma hello@figma.com To: benjamin.nguyen@designteam.com Dear Benjamin Nguyen, Welcome to Figma! We are absolutely thrilled to have you join our global community of designers, product managers, and developers who are building the future of design. Your new account is now active, granting you immediate access to our powerful browser-based design and prototyping tools. Figma enables seamless collaboration, allowing you to design, prototype, and gather feedback all in one place, accelerating your creative process and breaking down silos. To help you get started and make the most of your new account: Create Your First Design File: Jump right in and start a new project from your recent files page: https://www.figma.com/files/recents. Invite Your Team: Collaboration is at the heart of Figma. Invite your colleagues to your first project to start designing together in real time. Explore Templates & Resources: Utilize our vast library of community files and templates to kickstart your projects: https://www.figma.com/community. Visit Our Learn Page: For comprehensive tutorials and guides, our help center is available at https://help.figma.com/hc/en-us. We're excited to see what you'll create with Figma. Happy designing, The Figma Team"
+      },
+      "ner_entities": [
+        {
+          "start": 38,
+          "end": 43,
+          "label": "COMPANY_NAME",
+          "value": "Figma"
+        },
+        {
+          "start": 60,
+          "end": 91,
+          "label": "USER_GMAIL",
+          "value": "benjamin.nguyen@designteam.com"
+        },
+        {
+          "start": 98,
+          "end": 113,
+          "label": "USERNAME",
+          "value": "Benjamin Nguyen"
+        }
+      ]
+    },
+    {
+      "id": "73a91d8e-7f44-426e-baf5-b344d9483f78",
+      "content": {
+        "raw_text": "Subject: Action Required: Your Figma Plan Payment Failed From: Figma billing@figma.com To: chiara.ferrari@designteam.com Dear Chiara Ferrari, We regret to inform you that we encountered an issue processing your recent payment for your Figma plan. This could be due to several reasons, such as an expired credit card, insufficient funds, or a temporary issue with your bank. To ensure continuous access to your design files and uninterrupted collaboration, it is crucial that you update your payment information promptly. We understand that these situations can arise, and we want to help you resolve this quickly to avoid any disruption to your team's workflow. Details of Failed Payment: Plan: Figma Organization Team Name: Innovate Collective Attempted Date: October 20, 2020 Amount Due: \u20b94,999.00 INR To update your payment method and prevent any interruption to your Figma service, please log into your Figma account at https://www.figma.com/settings/billing and navigate to the Billing section. We will automatically retry the charge once your updated details are received. Please note that if payment is not successfully received within a few days, your plan may be downgraded, affecting access to certain features. For assistance, our support team is ready to help at https://help.figma.com/hc/en-us. Thank you for your immediate attention to this matter. Sincerely, The Figma Team"
+      },
+      "ner_entities": [
+        {
+          "start": 43,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "Figma"
+        },
+        {
+          "start": 56,
+          "end": 87,
+          "label": "USER_GMAIL",
+          "value": "chiara.ferrari@designteam.com"
+        },
+        {
+          "start": 94,
+          "end": 108,
+          "label": "USERNAME",
+          "value": "Chiara Ferrari"
+        },
+        {
+          "start": 412,
+          "end": 431,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Figma Organization"
+        },
+        {
+          "start": 481,
+          "end": 501,
+          "label": "PAYMENT_DATE",
+          "value": "October 20, 2020"
+        },
+        {
+          "start": 516,
+          "end": 528,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 517,
+          "end": 526,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4,999.00"
+        }
+      ]
+    },
+    {
+      "id": "cf1df65f-e1f8-4c55-b69c-83adfc3b44d0",
+      "content": {
+        "raw_text": "Subject: Reminder: Your Figma Professional Plan Will Renew Soon From: Figma noreply@figma.com To: oliver.davies@designteam.com Dear Oliver Davies, This is a proactive notification to inform you that your Figma Professional plan for your team, \"Creative Hub,\" is scheduled for automatic renewal on September 10, 2021. Your ongoing subscription ensures continuous access to all premium features, including unlimited files, version history, advanced prototyping, and team permissions, empowering your team to design and collaborate without limits. We are committed to constantly improving Figma to support your design needs. Upcoming Renewal Information: Plan: Figma Professional (Monthly) Team Name: Creative Hub Renewal Date: September 10, 2021 Amount Due: \u20b91,199.00 INR (plus applicable taxes) Payment Method: Your saved payment method ending in **** 3456 will be charged automatically. No action is required from your side if you wish to continue enjoying uninterrupted service for your team. If you need to manage your subscription, update your payment details, or cancel auto-renewal, please visit your Figma account's billing settings online at https://www.figma.com/settings/billing before the renewal date. If you choose not to renew, your team's plan will revert to the Starter (free) plan after this date. Thank you for being a valued Figma user. Best regards, The Figma Team"
+      },
+      "ner_entities": [
+        {
+          "start": 49,
+          "end": 54,
+          "label": "COMPANY_NAME",
+          "value": "Figma"
+        },
+        {
+          "start": 62,
+          "end": 91,
+          "label": "USER_GMAIL",
+          "value": "oliver.davies@designteam.com"
+        },
+        {
+          "start": 98,
+          "end": 112,
+          "label": "USERNAME",
+          "value": "Oliver Davies"
+        },
+        {
+          "start": 188,
+          "end": 210,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Figma Professional"
+        },
+        {
+          "start": 304,
+          "end": 323,
+          "label": "RENEWAL_DATE",
+          "value": "September 10, 2021"
+        },
+        {
+          "start": 395,
+          "end": 407,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 396,
+          "end": 405,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,199.00"
+        }
+      ]
+    },
+    {
+      "id": "3e4d1a6e-cf90-4ef7-b3b2-98fc1d38c3cb",
+      "content": {
+        "raw_text": "Subject: Your Figma Professional Plan is Active for Your Team From: Figma noreply@figma.com To: lara.jones@designteam.com Dear Lara Jones, This email confirms that your Figma Professional plan for your team, \"Design Innovators,\" is currently active. We wanted to provide you with a quick status update on your subscription, assuring you that you have full access to all its powerful features. Your active plan allows your team to seamlessly collaborate on an unlimited number of files, access version history, utilize advanced prototyping, and manage permissions effectively, ensuring a smooth and efficient design workflow. We are excited for your team to continue pushing creative boundaries with Figma. Your Current Subscription Status: Plan: Figma Professional (Annual) Team Name: Design Innovators Subscription Start Date: January 25, 2024 Next Renewal Date: January 25, 2025 Status: Active You can manage all aspects of your Figma subscription, including viewing details, exploring upgrade options, or updating your account information, by logging into your Figma account at https://www.figma.com/settings/billing. We encourage you to explore all the features that your current plan offers to maximize your team's design output. Happy designing, The Figma Team"
+      },
+      "ner_entities": [
+        {
+          "start": 40,
+          "end": 45,
+          "label": "COMPANY_NAME",
+          "value": "Figma"
+        },
+        {
+          "start": 53,
+          "end": 80,
+          "label": "USER_GMAIL",
+          "value": "lara.jones@designteam.com"
+        },
+        {
+          "start": 87,
+          "end": 98,
+          "label": "USERNAME",
+          "value": "Lara Jones"
+        },
+        {
+          "start": 128,
+          "end": 148,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Figma Professional"
+        },
+        {
+          "start": 296,
+          "end": 313,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Figma Professional"
+        },
+        {
+          "start": 337,
+          "end": 355,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "January 25, 2024"
+        },
+        {
+          "start": 381,
+          "end": 399,
+          "label": "RENEWAL_DATE",
+          "value": "January 25, 2025"
+        }
+      ]
+    }
+  ]
+}

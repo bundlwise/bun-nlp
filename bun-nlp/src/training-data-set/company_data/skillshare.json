@@ -1,0 +1,823 @@
+{
+  "Skillshare": [
+    {
+      "id": "2a4f95e8-0e29-4f6d-8b8a-0f90c773a27a",
+      "content": {
+        "raw_text": "From: Skillshare No-Reply <no-reply@skillshare.com> Reply-To: support@skillshare.com To: emily.r@gmail.com Subject: Your Skillshare Premium subscription is now active Date: Mon, 19 Jun 2023 08:30:00 -0700 Message-ID: <20230619083000.001@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi Emily R., Thanks for subscribing to Skillshare Premium! You now have unlimited access to thousands of classes and exclusive features. Plan: Annual Price: $168.00 Renewal Date: June 19, 2026 To manage your subscription, visit your account settings here: https://www.skillshare.com/account/settings Happy learning! \u2014 The Skillshare Team --- Skillshare Inc. | 123 Skillshare Lane, San Francisco, CA 94105 If you did not sign up for this subscription, please contact support@skillshare.com."
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 50,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 142,
+          "end": 157,
+          "label": "USER_GMAIL",
+          "value": "emily.r@gmail.com"
+        },
+        {
+          "start": 367,
+          "end": 373,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Annual"
+        },
+        {
+          "start": 382,
+          "end": 388,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 388,
+          "end": 394,
+          "label": "PAYMENT_AMOUNT",
+          "value": "168.00"
+        },
+        {
+          "start": 406,
+          "end": 419,
+          "label": "RENEWAL_DATE",
+          "value": "June 19, 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b13a07db-f75c-4b23-b715-8de5c1d81212",
+      "content": {
+        "raw_text": "From: Skillshare Billing <billing@skillshare.com> Reply-To: billing@skillshare.com To: alex.designs@gmail.com Subject: Your payment was successful Date: Wed, 19 Jun 2024 10:45:00 -0700 Message-ID: <20240619104500.002@skillshare.com> MIME-Version: 1.0 Content-Type: text/html; charset=UTF-8 Hi alex.designs, We've successfully processed your payment for your Skillshare Premium subscription. Amount Charged: $168.00 Payment Date: June 19, 2024 Card Ending: **** 4242 You can view your receipt and manage your subscription here: https://www.skillshare.com/account/billing Thank you for being a part of Skillshare! \u2014 Team Skillshare"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 148,
+          "end": 167,
+          "label": "USER_GMAIL",
+          "value": "alex.designs@gmail.com"
+        },
+        {
+          "start": 269,
+          "end": 275,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 275,
+          "end": 281,
+          "label": "PAYMENT_AMOUNT",
+          "value": "168.00"
+        },
+        {
+          "start": 298,
+          "end": 311,
+          "label": "PAYMENT_DATE",
+          "value": "June 19, 2024"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "0d925f0f-96ae-48d2-9e7b-1bba55a2df88",
+      "content": {
+        "raw_text": "From: Skillshare No-Reply <no-reply@skillshare.com> Reply-To: support@skillshare.com To: priya.sketches@gmail.com Subject: Your Premium subscription will renew soon Date: Thu, 25 Jun 2025 09:00:00 -0700 Message-ID: <20250625090000.003@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi Priya.Sketches, Just a reminder \u2014 your Skillshare Premium subscription will automatically renew on June 30, 2025. Plan: Monthly Amount: $14.00 If you\u2019d like to make changes or cancel, head over to your account settings before your renewal date: https://www.skillshare.com/account/settings Thanks for learning with us! \u2014 Skillshare Support"
+      },
+      "ner_entities": [
+        {
+          "start": 46,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 157,
+          "end": 177,
+          "label": "USER_GMAIL",
+          "value": "priya.sketches@gmail.com"
+        },
+        {
+          "start": 252,
+          "end": 259,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly"
+        },
+        {
+          "start": 268,
+          "end": 269,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 269,
+          "end": 272,
+          "label": "PAYMENT_AMOUNT",
+          "value": "14.00"
+        },
+        {
+          "start": 309,
+          "end": 321,
+          "label": "RENEWAL_DATE",
+          "value": "June 30, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "39134093-5a35-48b6-bf7a-b48b97397017",
+      "content": {
+        "raw_text": "From: Skillshare No-Reply <no-reply@skillshare.com> Reply-To: support@skillshare.com To: daniel.creative@gmail.com Subject: Your subscription has been renewed Date: Tue, 01 Jul 2025 08:30:00 -0700 Message-ID: <20250701083000.004@skillshare.com> MIME-Version: 1.0 Content-Type: text/html; charset=UTF-8 Hello DanielCreative, Your Premium subscription has been successfully renewed. Renewal Date: July 1, 2025 Plan: Monthly Amount Charged: $14.00 Your access to all Premium features continues uninterrupted. \u2014 The Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 142,
+          "end": 162,
+          "label": "USER_GMAIL",
+          "value": "daniel.creative@gmail.com"
+        },
+        {
+          "start": 250,
+          "end": 263,
+          "label": "RENEWAL_DATE",
+          "value": "July 1, 2025"
+        },
+        {
+          "start": 271,
+          "end": 278,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly"
+        },
+        {
+          "start": 297,
+          "end": 303,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 303,
+          "end": 307,
+          "label": "PAYMENT_AMOUNT",
+          "value": "14.00"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a4dbb6a3-7a4c-4e07-8f08-f8f16f35e0a9",
+      "content": {
+        "raw_text": "From: Skillshare Billing <billing@skillshare.com> Reply-To: billing@skillshare.com To: emma.reads.art@gmail.com Subject: We couldn\u2019t process your payment Date: Wed, 19 Jun 2025 09:15:00 -0700 Message-ID: <20250619091500.005@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi emma.reads.art, We were unable to process your recent payment for your Premium subscription. Card Ending: **** 4242 Attempted Date: June 19, 2025 Please update your payment method in your account settings to avoid service interruption: https://www.skillshare.com/account/billing \u2014 Skillshare Billing"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 123,
+          "end": 145,
+          "label": "USER_GMAIL",
+          "value": "emma.reads.art@gmail.com"
+        },
+        {
+          "start": 235,
+          "end": 239,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Card"
+        },
+        {
+          "start": 260,
+          "end": 273,
+          "label": "PAYMENT_DATE",
+          "value": "June 19, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "7b695408-8ed2-4b89-b99a-c1e0d3ebc4a6",
+      "content": {
+        "raw_text": "From: Skillshare Support <support@skillshare.com> Reply-To: support@skillshare.com To: rahul_skills@gmail.com Subject: Your Premium subscription has been cancelled Date: Thu, 15 Jul 2025 11:00:00 -0700 Message-ID: <20250715110000.006@skillshare.com> MIME-Version: 1.0 Content-Type: text/html; charset=UTF-8 Hi rahul_skills, Your Premium subscription has been successfully cancelled. You\u2019ll still have access until July 15, 2025. If you change your mind, you can re-subscribe anytime from your account page. We\u2019ll miss you! \u2014 The Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 117,
+          "end": 134,
+          "label": "USER_GMAIL",
+          "value": "rahul_skills@gmail.com"
+        },
+        {
+          "start": 207,
+          "end": 217,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "July 15, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "13635807-c949-4eeb-8948-bde0fc9c3df2",
+      "content": {
+        "raw_text": "From: Skillshare No-Reply <no-reply@skillshare.com> Reply-To: support@skillshare.com To: sophia.ux.studio@gmail.com Subject: Your Premium access is about to end Date: Tue, 14 Jul 2025 10:00:00 -0700 Message-ID: <20250714100000.007@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi sophia.ux.studio, Your Premium subscription is expiring soon. After July 15, 2025, you\u2019ll lose access to Premium classes and features. Click below to renew and keep learning: https://www.skillshare.com/account/renew Thanks for being a part of our community. \u2014 Skillshare"
+      },
+      "ner_entities": [
+        {
+          "start": 46,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 134,
+          "end": 157,
+          "label": "USER_GMAIL",
+          "value": "sophia.ux.studio@gmail.com"
+        },
+        {
+          "start": 207,
+          "end": 217,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "July 15, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c3a5a4be-c3b0-440b-bcb0-84748ef2e7d1",
+      "content": {
+        "raw_text": "From: Skillshare Billing <billing@skillshare.com> Reply-To: billing@skillshare.com To: arjun.creative.dev@gmail.com Subject: Don't lose your Premium access Date: Mon, 17 Jun 2025 08:30:00 -0700 Message-ID: <20250617083000.008@skillshare.com> MIME-Version: 1.0 Content-Type: text/html; charset=UTF-8 Hi arjun.creative.dev, We noticed your payment didn\u2019t go through, but we\u2019re giving you a few extra days to update your billing info. Subscription Status: Grace Period Renewal Due: June 19, 2025 Update now to avoid losing access: https://www.skillshare.com/account/billing \u2014 Skillshare Support"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 50,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 117,
+          "end": 145,
+          "label": "USER_GMAIL",
+          "value": "arjun.creative.dev@gmail.com"
+        },
+        {
+          "start": 200,
+          "end": 215,
+          "label": "RENEWAL_DATE",
+          "value": "June 19, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ce8a6e6f-982e-47a7-b1f1-16ac9c5bc94c",
+      "content": {
+        "raw_text": "From: Skillshare No-Reply <no-reply@skillshare.com> Reply-To: support@skillshare.com To: maya.design.journal@gmail.com Subject: Your payment method is expiring soon Date: Tue, 01 Jul 2025 09:00:00 -0700 Message-ID: <20250701090000.009@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi maya.design.journal, The credit card on your account is expiring soon. Please update your payment information to avoid service interruptions. Card on File: **** 1234 Expires: 07/25 Update Card Info"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 50,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 117,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "maya.design.journal@gmail.com"
+        },
+        {
+          "start": 166,
+          "end": 173,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Card"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d94a76db-56b3-42fc-b1fd-fca7789ecf19",
+      "content": {
+        "raw_text": "From: Skillshare Hello <hello@skillshare.com> Reply-To: support@skillshare.com To: jason.learning.art@gmail.com Subject: Welcome to Skillshare Premium! Date: Fri, 12 May 2023 07:30:00 -0700 Message-ID: <20230512073000.010@skillshare.com> MIME-Version: 1.0 Content-Type: text/html; charset=UTF-8 Hi jason.learning.art, Welcome aboard! You\u2019ve unlocked unlimited classes, offline access, and more. Get started with these top picks: Creative Writing Masterclass Intro to UI/UX Design Enjoy your journey! \u2014 The Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 50,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 80,
+          "end": 101,
+          "label": "USER_GMAIL",
+          "value": "jason.learning.art@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "7f6b7c0b-2b3c-4cc9-8a91-2135175a39e1",
+      "content": {
+        "raw_text": "From: Skillshare Billing billing@skillshare.com To: anikab.draws.stuff@gmail.com Subject: Your trial has ended \u2014 here\u2019s what\u2019s next Date: Sat, 15 Jun 2025 10:00:00 -0700 Message-ID: <20250615100000.011@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi anikab.draws.stuff, Your free trial has ended, and your Premium subscription is now active. Amount Charged: $168.00 Plan: Annual We\u2019re excited to keep learning with you! \u2014 Team Skillshare"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 148,
+          "end": 173,
+          "label": "USER_GMAIL",
+          "value": "anikab.draws.stuff@gmail.com"
+        },
+        {
+          "start": 226,
+          "end": 231,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 231,
+          "end": 236,
+          "label": "PAYMENT_AMOUNT",
+          "value": "168.00"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "2f01c9e8-c84b-4005-89ff-63db45556a6f",
+      "content": {
+        "raw_text": "From: Skillshare Offers offers@skillshare.com To: lucas.motion.design@gmail.com Subject: Renew now and save 25% Date: Wed, 25 Jun 2025 11:20:00 -0700 Message-ID: <20250625112000.012@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi lucas.motion.design, We\u2019d love to have you back! Renew your Premium membership today and get 25% off your next year. Offer valid through July 1, 2025. Renew Now Let\u2019s keep creating! \u2014 Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 131,
+          "end": 156,
+          "label": "USER_GMAIL",
+          "value": "lucas.motion.design@gmail.com"
+        },
+        {
+          "start": 196,
+          "end": 200,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "5d0cc92a-c0bb-49f3-9d6e-590a142c7204",
+      "content": {
+        "raw_text": "From: Skillshare No-Reply no-reply@skillshare.com To: natasha.writes.daily@gmail.com Subject: Your Skillshare subscription summary Date: Thu, 26 Jun 2025 09:40:00 -0700 Message-ID: <20250626094000.013@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi natasha.writes.daily, Here\u2019s a summary of your Premium activity: Active Plan: Annual Renewal Date: June 19, 2026 Classes Taken: 8 Favorites Added: 21 Thanks for being a dedicated learner! \u2014 Skillshare Insights"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 131,
+          "end": 157,
+          "label": "USER_GMAIL",
+          "value": "natasha.writes.daily@gmail.com"
+        },
+        {
+          "start": 203,
+          "end": 210,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Annual"
+        },
+        {
+          "start": 224,
+          "end": 240,
+          "label": "RENEWAL_DATE",
+          "value": "June 19, 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c4d2f560-7990-4c3d-bc0c-b351370b96d4",
+      "content": {
+        "raw_text": "From: Skillshare Billing billing@skillshare.com To: kevin.journal.studio@gmail.com Subject: Your refund has been issued Date: Mon, 30 Jun 2025 12:00:00 -0700 Message-ID: <20250630120000.014@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi kevin.journal.studio, We\u2019ve issued a refund of $14.00 to your original payment method. Date: June 20, 2025 Refund Reason: Canceled within 7-day period Please allow 5\u201310 business days for the refund to reflect in your account. \u2014 Skillshare Support"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 132,
+          "end": 158,
+          "label": "USER_GMAIL",
+          "value": "kevin.journal.studio@gmail.com"
+        },
+        {
+          "start": 200,
+          "end": 206,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 206,
+          "end": 210,
+          "label": "PAYMENT_AMOUNT",
+          "value": "14.00"
+        },
+        {
+          "start": 235,
+          "end": 239,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d346b71d-bf98-4f50-85cf-65a5cc26f49a",
+      "content": {
+        "raw_text": "From: Skillshare Support support@skillshare.com To: sneha.learning.space@gmail.com Subject: Your subscription has been paused Date: Tue, 10 Jun 2025 09:30:00 -0700 Message-ID: <20250610093000.015@skillshare.com> MIME-Version: 1.0 Content-Type: text/html; charset=UTF-8 Hi sneha.learning.space, You\u2019ve successfully paused your Premium subscription. You\u2019ll retain access until July 15, 2025, after which billing will stop. You can resume anytime from your account dashboard. \u2014 The Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 115,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "sneha.learning.space@gmail.com"
+        },
+        {
+          "start": 181,
+          "end": 192,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "July 15, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b9d93a74-d0c9-44e0-b52d-f4be2a056ee4",
+      "content": {
+        "raw_text": "From: Skillshare Hello hello@skillshare.com To: rachel.m@gmail.com Subject: Welcome to Skillshare Premium Date: Mon, 23 Apr 2025 11:00:00 -0700 Message-ID: <20250423110000.016@skillshare.com> MIME-Version: 1.0 Content-Type: text/html; charset=UTF-8 Hi Rachel.M, Thank you for becoming a Skillshare Premium Member! You can now enjoy unlimited access to thousands of online classes and watch them offline through our mobile apps. You\u2019ve signed up for an Annual Plan and will be automatically billed on an annual basis. Your next charge: $96.00 Next billing date: Sunday, April 24th, 2016 Membership Paid: $0.99 \ud83c\udf81 Get your Membership for Free Invite a friend to Skillshare and you\u2019ll each get a free month of Membership when they join. Enjoy your creative journey! \u2014 Skillshare Membership Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 50,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 98,
+          "end": 114,
+          "label": "USER_GMAIL",
+          "value": "rachel.m@gmail.com"
+        },
+        {
+          "start": 207,
+          "end": 210,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 210,
+          "end": 215,
+          "label": "PAYMENT_AMOUNT",
+          "value": "96.00"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "2f8d9ac9-7a5c-45e9-bf24-911deea44567",
+      "content": {
+        "raw_text": "From: Skillshare Billing billing@skillshare.com To: maria.art.creates@gmail.com Subject: Payment retry attempt failed Date: Wed, 20 May 2025 10:00:00 -0700 Message-ID: <20250520100000.017@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi maria.art.creates, We tried to process your payment again for your Premium subscription, but it was unsuccessful. Please update your payment method to avoid service interruption: https://www.skillshare.com/account/billing If you need assistance, contact support@skillshare.com. \u2014 Skillshare Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 127,
+          "end": 149,
+          "label": "USER_GMAIL",
+          "value": "maria.art.creates@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "cd22e6b2-9578-4b27-89b1-6f9e48bffb19",
+      "content": {
+        "raw_text": "From: Skillshare Support support@skillshare.com To: david.marketing.pro@gmail.com Subject: Your subscription has been reactivated Date: Tue, 25 May 2025 11:15:00 -0700 Message-ID: <20250525111500.018@skillshare.com> MIME-Version: 1.0 Content-Type: text/html; charset=UTF-8 Hi david.marketing.pro, Welcome back! Your Skillshare Premium subscription has been reactivated successfully. You now have full access to all Premium features. Thank you for continuing your learning journey with us! \u2014 The Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 117,
+          "end": 145,
+          "label": "USER_GMAIL",
+          "value": "david.marketing.pro@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "39b5c8cd-f91e-46d9-87b3-2f19b1b8a5e4",
+      "content": {
+        "raw_text": "From: Skillshare Billing billing@skillshare.com To: sophie.photography@gmail.com Subject: Payment method updated successfully Date: Tue, 15 Jun 2025 10:00:00 -0700 Message-ID: <20250615100000.019@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi sophie.photography, Your payment method has been updated successfully. Your next billing date remains unchanged. If you did not make this change, please contact support immediately. \u2014 Skillshare Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 131,
+          "end": 157,
+          "label": "USER_GMAIL",
+          "value": "sophie.photography@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c831c572-3f40-47e3-bf92-48fcb1c90a5f",
+      "content": {
+        "raw_text": "From: Skillshare Offers offers@skillshare.com To: tom.longtime.user@gmail.com Subject: Thank you for being with us \u2013 enjoy 20% off! Date: Fri, 5 Jun 2025 12:20:00 -0700 Message-ID: <20250605122000.020@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi tom.longtime.user, We appreciate your loyalty! As a thank you, here\u2019s 20% off your next Premium subscription renewal. Use code LOYAL20 at checkout. Offer valid through August 15, 2025. Renew Now Keep creating amazing things! \u2014 Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 111,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "tom.longtime.user@gmail.com"
+        },
+        {
+          "start": 194,
+          "end": 200,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "4adf2f4d-b8e6-4e7b-9e3b-c4ec67d619d7",
+      "content": {
+        "raw_text": "From: Skillshare No-Reply no-reply@skillshare.com To: claire.designs@gmail.com Subject: Your Premium subscription expires soon Date: Thu, 2 Jul 2025 10:30:00 -0700 Message-ID: <20250702103000.021@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi claire.designs, Your Premium subscription is set to expire on August 15, 2025. After this date, you will lose access to Premium classes and features. Renew now to keep learning without interruption: https://www.skillshare.com/account/renew Thank you for being part of our community! \u2014 Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 46,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 134,
+          "end": 157,
+          "label": "USER_GMAIL",
+          "value": "claire.designs@gmail.com"
+        },
+        {
+          "start": 211,
+          "end": 226,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "August 15, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ec835c0e-8b5f-4f0e-9ca4-d810f040aa7c",
+      "content": {
+        "raw_text": "From: Skillshare Billing billing@skillshare.com To: michael.tech.writer@gmail.com Subject: Auto-billing enabled for your Premium subscription Date: Thu, 11 Jun 2025 12:20:00 -0700 Message-ID: <20250611122000.022@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi michael.tech.writer, This is to confirm that auto-billing is enabled on your Skillshare Premium account. Your payment method will be charged automatically on your renewal date: September 10, 2025. If you wish to update your billing info or cancel auto-billing, visit: https://www.skillshare.com/account/billing Thank you for staying with Skillshare! \u2014 Skillshare Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 137,
+          "end": 159,
+          "label": "USER_GMAIL",
+          "value": "michael.tech.writer@gmail.com"
+        },
+        {
+          "start": 231,
+          "end": 253,
+          "label": "RENEWAL_DATE",
+          "value": "September 10, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a88c53f9-ff4d-4a74-86f1-3a72d7c8b199",
+      "content": {
+        "raw_text": "From: Skillshare Billing billing@skillshare.com To: samantha.crafts@gmail.com Subject: Receipt for your Skillshare Premium payment Date: Thu, 4 Jun 2025 14:50:00 -0700 Message-ID: <20250604145000.023@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi samantha.crafts, Thank you for your payment. Amount: $14.00 Plan: Monthly Payment Date: June 10, 2025 Card Ending: **** 5678 You can view your full receipt and manage your subscription here: https://www.skillshare.com/account/billing Enjoy your learning! \u2014 Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 133,
+          "end": 156,
+          "label": "USER_GMAIL",
+          "value": "samantha.crafts@gmail.com"
+        },
+        {
+          "start": 204,
+          "end": 213,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 213,
+          "end": 217,
+          "label": "PAYMENT_AMOUNT",
+          "value": "14.00"
+        },
+        {
+          "start": 247,
+          "end": 263,
+          "label": "PAYMENT_DATE",
+          "value": "June 10, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d5caefea-bb32-45a5-b61f-f79fd279b121",
+      "content": {
+        "raw_text": "From: Skillshare Support support@skillshare.com To: ben.jones.art@gmail.com Subject: Reactivate your Premium subscription today Date: Fri, 16 Jun 2025 10:00:00 -0700 Message-ID: <20250616100000.024@skillshare.com> MIME-Version: 1.0 Content-Type: text/html; charset=UTF-8 Hi ben.jones.art, We noticed your Premium subscription was cancelled recently. Reactivating your subscription will give you instant access to thousands of classes again. Click here to reactivate: https://www.skillshare.com/account/reactivate We hope to see you back soon! \u2014 The Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 117,
+          "end": 138,
+          "label": "USER_GMAIL",
+          "value": "ben.jones.art@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "6d5ff32c-23e7-4e93-a145-5f5fc9d3d96a",
+      "content": {
+        "raw_text": "From: Skillshare Billing billing@skillshare.com To: laura.writer.pro@gmail.com Subject: Refund processed for your subscription Date: Mon, 28 Jun 2025 12:00:00 -0700 Message-ID: <20250628120000.025@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi laura.writer.pro, We\u2019ve processed a refund of $96.00 to your original payment method. Refund Date: June 21, 2025 Reason: Subscription cancellation within refund period Please allow 5-10 business days for the refund to reflect on your account. If you have questions, contact support@skillshare.com. \u2014 Skillshare Support"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 132,
+          "end": 158,
+          "label": "USER_GMAIL",
+          "value": "laura.writer.pro@gmail.com"
+        },
+        {
+          "start": 200,
+          "end": 206,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 206,
+          "end": 210,
+          "label": "PAYMENT_AMOUNT",
+          "value": "96.00"
+        },
+        {
+          "start": 235,
+          "end": 239,
+          "label": "PAYMENT_DATE",
+          "value": "June 21, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d4e4e245-8f97-47c1-bb63-366a77754c7d",
+      "content": {
+        "raw_text": "From: Skillshare Support support@skillshare.com To: robert.creative.mind@gmail.com Subject: Your subscription has been upgraded Date: Fri, 2 Jul 2025 11:40:00 -0700 Message-ID: <20250702114000.026@skillshare.com> MIME-Version: 1.0 Content-Type: text/html; charset=UTF-8 Hi robert.creative.mind, Good news! Your Skillshare subscription has been upgraded to the Annual Premium Plan. Enjoy unlimited access to thousands of classes with exclusive features. Your new billing date is: July 1, 2026. Thank you for learning with us! \u2014 The Skillshare Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 117,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "robert.creative.mind@gmail.com"
+        },
+        {
+          "start": 189,
+          "end": 205,
+          "label": "RENEWAL_DATE",
+          "value": "July 1, 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "7301f9a5-d2b4-4065-bc5f-f58242bc5a1a",
+      "content": {
+        "raw_text": "From: Skillshare Billing billing@skillshare.com To: emily.fashion.art@gmail.com Subject: Final notice: Payment unsuccessful Date: Sat, 10 Jun 2025 14:00:00 -0700 Message-ID: <20250610140000.027@skillshare.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi emily.fashion.art, We were unable to process your payment for your Premium subscription. This is the final notice before service interruption. Please update your payment method here: https://www.skillshare.com/account/billing If you need assistance, contact support@skillshare.com. \u2014 Skillshare Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Skillshare"
+        },
+        {
+          "start": 127,
+          "end": 149,
+          "label": "USER_GMAIL",
+          "value": "emily.fashion.art@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

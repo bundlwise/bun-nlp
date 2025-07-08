@@ -1,0 +1,1015 @@
+{
+  "GeForce NOW": [
+    {
+      "id": "b47fd564-b9e6-4e29-b923-8ca4f501fc45",
+      "content": {
+        "raw_text": "From: NVIDIA GeForce NOW support@geforcenow.nvidia.com To: ege.taner@example.com Subject: GeForce NOW Premium Plan Price Reduction Notice Hi Ege, Thank you for using GeForce NOW Powered by SoftBank. After scheduled maintenance on July 4, 2023 at 10:00 AM JST, the monthly fee for the Premium Plan will be reduced from \u00a51,980 (tax included) to \u00a5550 (tax included) to make premium gaming more accessible. Please note that free plan session length will also change from 1 hour to 30 minutes after the update. If you upgrade before the maintenance date, you will be charged the current fee of \u00a51,980 for the month. For the latest updates, follow us on Twitter. Thanks for being part of the GeForce NOW community! Best regards, NVIDIA GeForce NOW Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 78,
+          "end": 100,
+          "label": "USER_GMAIL",
+          "value": "ege.taner@example.com"
+        },
+        {
+          "start": 173,
+          "end": 175,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a5"
+        },
+        {
+          "start": 175,
+          "end": 179,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,980"
+        },
+        {
+          "start": 191,
+          "end": 196,
+          "label": "PAYMENT_AMOUNT",
+          "value": "550"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "cd51b836-67d6-4013-bbba-d4ab982c3c3a",
+      "content": {
+        "raw_text": "From: NVIDIA GeForce NOW notifications@geforcenow.nvidia.com To: priya.kumar@example.com Subject: Important Update for GeForce NOW Free Users Hi Priya, As a valued GeForce NOW free member, we want to inform you about a new change. Starting March 5, 2024, free users will experience up to two minutes of video sponsorship messages before each free gaming session while waiting in queue. This helps us support the free service. To enjoy an ad-free experience with RTX graphics, priority access, and longer session lengths, consider upgrading to Priority or Ultimate membership. Learn more about memberships on our FAQ page. Thanks for gaming with NVIDIA! Cheers, The GeForce NOW Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 103,
+          "end": 124,
+          "label": "USER_GMAIL",
+          "value": "priya.kumar@example.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "4f983b99-b55e-4eb2-b929-256da95a7fe4",
+      "content": {
+        "raw_text": "From: NVIDIA GeForce NOW billing@geforcenow.nvidia.com To: arun.v@example.com Subject: Important: Temporary Billing Pause for Your Premium Membership Hi Arun, We\u2019re transitioning to a new payment provider to improve your experience. Starting January 31, 2025, billing for your premium membership will be temporarily paused. During this time, your membership will remain active and unlimited playtime will be granted through the end of 2025. Please note, no additional purchases or upgrades will be possible until billing resumes. Visit your account portal for updates. Thanks for your patience and continued support. Best, NVIDIA GeForce NOW Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 107,
+          "end": 125,
+          "label": "USER_GMAIL",
+          "value": "arun.v@example.com"
+        },
+        {
+          "start": 205,
+          "end": 220,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "df1fdd02-e7ea-44e9-bde3-1c3c771349a7",
+      "content": {
+        "raw_text": "From: NVIDIA Customer Service service@geforcenow.nvidia.com To: ege.taner@example.com Subject: Your GeForce NOW Founders Membership Has Been Downgraded Hi Ege, We confirm your GeForce NOW Founders Membership (6 Months) will switch to the Free Membership plan on May 3, 2021. You can view all your order and subscription details anytime via your NVIDIA Account Portal. Thank you for being with GeForce NOW. Warm regards, NVIDIA Customer Service Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 115,
+          "end": 136,
+          "label": "USER_GMAIL",
+          "value": "ege.taner@example.com"
+        },
+        {
+          "start": 203,
+          "end": 209,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Free Membership"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "71e6f8f0-51d6-4ad9-a251-c694ed488b21",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: rajesh.singh@example.in Subject: Your GeForce NOW Priority Membership Has Been Renewed Hi Rajesh, Your GeForce NOW Priority Membership has been successfully renewed. Plan: Priority (Monthly) Renewal Date: June 19, 2025 Amount Charged: \u20b9899.00 Payment Method: **** 1234 Manage your subscription or view your invoice anytime on your NVIDIA Account Portal. Thanks for continuing to stream with GeForce NOW! Best regards, NVIDIA Customer Service"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 124,
+          "end": 146,
+          "label": "USER_GMAIL",
+          "value": "rajesh.singh@example.in"
+        },
+        {
+          "start": 203,
+          "end": 205,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 205,
+          "end": 210,
+          "label": "PAYMENT_AMOUNT",
+          "value": "899.00"
+        },
+        {
+          "start": 249,
+          "end": 266,
+          "label": "RENEWAL_DATE",
+          "value": "June 19, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f5bcdb6a-4b85-441e-bf10-d1b3a8a1a4c7",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: sanya.malhotra@example.in Subject: Action Required: Payment Failed for Your GeForce NOW Membership Hi Sanya, We couldn\u2019t process your recent payment for your GeForce NOW Priority Membership. Date Attempted: June 18, 2025 Amount: \u20b9899.00 Please update your payment method to avoid interruption of your service. Update Payment Method \u2192 If you need assistance, reply to this email or visit our support page. Thanks, The GeForce NOW Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 117,
+          "end": 142,
+          "label": "USER_GMAIL",
+          "value": "sanya.malhotra@example.in"
+        },
+        {
+          "start": 179,
+          "end": 181,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 181,
+          "end": 185,
+          "label": "PAYMENT_AMOUNT",
+          "value": "899.00"
+        },
+        {
+          "start": 208,
+          "end": 227,
+          "label": "PAYMENT_DATE",
+          "value": "June 18, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "bcb9ff3e-41e7-4024-8f5e-f40418c212ab",
+      "content": {
+        "raw_text": "From: NVIDIA GeForce NOW support@geforcenow.nvidia.com To: arun.v@example.com Subject: Your GeForce NOW Ultimate Trial Ends in 3 Days Hi Arun, Your free trial of GeForce NOW Ultimate will end on June 22, 2025. Upgrade now to continue enjoying ultra-low latency streaming, RTX 4080-class graphics, and longer session times. Upgrade to Ultimate \u2192 Thanks for trying GeForce NOW! Cheers, NVIDIA Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 111,
+          "end": 131,
+          "label": "USER_GMAIL",
+          "value": "arun.v@example.com"
+        },
+        {
+          "start": 163,
+          "end": 170,
+          "label": "RENEWAL_DATE",
+          "value": "June 22, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "13e4d1b8-d2ef-4a9b-a7b9-bfa6a1181b3f",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: meena.patel@example.in Subject: Your Receipt from GeForce NOW Hi Meena, Thank you for your payment! Order ID: 203456789000 Plan: GeForce NOW Ultimate \u2013 Annual Amount Paid: \u20b97,999.00 Date: June 5, 2025 Payment Method: UPI - ***8292 You can download your invoice anytime in your Account Portal. Thanks for being a premium member! Best, NVIDIA Billing Support"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 107,
+          "end": 130,
+          "label": "USER_GMAIL",
+          "value": "meena.patel@example.in"
+        },
+        {
+          "start": 170,
+          "end": 172,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 172,
+          "end": 178,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7,999.00"
+        },
+        {
+          "start": 210,
+          "end": 227,
+          "label": "PAYMENT_DATE",
+          "value": "June 5, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "7e4f0d94-d438-4de6-b727-bf3845458a42",
+      "content": {
+        "raw_text": "From: NVIDIA GeForce NOW support@geforcenow.nvidia.com To: karan.sharma@example.in Subject: Your GeForce NOW Membership Renews in 7 Days Hi Karan, Just a reminder that your Ultimate Membership will renew on June 26, 2025. Amount to be charged: \u20b97,999.00 Plan: Ultimate (Annual) No action is needed if you wish to continue. You can make any changes via your Account Settings. Thanks for staying with us! NVIDIA GeForce NOW"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 106,
+          "end": 127,
+          "label": "USER_GMAIL",
+          "value": "karan.sharma@example.in"
+        },
+        {
+          "start": 160,
+          "end": 162,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 162,
+          "end": 168,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7,999.00"
+        },
+        {
+          "start": 206,
+          "end": 221,
+          "label": "RENEWAL_DATE",
+          "value": "June 26, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c2d4cc8c-b032-4ed6-8b93-4fa1f6bff059",
+      "content": {
+        "raw_text": "From: NVIDIA Customer Service service@geforcenow.nvidia.com To: priya.kumar@example.com Subject: Your GeForce NOW Membership Has Been Cancelled Hi Priya, Your GeForce NOW Ultimate Membership has been cancelled. You will retain access to premium features until June 30, 2025, the end of your current billing cycle. If you wish to restart your membership, you can do so anytime via your NVIDIA Account. Thank you for trying GeForce NOW. Warm regards, NVIDIA Customer Service"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 115,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "priya.kumar@example.com"
+        },
+        {
+          "start": 195,
+          "end": 212,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "June 30, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "af3875d7-3d27-431a-b4b7-c33f09c84c45",
+      "content": {
+        "raw_text": "From: NVIDIA Operations ops@geforcenow.nvidia.com To: varun.kapoor@example.com Subject: Scheduled Maintenance for GeForce NOW on July 2, 2025 Hi Varun, Please be informed that GeForce NOW will undergo scheduled maintenance on: Date: July 2, 2025 Time: 2:00 AM \u2013 6:00 AM PST During this time, service may be temporarily unavailable. We appreciate your understanding. Best, GeForce NOW Operations Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 122,
+          "end": 144,
+          "label": "USER_GMAIL",
+          "value": "varun.kapoor@example.com"
+        },
+        {
+          "start": 158,
+          "end": 179,
+          "label": "RENEWAL_DATE",
+          "value": "July 2, 2025"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "62c8b0e2-d426-48f2-b57a-9e5c21d47618",
+      "content": {
+        "raw_text": "From: NVIDIA Support support@geforcenow.nvidia.com To: aisha.rahman@example.com Subject: Your GeForce NOW Account Has Been Upgraded Hi Aisha, We\u2019ve successfully migrated your GeForce NOW account to our new billing platform. Your plan is now Ultimate \u2013 Unlimited Playtime through the end of 2025, with uninterrupted service. Visit your account dashboard for details. Enjoy your gaming! Cheers, NVIDIA GeForce NOW Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 112,
+          "end": 134,
+          "label": "USER_GMAIL",
+          "value": "aisha.rahman@example.com"
+        },
+        {
+          "start": 192,
+          "end": 210,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1bce81a5-4938-42b2-b3d9-cf1ad4f7b6f2",
+      "content": {
+        "raw_text": "From: NVIDIA Support support@geforcenow.nvidia.com To: dev.singh@example.com Subject: Welcome to Your GeForce NOW Ultimate Trial Hi Dev, You\u2019ve activated a 7-day GeForce NOW Ultimate Trial. Enjoy access to: \u2022 RTX 4080-class servers \u2022 Up to 4K 120 FPS streaming \u2022 Longest session times \u2022 Ultra-low latency Trial ends: June 25, 2025 Upgrade Now \u2192 Thanks for trying GeForce NOW."
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 109,
+          "end": 127,
+          "label": "USER_GMAIL",
+          "value": "dev.singh@example.com"
+        },
+        {
+          "start": 176,
+          "end": 188,
+          "label": "RENEWAL_DATE",
+          "value": "June 25, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "0731cb61-9812-4388-aecd-8c20f08e0cbb",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: neel.kapoor@example.in Subject: Your Refund from NVIDIA Has Been Processed Hi Neel, We\u2019ve processed your refund for your GeForce NOW subscription. Amount refunded: \u20b9899.00 Plan: Priority (Monthly) Date: June 10, 2025 Payment Method: **** 2901 Refund may take 5\u201310 business days to appear in your account. For any questions, please contact NVIDIA Support. Best regards, NVIDIA Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 115,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "neel.kapoor@example.in"
+        },
+        {
+          "start": 176,
+          "end": 178,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 178,
+          "end": 183,
+          "label": "PAYMENT_AMOUNT",
+          "value": "899.00"
+        },
+        {
+          "start": 205,
+          "end": 222,
+          "label": "PAYMENT_DATE",
+          "value": "June 10, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "3bece5f3-0bb3-4795-8468-bd29e541539b",
+      "content": {
+        "raw_text": "From: NVIDIA Updates updates@geforcenow.nvidia.com To: amit.verma@example.in Subject: New Game Streaming Features Now Available on GeForce NOW! Hi Amit, We\u2019re excited to announce new streaming features including adaptive bitrate streaming and improved latency reduction. Check out these features in your account now. Happy gaming! NVIDIA Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 99,
+          "end": 119,
+          "label": "USER_GMAIL",
+          "value": "amit.verma@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "7d7f66f5-bb13-4745-a975-01f56eec5d85",
+      "content": {
+        "raw_text": "From: NVIDIA Security security@geforcenow.nvidia.com To: swati.malik@example.com Subject: Your GeForce NOW Password Has Been Changed Hi Swati, This is a confirmation that your GeForce NOW account password was successfully changed. If this wasn\u2019t you, please reset your password immediately at Account Security. Thanks, NVIDIA Security Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 109,
+          "end": 131,
+          "label": "USER_GMAIL",
+          "value": "swati.malik@example.com"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "9a785e31-35e2-47c1-9e92-32124d65b5e5",
+      "content": {
+        "raw_text": "From: NVIDIA Referral referral@geforcenow.nvidia.com To: rajan.kumar@example.in Subject: Invite Friends & Earn Free GeForce NOW Time! Hi Rajan, Invite friends to GeForce NOW and earn free playtime for every successful referral! Share your referral code in the app and start earning. Learn more: Referral Program Thanks for spreading the word! NVIDIA GeForce NOW"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 106,
+          "end": 130,
+          "label": "USER_GMAIL",
+          "value": "rajan.kumar@example.in"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "20bb10d1-bb30-4532-9b53-79be9b53b0be",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: sana.shaikh@example.in Subject: Your GeForce NOW Subscription Has Been Upgraded Hi Sana, Your subscription has been upgraded to Ultimate Membership. Enjoy RTX 4080-class graphics and unlimited playtime. Your next billing date is July 19, 2025. Thank you for upgrading! NVIDIA Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 113,
+          "end": 133,
+          "label": "USER_GMAIL",
+          "value": "sana.shaikh@example.in"
+        },
+        {
+          "start": 195,
+          "end": 211,
+          "label": "RENEWAL_DATE",
+          "value": "July 19, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "e08e2fa6-b926-4a9a-8b88-8cf9cb65f504",
+      "content": {
+        "raw_text": "From: NVIDIA Support support@geforcenow.nvidia.com To: anil.gupta@example.in Subject: We Received Your Support Request Hi Anil, Thanks for contacting GeForce NOW support. Your ticket #452378 has been received, and our team will respond shortly. For urgent queries, visit Support Center. Best, NVIDIA Support Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 107,
+          "end": 129,
+          "label": "USER_GMAIL",
+          "value": "anil.gupta@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "dfebcbf0-c2bb-4ef1-9a4f-e73b9dff3ec1",
+      "content": {
+        "raw_text": "From: NVIDIA Promotions promo@geforcenow.nvidia.com To: divya.patel@example.in Subject: Get 20% Off Your Next GeForce NOW Subscription! Hi Divya, Enjoy 20% off your next GeForce NOW subscription renewal with code GAME20. Offer valid through July 31, 2025. Upgrade or renew now: GeForce NOW Happy gaming! NVIDIA Promotions"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 106,
+          "end": 128,
+          "label": "USER_GMAIL",
+          "value": "divya.patel@example.in"
+        },
+        {
+          "start": 178,
+          "end": 184,
+          "label": "PROMO_CODE",
+          "value": "GAME20"
+        },
+        {
+          "start": 196,
+          "end": 212,
+          "label": "RENEWAL_DATE",
+          "value": "July 31, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ab7b0f6b-3b0c-4b0e-8b32-27e2ad01e554",
+      "content": {
+        "raw_text": "From: NVIDIA Security security@geforcenow.nvidia.com To: harsh.kumar@example.in Subject: Your GeForce NOW Account Has Been Locked Hi Harsh, Due to multiple failed login attempts, your GeForce NOW account has been temporarily locked for security reasons. Please reset your password at Account Recovery. Thanks for understanding, NVIDIA Security Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 112,
+          "end": 134,
+          "label": "USER_GMAIL",
+          "value": "harsh.kumar@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "07a4059d-c923-4d7f-beb5-33fd3b70525b",
+      "content": {
+        "raw_text": "From: NVIDIA Updates updates@geforcenow.nvidia.com To: tanya.roy@example.in Subject: New Games Available on GeForce NOW! Hi Tanya, We just added exciting new games including Cyberpunk 2077 and Horizon Zero Dawn. Start streaming now on GeForce NOW! Enjoy, NVIDIA Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 99,
+          "end": 119,
+          "label": "USER_GMAIL",
+          "value": "tanya.roy@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "18496d7e-7605-4887-ae55-9e20c81b573b",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: arjun.mishra@example.in Subject: Your Billing Address Has Been Updated Hi Arjun, Your billing address has been successfully updated. If you did not request this change, contact support immediately. Thank you, NVIDIA Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 103,
+          "end": 123,
+          "label": "USER_GMAIL",
+          "value": "arjun.mishra@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "fa5592e0-ff32-42a4-b0a4-c70d8a0daff7",
+      "content": {
+        "raw_text": "From: NVIDIA Feedback feedback@geforcenow.nvidia.com To: rekha.singh@example.in Subject: Help Us Improve GeForce NOW \u2014 Quick Survey Hi Rekha, We value your feedback. Please take a 3-minute survey to help us improve GeForce NOW. Take Survey \u2192 Thanks for your time! NVIDIA Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 102,
+          "end": 121,
+          "label": "USER_GMAIL",
+          "value": "rekha.singh@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "22967c93-74f4-48ac-9f8c-94021107c9a0",
+      "content": {
+        "raw_text": "From: NVIDIA Operations ops@geforcenow.nvidia.com To: vivek.jain@example.in Subject: GeForce NOW Service Outage Resolved Hi Vivek, The recent service outage has been resolved, and GeForce NOW is now fully operational. Thank you for your patience. Best regards, GeForce NOW Operations"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 106,
+          "end": 127,
+          "label": "USER_GMAIL",
+          "value": "vivek.jain@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "b3020043-cf3f-4dfe-b510-b1675486d7b1",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: neha.das@example.in Subject: Your GeForce NOW Gift Card Purchase Confirmation Hi Neha, Thank you for purchasing a GeForce NOW gift card. Gift Card Amount: \u20b93,000 Order ID: 987654321 Use the code in your account to redeem. Enjoy! NVIDIA Billing"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 99,
+          "end": 119,
+          "label": "USER_GMAIL",
+          "value": "neha.das@example.in"
+        },
+        {
+          "start": 177,
+          "end": 180,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 180,
+          "end": 184,
+          "label": "PAYMENT_AMOUNT",
+          "value": "3,000"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "362c0a99-bb06-456d-b24f-f5f38274bba6",
+      "content": {
+        "raw_text": "From: NVIDIA Security security@geforcenow.nvidia.com To: anita.kapoor@example.in Subject: Parental Controls Enabled on Your GeForce NOW Account Hi Anita, Parental controls have been activated on your GeForce NOW account as requested. Manage settings anytime in your Account Settings. Thank you, NVIDIA Security Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 106,
+          "end": 130,
+          "label": "USER_GMAIL",
+          "value": "anita.kapoor@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "204b1d75-7a97-44f1-800b-d4a2ccafc063",
+      "content": {
+        "raw_text": "From: NVIDIA Beta beta@geforcenow.nvidia.com To: harshita.mehta@example.in Subject: Join the GeForce NOW Beta Program! Hi Harshita, We invite you to join the exclusive GeForce NOW Beta Program to test new features before launch. Sign up now: Beta Program Registration Happy testing! NVIDIA Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 107,
+          "end": 132,
+          "label": "USER_GMAIL",
+          "value": "harshita.mehta@example.in"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "e8cb18b0-0c94-4ff9-b3b4-4c2991c0b421",
+      "content": {
+        "raw_text": "From: NVIDIA Support support@geforcenow.nvidia.com To: rishi.agarwal@example.in Subject: Your GeForce NOW Account Has Been Permanently Deleted Hi Rishi, Your GeForce NOW account has been permanently deleted as requested. If this was a mistake, please contact support immediately. Thank you, NVIDIA Support Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 119,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "rishi.agarwal@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "ac99f416-d473-4840-b98f-6fdef14ed941",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: anand.patel@example.in Subject: Important: Your GeForce NOW Account Has Been Suspended Hi Anand, We were unable to process the payment for your GeForce NOW Ultimate membership on June 15, 2025. As a result, your account has been temporarily suspended. To restore access, please update your payment information within the next 7 days by visiting your Account Billing Page. If payment is not received by June 22, 2025, your membership will be cancelled, and you will lose access to premium features. If you believe this is an error or require assistance, please contact our support team at support@geforcenow.nvidia.com. Thank you for your prompt attention. Best regards, NVIDIA Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 122,
+          "end": 145,
+          "label": "USER_GMAIL",
+          "value": "anand.patel@example.in"
+        },
+        {
+          "start": 209,
+          "end": 231,
+          "label": "PAYMENT_DATE",
+          "value": "June 15, 2025"
+        },
+        {
+          "start": 247,
+          "end": 264,
+          "label": "PAYMENT_DATE",
+          "value": "June 22, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "97368b5e-1a0a-4f12-82e4-91d784c73f4a",
+      "content": {
+        "raw_text": "From: NVIDIA GeForce NOW notifications@geforcenow.nvidia.com To: abhinav.sharma@example.in Subject: GeForce NOW Membership Status Hi Abhinav, We wanted to remind you that your GeForce NOW membership is active and your next billing date is coming soon. For further updates, please visit your account settings. Regards, NVIDIA GeForce NOW Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 116,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "abhinav.sharma@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "a76b05bc-cd53-4a1d-b77a-3a6a8d7a0f6d",
+      "content": {
+        "raw_text": "From: NVIDIA GeForce NOW support@geforcenow.nvidia.com To: sarita.agarwal@example.in Subject: Your GeForce NOW Membership Has Been Reactivated Hi Sarita, Welcome back! Your GeForce NOW membership has been reactivated. You now have full access to premium features including RTX graphics and longer session lengths. Enjoy your gaming! Best regards, NVIDIA GeForce NOW Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 116,
+          "end": 139,
+          "label": "USER_GMAIL",
+          "value": "sarita.agarwal@example.in"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "6d5b0f5a-f4c3-42d7-8d97-6f174c12a578",
+      "content": {
+        "raw_text": "From: NVIDIA Customer Service service@geforcenow.nvidia.com To: john.doe@example.in Subject: Your GeForce NOW Support Request Hi John, We have received your support request regarding your recent membership issue. Our team is reviewing your case and will respond shortly. Please check your email for further updates. Thank you for your patience! Best regards, NVIDIA Customer Service"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 104,
+          "end": 119,
+          "label": "USER_GMAIL",
+          "value": "john.doe@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "ba1adfa9-efc9-402f-b078-cc0d6b68da1b",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: sandhya.rani@example.in Subject: Your GeForce NOW Ultimate Membership Has Been Upgraded Hi Sandhya, Your GeForce NOW membership has been successfully upgraded to the Ultimate plan. Enjoy ultra-low latency streaming, RTX 4080-class graphics, and unlimited playtime. Your next billing date is August 1, 2025. Thanks for upgrading! Best regards, NVIDIA GeForce NOW Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 118,
+          "end": 142,
+          "label": "USER_GMAIL",
+          "value": "sandhya.rani@example.in"
+        },
+        {
+          "start": 202,
+          "end": 223,
+          "label": "RENEWAL_DATE",
+          "value": "August 1, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "27c927ed-24e5-4090-b1c0-e4c9f41e8aaf",
+      "content": {
+        "raw_text": "From: NVIDIA GeForce NOW support@geforcenow.nvidia.com To: devendra.singh@example.in Subject: GeForce NOW Service Update Hi Devendra, GeForce NOW service is back online after maintenance. Enjoy uninterrupted gaming, and check out the new features now available in your account. Best regards, NVIDIA GeForce NOW Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 110,
+          "end": 132,
+          "label": "USER_GMAIL",
+          "value": "devendra.singh@example.in"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "56c08fd1-0ae6-40ac-bdfd-04ea43e75931",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: rohit.singh@example.in Subject: Your GeForce NOW Payment Receipt Hi Rohit, Thank you for your payment! Order ID: 123456789 Plan: GeForce NOW Ultimate \u2013 Annual Amount Paid: \u20b97,999.00 Date: July 1, 2025 Payment Method: Credit Card - **** 5678 You can download your invoice anytime in your Account Portal. Thanks for being a premium member! Best regards, NVIDIA Billing Support"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 106,
+          "end": 129,
+          "label": "USER_GMAIL",
+          "value": "rohit.singh@example.in"
+        },
+        {
+          "start": 178,
+          "end": 180,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 180,
+          "end": 186,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7,999.00"
+        },
+        {
+          "start": 208,
+          "end": 225,
+          "label": "PAYMENT_DATE",
+          "value": "July 1, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "72de2715-59f9-45e2-bb2b-0b4e842cd6bb",
+      "content": {
+        "raw_text": "From: NVIDIA Billing billing@geforcenow.nvidia.com To: rohit.singh@example.in Subject: Payment Reminder for Your GeForce NOW Membership Hi Rohit, Just a reminder that your GeForce NOW Ultimate membership will renew on July 15, 2025. Amount to be charged: \u20b97,999.00 Please ensure your payment method is up-to-date. Best regards, NVIDIA GeForce NOW Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "GeForce NOW"
+        },
+        {
+          "start": 106,
+          "end": 129,
+          "label": "USER_GMAIL",
+          "value": "rohit.singh@example.in"
+        },
+        {
+          "start": 183,
+          "end": 185,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 185,
+          "end": 191,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7,999.00"
+        },
+        {
+          "start": 205,
+          "end": 222,
+          "label": "RENEWAL_DATE",
+          "value": "July 15, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

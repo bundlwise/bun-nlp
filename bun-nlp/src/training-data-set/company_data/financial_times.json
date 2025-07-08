@@ -1,0 +1,1027 @@
+{
+  "Financial Times": [
+    {
+      "id": "a1b2c3d4-5678-90ef-1234-56789abcdef0",
+      "content": {
+        "raw_text": "Digital Subscription \u2013 Welcome & First Receipt: Dear Oliver, Thank you for choosing the FT Digital Subscription. \u2022 Plan: Digital Standard \u2013 monthly \u2022 Price: \u00a329.00 (incl. VAT) \u2022 Payment method: Visa \u2022\u2022\u2022\u2022 4473 \u2022 Invoice #: FT-UK-1357913579"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 24,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Oliver Green"
+        },
+        {
+          "start": 66,
+          "end": 70,
+          "label": "USER_GMAIL",
+          "value": "oliver.green@example.com"
+        },
+        {
+          "start": 95,
+          "end": 114,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Digital Standard \u2013 monthly"
+        },
+        {
+          "start": 119,
+          "end": 126,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u00a329.00"
+        },
+        {
+          "start": 119,
+          "end": 120,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a3"
+        },
+        {
+          "start": 145,
+          "end": 158,
+          "label": "INVOICE_NUMBER",
+          "value": "FT-UK-1357913579"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "b2e3c4f5-6789-90ab-cdef-123456789abc",
+      "content": {
+        "raw_text": "Free-Trial Activation (Standard Access): Dear Mai, Your complimentary trial runs until **17 Apr 2025**. Unless cancelled, we\u2019ll bill JPY 4,900 on 18 Apr 2025 to Mastercard \u2022\u2022\u2022\u2022 0098."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 25,
+          "label": "USERNAME",
+          "value": "Mai Kawasaki"
+        },
+        {
+          "start": 65,
+          "end": 88,
+          "label": "USER_GMAIL",
+          "value": "mai.kawasaki@example.jp"
+        },
+        {
+          "start": 126,
+          "end": 148,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "JPY 4,900"
+        },
+        {
+          "start": 126,
+          "end": 127,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "JPY"
+        },
+        {
+          "start": 163,
+          "end": 167,
+          "label": "PAYMENT_DATE",
+          "value": "18 Apr 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "c3f4d5e6-7890-abcd-efgh-23456789abcd",
+      "content": {
+        "raw_text": "Trial Ending \u2013 48 h Reminder: Dear Mai, Your FT Digital trial ends on **17 Apr 2025**. No action needed to continue \u2013 billing begins JPY 4,900/month on 18 Apr."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 25,
+          "label": "USERNAME",
+          "value": "Mai Kawasaki"
+        },
+        {
+          "start": 65,
+          "end": 88,
+          "label": "USER_GMAIL",
+          "value": "mai.kawasaki@example.jp"
+        },
+        {
+          "start": 129,
+          "end": 144,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "JPY 4,900/month"
+        },
+        {
+          "start": 129,
+          "end": 130,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "JPY"
+        },
+        {
+          "start": 159,
+          "end": 167,
+          "label": "PAYMENT_DATE",
+          "value": "18 Apr 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "d4e5f6g7-8901-abcd-efgh-567890abcdef",
+      "content": {
+        "raw_text": "Trial Conversion \u2013 Payment Success: Dear Mai, We\u2019ve successfully processed your first monthly fee. \u2022 Amount: JPY 4,900 \u2022 Date: 18 Apr 2025 \u2022 Order ID: FT-JP-04221804"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 25,
+          "label": "USERNAME",
+          "value": "Mai Kawasaki"
+        },
+        {
+          "start": 65,
+          "end": 88,
+          "label": "USER_GMAIL",
+          "value": "mai.kawasaki@example.jp"
+        },
+        {
+          "start": 130,
+          "end": 140,
+          "label": "PAYMENT_AMOUNT",
+          "value": "JPY 4,900"
+        },
+        {
+          "start": 130,
+          "end": 131,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "JPY"
+        },
+        {
+          "start": 150,
+          "end": 173,
+          "label": "ORDER_ID",
+          "value": "FT-JP-04221804"
+        },
+        {
+          "start": 152,
+          "end": 167,
+          "label": "PAYMENT_DATE",
+          "value": "18 Apr 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "e5f6g7h8-9012-3456-7890-abcdef123456",
+      "content": {
+        "raw_text": "Monthly Payment Receipt: Dear Emma, We\u2019ve charged **AUD 29.99** for your April access (1 Apr \u2013 30 Apr 2025). PDF receipt attached."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Emma Stevens"
+        },
+        {
+          "start": 50,
+          "end": 72,
+          "label": "USER_GMAIL",
+          "value": "emma.stevens@gmail.com"
+        },
+        {
+          "start": 120,
+          "end": 128,
+          "label": "PAYMENT_AMOUNT",
+          "value": "AUD 29.99"
+        },
+        {
+          "start": 120,
+          "end": 121,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "AUD"
+        },
+        {
+          "start": 148,
+          "end": 168,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "1 Apr \u2013 30 Apr 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "f6g7h8i9-0123-4567-8901-abcdef234567",
+      "content": {
+        "raw_text": "Annual Renewal Success (Premium): Dear Jorge, Your FT Premium plan has renewed. \u2022 Amount: US $339.00 \u2022 Transaction ID: FT-TXN-20250101-7788 \u2022 Next renewal: 1 Jan 2026"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 21,
+          "end": 26,
+          "label": "USERNAME",
+          "value": "Jorge Ramirez"
+        },
+        {
+          "start": 60,
+          "end": 80,
+          "label": "USER_GMAIL",
+          "value": "jorge.ramirez@outlook.com"
+        },
+        {
+          "start": 114,
+          "end": 126,
+          "label": "PAYMENT_AMOUNT",
+          "value": "US $339.00"
+        },
+        {
+          "start": 114,
+          "end": 115,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 135,
+          "end": 155,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "1 Jan 2025"
+        },
+        {
+          "start": 156,
+          "end": 169,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "1 Jan 2026"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "g7h8i9j0-1234-5678-9012-abcdef345678",
+      "content": {
+        "raw_text": "Card Expiring Soon: Dear Maya, Visa \u2022\u2022\u2022\u2022 1923 expires **31 Jul 2025**. Add a new payment method before your 2 Aug renewal to avoid service interruption."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 21,
+          "end": 25,
+          "label": "USERNAME",
+          "value": "Maya Li"
+        },
+        {
+          "start": 61,
+          "end": 84,
+          "label": "USER_GMAIL",
+          "value": "maya_li@yahoo.ca"
+        },
+        {
+          "start": 105,
+          "end": 118,
+          "label": "CARD_EXPIRATION_DATE",
+          "value": "31 Jul 2025"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "h8i9j0k1-2345-6789-0123-abcdef456789",
+      "content": {
+        "raw_text": "Payment Failure & Automatic Retry: Dear Maya, Your August charge (CA $39.00) was declined. We\u2019ll retry on **9 Aug 2025**. Update your details to keep access."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 21,
+          "end": 25,
+          "label": "USERNAME",
+          "value": "Maya Li"
+        },
+        {
+          "start": 61,
+          "end": 75,
+          "label": "USER_GMAIL",
+          "value": "maya_li@yahoo.ca"
+        },
+        {
+          "start": 88,
+          "end": 104,
+          "label": "PAYMENT_AMOUNT",
+          "value": "CA $39.00"
+        },
+        {
+          "start": 88,
+          "end": 89,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "CA $"
+        },
+        {
+          "start": 129,
+          "end": 139,
+          "label": "PAYMENT_RETRY_DATE",
+          "value": "9 Aug 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "i9j0k1l2-3456-7890-1234-abcdef567890",
+      "content": {
+        "raw_text": "Price Increase Notification: Dear Pierre, From **12 Jun 2025** your Digital Standard price will move from \u20ac34 to \u20ac36 per month. The increase funds investigative reporting and new podcasts."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Pierre Martin"
+        },
+        {
+          "start": 58,
+          "end": 81,
+          "label": "USER_GMAIL",
+          "value": "pierre.martin@example.fr"
+        },
+        {
+          "start": 108,
+          "end": 113,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20ac34"
+        },
+        {
+          "start": 108,
+          "end": 109,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 118,
+          "end": 120,
+          "label": "NEW_PRICE",
+          "value": "\u20ac36"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "j0k1l2m3-4567-8901-2345-abcdef678901",
+      "content": {
+        "raw_text": "VAT/GST Rate Change Notice: Dear Lucy, Australia\u2019s digital-services GST rises from 10 % to 12 % on 1 Jul 2025. Your base fee remains AUD 29.99; tax will adjust automatically."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "label": "USERNAME",
+          "value": "Lucy Dawson"
+        },
+        {
+          "start": 60,
+          "end": 84,
+          "label": "USER_GMAIL",
+          "value": "lucy.dawson@protonmail.com"
+        },
+        {
+          "start": 109,
+          "end": 120,
+          "label": "PAYMENT_AMOUNT",
+          "value": "AUD 29.99"
+        },
+        {
+          "start": 120,
+          "end": 121,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "AUD"
+        },
+        {
+          "start": 130,
+          "end": 133,
+          "label": "TAX_RATE_CHANGE",
+          "value": "12 %"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "k1l2m3n4-5678-9012-3456-abcdef789012",
+      "content": {
+        "raw_text": "Downgrade Confirmation (Premium \u279d Standard): Dear Lucy, As requested, you\u2019ll move from Premium (\u00a355/mo) to Standard (\u00a329/mo) on **2 Oct 2025**. Your Silk Road access and premium newsletters will cease then."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Lucy Dawson"
+        },
+        {
+          "start": 60,
+          "end": 84,
+          "label": "USER_GMAIL",
+          "value": "lucy.dawson@protonmail.com"
+        },
+        {
+          "start": 118,
+          "end": 128,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Standard (\u00a329/mo)"
+        },
+        {
+          "start": 118,
+          "end": 119,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a3"
+        },
+        {
+          "start": 154,
+          "end": 168,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "2 Oct 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "l2m3n4o5-6789-0123-4567-abcdef890123",
+      "content": {
+        "raw_text": "Upgrade Confirmation (Standard \u279d Premium): Dear Brian, You\u2019ve upgraded to Premium. Pro-rated charge today: \u00a314.70. Renewal price starting 15 Nov 2025: \u00a355/mo."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Brian Taylor"
+        },
+        {
+          "start": 59,
+          "end": 77,
+          "label": "USER_GMAIL",
+          "value": "brian.taylor@icloud.com"
+        },
+        {
+          "start": 88,
+          "end": 94,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u00a314.70"
+        },
+        {
+          "start": 94,
+          "end": 95,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a3"
+        },
+        {
+          "start": 116,
+          "end": 134,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Renewal price starting 15 Nov 2025: \u00a355/mo"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "m3n4o5p6-7890-1234-5678-abcdef901234",
+      "content": {
+        "raw_text": "Terms of Service Update: Dear Subscriber, Key changes include clearer refund rules and EU data-transfer wording. Continuing to use FT after 3 Apr 2025 means you accept the new Terms."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 35,
+          "label": "USERNAME",
+          "value": "Subscriber"
+        },
+        {
+          "start": 68,
+          "end": 85,
+          "label": "TERMS_UPDATE_DATE",
+          "value": "3 Apr 2025"
+        },
+        {
+          "start": 90,
+          "end": 109,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Terms acceptance"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "n4o5p6q7-8901-2345-6789-abcdef012345",
+      "content": {
+        "raw_text": "Privacy Policy Update: We\u2019ve added details on personalised advertising controls and cookie retention."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 25,
+          "end": 41,
+          "label": "POLICY_UPDATE_DETAILS",
+          "value": "personalised advertising controls and cookie retention"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "o5p6q7r8-9012-3456-7890-abcdef234567",
+      "content": {
+        "raw_text": "Daily Briefing \u2013 Welcome Email: Dear Alex, From tomorrow you\u2019ll receive FirstFT each weekday at 6 AM BST \u2013 concise global news curated by our editors."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Alex Lopez"
+        },
+        {
+          "start": 56,
+          "end": 77,
+          "label": "USER_GMAIL",
+          "value": "alex.lopez@example.com"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "p6q7r8s9-0123-4567-8901-abcdef345678",
+      "content": {
+        "raw_text": "Subscription Pause Confirmation: Dear Diego, Your subscription is paused until you resume billing. No further charges will occur."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Diego Martinez"
+        },
+        {
+          "start": 70,
+          "end": 93,
+          "label": "USER_GMAIL",
+          "value": "diego.martinez@example.mx"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "q7r8s9t0-1234-5678-9012-abcdef456789",
+      "content": {
+        "raw_text": "Reactivation After Pause: Dear Diego, Your Digital Standard plan resumes today. Next charge: MXN 449 on 22 May 2025."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Diego Martinez"
+        },
+        {
+          "start": 70,
+          "end": 93,
+          "label": "USER_GMAIL",
+          "value": "diego.martinez@example.mx"
+        },
+        {
+          "start": 139,
+          "end": 146,
+          "label": "PAYMENT_AMOUNT",
+          "value": "MXN 449"
+        },
+        {
+          "start": 139,
+          "end": 140,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "MXN"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "r8s9t0u1-2345-6789-0123-abcdef567890",
+      "content": {
+        "raw_text": "Gift Subscription Sent: Dear Kevin, We emailed your 12-month Digital gift to sarah.brown@samplemail.com. Order #: FT-GFT-55003322"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Kevin Doe"
+        },
+        {
+          "start": 85,
+          "end": 111,
+          "label": "USER_GMAIL",
+          "value": "kevin.doe@samplemail.com"
+        },
+        {
+          "start": 118,
+          "end": 134,
+          "label": "GIFT_ORDER_NUMBER",
+          "value": "FT-GFT-55003322"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "s9t0u1v2-3456-7890-1234-abcdef678901",
+      "content": {
+        "raw_text": "Gift Auto-Renewal Reminder: Dear Kevin, We\u2019ll renew Sarah\u2019s FT access on 3 Dec 2026 for US $339. Cancel auto-renew in Gifts \u203a Manage before 2 Dec."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Kevin Doe"
+        },
+        {
+          "start": 85,
+          "end": 110,
+          "label": "USER_GMAIL",
+          "value": "kevin.doe@samplemail.com"
+        },
+        {
+          "start": 121,
+          "end": 132,
+          "label": "PAYMENT_AMOUNT",
+          "value": "US $339"
+        },
+        {
+          "start": 121,
+          "end": 122,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 141,
+          "end": 153,
+          "label": "RENEWAL_DATE",
+          "value": "3 Dec 2026"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "t0u1v2w3-4567-8901-2345-abcdef789012",
+      "content": {
+        "raw_text": "Corporate Licence \u2013 Admin Weekly Summary: Dear Admin, Last week 732 active seats consumed 6,812 articles. Top section: Markets. CSV report attached."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 31,
+          "label": "USERNAME",
+          "value": "Admin"
+        },
+        {
+          "start": 70,
+          "end": 93,
+          "label": "USER_GMAIL",
+          "value": "corp.admin@acme-corp.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "u1v2w3x4-5678-9012-3456-abcdef890123",
+      "content": {
+        "raw_text": "New Device Login Alert: Dear Pierre, Your FT account was accessed from a new device in Lyon, FR at 22:09 CEST."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Pierre Martin"
+        },
+        {
+          "start": 75,
+          "end": 97,
+          "label": "USER_GMAIL",
+          "value": "pierre.martin@example.fr"
+        },
+        {
+          "start": 107,
+          "end": 119,
+          "label": "LOCATION",
+          "value": "Lyon, FR"
+        },
+        {
+          "start": 124,
+          "end": 137,
+          "label": "ACCESS_TIME",
+          "value": "22:09 CEST"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "v2w3x4y5-6789-0123-4567-abcdef901234",
+      "content": {
+        "raw_text": "Two-Factor Authentication Enabled: Thanks, Pierre \u2013 TOTP is now required at sign-in."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Pierre Martin"
+        },
+        {
+          "start": 76,
+          "end": 97,
+          "label": "USER_GMAIL",
+          "value": "pierre.martin@example.fr"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "w3x4y5z6-7890-1234-5678-abcdef234567",
+      "content": {
+        "raw_text": "Year-End Statement (Tax): Dear Angela, The attached PDF lists all 2025 charges and VAT paid."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 28,
+          "label": "USERNAME",
+          "value": "Angela Ross"
+        },
+        {
+          "start": 70,
+          "end": 94,
+          "label": "USER_GMAIL",
+          "value": "angela.ross@company.co.uk"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "x4y5z6a7-8901-2345-6789-abcdef345678",
+      "content": {
+        "raw_text": "FT Live \u2013 Event Invitation: Dear Brian, Reserve your seat to hear HSBC, Citi and regulators debate fintech disruption. Subscriber price: \u00a3995 (20 % off until 1 Mar)."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Brian Taylor"
+        },
+        {
+          "start": 56,
+          "end": 80,
+          "label": "USER_GMAIL",
+          "value": "brian.taylor@icloud.com"
+        },
+        {
+          "start": 117,
+          "end": 121,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u00a3995"
+        },
+        {
+          "start": 117,
+          "end": 118,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a3"
+        },
+        {
+          "start": 130,
+          "end": 138,
+          "label": "DISCOUNT_OFFER",
+          "value": "20 % off"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "y5z6a7b8-9012-3456-7890-abcdef456789",
+      "content": {
+        "raw_text": "Reader Survey Request: Dear Emma, Your opinion shapes our coverage. Complete the survey for a chance to win a \u00a3100 FT Store voucher."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Emma Stevens"
+        },
+        {
+          "start": 56,
+          "end": 77,
+          "label": "USER_GMAIL",
+          "value": "emma.stevens@gmail.com"
+        },
+        {
+          "start": 101,
+          "end": 109,
+          "label": "SURVEY_PRIZE",
+          "value": "\u00a3100 FT Store voucher"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "z6a7b8c9-0123-4567-8901-abcdef567890",
+      "content": {
+        "raw_text": "Breaking News Alert: The European Central Bank lifted its deposit rate to 4 %. Full story: https://on.ft.com/ECB-hike"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 64,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "alex.lopez@example.com"
+        },
+        {
+          "start": 105,
+          "end": 115,
+          "label": "NEWS_TOPIC",
+          "value": "ECB rate hike to 4%"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "a7b8c9d0-1234-5678-9012-abcdef678901",
+      "content": {
+        "raw_text": "Weekend Highlights Newsletter: Good morning Oliver, Inside: \u2022 Lunch with Denis Villeneuve \u2022 How to quit ultra-processed foods \u2022 House & Home: Japanese hinoki baths"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Financial Times"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Oliver Green"
+        },
+        {
+          "start": 56,
+          "end": 78,
+          "label": "USER_GMAIL",
+          "value": "oliver.green@example.com"
+        }
+      ],
+      "is_subscription_related": false
+    }
+  ]
+}

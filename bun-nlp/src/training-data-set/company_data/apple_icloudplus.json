@@ -1,0 +1,342 @@
+{
+  "Apple iCloud+": [
+    {
+      "id": "6d3de3fa-b0f3-456e-8f96-2cb1fa99fcb0",
+      "content": {
+        "raw_text": "From: Apple no_reply@email.apple.com To: elijah.kimani@icloud.com Subject: Your iCloud+ Plan Payment Has Been Received. Thank You. Dear Elijah Kimani, We confirm that your payment for your iCloud+ plan has been successfully processed. Thank you for your continued trust in Apple services. Your iCloud+ subscription provides essential features like expanded storage for your photos, videos, and files, along with iCloud Private Relay and Hide My Email for enhanced privacy. We are committed to delivering seamless and secure experiences across all your Apple devices, ensuring your digital content is always safe and accessible. Payment Details: Plan: iCloud+ 200GB (Monthly) Amount Paid: \u20b9199.00 INR Payment Date: October 25, 2023 Next Billing Date: November 25, 2023 You can view your detailed purchase history, manage your subscriptions, and update your payment information at any time by visiting your Apple ID account page at https://appleid.apple.com/. For further assistance or to learn more about your iCloud+ benefits, please visit Apple Support online at https://support.apple.com/. Sincerely, Apple"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 19,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "elijah.kimani@icloud.com"
+        },
+        {
+          "start": 73,
+          "end": 86,
+          "label": "USERNAME",
+          "value": "Elijah Kimani"
+        },
+        {
+          "start": 372,
+          "end": 397,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "iCloud+ 200GB (Monthly)"
+        },
+        {
+          "start": 410,
+          "end": 420,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b9199.00"
+        },
+        {
+          "start": 410,
+          "end": 411,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 432,
+          "end": 449,
+          "label": "PAYMENT_DATE",
+          "value": "October 25, 2023"
+        },
+        {
+          "start": 474,
+          "end": 491,
+          "label": "RENEWAL_DATE",
+          "value": "November 25, 2023"
+        }
+      ]
+    },
+    {
+      "id": "1f37953a-c8be-4a2a-b113-98709df139cb",
+      "content": {
+        "raw_text": "From: Apple no_reply@email.apple.com To: sofia.moretti@icloud.com Subject: Your iCloud+ Refund Has Been Processed Dear Sofia Moretti, This email confirms that your refund for your recent iCloud+ plan purchase has been successfully processed. We understand that sometimes circumstances change, and we strive to make our refund process straightforward. The refunded amount will be credited back to your original payment method used for the purchase. Please allow 5-10 business days for the funds to appear on your bank statement, as processing times can vary depending on your financial institution. Refund Summary: Plan: iCloud+ 50GB (Monthly) Amount Refunded: \u20b975.00 INR Processed Date: March 12, 2022 Payment Method: MasterCard ending in **** 5678 Your iCloud+ plan has now been adjusted or cancelled accordingly. While your premium iCloud+ features may no longer be active, your Apple ID remains fully functional, and any data within your free iCloud storage limit remains accessible. Should you decide to re-subscribe to an iCloud+ plan in the future, you can easily do so through your device settings or via your Apple ID account page. Thank you for your understanding. Sincerely, Apple"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 19,
+          "end": 45,
+          "label": "USER_GMAIL",
+          "value": "sofia.moretti@icloud.com"
+        },
+        {
+          "start": 84,
+          "end": 98,
+          "label": "USERNAME",
+          "value": "Sofia Moretti"
+        },
+        {
+          "start": 475,
+          "end": 499,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "iCloud+ 50GB (Monthly)"
+        },
+        {
+          "start": 519,
+          "end": 527,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b975.00"
+        },
+        {
+          "start": 519,
+          "end": 520,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 548,
+          "end": 563,
+          "label": "PAYMENT_DATE",
+          "value": "March 12, 2022"
+        },
+        {
+          "start": 582,
+          "end": 590,
+          "label": "PAYMENT_PLATFORM",
+          "value": "MasterCard"
+        }
+      ]
+    },
+    {
+      "id": "987b0bb1-405f-49f6-bd60-36b7e22fd83e",
+      "content": {
+        "raw_text": "From: Apple no_reply@email.apple.com To: akio.tanaka@icloud.com Subject: Your iCloud+ Plan Has Been Cancelled Dear Akio Tanaka, This is to confirm that your iCloud+ 2TB plan has been successfully cancelled, as per your request. We regret to see you go and appreciate you having used iCloud+ to manage your storage and enhance your privacy. We aim to provide reliable and secure cloud services that integrate seamlessly with your Apple ecosystem. Cancellation Details: Plan: iCloud+ 2TB (Annual) Cancellation Date: September 01, 2024 Premium Access Ends On: October 01, 2024 (End of your current billing cycle) You will continue to have access to your full iCloud+ benefits, including the 2TB storage, iCloud Private Relay, and Hide My Email, until the end of your current billing cycle. After this date, your storage will revert to the free 5GB tier. Any data exceeding this limit will not be deleted immediately but will no longer sync until your storage is reduced or a new plan is purchased. You can reactivate your iCloud+ plan at any time through your device settings or by visiting https://support.apple.com/kb/HT207594. Thank you for being an iCloud+ subscriber. Sincerely, Apple"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 19,
+          "end": 40,
+          "label": "USER_GMAIL",
+          "value": "akio.tanaka@icloud.com"
+        },
+        {
+          "start": 84,
+          "end": 96,
+          "label": "USERNAME",
+          "value": "Akio Tanaka"
+        },
+        {
+          "start": 177,
+          "end": 200,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "iCloud+ 2TB (Annual)"
+        },
+        {
+          "start": 222,
+          "end": 241,
+          "label": "PAYMENT_DATE",
+          "value": "September 01, 2024"
+        },
+        {
+          "start": 270,
+          "end": 288,
+          "label": "RENEWAL_DATE",
+          "value": "October 01, 2024"
+        }
+      ]
+    },
+    {
+      "id": "fc89dc83-9f38-4cbd-b9a6-03836c71ff46",
+      "content": {
+        "raw_text": "From: Apple no_reply@email.apple.com To: chloe.durand@icloud.com Subject: Welcome to iCloud+! Your Enhanced Storage and Privacy Await. Dear Chloe Durand, Welcome to iCloud+! We are delighted to confirm that your new iCloud+ plan is now active, opening up a world of expanded storage and powerful new privacy features. With iCloud+, you can effortlessly store more photos, videos, documents, and app data, ensuring they are securely backed up and accessible across all your Apple devices. Additionally, features like iCloud Private Relay and Hide My Email provide enhanced protection for your online activities. To start making the most of your iCloud+ plan: Check Your Storage: Verify your increased storage capacity in your device settings under iCloud. Explore Private Relay: Activate iCloud Private Relay to browse the web more privately. Learn how at https://support.apple.com/kb/HT212614. Use Hide My Email: Generate unique, random email addresses to keep your personal email private. Details at https://support.apple.com/kb/HT212595. Set Up Custom Email Domain: If applicable to your plan, personalize your iCloud Mail experience. For any questions or guidance on optimizing your iCloud+ features, please visit Apple Support at https://support.apple.com/icloud. We are excited for you to experience the benefits of a more spacious and private digital life. Sincerely, Apple"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 19,
+          "end": 42,
+          "label": "USER_GMAIL",
+          "value": "chloe.durand@icloud.com"
+        },
+        {
+          "start": 92,
+          "end": 105,
+          "label": "USERNAME",
+          "value": "Chloe Durand"
+        },
+        {
+          "start": 124,
+          "end": 132,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "iCloud+"
+        }
+      ]
+    },
+    {
+      "id": "a8c2c6ce-b153-4ac1-b63b-228cd8d1bc38",
+      "content": {
+        "raw_text": "From: Apple no_reply@email.apple.com To: sandeep.singh@icloud.com Subject: Action Required: Your iCloud+ Payment Failed Dear Sandeep Singh, We encountered an issue processing your recent payment for your iCloud+ plan. This means your subscription may be at risk of interruption. Common reasons for a failed payment include an expired card, insufficient funds, or a temporary issue with your bank. To ensure continuous access to your iCloud storage and premium features, it is important to update your payment information as soon as possible. We understand that these situations can occur, and we are here to assist you in resolving this quickly. Details of Failed Payment: Plan: iCloud+ 500GB (Monthly) Attempted Date: July 08, 2021 Amount Due: \u20b9299.00 INR To update your payment method, please visit your Apple ID account page at https://appleid.apple.com/ or go to Settings > [Your Name] > Payment & Shipping on your iPhone or iPad. Once your payment information is updated, we will automatically retry the charge. Please note that if the payment issue is not resolved, your iCloud+ benefits may be suspended, and your storage could revert to the free 5GB tier. For support, please visit https://support.apple.com/billing. Thank you for your immediate attention to this matter. Sincerely, Apple"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 19,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "sandeep.singh@icloud.com"
+        },
+        {
+          "start": 102,
+          "end": 116,
+          "label": "USERNAME",
+          "value": "Sandeep Singh"
+        },
+        {
+          "start": 265,
+          "end": 281,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "iCloud+ 500GB"
+        },
+        {
+          "start": 295,
+          "end": 309,
+          "label": "PAYMENT_DATE",
+          "value": "July 08, 2021"
+        },
+        {
+          "start": 323,
+          "end": 334,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 323,
+          "end": 330,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299.00"
+        }
+      ]
+    },
+    {
+      "id": "43d3c671-df65-4a5a-b6b1-bc6e3454b3fa",
+      "content": {
+        "raw_text": "From: Apple no_reply@email.apple.com To: liam.oneill@icloud.com Subject: Your iCloud+ Plan Will Renew Soon Dear Liam O'Neill, This is a reminder that your iCloud+ 200GB plan is scheduled for automatic renewal on August 15, 2020. Your current subscription includes ample storage for your digital life, along with privacy features like iCloud Private Relay and Hide My Email, providing a comprehensive and secure cloud experience. We continue to improve iCloud+ to offer robust and seamless service across your devices. Upcoming Renewal Details: Plan: iCloud+ 200GB (Monthly) Renewal Date: August 15, 2020 Amount Due: \u20b9199.00 INR (plus applicable taxes) Payment Method: Your saved payment method ending in **** 9012 will be charged automatically. No action is required if you wish to continue enjoying your iCloud+ benefits without interruption. If you need to manage your subscription, update your payment details, or cancel your plan's auto-renewal, please visit your Apple ID account page at https://appleid.apple.com/ before the renewal date. Should you choose not to renew, your iCloud+ features will cease at the end of the current billing cycle. Thank you for being an iCloud+ subscriber. Sincerely, Apple"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 19,
+          "end": 42,
+          "label": "USER_GMAIL",
+          "value": "liam.oneill@icloud.com"
+        },
+        {
+          "start": 77,
+          "end": 90,
+          "label": "USERNAME",
+          "value": "Liam O'Neill"
+        },
+        {
+          "start": 152,
+          "end": 170,
+          "label": "RENEWAL_DATE",
+          "value": "August 15, 2020"
+        },
+        {
+          "start": 206,
+          "end": 224,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "iCloud+ 200GB"
+        },
+        {
+          "start": 291,
+          "end": 310,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b9199.00 INR"
+        },
+        {
+          "start": 291,
+          "end": 292,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 292,
+          "end": 298,
+          "label": "PAYMENT_AMOUNT",
+          "value": "199.00"
+        }
+      ]
+    },
+    {
+      "id": "c39b9f5e-f3e9-4b61-9b62-b5931e7a9f1c",
+      "content": {
+        "raw_text": "From: Apple no_reply@email.apple.com To: maria.pereira@icloud.com Subject: Your iCloud+ Plan is Active Dear Maria Pereira, This email confirms that your iCloud+ 50GB plan is currently active. We want to assure you that you have full access to all the benefits associated with your subscription, including expanded storage for your important data and enhanced privacy features like iCloud Private Relay and Hide My Email. Your active plan ensures that your photos, documents, and other content are securely stored and synced across all your Apple devices, ready whenever you need them. Your Current Subscription Status: Plan: iCloud+ 50GB (Monthly) Subscription Start Date: January 10, 2024 Next Renewal Date: February 10, 2025 Status: Active You can manage all aspects of your iCloud+ plan, including reviewing your storage usage, upgrading your plan, or updating your payment information, by visiting your Apple ID account page at https://appleid.apple.com/. We encourage you to explore all the features that iCloud+ offers to optimize your digital experience. Thank you for choosing iCloud+. Sincerely, Apple"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 19,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "maria.pereira@icloud.com"
+        },
+        {
+          "start": 78,
+          "end": 91,
+          "label": "USERNAME",
+          "value": "Maria Pereira"
+        },
+        {
+          "start": 166,
+          "end": 183,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "iCloud+ 50GB"
+        },
+        {
+          "start": 262,
+          "end": 280,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "January 10, 2024"
+        },
+        {
+          "start": 305,
+          "end": 323,
+          "label": "RENEWAL_DATE",
+          "value": "February 10, 2025"
+        }
+      ]
+    }
+  ]
+}

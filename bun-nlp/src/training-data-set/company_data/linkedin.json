@@ -1,0 +1,310 @@
+{
+  "Linkedin": [
+    {
+      "id": "1d93f1df-4a61-4a4f-8615-71e005b7a5ff",
+      "content": {
+        "raw_text": "From: linkedin@e.linkedin.com To: lejla.vesic@example.com Date: Monday, October 9, 2023 Subject: Your LinkedIn Premium renews on 22 Oct 2023 \u2014 stay connected with ease Hi Lejla, Just a friendly reminder \u2014 your LinkedIn Premium subscription is set to renew automatically on 22 October 2023. There\u2019s nothing you need to do \u2014 your current payment method will be charged \u20b93,199 to ensure continued access to all the features you've been enjoying. Here\u2019s a quick look at what your Premium membership includes: Direct messaging with recruiters and professionals outside your network using InMail credits Deeper visibility into who\u2019s viewed your profile and how you\u2019re being discovered Powerful Premium Insights on companies, job applicants, and industry trends Unlimited access to LinkedIn Learning courses taught by experts across business, tech, and creative fields If you\u2019d like to review or make changes to your plan, payment method, or cancel your subscription before the renewal date, you can do so at any time by clicking below: Manage your subscription \u2192 Manage Now If you have any questions or need help, feel free to reply to this email or visit our Help Center. We\u2019re here if you need us. Thanks again for being a valued LinkedIn Premium member. Warm regards, The LinkedIn Premium Team You are receiving this email because you have an active Premium subscription on LinkedIn. To manage your preferences, cancel your subscription, or update billing info, visit your account settings. \u00a9 2023 LinkedIn Corporation, 1000 W Maude Ave, Sunnyvale, CA 94085, USA"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 14,
+          "label": "COMPANY_NAME",
+          "value": "LinkedIn"
+        },
+        {
+          "start": 18,
+          "end": 42,
+          "label": "USER_GMAIL",
+          "value": "lejla.vesic@example.com"
+        },
+        {
+          "start": 66,
+          "end": 71,
+          "label": "USERNAME",
+          "value": "Lejla"
+        },
+        {
+          "start": 127,
+          "end": 145,
+          "label": "RENEWAL_DATE",
+          "value": "22 October 2023"
+        },
+        {
+          "start": 209,
+          "end": 215,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 209,
+          "end": 215,
+          "label": "PAYMENT_AMOUNT",
+          "value": "3,199"
+        },
+        {
+          "start": 83,
+          "end": 100,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "LinkedIn Premium"
+        }
+      ]
+    },
+    {
+      "id": "5e5d8593-fbc5-48f2-8800-4c2ed43d5464",
+      "content": {
+        "raw_text": "From: welcome@linkedin.com To: sofia.martinez@example.com Date: Wednesday, 23 August 2023 Subject: Welcome to LinkedIn, Sofia! Your journey starts here Hi Sofia, Welcome to LinkedIn! We\u2019re thrilled you\u2019ve joined our global community of professionals. Whether you\u2019re here to grow your network, explore new career possibilities, or stay current on trends in marketing, you\u2019re in the right place. Let\u2019s make the most of it together. To help you get started, here are a few steps to unlock LinkedIn\u2019s full potential: Complete your profile \u2013 Add a headline, photo, and background to showcase your professional story Build your network \u2013 Find classmates, coworkers, or industry peers and send personalized connection requests Stay informed \u2013 Follow relevant companies, topics, and thought leaders to receive timely updates Learn new skills \u2013 Explore LinkedIn Learning\u2019s curated courses in marketing, leadership, and more Ready to dive in? Just click any of the links above or jump straight into your dashboard to begin exploring. If you have questions, need guidance, or want personalized tips, our Help Center is here to assist you. We\u2019re excited to support you every step of the way. Cheers, The LinkedIn Team You\u2019re receiving this email because you recently signed up for LinkedIn. If this wasn\u2019t you, please secure your account immediately. LinkedIn Corporation | 1000 W Maude Ave, Sunnyvale, CA 94085, USA \u00a9 2023 LinkedIn Corporation. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 14,
+          "label": "COMPANY_NAME",
+          "value": "LinkedIn"
+        },
+        {
+          "start": 18,
+          "end": 46,
+          "label": "USER_GMAIL",
+          "value": "sofia.martinez@example.com"
+        },
+        {
+          "start": 77,
+          "end": 82,
+          "label": "USERNAME",
+          "value": "Sofia"
+        }
+      ]
+    },
+    {
+      "id": "4c738f67-3be4-4bfa-8a7a-6805b4df52cb",
+      "content": {
+        "raw_text": "From: payments@linkedin.com To: marcel.hoffmann@example.com Date: Friday, 15 September 2023 Subject: Your payment of \u20b92,899 for LinkedIn Premium Business is confirmed Hi Marcel, We\u2019ve successfully received your payment of \u20b92,899.00 for your LinkedIn Premium Business subscription. The payment was processed on 15 September 2023 at 09:45 AM IST, using the card ending in 4242. You\u2019re all set\u2014enjoy uninterrupted access to Premium tools, insights, and learning resources. Payment details: Transaction ID: LNK-PB-50982374 Payment Date & Time: 15 Sep 2023, 09:45 AM IST Amount: \u20b92,899.00 Plan: LinkedIn Premium Business (Monthly) Payment Method: Visa \u2022\u2022\u2022\u2022 4242 You can view or download your receipt anytime from My Premium Subscription under the Billing & Payments section on LinkedIn. Need help or have questions? Visit our Help Center, or reply directly to this email\u2014we\u2019re always happy to assist. Thanks for choosing Premium\u2014here\u2019s to taking your networking to the next level! Warm regards, The LinkedIn Payments Team \u2014 You\u2019re receiving this email because a recent payment was processed on your LinkedIn account. \u00a9\u202f2023 LinkedIn Corporation, 1000 W\u202fMaude Ave, Sunnyvale, CA\u202f94085, USA. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 14,
+          "label": "COMPANY_NAME",
+          "value": "LinkedIn"
+        },
+        {
+          "start": 18,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "marcel.hoffmann@example.com"
+        },
+        {
+          "start": 82,
+          "end": 89,
+          "label": "USERNAME",
+          "value": "Marcel"
+        },
+        {
+          "start": 131,
+          "end": 138,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 131,
+          "end": 138,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2,899"
+        },
+        {
+          "start": 153,
+          "end": 181,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "LinkedIn Premium Business"
+        },
+        {
+          "start": 203,
+          "end": 220,
+          "label": "PAYMENT_DATE",
+          "value": "15 September 2023"
+        },
+        {
+          "start": 268,
+          "end": 279,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        },
+        {
+          "start": 153,
+          "end": 188,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "LinkedIn Premium Business (Monthly)"
+        }
+      ]
+    },
+    {
+      "id": "9ae8c7d9-91b3-4f77-bd27-92e926b12e90",
+      "content": {
+        "raw_text": "From: billing@linkedin.com To: maja.vuletic@example.hr Date: Monday, 27 November 2023 Subject: Your LinkedIn Premium refund of \u20b93,199 has been issued Hi Maja, We\u2019ve processed your refund of \u20b93,199.00 for the LinkedIn Premium Career subscription you previously purchased. The refund was initiated on 27 November 2023, and the amount will be credited back to your original payment method within 5\u20137 business days, depending on your financial institution\u2019s processing timelines. We understand that sometimes Premium may not meet everyone\u2019s needs or timing, and we appreciate you giving it a try. Your feedback helps us improve the experience for professionals around the world. While your access to Premium benefits will no longer be active, you\u2019ll continue to enjoy the core features of LinkedIn and remain connected to your network. \ud83d\udcb3 Refund Details: Refund Amount: \u20b93,199.00 Original Payment Date: 19 November 2023 Refund Date: 27 November 2023 Transaction ID: LNK-RFND-38472615 Plan Refunded: LinkedIn Premium Career (Monthly) Payment Method: Visa \u2022\u2022\u2022\u2022 1198 Your refund receipt is available under your Billing & Payments section on LinkedIn. You can also download a PDF version from there at any time for your records. If you have any questions about this transaction, or if the refund doesn\u2019t reflect in your account within the expected timeframe, feel free to reply to this message or visit our Help Center. Our support team is always happy to assist. Thanks again for trying out Premium, and we hope to welcome you back in the future. Warm regards, The LinkedIn Billing Team This is an automated message regarding your recent Premium subscription refund. To manage your email preferences, visit your account settings. \u00a9\u202f2023 LinkedIn Corporation, 1000 W Maude Ave, Sunnyvale, CA 94085, USA. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 206,
+          "end": 223,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b93,199.00"
+        },
+        {
+          "start": 206,
+          "end": 207,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 269,
+          "end": 287,
+          "label": "PAYMENT_DATE",
+          "value": "27 November 2023"
+        },
+        {
+          "start": 587,
+          "end": 605,
+          "label": "PAYMENT_DATE",
+          "value": "19 November 2023"
+        },
+        {
+          "start": 685,
+          "end": 703,
+          "label": "PAYMENT_DATE",
+          "value": "27 November 2023"
+        },
+        {
+          "start": 734,
+          "end": 767,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "LinkedIn Premium Career"
+        },
+        {
+          "start": 769,
+          "end": 778,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Monthly"
+        },
+        {
+          "start": 801,
+          "end": 817,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa \u2022\u2022\u2022\u2022 1198"
+        }
+      ]
+    },
+    {
+      "id": "dc6a0fa9-6b4f-47e1-a524-4ad06ed2e564",
+      "content": {
+        "raw_text": "Subject: We couldn\u2019t process your payment for LinkedIn Premium Hi Tomas, We tried to process your payment for LinkedIn Premium Business, but unfortunately it didn\u2019t go through. The attempt was made on 19 October 2023 at 08:27 AM GMT, and the payment was declined by your card provider. As a result, your Premium subscription is currently on hold, and access to Premium features may be restricted until the issue is resolved. We understand that this may happen from time to time\u2014payment failures can occur due to a number of reasons, including an expired card, insufficient funds, or updates required by your bank. To ensure uninterrupted access to your Premium benefits, we recommend updating your billing details at the earliest convenience. \ud83e\uddfe Payment Attempt Details: Attempted Amount: \u20b92,899.00 Plan: LinkedIn Premium Business (Monthly) Attempted On: 19 Oct 2023, 08:27 AM GMT Payment Method: Mastercard \u2022\u2022\u2022\u2022 2370 Status: Failed Reason Provided by Bank: Insufficient funds To continue enjoying Premium tools like InMail, advanced insights, and learning resources, please update your payment information now. Update Payment Method Still need help? Visit our Help Center, or simply reply to this email and our support team will be glad to assist you. Thanks for using LinkedIn, The LinkedIn Billing Team You\u2019re receiving this email because your recent Premium payment attempt failed. You can manage your billing preferences from your account settings. \u00a9\u202f2023 LinkedIn Corporation, 1000 W Maude Ave, Sunnyvale, CA 94085, USA"
+      },
+      "ner_entities": [
+        {
+          "start": 404,
+          "end": 414,
+          "label": "PAYMENT_DATE",
+          "value": "19 October 2023"
+        },
+        {
+          "start": 492,
+          "end": 501,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 719,
+          "end": 729,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b92,899.00"
+        },
+        {
+          "start": 719,
+          "end": 720,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 736,
+          "end": 771,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "LinkedIn Premium Business"
+        },
+        {
+          "start": 773,
+          "end": 780,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Monthly"
+        },
+        {
+          "start": 832,
+          "end": 848,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard \u2022\u2022\u2022\u2022 2370"
+        }
+      ]
+    },
+    {
+      "id": "7dfd4b8f-d81f-4ad2-b26d-fb9b8847a9f9",
+      "content": {
+        "raw_text": "From: receipts@linkedin.com To: daniela.weiss@example.at Date: Wednesday, 6 September 2023 Subject: Your LinkedIn Premium receipt \u2013 Invoice #LNK-INV-72496812 Hi Daniela, Thank you for your recent payment. Your receipt for LinkedIn Premium Business has been issued and is now available for your records. This receipt confirms that your payment was successfully processed and includes a detailed breakdown of the charges applied for your subscription starting 6 September 2023. If you're using Premium for professional development, invoicing, or tax purposes, feel free to download this receipt or share it with your finance team. We've included all necessary billing and tax information below to support your documentation needs. \ud83e\uddfe Receipt Summary Invoice Number: LNK-INV-72496812 Payment Date: 6 September 2023 Billed To: Daniela Weiss Email: daniela.weiss@example.at Subscription Plan: Premium Business (Monthly) Payment Method: Visa \u2022\u2022\u2022\u2022 4928 Amount Paid: \u20b92,899.00 Tax (18% GST): \u20b9441.14 Total Charged: \u20b92,899.00 Transaction ID: LNK-TX-40978153 You can access and download this receipt at any time by visiting your Billing & Payments section under Account Settings on LinkedIn. Need help understanding this invoice or managing future receipts? Our Help Center has step-by-step guidance, or you can reply directly to this email and a member of our billing team will assist you. Thanks for choosing LinkedIn Premium. We hope the tools and insights help support your next big career move. Warm regards, The LinkedIn Receipts Team"
+      },
+      "ner_entities": [
+        {
+          "start": 79,
+          "end": 103,
+          "label": "USER_GMAIL",
+          "value": "daniela.weiss@example.at"
+        },
+        {
+          "start": 341,
+          "end": 359,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Business"
+        },
+        {
+          "start": 390,
+          "end": 410,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "6 September 2023"
+        },
+        {
+          "start": 715,
+          "end": 723,
+          "label": "PAYMENT_DATE",
+          "value": "6 September"
+        },
+        {
+          "start": 809,
+          "end": 831,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Business"
+        },
+        {
+          "start": 833,
+          "end": 840,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Monthly"
+        },
+        {
+          "start": 859,
+          "end": 875,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa \u2022\u2022\u2022\u2022 4928"
+        },
+        {
+          "start": 891,
+          "end": 901,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b92,899.00"
+        },
+        {
+          "start": 891,
+          "end": 892,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        }
+      ]
+    }
+  ]
+}

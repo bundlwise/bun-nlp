@@ -1,0 +1,1033 @@
+{
+  "STARZ": [
+    {
+      "id": "4f33bd8e-3545-44b2-b99c-7b33402dfcb6",
+      "content": {
+        "raw_text": "From: STARZ <support@starz.com> To: Jonathan Park <jon.park@example.com> Subject: Welcome to STARZ \u2013 Account STZ-910022 Date: Mon, 23 Jun 2025 08:05:13 +0000 Message-ID: <WLC-910022@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi Jonathan, Your STARZ streaming subscription is now active. \u2022 Plan: Monthly \u2013 Ad-Free HD \u2022 Account ID: STZ-910022 \u2022 First charge: US $9.99 (Visa \u2022\u2022\u2022\u2022 4831) on 23 Jul 2025 Download the STARZ app and dive into exclusive originals. Happy streaming, The STARZ Team"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 35,
+          "end": 46,
+          "label": "USERNAME",
+          "value": "Jonathan Park"
+        },
+        {
+          "start": 56,
+          "end": 64,
+          "label": "USER_GMAIL",
+          "value": "jon.park@example.com"
+        },
+        {
+          "start": 94,
+          "end": 111,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly \u2013 Ad-Free HD"
+        },
+        {
+          "start": 140,
+          "end": 151,
+          "label": "PAYMENT_AMOUNT",
+          "value": "9.99"
+        },
+        {
+          "start": 152,
+          "end": 154,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 167,
+          "end": 176,
+          "label": "PAYMENT_DATE",
+          "value": "23 Jul 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a4e88de5-b797-4e52-b7f6-086351caa704",
+      "content": {
+        "raw_text": "From: STARZ <billing@starz.com> To: Priyanka Singh <priyanka.singh@example.in> Subject: Payment received \u2013 STZ-771134 Date: Mon, 23 Jun 2025 13:37:48 +0530 Message-ID: <PAY-771134-20250623@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Dear Priyanka, Thank you for your monthly payment of \u20b9299.00 for STARZ Premium HD. \u2022 Account ID: STZ-771134 \u2022 Coverage: 23 Jun \u2013 22 Jul 2025 \u2022 Card ending: 7160 Enjoy the latest Bollywood hits now streaming. Cheers, STARZ Billing"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 56,
+          "end": 72,
+          "label": "USERNAME",
+          "value": "Priyanka Singh"
+        },
+        {
+          "start": 74,
+          "end": 94,
+          "label": "USER_GMAIL",
+          "value": "priyanka.singh@example.in"
+        },
+        {
+          "start": 116,
+          "end": 130,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium HD"
+        },
+        {
+          "start": 148,
+          "end": 152,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299.00"
+        },
+        {
+          "start": 153,
+          "end": 154,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 176,
+          "end": 182,
+          "label": "PAYMENT_DATE",
+          "value": "23 Jun \u2013 22 Jul 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b34f2113-7a8e-42de-b21f-70e94ed587a3",
+      "content": {
+        "raw_text": "From: STARZ <renewals@starz.com> To: Miguel Hern\u00e1ndez <miguel.hdz@example.es> Subject: Your annual plan renews soon (STZ-588902) Date: Mon, 23 Jun 2025 10:22:06 +0200 Message-ID: <REN-588902@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hola Miguel, Your STARZ Annual UHD plan renews on 01 Jul 2025. \u2022 Account ID: STZ-588902 \u2022 Upcoming charge: \u20ac79.99 (Mastercard \u2022\u2022\u2022\u2022 2044) \u2022 Renewal term: 01 Jul 2025 \u2013 30 Jun 2026 No action needed\u2014your access continues seamlessly. Saludos, STARZ Renewals"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 46,
+          "end": 63,
+          "label": "USERNAME",
+          "value": "Miguel Hern\u00e1ndez"
+        },
+        {
+          "start": 65,
+          "end": 87,
+          "label": "USER_GMAIL",
+          "value": "miguel.hdz@example.es"
+        },
+        {
+          "start": 101,
+          "end": 113,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Annual UHD"
+        },
+        {
+          "start": 137,
+          "end": 145,
+          "label": "PAYMENT_AMOUNT",
+          "value": "79.99"
+        },
+        {
+          "start": 146,
+          "end": 149,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 180,
+          "end": 193,
+          "label": "RENEWAL_DATE",
+          "value": "01 Jul 2025 \u2013 30 Jun 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "eb7f84e6-1455-4777-bf7d-bd0ec3b3bc8b",
+      "content": {
+        "raw_text": "From: STARZ <support@starz.com> To: Nneka Okafor <nneka.okafor@example.ng> Subject: Action required: card declined for STZ-640311 Date: Mon, 23 Jun 2025 09:58:21 +0100 Message-ID: <DECL-640311@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi Nneka, We couldn\u2019t process the \u20a62,900.00 renewal for your Monthly HD plan (card ending 5519). Please update your payment method by 26 Jun 2025 to avoid any interruption: https://starz.com/account/640311/billing Thanks, STARZ Billing Support"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 38,
+          "end": 56,
+          "label": "USERNAME",
+          "value": "Nneka Okafor"
+        },
+        {
+          "start": 58,
+          "end": 81,
+          "label": "USER_GMAIL",
+          "value": "nneka.okafor@example.ng"
+        },
+        {
+          "start": 112,
+          "end": 126,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly HD"
+        },
+        {
+          "start": 129,
+          "end": 142,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2,900.00"
+        },
+        {
+          "start": 143,
+          "end": 146,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20a6"
+        },
+        {
+          "start": 151,
+          "end": 154,
+          "label": "UPDATE_URL",
+          "value": "https://starz.com/account/640311/billing"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d35b4984-315f-43ec-91f9-520424982a4c",
+      "content": {
+        "raw_text": "From: STARZ <offers@starz.com> To: Lars Andersen <lars.andersen@example.dk> Subject: Upgrade to 4K + Dolby Atmos for 20 kr./month Date: Mon, 23 Jun 2025 12:14:33 +0200 Message-ID: <UPG-DK-994120@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hej Lars, As a loyal subscriber (STZ-994120) you can unlock 4K + Dolby Atmos for just 20 kr. extra each month. Upgrade now: https://starz.com/upgrade/994120 Venlig hilsen, STARZ Danmark"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 38,
+          "end": 52,
+          "label": "USERNAME",
+          "value": "Lars Andersen"
+        },
+        {
+          "start": 54,
+          "end": 75,
+          "label": "USER_GMAIL",
+          "value": "lars.andersen@example.dk"
+        },
+        {
+          "start": 108,
+          "end": 124,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "4K + Dolby Atmos"
+        },
+        {
+          "start": 128,
+          "end": 132,
+          "label": "PAYMENT_AMOUNT",
+          "value": "20"
+        },
+        {
+          "start": 133,
+          "end": 136,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "kr."
+        },
+        {
+          "start": 148,
+          "end": 175,
+          "label": "UPDATE_URL",
+          "value": "https://starz.com/upgrade/994120"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "839ec9d2-f1ff-49fe-a6c5-f3d50e670926",
+      "content": {
+        "raw_text": "From: STARZ <invoices@starz.com> To: Jiao Li <jiao.li@example.cn> Subject: Your receipt \u2013 STZ-442017 Date: Tue, 24 Jun 2025 20:03:55 +0800 Message-ID: <INV-442017@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 \u674e\u5a07\u60a8\u597d\uff0c \u9644\u4ef6\u4e3a\u60a8\u7684\u589e\u503c\u7a0e\u53d1\u7968\u3002 \u2022 \u8d26\u53f7 ID: STZ-442017 \u2022 \u8ba1\u5212: \u6708\u5ea64K\u4f1a\u5458 \u2022 \u91d1\u989d: \u00a548.00 \u2022 \u4ed8\u6b3e\u65b9\u5f0f: \u94f6\u8054\u5361 \u2022\u2022\u2022\u2022 6372 \u2022 \u65e5\u671f: 2025-06-24 \u5982\u6709\u95ee\u9898\uff0c\u8bf7\u8054\u7cfb cn-billing@starz.com \u8c22\u8c22\uff0c STARZ"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 25,
+          "end": 33,
+          "label": "USERNAME",
+          "value": "Jiao Li"
+        },
+        {
+          "start": 35,
+          "end": 53,
+          "label": "USER_GMAIL",
+          "value": "jiao.li@example.cn"
+        },
+        {
+          "start": 64,
+          "end": 81,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly 4K"
+        },
+        {
+          "start": 86,
+          "end": 92,
+          "label": "PAYMENT_AMOUNT",
+          "value": "48.00"
+        },
+        {
+          "start": 93,
+          "end": 94,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a5"
+        },
+        {
+          "start": 105,
+          "end": 113,
+          "label": "PAYMENT_METHOD",
+          "value": "UnionPay \u2022\u2022\u2022\u2022 6372"
+        },
+        {
+          "start": 127,
+          "end": 137,
+          "label": "PAYMENT_DATE",
+          "value": "2025-06-24"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "0db4130d-baf9-45a0-9134-2a5b287af348",
+      "content": {
+        "raw_text": "From: STARZ <welcome@starz.com> To: Chloe Martin <chloe.martin@example.fr> Subject: Free trial started \u2013 STZ-733501 Date: Tue, 24 Jun 2025 14:41:08 +0200 Message-ID: <TRIAL-733501@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Bonjour Chlo\u00e9, Profitez de STARZ gratuitement jusqu\u2019au 23 juillet 2025. \u2022 ID compte : STZ-733501 \u2022 Carte d\u00e9bit enregistr\u00e9e : Visa \u2022\u2022\u2022\u2022 0823 (aucun d\u00e9bit aujourd\u2019hui) Nous vous enverrons un rappel trois jours avant la facturation de 6,99 \u20ac. Bon visionnage ! L\u2019\u00e9quipe STARZ"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 23,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Chloe Martin"
+        },
+        {
+          "start": 36,
+          "end": 58,
+          "label": "USER_GMAIL",
+          "value": "chloe.martin@example.fr"
+        },
+        {
+          "start": 85,
+          "end": 106,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Free trial"
+        },
+        {
+          "start": 143,
+          "end": 148,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6.99"
+        },
+        {
+          "start": 149,
+          "end": 151,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 129,
+          "end": 146,
+          "label": "TRIAL_END_DATE",
+          "value": "23 juillet 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9b69995a-0891-4421-85e9-9fe4bbf9ed02",
+      "content": {
+        "raw_text": "From: STARZ <support@starz.com> To: Zachary Wilson <zach.wilson@example.us> Subject: Password reset confirmation (STZ-218640) Date: Tue, 24 Jun 2025 06:12:29 -0400 Message-ID: <PWD-218640@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi Zachary, Your password was reset on 24 Jun 2025 at 06:11 EDT for account STZ-218640. If you didn\u2019t initiate this, visit https://starz.com/security right away. Stay safe, STARZ Security"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 33,
+          "end": 50,
+          "label": "USERNAME",
+          "value": "Zachary Wilson"
+        },
+        {
+          "start": 52,
+          "end": 75,
+          "label": "USER_GMAIL",
+          "value": "zach.wilson@example.us"
+        },
+        {
+          "start": 98,
+          "end": 106,
+          "label": "ACCOUNT_ID",
+          "value": "STZ-218640"
+        },
+        {
+          "start": 110,
+          "end": 132,
+          "label": "SECURITY_URL",
+          "value": "https://starz.com/security"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "47ad0f3f-1999-46ac-a4db-ea5775edb48f",
+      "content": {
+        "raw_text": "From: STARZ <billing@starz.com> To: Yasmin Ali <yasmin.ali@example.ae> Subject: Refund processed \u2013 STZ-505566 Date: Tue, 24 Jun 2025 19:27:18 +0400 Message-ID: <REF-505566@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Dear Yasmin, We have refunded AED 27.30 to your Mastercard \u2022\u2022\u2022\u2022 9012 for the cancelled add-on. \u2022 Account ID: STZ-505566 \u2022 Refund date: 24 Jun 2025 \u2022 Reference: UAE-2025-1114 Allow up to seven business days for the credit to appear. Best regards, STARZ"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 38,
+          "end": 48,
+          "label": "USERNAME",
+          "value": "Yasmin Ali"
+        },
+        {
+          "start": 50,
+          "end": 74,
+          "label": "USER_GMAIL",
+          "value": "yasmin.ali@example.ae"
+        },
+        {
+          "start": 97,
+          "end": 117,
+          "label": "PAYMENT_AMOUNT",
+          "value": "27.30"
+        },
+        {
+          "start": 118,
+          "end": 120,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "AED"
+        },
+        {
+          "start": 131,
+          "end": 144,
+          "label": "REFUND_DATE",
+          "value": "24 Jun 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c7c69d9b-4976-47ad-81f2-55b23d6b6a77",
+      "content": {
+        "raw_text": "From: STARZ <notifications@starz.com> To: Luca Bianchi <luca.bianchi@example.it> Subject: New episode alert \u2013 \u201cOutlander\u201d S07E05 now streaming Date: Tue, 24 Jun 2025 10:09:44 +0200 Message-ID: <EP-ALERT-980155@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Ciao Luca, La nuova puntata di \u201cOutlander\u201d \u00e8 ora disponibile in 4K. Guarda ora: https://starz.com/watch/980155 Buona visione, STARZ Italia"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 21,
+          "end": 32,
+          "label": "USERNAME",
+          "value": "Luca Bianchi"
+        },
+        {
+          "start": 34,
+          "end": 58,
+          "label": "USER_GMAIL",
+          "value": "luca.bianchi@example.it"
+        },
+        {
+          "start": 81,
+          "end": 103,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Outlander"
+        },
+        {
+          "start": 125,
+          "end": 148,
+          "label": "WATCH_URL",
+          "value": "https://starz.com/watch/980155"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a3d3acb1-5206-4b6a-9e76-bef2791a4a35",
+      "content": {
+        "raw_text": "From: STARZ <subscriptions@starz.com> To: Helena Novak <helena.novak@example.cz> Subject: Subscription cancelled as requested \u2013 STZ-661099 Date: Tue, 24 Jun 2025 11:52:37 +0200 Message-ID: <CAN-661099@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Dobr\u00fd den, Heleno, Va\u0161e p\u0159edplatn\u00e9 bylo zru\u0161eno s \u00fa\u010dinnost\u00ed 24. 6. 2025. P\u0159\u00edstup z\u016fstane aktivn\u00ed do 15. 7. 2025. \u2022 ID \u00fa\u010dtu: STZ-661099 \u2022 Tarif: M\u011bs\u00ed\u010dn\u00ed Full HD \u2022 Vr\u00e1cen\u00e1 \u010d\u00e1stka: 179 K\u010d na kartu \u2022\u2022\u2022\u2022 4498 D\u011bkujeme, T\u00fdm STARZ"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 32,
+          "end": 49,
+          "label": "USERNAME",
+          "value": "Helena Novak"
+        },
+        {
+          "start": 51,
+          "end": 73,
+          "label": "USER_GMAIL",
+          "value": "helena.novak@example.cz"
+        },
+        {
+          "start": 122,
+          "end": 126,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly Full HD"
+        },
+        {
+          "start": 146,
+          "end": 151,
+          "label": "PAYMENT_AMOUNT",
+          "value": "179"
+        },
+        {
+          "start": 152,
+          "end": 154,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "K\u010d"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b2e71a7a-c1b5-40c7-b853-9d063ba2b923",
+      "content": {
+        "raw_text": "From: STARZ <offers@starz.com> To: Hans Meier <h.meier@example.de> Subject: 3 Monate STARZ f\u00fcr nur 5 \u20ac Date: Wed, 25 Jun 2025 07:11:03 +0200 Message-ID: <SALE-DE-880412@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hallo Hans, Sichere dir drei Monate STARZ f\u00fcr einmalig 5 \u20ac. Angebot endet am 30. Juni 2025. Jetzt einl\u00f6sen: https://starz.com/de/5euro Viel Spa\u00df beim Streamen! STARZ Deutschland"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 24,
+          "end": 35,
+          "label": "USERNAME",
+          "value": "Hans Meier"
+        },
+        {
+          "start": 37,
+          "end": 59,
+          "label": "USER_GMAIL",
+          "value": "h.meier@example.de"
+        },
+        {
+          "start": 69,
+          "end": 81,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "3 Monate STARZ"
+        },
+        {
+          "start": 106,
+          "end": 126,
+          "label": "UPDATE_URL",
+          "value": "https://starz.com/de/5euro"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "8f48a3b4-26a4-46ae-83d4-b1ac5d7b0b36",
+      "content": {
+        "raw_text": "From: STARZ <billing@starz.com> To: Sofia Rodr\u00edguez <sofia.rodriguez@example.ar> Subject: Currency switch notice \u2013 STZ-554700 Date: Wed, 25 Jun 2025 04:45:27 -0300 Message-ID: <CUR-AR-554700@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hola Sof\u00eda, A partir del 1 de agosto de 2025 te facturaremos en pesos argentinos (ARS 2.299/mes) en lugar de USD. Preguntas: latam-billing@starz.com \u00a1Gracias por elegirnos! STARZ"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 25,
+          "end": 41,
+          "label": "USERNAME",
+          "value": "Sofia Rodr\u00edguez"
+        },
+        {
+          "start": 43,
+          "end": 75,
+          "label": "USER_GMAIL",
+          "value": "sofia.rodriguez@example.ar"
+        },
+        {
+          "start": 98,
+          "end": 108,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2.299"
+        },
+        {
+          "start": 109,
+          "end": 112,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "ARS"
+        },
+        {
+          "start": 126,
+          "end": 146,
+          "label": "CURRENCY_CHANGE_DATE",
+          "value": "1 de agosto de 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "dfa3d268-560b-4525-8369-5ac56e6c95c3",
+      "content": {
+        "raw_text": "From: STARZ <notifications@starz.com> To: Marcus Green <marcus.green@example.co.uk> Subject: Your watchlist pick \u201cPower Book V\u201d arrives Friday Date: Wed, 25 Jun 2025 06:28:10 +0100 Message-ID: <WL-ALERT-432221@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi Marcus, Great news\u2014season 1 of \u201cPower Book V\u201d drops 27 Jun 2025. We\u2019ll remind you the moment it\u2019s live. STARZ UK"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 24,
+          "end": 37,
+          "label": "USERNAME",
+          "value": "Marcus Green"
+        },
+        {
+          "start": 39,
+          "end": 63,
+          "label": "USER_GMAIL",
+          "value": "marcus.green@example.co.uk"
+        },
+        {
+          "start": 83,
+          "end": 96,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Power Book V"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "8a10efba-bf3f-469e-a541-b263be738a87",
+      "content": {
+        "raw_text": "From: STARZ <support@starz.com> To: Aleksandar Petrovi\u0107 <aleksandar.petrovic@example.rs> Subject: Address change confirmed (STZ-307844) Date: Wed, 25 Jun 2025 09:40:02 +0200 Message-ID: <ADDR-307844@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Zdravo Aleksandre, Your billing address for account STZ-307844 has been updated to Bulevar kralja Aleksandra 42, Beograd 11000, Srbija. Hvala \u0161to koristite STARZ!"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 32,
+          "end": 50,
+          "label": "USERNAME",
+          "value": "Aleksandar Petrovi\u0107"
+        },
+        {
+          "start": 52,
+          "end": 80,
+          "label": "USER_GMAIL",
+          "value": "aleksandar.petrovic@example.rs"
+        },
+        {
+          "start": 122,
+          "end": 161,
+          "label": "ADDRESS",
+          "value": "Bulevar kralja Aleksandra 42, Beograd 11000, Srbija"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "334d7bfc-9dbb-4d52-8b60-47b36c29041f",
+      "content": {
+        "raw_text": "From: STARZ <analytics@starz.com> To: Claire Dubois <claire.dubois@example.be> Subject: Your viewing stats \u2013 May 2025 (STZ-889301) Date: Wed, 25 Jun 2025 08:22:51 +0200 Message-ID: <STATS-889301-202505@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Bonjour Claire, En mai, vous avez regard\u00e9 27 \u00e9pisodes et 4 films (12 heures au total). Genre pr\u00e9f\u00e9r\u00e9 : Drame (9 titres). Bonne s\u00e9ance, STARZ Insights"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 31,
+          "end": 46,
+          "label": "USERNAME",
+          "value": "Claire Dubois"
+        },
+        {
+          "start": 48,
+          "end": 75,
+          "label": "USER_GMAIL",
+          "value": "claire.dubois@example.be"
+        },
+        {
+          "start": 89,
+          "end": 99,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "May 2025 Viewing"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "b9a988c9-29cf-429b-9dcb-d207bb21931e",
+      "content": {
+        "raw_text": "From: STARZ <enterprise@starz.com> To: Ravi Kumar <ravi.kumar@example.com> Subject: Corporate access activated \u2013 Org ID 70217 Date: Wed, 25 Jun 2025 12:58:44 +0000 Message-ID: <CORP-70217@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi Ravi, Your company, FutureMedia Ltd., has added you to its STARZ Business licence. \u2022 Org ID: 70217 \u2022 User: ravi.kumar@example.com \u2022 Access: Premium Streaming Library Set your password: https://starz.com/corp/70217/setup Welcome aboard! STARZ Enterprise"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 32,
+          "end": 37,
+          "label": "USERNAME",
+          "value": "Ravi Kumar"
+        },
+        {
+          "start": 39,
+          "end": 65,
+          "label": "USER_GMAIL",
+          "value": "ravi.kumar@example.com"
+        },
+        {
+          "start": 73,
+          "end": 113,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Streaming Library"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "7ab37a02-4b1b-4fc7-b561-5370c89870f1",
+      "content": {
+        "raw_text": "From: STARZ <security@starz.com> To: Min-seo Kim <minseo.kim@example.kr> Subject: Two-step verification enabled \u2013 STZ-441210 Date: Wed, 25 Jun 2025 18:13:09 +0900 Message-ID: <2SV-441210@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 \uc548\ub155\ud558\uc138\uc694, Min-seo \ub2d8, 2\ub2e8\uacc4 \uc778\uc99d\uc774 \ud65c\uc131\ud654\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \u2022 \uacc4\uc815 ID: STZ-441210 \u2022 \ubc31\uc5c5 \ucf54\ub4dc\uac00 \ucca8\ubd80\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4. \uc548\uc804\ud55c \uacf3\uc5d0 \ubcf4\uad00\ud558\uc138\uc694. \uac10\uc0ac\ud569\ub2c8\ub2e4, STARZ \ubcf4\uc548\ud300"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 24,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Min-seo Kim"
+        },
+        {
+          "start": 36,
+          "end": 56,
+          "label": "USER_GMAIL",
+          "value": "minseo.kim@example.kr"
+        },
+        {
+          "start": 68,
+          "end": 75,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Two-step verification"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "9d9d8578-18ca-4201-9e7e-cb87d9d7b5d9",
+      "content": {
+        "raw_text": "From: STARZ <support@starz.com> To: Oliver Johansson <oliver.johansson@example.se> Subject: Streaming quality issue resolved (STZ-322599) Date: Wed, 25 Jun 2025 10:33:17 +0200 Message-ID: <FIX-322599@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hej Oliver, We\u2019ve fixed the buffering problem affecting Nordic servers. Please try again and let us know if issues persist. Tack, STARZ Support"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 18,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Oliver Johansson"
+        },
+        {
+          "start": 36,
+          "end": 63,
+          "label": "USER_GMAIL",
+          "value": "oliver.johansson@example.se"
+        },
+        {
+          "start": 91,
+          "end": 104,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Streaming Quality Issue"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "d5a73b94-52ff-4cf6-9a93-1f9874c77c0a",
+      "content": {
+        "raw_text": "From: STARZ <donotreply@starz.com> To: Isabella Johnson <isabella.j@example.ca> Subject: Trial ending soon \u2013 add payment to continue Date: Wed, 25 Jun 2025 04:12:07 -0400 Message-ID: <TRIAL-END-630155@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Hi Isabella, Your free trial (STZ-630155) ends on 28 Jun 2025. Add a payment method to keep watching for CA $11.99/month. Add card: https://starz.com/billing/630155"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 19,
+          "end": 37,
+          "label": "USERNAME",
+          "value": "Isabella Johnson"
+        },
+        {
+          "start": 39,
+          "end": 61,
+          "label": "USER_GMAIL",
+          "value": "isabella.j@example.ca"
+        },
+        {
+          "start": 93,
+          "end": 102,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Trial Ending"
+        },
+        {
+          "start": 118,
+          "end": 126,
+          "label": "PAYMENT_AMOUNT",
+          "value": "11.99"
+        },
+        {
+          "start": 127,
+          "end": 128,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "CA$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f1b5d6ba-1c72-4a33-81d7-bf5b4ed34db9",
+      "content": {
+        "raw_text": "From: STARZ <billing@starz.com> To: Adel Khaled <adel.khaled@example.eg> Subject: VAT receipt \u2013 STZ-772003 Date: Wed, 25 Jun 2025 11:07:46 +0200 Message-ID: <VAT-EG-772003@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 \u0639\u0632\u064a\u0632\u064a \u0639\u0627\u062f\u0644\u060c \u0647\u0630\u0647 \u0641\u0627\u062a\u0648\u0631\u0629 \u0636\u0631\u064a\u0628\u0629 \u0627\u0644\u0642\u064a\u0645\u0629 \u0627\u0644\u0645\u0636\u0627\u0641\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643. \u2022 \u0645\u0639\u0631\u0641 \u0627\u0644\u062d\u0633\u0627\u0628: STZ-772003 \u2022 \u0627\u0644\u062e\u0637\u0629: \u0634\u0647\u0631\u064a HD \u2022 \u0627\u0644\u0645\u0628\u0644\u063a: \u200e\u062c.\u0645\u200f 119.00 (\u0634\u0627\u0645\u0644 14% \u0636\u0631\u064a\u0628\u0629) \u2022 \u0627\u0644\u062a\u0627\u0631\u064a\u062e: 25 \u064a\u0648\u0646\u064a\u0648 2025 \u2022 \u0631\u0642\u0645 \u0627\u0644\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u0636\u0631\u064a\u0628\u064a: 310-864-453 \u0645\u0639 \u062a\u062d\u064a\u0627\u062a\u060c STARZ"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 31,
+          "end": 36,
+          "label": "USERNAME",
+          "value": "Adel Khaled"
+        },
+        {
+          "start": 38,
+          "end": 64,
+          "label": "USER_GMAIL",
+          "value": "adel.khaled@example.eg"
+        },
+        {
+          "start": 105,
+          "end": 113,
+          "label": "PAYMENT_AMOUNT",
+          "value": "119.00"
+        },
+        {
+          "start": 114,
+          "end": 116,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u062c.\u0645\u200f"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d68a44e2-18f4-4237-a570-b42d616a9c28",
+      "content": {
+        "raw_text": "From: STARZ <offers@starz.com> To: Sofia Petrova <sofia.petrova@example.bg> Subject: Invite a friend, earn a free month Date: Thu, 26 Jun 2025 09:51:42 +0300 Message-ID: <REF-INV-210045@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 \u0417\u0434\u0440\u0430\u0432\u0435\u0439, \u0421\u043e\u0444\u0438\u044f, \u0421\u043f\u043e\u0434\u0435\u043b\u0438 \u043b\u0438\u043d\u043a\u0430 https://starz.com/r/210045 \u2013 \u043f\u0440\u0438 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043d\u0430 \u043f\u0440\u0438\u044f\u0442\u0435\u043b \u043f\u043e\u043b\u0443\u0447\u0430\u0432\u0430\u0442\u0435 \u0431\u0435\u0437\u043f\u043b\u0430\u0442\u0435\u043d \u043c\u0435\u0441\u0435\u0446 \u0438 \u0434\u0432\u0430\u043c\u0430\u0442\u0430. \u041f\u0440\u0438\u044f\u0442\u043d\u043e \u0433\u043b\u0435\u0434\u0430\u043d\u0435! STARZ"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 32,
+          "end": 47,
+          "label": "USERNAME",
+          "value": "Sofia Petrova"
+        },
+        {
+          "start": 49,
+          "end": 77,
+          "label": "USER_GMAIL",
+          "value": "sofia.petrova@example.bg"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "cbfb9fa7-f4b1-4320-9725-835213d6fc09",
+      "content": {
+        "raw_text": "From: STARZ <notifications@starz.com> To: Emma Brown <emma.brown@example.co.nz> Subject: New Zealand library update \u2013 12 titles added Date: Thu, 26 Jun 2025 19:04:16 +1200 Message-ID: <NZ-LIB-ADD-712230@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Kia ora Emma, We\u2019ve added 12 new movies to the NZ catalogue, including \u201cKnives Out\u201d and \u201cLa La Land.\u201d Browse now: https://starz.com/nz/new Ng\u0101 mihi, STARZ Aotearoa"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 30,
+          "end": 41,
+          "label": "USERNAME",
+          "value": "Emma Brown"
+        },
+        {
+          "start": 43,
+          "end": 69,
+          "label": "USER_GMAIL",
+          "value": "emma.brown@example.co.nz"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "75ad18e4-57d2-450d-b2b5-5fe5489c5058",
+      "content": {
+        "raw_text": "From: STARZ <billing@starz.com> To: Fatima Zahra <fatima.zahra@example.ma> Subject: Payment method updated \u2013 STZ-990421 Date: Thu, 26 Jun 2025 15:22:58 +0100 Message-ID: <PAYUPD-990421@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 \u0633\u0644\u0627\u0645 \u0641\u0627\u0637\u0645\u0629 \u0627\u0644\u0632\u0647\u0631\u0627\u0621\u060c \u062a\u0645 \u062a\u0639\u064a\u064a\u0646 \u0628\u0637\u0627\u0642\u0629 Visa \u0627\u0644\u062c\u062f\u064a\u062f\u0629 \u0627\u0644\u0645\u0646\u062a\u0647\u064a\u0629 \u0628\u0640 4417 \u0643\u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u062f\u0641\u0639 \u0627\u0644\u0627\u0641\u062a\u0631\u0627\u0636\u064a\u0629 \u0644\u062d\u0633\u0627\u0628\u0643 STZ-990421. \u2022 \u0627\u0644\u0631\u0633\u0648\u0645 \u0627\u0644\u0642\u0627\u062f\u0645\u0629: 01 \u0633\u0628\u062a\u0645\u0628\u0631 2025 \u2013 MAD 88.00 \u0634\u0643\u0631\u0627\u064b \u0644\u0627\u062e\u062a\u064a\u0627\u0631\u0643 STARZ!"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 31,
+          "end": 47,
+          "label": "USERNAME",
+          "value": "Fatima Zahra"
+        },
+        {
+          "start": 49,
+          "end": 81,
+          "label": "USER_GMAIL",
+          "value": "fatima.zahra@example.ma"
+        },
+        {
+          "start": 105,
+          "end": 111,
+          "label": "PAYMENT_AMOUNT",
+          "value": "88.00"
+        },
+        {
+          "start": 112,
+          "end": 115,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "MAD"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "998a433d-35fa-4082-a67e-c670b7fd1948",
+      "content": {
+        "raw_text": "From: STARZ <reminders@starz.com> To: Gabriel Costa <gabriel.costa@example.br> Subject: Your subscription is expiring \u2013 act before 05 Jul 2025 Date: Thu, 26 Jun 2025 07:46:25 -0300 Message-ID: <EXP-811204@starz.com> MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Ol\u00e1 Gabriel, Sua assinatura promocional (STZ-811204) termina em breve. Renove por R$14,90/m\u00eas para continuar assistindo. Renovar agora: https://starz.com/renovar/811204"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "STARZ"
+        },
+        {
+          "start": 19,
+          "end": 31,
+          "label": "USERNAME",
+          "value": "Gabriel Costa"
+        },
+        {
+          "start": 33,
+          "end": 61,
+          "label": "USER_GMAIL",
+          "value": "gabriel.costa@example.br"
+        },
+        {
+          "start": 74,
+          "end": 80,
+          "label": "PAYMENT_AMOUNT",
+          "value": "14.90"
+        },
+        {
+          "start": 81,
+          "end": 84,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "R$"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "wsj_emails": [
+    {
+      "id": "e0f4b07d-1b3d-4a26-9e5e-122b4d85fae7",
+      "content": {
+        "raw_text": "From: no-reply@wsj.com To: emily.jones1985@gmail.com Subject: Welcome to WSJ Digital - Your subscription is active! Hi Emily, Thank you for subscribing to the WSJ Digital Monthly Plan. Subscription Details: \u2022 Plan: WSJ Digital (Monthly) \u2022 Price: $39.99/month \u2022 Payment Method: Visa ending in 4242 \u2022 Next Billing Date: July 21, 2025 To manage your subscription, visit: https://www.wsj.com/manage-subscription Thanks for subscribing! The Wall Street Journal Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 22,
+          "label": "COMPANY_NAME",
+          "value": "WSJ Digital"
+        },
+        {
+          "start": 26,
+          "end": 49,
+          "label": "USER_GMAIL",
+          "value": "emily.jones1985@gmail.com"
+        },
+        {
+          "start": 140,
+          "end": 156,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "WSJ Digital (Monthly)"
+        },
+        {
+          "start": 172,
+          "end": 181,
+          "label": "PAYMENT_AMOUNT",
+          "value": "39.99"
+        },
+        {
+          "start": 171,
+          "end": 172,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 200,
+          "end": 217,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending in 4242"
+        },
+        {
+          "start": 235,
+          "end": 249,
+          "label": "RENEWAL_DATE",
+          "value": "July 21, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a112bfed-8f10-4e72-b462-5f775dbf6aa5",
+      "content": {
+        "raw_text": "From: trial@wsj.com To: brian.smith72@gmail.com Subject: Your 7-day WSJ trial starts now! Hello Brian, Your free 7-day WSJ Digital trial begins today! Enjoy unlimited access to our award-winning journalism until June 28, 2025. After your trial, your subscription will auto-renew at $39.99/month. To manage your subscription or cancel before renewal, visit: https://www.wsj.com/trial-manage Enjoy your trial! The Wall Street Journal Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "WSJ Digital"
+        },
+        {
+          "start": 23,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "brian.smith72@gmail.com"
+        },
+        {
+          "start": 132,
+          "end": 150,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "WSJ Digital trial"
+        },
+        {
+          "start": 205,
+          "end": 211,
+          "label": "PAYMENT_AMOUNT",
+          "value": "39.99"
+        },
+        {
+          "start": 204,
+          "end": 205,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 211,
+          "end": 224,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$39.99/month"
+        },
+        {
+          "start": 173,
+          "end": 190,
+          "label": "RENEWAL_DATE",
+          "value": "June 28, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1d788b47-cf96-4a1f-929a-9645b62f0c36",
+      "content": {
+        "raw_text": "From: reminders@wsj.com To: brian.smith72@gmail.com Subject: 24 hours left in your WSJ trial! Hi Brian, Your WSJ Digital free trial expires tomorrow, June 28, 2025. To avoid any interruption, confirm your subscription now: https://www.wsj.com/subscribe-now Questions? Visit our Help Center: https://www.wsj.com/help Best, WSJ Customer Care"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "WSJ Digital"
+        },
+        {
+          "start": 23,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "brian.smith72@gmail.com"
+        },
+        {
+          "start": 94,
+          "end": 110,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "WSJ Digital free trial"
+        },
+        {
+          "start": 111,
+          "end": 124,
+          "label": "RENEWAL_DATE",
+          "value": "June 28, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "bbf9a562-0153-4794-bad9-b08a0be46b54",
+      "content": {
+        "raw_text": "From: payments@wsj.in To: neha.joshi@yahoo.com Subject: Your WSJ Digital subscription renewal receipt Hi Neha, Your monthly WSJ Digital subscription has been renewed successfully. Details: \u2022 Plan: WSJ Digital Monthly \u2022 Amount: \u20b9299 \u2022 Payment Method: Paytm Wallet \u2022 Renewal Date: June 21, 2025 For billing details, visit: https://www.wsj.in/manage-subscription Thanks for staying with us! WSJ India"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "WSJ Digital"
+        },
+        {
+          "start": 23,
+          "end": 40,
+          "label": "USER_GMAIL",
+          "value": "neha.joshi@yahoo.com"
+        },
+        {
+          "start": 112,
+          "end": 127,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "WSJ Digital Monthly"
+        },
+        {
+          "start": 142,
+          "end": 146,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 161,
+          "end": 173,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Paytm Wallet"
+        },
+        {
+          "start": 188,
+          "end": 202,
+          "label": "RENEWAL_DATE",
+          "value": "June 21, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "db084cf8-710e-4e6e-96d4-f684d73927b8",
+      "content": {
+        "raw_text": "From: billing@wsj.co.uk To: sophie.turner22@outlook.co.uk Subject: Payment declined - WSJ Digital subscription Hello Sophie, We couldn't process your latest payment (\u00a39.99/month) for your WSJ Digital subscription due to an issue with your Mastercard ending in 5678. Please update your payment details here: https://www.wsj.co.uk/update-payment Thanks, WSJ Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "WSJ Digital"
+        },
+        {
+          "start": 23,
+          "end": 50,
+          "label": "USER_GMAIL",
+          "value": "sophie.turner22@outlook.co.uk"
+        },
+        {
+          "start": 105,
+          "end": 112,
+          "label": "PAYMENT_AMOUNT",
+          "value": "9.99"
+        },
+        {
+          "start": 104,
+          "end": 105,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a3"
+        },
+        {
+          "start": 125,
+          "end": 144,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending in 5678"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "dbf2716f-2437-4a5b-b9ad-215eaa1a4871",
+      "content": {
+        "raw_text": "From: support@wsj.ca To: michael.wilson@rogers.ca Subject: Your WSJ Digital subscription is cancelled Hello Michael, We're confirming your WSJ Digital subscription cancellation. You\u2019ll retain access until your billing cycle ends on July 15, 2025. You can reactivate your subscription anytime here: https://www.wsj.ca/reactivate Thank you for having been a subscriber, The WSJ Canada Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "WSJ Digital"
+        },
+        {
+          "start": 23,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "michael.wilson@rogers.ca"
+        },
+        {
+          "start": 123,
+          "end": 137,
+          "label": "RENEWAL_DATE",
+          "value": "July 15, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "fd0d70b2-e7e1-4ebd-b178-4b79b6a2b4c6",
+      "content": {
+        "raw_text": "From: subscriptions@wsj.de To: anna.schmidt@web.de Subject: Your WSJ plan upgrade confirmation Hello Anna, Your WSJ subscription has been upgraded to the All Access Digital + Print Plan. New subscription details: \u2022 Plan: All Access Digital + Print \u2022 Price: \u20ac199/year \u2022 Payment: SEPA direct debit \u2022 Effective from: June 20, 2025 Manage your subscription at: https://www.wsj.de/manage Thank you, WSJ Europe Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "WSJ"
+        },
+        {
+          "start": 23,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "anna.schmidt@web.de"
+        },
+        {
+          "start": 112,
+          "end": 143,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "All Access Digital + Print"
+        },
+        {
+          "start": 157,
+          "end": 164,
+          "label": "PAYMENT_AMOUNT",
+          "value": "199"
+        },
+        {
+          "start": 156,
+          "end": 157,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 174,
+          "end": 194,
+          "label": "PAYMENT_PLATFORM",
+          "value": "SEPA direct debit"
+        },
+        {
+          "start": 212,
+          "end": 226,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "bb3f56db-87ff-4a27-8ec7-7f21e798a139",
+      "content": {
+        "raw_text": "From: refunds@wsj.com To: emily.jones1985@gmail.com Subject: Your WSJ refund has been processed Hi Emily, We've processed your refund of $39.99 for your recent subscription cancellation. Amount refunded: $39.99 Refunded to: Visa ending in 4242 Processed on: June 21, 2025 You should see this refund within 5-7 business days. Regards, WSJ Billing Department"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "WSJ"
+        },
+        {
+          "start": 23,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "emily.jones1985@gmail.com"
+        },
+        {
+          "start": 88,
+          "end": 93,
+          "label": "PAYMENT_AMOUNT",
+          "value": "39.99"
+        },
+        {
+          "start": 87,
+          "end": 88,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 112,
+          "end": 129,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending in 4242"
+        },
+        {
+          "start": 146,
+          "end": 160,
+          "label": "PAYMENT_DATE",
+          "value": "June 21, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "7f2490f1-469c-4d61-843b-1698f8e089d2",
+      "content": {
+        "raw_text": "From: offers@wsj.com.au To: kylie.morgan@bigpond.com Subject: Hurry! Your WSJ promotional discount ends soon Hello Kylie, Your special promotional rate (AUD $4.99/month) for WSJ Digital expires in 3 days. Renew today to continue at the discounted rate for another year: https://www.wsj.com.au/renew-offer Best regards, WSJ Australia Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "WSJ Digital"
+        },
+        {
+          "start": 23,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "kylie.morgan@bigpond.com"
+        },
+        {
+          "start": 106,
+          "end": 110,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "AUD "
+        },
+        {
+          "start": 111,
+          "end": 115,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4.99"
+        },
+        {
+          "start": 115,
+          "end": 123,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "4.99/month"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ac2e2d64-64de-4091-9f58-b1fa4354f99e",
+      "content": {
+        "raw_text": "From: family@wsj.com.mx To: carmen.ortega@icloud.com Subject: You're invited to join the WSJ Family Plan Hi Carmen, Luis Ortega has invited you to join their WSJ Family subscription. Accept this invitation to enjoy unlimited WSJ Digital access at no additional cost. Accept invitation here: https://www.wsj.com.mx/family-accept Enjoy reading together! The WSJ Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "WSJ Family"
+        },
+        {
+          "start": 23,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "carmen.ortega@icloud.com"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "apple_music_emails": [
+    {
+      "id": "45db0b3e-e6b7-4f25-9d2e-3f4b8aeb93fa",
+      "content": {
+        "raw_text": "From: Apple <no-reply@apple.com> To: andrew.m.hughes@icloud.com Subject: Your Apple Music Subscription Has Been Renewed Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Andrew, Your Apple Music subscription has renewed for another month. Enjoy ad-free music and curated playlists. \u2022 Plan: Apple Music Individual \u2022 Billing Date: June 20, 2025 \u2022 Amount: $10.99/month \u2022 Payment Method: Apple ID balance You can manage or cancel anytime in Subscriptions. Thanks for listening, Apple Music"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 17,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "andrew.m.hughes@icloud.com"
+        },
+        {
+          "start": 81,
+          "end": 87,
+          "label": "USERNAME",
+          "value": "Andrew"
+        },
+        {
+          "start": 105,
+          "end": 125,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Apple Music Individual"
+        },
+        {
+          "start": 136,
+          "end": 150,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 159,
+          "end": 171,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$10.99/month"
+        },
+        {
+          "start": 188,
+          "end": 204,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Apple ID balance"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "eacb8f67-c542-4e4a-bf2b-4b5d650a1e2d",
+      "content": {
+        "raw_text": "From: Apple <subscriptions@apple.com> To: tina.l.holmes@gmail.com Subject: Your Apple Music Trial Ends Soon Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Tina, Your Apple Music trial ends on June 23, 2025. After that, your plan will auto-renew at $10.99/month unless canceled. Manage or cancel from your iPhone > Settings > Apple ID > Subscriptions. Thanks for trying Apple Music!"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 22,
+          "end": 42,
+          "label": "USER_GMAIL",
+          "value": "tina.l.holmes@gmail.com"
+        },
+        {
+          "start": 44,
+          "end": 48,
+          "label": "USERNAME",
+          "value": "Tina"
+        },
+        {
+          "start": 90,
+          "end": 106,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 23, 2025"
+        },
+        {
+          "start": 121,
+          "end": 143,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$10.99/month"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "e98ca41e-177b-42b2-974d-b6ad9f1f2d51",
+      "content": {
+        "raw_text": "From: Apple Music <services@apple.com> To: stephen.j.wilson75@outlook.com Subject: You\u2019ve Upgraded to Apple Music Family Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Stephen, You\u2019ve successfully upgraded to the Apple Music Family Plan. Invite up to 6 family members to join. \u2022 New Plan: Family \u2022 Billing Date: June 20, 2025 \u2022 Amount: $16.99/month \u2022 Payment Method: Mastercard ending in 1144 Invite family now using your Apple ID settings. Apple Music Support Apple Inc. \u00a9 2025"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Apple Music"
+        },
+        {
+          "start": 26,
+          "end": 59,
+          "label": "USER_GMAIL",
+          "value": "stephen.j.wilson75@outlook.com"
+        },
+        {
+          "start": 61,
+          "end": 68,
+          "label": "USERNAME",
+          "value": "Stephen"
+        },
+        {
+          "start": 132,
+          "end": 138,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Family"
+        },
+        {
+          "start": 151,
+          "end": 165,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 174,
+          "end": 187,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$16.99/month"
+        },
+        {
+          "start": 204,
+          "end": 223,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 224,
+          "end": 228,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1144"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "8a73f99c-3f39-43c6-b674-4f55e81e511b",
+      "content": {
+        "raw_text": "From: Apple <no-reply@apple.com> To: debbie.f.nguyen@icloud.com Subject: Apple Music Subscription Canceled Date: Sat, 21 Jun 2025 02:19:00 +0530 (IST) Hi Debbie, We\u2019ve canceled your Apple Music subscription effective June 20, 2025. You\u2019ll have access until your current billing period ends. If this was a mistake, you can re-subscribe at any time from your Apple ID > Subscriptions. Apple Inc. \u00a9 2025"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 17,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "debbie.f.nguyen@icloud.com"
+        },
+        {
+          "start": 45,
+          "end": 51,
+          "label": "USERNAME",
+          "value": "Debbie"
+        },
+        {
+          "start": 80,
+          "end": 94,
+          "label": "CANCELLATION_DATE",
+          "value": "June 20, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "bd7b7b1b-17e0-44ca-a98e-3d301dcb37f5",
+      "content": {
+        "raw_text": "From: Apple <billing@apple.com> To: sean.t.walker32@yahoo.com Subject: Apple Music Payment Failed Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Sean, We couldn\u2019t process your Apple Music subscription payment. \u2022 Plan: Apple Music Individual \u2022 Amount: $10.99 \u2022 Attempted Date: June 20, 2025 \u2022 Payment Method: Visa ending in 6543 Update your payment method in Subscriptions to avoid interruption. Apple Support"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 17,
+          "end": 40,
+          "label": "USER_GMAIL",
+          "value": "sean.t.walker32@yahoo.com"
+        },
+        {
+          "start": 42,
+          "end": 46,
+          "label": "USERNAME",
+          "value": "Sean"
+        },
+        {
+          "start": 92,
+          "end": 112,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Apple Music Individual"
+        },
+        {
+          "start": 126,
+          "end": 131,
+          "label": "PAYMENT_AMOUNT",
+          "value": "10.99"
+        },
+        {
+          "start": 152,
+          "end": 166,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 187,
+          "end": 199,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 200,
+          "end": 204,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6543"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "0d1b2b09-17a1-406f-9205-1a39b907a9e7",
+      "content": {
+        "raw_text": "From: Apple Music verify@student.apple.com To: avery.r.hughes@icloud.com Subject: Verify Your Student Status for Apple Music Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Avery, We need to verify your student status to continue your Apple Music Student Plan at $5.99/month. Verify now to avoid moving to the Individual Plan. Apple Music"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "Apple Music"
+        },
+        {
+          "start": 17,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "avery.r.hughes@icloud.com"
+        },
+        {
+          "start": 46,
+          "end": 51,
+          "label": "USERNAME",
+          "value": "Avery"
+        },
+        {
+          "start": 111,
+          "end": 123,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Apple Music Student"
+        },
+        {
+          "start": 127,
+          "end": 134,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$5.99/month"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c9caa684-15c2-4f3c-89f9-1098702dbed4",
+      "content": {
+        "raw_text": "From: Apple Music no-reply@apple.com To: laura.p.jones@me.com Subject: You've Been Added to Apple Music Family Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Laura, You've been added to the Apple Music Family Plan by John Jones. Start streaming now with your Apple ID. Welcome! Apple Music"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Apple Music"
+        },
+        {
+          "start": 26,
+          "end": 42,
+          "label": "USER_GMAIL",
+          "value": "laura.p.jones@me.com"
+        },
+        {
+          "start": 45,
+          "end": 50,
+          "label": "USERNAME",
+          "value": "Laura"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "184112f7-290f-44fa-a4a2-68b457dbab11",
+      "content": {
+        "raw_text": "From: Apple Music summary@apple.com To: marc.t.fernandez@gmail.com Subject: Your Monthly Listening Summary Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Marc, Here\u2019s what you listened to this month: \u2022 Top Artist: Taylor Swift \u2022 Hours Listened: 27 \u2022 Favorite Genre: Pop See more \u2192 Apple Music"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Apple Music"
+        },
+        {
+          "start": 26,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "marc.t.fernandez@gmail.com"
+        },
+        {
+          "start": 51,
+          "end": 55,
+          "label": "USERNAME",
+          "value": "Marc"
+        }
+      ],
+      "is_subscription_email": false
+    }
+  ]
+}

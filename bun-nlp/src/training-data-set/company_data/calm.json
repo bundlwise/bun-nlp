@@ -1,0 +1,138 @@
+{
+  "Calm": [
+    {
+      "id": "e95a57c4-4e32-42a5-9b4c-e2212c26cb1f",
+      "content": {
+        "raw_text": "From: Calm Team <hello@calm.com> To: Sarah Bennett <sarah.bennett89@gmail.com> Date: Wednesday, November 8, 2023 at 9:37 AM Subject: Welcome to Calm, Sarah Welcome to Calm Hi Sarah, We\u2019re so glad you\u2019re here. Whether you're looking to improve your sleep, reduce stress, or simply create a few quiet moments in your day, Calm is here to support your journey. It\u2019s easy to get started \u2014 just open the app and take your first breath with us. Here are a few ways to begin: Daily Calm A new 10-minute meditation every day to help you feel more grounded and present. Sleep Stories Ease into restful sleep with soothing bedtime stories for kids and adults alike. Soundscapes and Music Relax, focus, or unwind with our specially curated sounds and calming music. If you need help or have any questions, our team is always here. You can visit our Help Center or reach out to us directly. Take care, The Calm Team Calm, Inc. 77 Geary Street, 3rd Floor San Francisco, CA 94108"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 10,
+          "label": "COMPANY_NAME",
+          "value": "Calm"
+        },
+        {
+          "start": 42,
+          "end": 70,
+          "label": "USER_GMAIL",
+          "value": "sarah.bennett89@gmail.com"
+        },
+        {
+          "start": 95,
+          "end": 100,
+          "label": "USERNAME",
+          "value": "Sarah"
+        },
+        {
+          "start": 134,
+          "end": 138,
+          "label": "COMPANY_NAME",
+          "value": "Calm"
+        }
+      ]
+    },
+    {
+      "id": "43d9f401-5d4e-4a89-80de-30fcd4c2aeb8",
+      "content": {
+        "raw_text": "From: Calm <hello@calm.com> To: Emma Collins <emma.collins92@gmail.com> Date: Monday, October 16, 2023 at 8:12 AM Subject: Payment Failed \u2013 Please Update Your Calm Subscription Hi Emma, We tried to renew your Calm Premium subscription, but your payment didn\u2019t go through. To ensure uninterrupted access to your meditations, Sleep Stories, and music, please update your billing information as soon as possible. Update Payment Method If you\u2019ve already updated your payment details, you can disregard this message. Need assistance? Visit our Help Center or reply to this email \u2014 we\u2019re here to help. Calm, Inc. 77 Geary Street, 3rd Floor San Francisco, CA 94108 Take care, The Calm Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 10,
+          "label": "COMPANY_NAME",
+          "value": "Calm"
+        },
+        {
+          "start": 36,
+          "end": 63,
+          "label": "USER_GMAIL",
+          "value": "emma.collins92@gmail.com"
+        },
+        {
+          "start": 88,
+          "end": 93,
+          "label": "USERNAME",
+          "value": "Emma"
+        },
+        {
+          "start": 124,
+          "end": 137,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Calm Premium"
+        }
+      ]
+    },
+    {
+      "id": "75ad6a71-9ff7-49fd-b7a0-fb0a47d061c7",
+      "content": {
+        "raw_text": "From: Calm <hello@calm.com> To: Emma Collins <emma.collins92@gmail.com> Date: Monday, October 16, 2023 at 8:12 AM Subject: Payment Failed \u2013 Please Update Your Calm Subscription Hi Emma, We tried to renew your Calm Premium subscription, but your payment didn\u2019t go through. To ensure uninterrupted access to your meditations, Sleep Stories, and music, please update your billing information as soon as possible. Update Payment Method If you\u2019ve already updated your payment details, you can disregard this message. Need assistance? Visit our Help Center or reply to this email \u2014 we\u2019re here to help. Take care, The Calm Team Calm, Inc. 77 Geary Street, 3rd Floor San Francisco, CA 94108 Privacy Policy \u2022 Terms \u2022 Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 10,
+          "label": "COMPANY_NAME",
+          "value": "Calm"
+        },
+        {
+          "start": 36,
+          "end": 63,
+          "label": "USER_GMAIL",
+          "value": "emma.collins92@gmail.com"
+        },
+        {
+          "start": 88,
+          "end": 93,
+          "label": "USERNAME",
+          "value": "Emma"
+        },
+        {
+          "start": 124,
+          "end": 137,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Calm Premium"
+        }
+      ]
+    },
+    {
+      "id": "0d46f2ae-f3c4-4bcb-b444-1f0d0ddcadc9",
+      "content": {
+        "raw_text": "From: Calm <hello@calm.com> To: Olivia Ramsey <olivia.ramsey82@gmail.com> Date: Friday, December 1, 2023 at 10:19 AM Subject: Your Calm subscription has been cancelled Hi Olivia, This email confirms that your Calm Premium subscription has been successfully cancelled. You\u2019ll continue to have access to Calm Premium through December 31, 2023. After that date, your account will remain active with access to our free content, and you\u2019re always welcome to return to Premium at any time. If you have any questions, feel free to reply to this message or visit our Help Center. Thank you for being part of the Calm community. Take care, The Calm Team Calm, Inc. 77 Geary Street, 3rd Floor San Francisco, CA 94108 Privacy Policy \u2022 Terms \u2022 Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 10,
+          "label": "COMPANY_NAME",
+          "value": "Calm"
+        },
+        {
+          "start": 38,
+          "end": 67,
+          "label": "USER_GMAIL",
+          "value": "olivia.ramsey82@gmail.com"
+        },
+        {
+          "start": 92,
+          "end": 99,
+          "label": "USERNAME",
+          "value": "Olivia"
+        },
+        {
+          "start": 138,
+          "end": 151,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Calm Premium"
+        },
+        {
+          "start": 221,
+          "end": 239,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "December 31, 2023"
+        }
+      ]
+    }
+  ]
+}

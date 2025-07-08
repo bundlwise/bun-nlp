@@ -1,0 +1,1030 @@
+{
+  "amazon_prime_video": [
+    {
+      "id": "6ed25b27-858d-4e2f-bdfb-3a78bb65f7aa",
+      "content": {
+        "raw_text": "From: Amazon Prime Video primevideo-noreply@amazon.com To: sarah.j.miller92@gmail.com Subject: Welcome to Amazon Prime Video \u2013 Start Streaming Now! Date: Fri, 20 Jun 2025 02:18:00 +0530 (IST) Body: Dear Sarah Miller, Welcome to Amazon Prime Video! Your subscription is now active, and you\u2019re ready to dive into a world of entertainment. With Prime Video, you get unlimited access to exclusive Amazon Originals, popular movies, hit TV shows, and live sports\u2014all included with your Amazon Prime membership or standalone Prime Video subscription. Here\u2019s what you can enjoy: \u2022 Exclusive Content: Stream award-winning series like The Boys, The Lord of the Rings: The Rings of Power, and more. \u2022 Live Events: Catch live sports like NFL on Prime or NWSL games. \u2022 Add-On Channels: Enhance your experience with subscriptions to HBO Max, STARZ, and more. Explore channels at amazon.com/channels. \u2022 Offline Viewing: Download select titles to watch on the go with the Prime Video app. Your subscription details: \u2022 Plan: Amazon Prime Video (included with Amazon Prime) \u2022 Billing Date: Monthly on the 20th ($14.99/month for Prime or $8.99/month for standalone Prime Video, plus applicable taxes) \u2022 Payment Method: Visa ending in 5678 Get started now: Start Watching To manage your subscription or update your preferences, visit Your Account. Thank you for choosing Amazon Prime Video! If you have any questions, contact us at support@amazon.com or call 1-888-280-4331. Happy streaming, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 56,
+          "label": "USER_GMAIL",
+          "value": "sarah.j.miller92@gmail.com"
+        },
+        {
+          "start": 115,
+          "end": 127,
+          "label": "USERNAME",
+          "value": "Sarah Miller"
+        },
+        {
+          "start": 841,
+          "end": 864,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Amazon Prime Video (included with Amazon Prime)"
+        },
+        {
+          "start": 875,
+          "end": 890,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$14.99/month"
+        },
+        {
+          "start": 894,
+          "end": 909,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$8.99/month"
+        },
+        {
+          "start": 939,
+          "end": 952,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 953,
+          "end": 957,
+          "label": "PAYMENT_AMOUNT",
+          "value": "5678"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "6da9d79c-cf4e-48b8-8cbb-b5048a3d36b9",
+      "content": {
+        "raw_text": "From: Amazon Prime Video auto-confirm@amazon.com To: rajesh.kumar1985@outlook.com Subject: Your Amazon Prime Video Subscription Renews Soon Date: Sun, 15 Jun 2025 02:18:00 +0530 (IST) Body: Dear Rajesh Kumar, This is a friendly reminder that your Amazon Prime Video subscription is set to renew on June 20, 2025. You\u2019ll continue to enjoy unlimited access to thousands of movies, TV shows, and exclusive Amazon Originals. Subscription details: \u2022 Plan: Amazon Prime Video (standalone) \u2022 Renewal Date: June 20, 2025 \u2022 Amount: $8.99/month (plus applicable taxes) \u2022 Payment Method: Mastercard ending in 9012 No action is needed to continue your subscription\u2014it will renew automatically. To update your payment method or manage your subscription, visit Your Account. Want to explore more? Check out new releases and add-on channels at amazon.com/channels. If you have any questions, reach out to us at support@amazon.com or call 1-888-280-4331. Enjoy your Prime Video experience! The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 60,
+          "label": "USER_GMAIL",
+          "value": "rajesh.kumar1985@outlook.com"
+        },
+        {
+          "start": 114,
+          "end": 126,
+          "label": "USERNAME",
+          "value": "Rajesh Kumar"
+        },
+        {
+          "start": 381,
+          "end": 397,
+          "label": "RENEWAL_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 323,
+          "end": 345,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Amazon Prime Video (standalone)"
+        },
+        {
+          "start": 421,
+          "end": 427,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.99"
+        },
+        {
+          "start": 420,
+          "end": 421,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 437,
+          "end": 455,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 456,
+          "end": 460,
+          "label": "PAYMENT_AMOUNT",
+          "value": "9012"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f95d43af-d99e-4b84-8b3e-7058ee45a1e4",
+      "content": {
+        "raw_text": "From: Amazon Prime Video no-reply@primevideo.com To: emily.r.watson@mycompanydomain.com Subject: Action Required: Issue with Your Prime Video Payment Date: Sat, 21 Jun 2025 02:18:00 +0530 (IST) Body: Dear Emily Watson, We\u2019re having trouble processing the payment for your Amazon Prime Video subscription. To keep your account active and continue enjoying uninterrupted streaming, please update your payment information. Subscription details: \u2022 Plan: Amazon Prime Video (standalone) \u2022 Amount Due: $8.99 (plus applicable taxes) \u2022 Payment Method: Visa ending in 3456 (payment declined) Please take a moment to update your payment details: Update Payment Method If the payment issue isn\u2019t resolved by June 25, 2025, your subscription may be paused, and you could lose access to Prime Video content. For assistance, contact us at support@amazon.com or call 1-888-280-4331. Thank you, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates Note: If you suspect this email is not from Amazon, verify it in your Message Center on Amazon.com. Report suspicious emails to stop-spoofing@amazon.com."
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 62,
+          "label": "USER_GMAIL",
+          "value": "emily.r.watson@mycompanydomain.com"
+        },
+        {
+          "start": 117,
+          "end": 129,
+          "label": "USERNAME",
+          "value": "Emily Watson"
+        },
+        {
+          "start": 355,
+          "end": 371,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.99"
+        },
+        {
+          "start": 354,
+          "end": 355,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 386,
+          "end": 397,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 398,
+          "end": 402,
+          "label": "PAYMENT_AMOUNT",
+          "value": "3456"
+        },
+        {
+          "start": 463,
+          "end": 475,
+          "label": "RENEWAL_DATE",
+          "value": "June 25, 2025"
+        },
+        {
+          "start": 301,
+          "end": 323,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Amazon Prime Video (standalone)"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "0f29f45d-7a90-4a70-9c4a-99a53a3c97c6",
+      "content": {
+        "raw_text": "From: Amazon Prime Video notifications@amazonaws.com To: john.t.smith2000@yahoo.com Subject: Your Amazon Prime Video Subscription Has Been Canceled Date: Fri, 20 Jun 2025 02:18:00 +0530 (IST) Body: Dear John Smith, We\u2019re sorry to see you go. This email confirms that your Amazon Prime Video subscription has been canceled, effective June 20, 2025. You will not be charged further, and your access to Prime Video content will end on June 20, 2025. Subscription details: \u2022 Plan: Amazon Prime Video (standalone) \u2022 Cancellation Date: June 20, 2025 \u2022 Final Billing: No further charges If you change your mind, you can restart your subscription at any time by visiting amazon.com/primevideo and signing up again. We\u2019d love to hear your feedback to improve our service. Please contact us at support@amazon.com or call 1-888-280-4331 if you have any questions or would like to share your thoughts. Thank you for being a Prime Video member. The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 59,
+          "label": "USER_GMAIL",
+          "value": "john.t.smith2000@yahoo.com"
+        },
+        {
+          "start": 115,
+          "end": 125,
+          "label": "USERNAME",
+          "value": "John Smith"
+        },
+        {
+          "start": 288,
+          "end": 304,
+          "label": "CANCELLATION_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 264,
+          "end": 288,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Amazon Prime Video (standalone)"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "377f5f91-cc6c-4d32-8821-6c6f3c6909f3",
+      "content": {
+        "raw_text": "From: Amazon Prime Video primevideo-noreply@amazon.com To: emma.l.thompson23@gmail.com Subject: Welcome to Amazon Prime Video \u2013 Start Your Streaming Journey! Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Body: Dear Emma Thompson, Welcome to Amazon Prime Video! Your subscription is now active, giving you unlimited access to exclusive Amazon Originals, movies, TV shows, and more. Here\u2019s what you can enjoy: \u2022 Exclusive Content: Stream The Boys, Invincible, and more. \u2022 Live Sports: Watch NFL on Prime or NWSL games. \u2022 Add-On Channels: Explore HBO Max, STARZ, and others at amazon.com/channels. \u2022 Offline Viewing: Download titles with the Prime Video app. Subscription details: \u2022 Plan: Amazon Prime Video (Standalone) \u2022 Billing Date: Monthly on the 20th ($8.99/month, plus taxes) \u2022 Payment Method: Visa ending in 4321 Get started: Start Watching Manage your subscription at Your Account. Contact us at support@amazon.com or 1-888-280-4331. Happy streaming, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 60,
+          "label": "USER_GMAIL",
+          "value": "emma.l.thompson23@gmail.com"
+        },
+        {
+          "start": 115,
+          "end": 129,
+          "label": "USERNAME",
+          "value": "Emma Thompson"
+        },
+        {
+          "start": 671,
+          "end": 694,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Amazon Prime Video (Standalone)"
+        },
+        {
+          "start": 713,
+          "end": 724,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$8.99/month"
+        },
+        {
+          "start": 755,
+          "end": 768,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 769,
+          "end": 773,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4321"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a2bc9f27-8f2a-4e20-9637-986e984c29e7",
+      "content": {
+        "raw_text": "From: Amazon Prime Video auto-confirm@amazon.com To: michael.j.roberts88@outlook.com Subject: Your Amazon Prime Membership Now Includes Prime Video! Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Body: Dear Michael Roberts, Welcome to Amazon Prime Video, included with your Amazon Prime membership! Enjoy unlimited streaming of movies, TV shows, and Amazon Originals like The Rings of Power. Your benefits: \u2022 Exclusive Content: Watch Reacher, Jack Ryan, and more. \u2022 Live Events: Stream NFL games and more. \u2022 Offline Downloads: Use the Prime Video app to watch anywhere. Subscription details: \u2022 Plan: Amazon Prime (includes Prime Video) \u2022 Billing Date: Monthly on the 20th ($14.99/month, plus taxes) \u2022 Payment Method: Mastercard ending in 9876 Start streaming: Watch Now Visit Your Account to manage your membership. Contact us at support@amazon.com or 1-888-280-4331. Enjoy, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 62,
+          "label": "USER_GMAIL",
+          "value": "michael.j.roberts88@outlook.com"
+        },
+        {
+          "start": 115,
+          "end": 129,
+          "label": "USERNAME",
+          "value": "Michael Roberts"
+        },
+        {
+          "start": 728,
+          "end": 751,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Amazon Prime (includes Prime Video)"
+        },
+        {
+          "start": 772,
+          "end": 787,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$14.99/month"
+        },
+        {
+          "start": 825,
+          "end": 843,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 844,
+          "end": 848,
+          "label": "PAYMENT_AMOUNT",
+          "value": "9876"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "6689e2be-823f-405e-bb92-420468f05d19",
+      "content": {
+        "raw_text": "From: Amazon Prime Video no-reply@primevideo.com To: aisha.k.patel94@yahoo.com Subject: Your Amazon Prime Video Free Trial Has Started! Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Body: Dear Aisha Patel, Your 30-day free trial of Amazon Prime Video has begun! Enjoy unlimited access to thousands of movies, TV shows, and Amazon Originals at no cost during your trial. What\u2019s included: \u2022 Amazon Originals: Stream The Marvelous Mrs. Maisel and more. \u2022 Live Sports: Watch select events like NFL on Prime. \u2022 Add-On Channels: Explore at amazon.com/channels. Trial details: \u2022 Trial End Date: July 20, 2025 \u2022 Post-Trial Plan: Prime Video Standalone ($8.99/month, plus taxes) \u2022 Payment Method: Visa ending in 1234 Start now: Stream Now Cancel anytime at Your Account. Contact us at support@amazon.com or 1-888-280-4331. Happy watching, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 56,
+          "label": "USER_GMAIL",
+          "value": "aisha.k.patel94@yahoo.com"
+        },
+        {
+          "start": 115,
+          "end": 126,
+          "label": "USERNAME",
+          "value": "Aisha Patel"
+        },
+        {
+          "start": 412,
+          "end": 424,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "July 20, 2025"
+        },
+        {
+          "start": 445,
+          "end": 472,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Prime Video Standalone"
+        },
+        {
+          "start": 474,
+          "end": 483,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$8.99/month"
+        },
+        {
+          "start": 500,
+          "end": 513,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 514,
+          "end": 518,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1234"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f3a8b85a-6b1e-46d9-b394-118494e251d2",
+      "content": {
+        "raw_text": "From: Amazon Prime Video notifications@amazonaws.com To: david.m.chen77@gmail.com Subject: Your Prime Video Free Trial Ends Soon Date: Mon, 16 Jun 2025 02:19:00 +0530 (IST) Body: Dear David Chen, Your Amazon Prime Video free trial ends on June 20, 2025. To continue enjoying unlimited streaming, your subscription will automatically renew. Subscription details: \u2022 Plan: Prime Video Standalone \u2022 Renewal Date: June 20, 2025 \u2022 Amount: $8.99/month (plus taxes) \u2022 Payment Method: Mastercard ending in 4567 No action is needed to continue. To cancel or update payment, visit Your Account. Explore more at amazon.com/primevideo. Contact us at support@amazon.com or 1-888-280-4331. Thank you, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 55,
+          "label": "USER_GMAIL",
+          "value": "david.m.chen77@gmail.com"
+        },
+        {
+          "start": 365,
+          "end": 381,
+          "label": "RENEWAL_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 325,
+          "end": 342,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Prime Video Standalone"
+        },
+        {
+          "start": 387,
+          "end": 393,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.99"
+        },
+        {
+          "start": 386,
+          "end": 387,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 408,
+          "end": 426,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 427,
+          "end": 431,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4567"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9b6a6a24-76b6-4ec3-8fdd-142ba3ec0804",
+      "content": {
+        "raw_text": "From: Amazon Prime Video auto-confirm@amazon.com To: sophia.r.garcia22@protonmail.com Subject: Your Prime Video Subscription Renews Soon Date: Mon, 15 Jun 2025 02:19:00 +0530 (IST) Body: Dear Sophia Garcia, Your Amazon Prime Video subscription renews on June 20, 2025. Continue enjoying movies, TV shows, and Amazon Originals like Bosch: Legacy. Details: \u2022 Plan: Prime Video Standalone \u2022 Renewal Date: June 20, 2025 \u2022 Amount: $8.99/month (plus taxes) \u2022 Payment Method: Visa ending in 7890 No action needed to renew. Manage your subscription at Your Account. Contact us at support@amazon.com or 1-888-280-4331. Enjoy, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 60,
+          "label": "USER_GMAIL",
+          "value": "sophia.r.garcia22@protonmail.com"
+        },
+        {
+          "start": 114,
+          "end": 128,
+          "label": "USERNAME",
+          "value": "Sophia Garcia"
+        },
+        {
+          "start": 373,
+          "end": 389,
+          "label": "RENEWAL_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 325,
+          "end": 342,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Prime Video Standalone"
+        },
+        {
+          "start": 393,
+          "end": 399,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.99"
+        },
+        {
+          "start": 392,
+          "end": 393,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 412,
+          "end": 421,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 422,
+          "end": 426,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7890"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "bf21aa37-0345-4157-bd10-0a25d9b379ad",
+      "content": {
+        "raw_text": "From: Amazon Prime Video primevideo-noreply@amazon.com To: liam.t.wilson88@icloud.com Subject: Your Amazon Prime Membership Renews Soon Date: Mon, 15 Jun 2025 02:19:00 +0530 (IST) Body: Dear Liam Wilson, Your Amazon Prime membership, including Prime Video, is set to renew on June 20, 2025. Enjoy streaming, free shipping, and more. Details: \u2022 Plan: Amazon Prime (includes Prime Video) \u2022 Renewal Date: June 20, 2025 \u2022 Amount: $139/year (plus taxes) \u2022 Payment Method: Amex ending in 2345 No action needed. Update your membership at Your Account. Contact us at support@amazon.com or 1-888-280-4331. Thank you, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 53,
+          "label": "USER_GMAIL",
+          "value": "liam.t.wilson88@icloud.com"
+        },
+        {
+          "start": 114,
+          "end": 125,
+          "label": "USERNAME",
+          "value": "Liam Wilson"
+        },
+        {
+          "start": 380,
+          "end": 396,
+          "label": "RENEWAL_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 320,
+          "end": 348,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Amazon Prime (includes Prime Video)"
+        },
+        {
+          "start": 400,
+          "end": 407,
+          "label": "PAYMENT_AMOUNT",
+          "value": "139"
+        },
+        {
+          "start": 399,
+          "end": 400,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 421,
+          "end": 429,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Amex ending"
+        },
+        {
+          "start": 430,
+          "end": 434,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2345"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d36670eb-f222-4233-9a84-7442bbda553a",
+      "content": {
+        "raw_text": "From: Amazon Prime Video no-reply@primevideo.com To: olivia.s.martin@mycompanydomain.net Subject: Action Required: Prime Video Payment Issue Date: Sat, 21 Jun 2025 02:19:00 +0530 (IST) Body: Dear Olivia Martin, We couldn\u2019t process your Amazon Prime Video payment. Update your payment to continue streaming. Details: \u2022 Plan: Prime Video Standalone \u2022 Amount Due: $8.99 (plus taxes) \u2022 Payment Method: Visa ending in 6789 (declined) Update now: Update Payment Resolve by June 25, 2025, to avoid service interruption. Contact us at support@amazon.com or 1-888-280-4331. Thank you, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates Note: Verify this email in Message Center. Report suspicious emails to stop-spoofing@amazon.com."
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 61,
+          "label": "USER_GMAIL",
+          "value": "olivia.s.martin@mycompanydomain.net"
+        },
+        {
+          "start": 115,
+          "end": 127,
+          "label": "USERNAME",
+          "value": "Olivia Martin"
+        },
+        {
+          "start": 353,
+          "end": 369,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.99"
+        },
+        {
+          "start": 352,
+          "end": 353,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 383,
+          "end": 394,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 395,
+          "end": 399,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6789"
+        },
+        {
+          "start": 472,
+          "end": 484,
+          "label": "RENEWAL_DATE",
+          "value": "June 25, 2025"
+        },
+        {
+          "start": 300,
+          "end": 317,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Prime Video Standalone"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "e7a0073d-4d99-4c94-8cb6-0ab80e6c0b62",
+      "content": {
+        "raw_text": "From: Amazon Prime Video notifications@amazonaws.com To: noah.k.lee2001@gmail.com Subject: Your Prime Video Payment Has Been Updated Date: Sat, 21 Jun 2025 02:19:00 +0530 (IST) Body: Dear Noah Lee, Your payment method for Amazon Prime Video has been successfully updated. Your subscription is active, and you can continue streaming. Details: \u2022 Plan: Prime Video Standalone \u2022 Billing Date: Monthly on the 21st ($8.99/month, plus taxes) \u2022 New Payment Method: Mastercard ending in 3456 Stream now: Watch Now Manage your account at Your Account. Contact us at support@amazon.com or 1-888-280-4331. Thank you, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 52,
+          "label": "USER_GMAIL",
+          "value": "noah.k.lee2001@gmail.com"
+        },
+        {
+          "start": 115,
+          "end": 122,
+          "label": "USERNAME",
+          "value": "Noah Lee"
+        },
+        {
+          "start": 345,
+          "end": 361,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$8.99/month"
+        },
+        {
+          "start": 373,
+          "end": 391,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 392,
+          "end": 396,
+          "label": "PAYMENT_AMOUNT",
+          "value": "3456"
+        },
+        {
+          "start": 315,
+          "end": 333,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Prime Video Standalone"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "59f9ef43-399d-4a2b-a61c-7b8ebc4e1bcf",
+      "content": {
+        "raw_text": "From: Amazon Prime Video auto-confirm@amazon.com To: isabella.m.rivera99@yahoo.com Subject: Your Prime Video Subscription Has Been Canceled Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Body: Dear Isabella Rivera, Your Amazon Prime Video subscription has been canceled, effective June 20, 2025. No further charges will apply, and access ends today. Details: \u2022 Plan: Prime Video Standalone \u2022 Cancellation Date: June 20, 2025 \u2022 Final Billing: None Restart anytime at amazon.com/primevideo. Share feedback at support@amazon.com or 1-888-280-4331. Thank you, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 60,
+          "label": "USER_GMAIL",
+          "value": "isabella.m.rivera99@yahoo.com"
+        },
+        {
+          "start": 115,
+          "end": 130,
+          "label": "USERNAME",
+          "value": "Isabella Rivera"
+        },
+        {
+          "start": 282,
+          "end": 298,
+          "label": "CANCELLATION_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 260,
+          "end": 282,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Prime Video Standalone"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "45ff728d-67a2-43f7-bd89-39cd0e7be05e",
+      "content": {
+        "raw_text": "From: Amazon Prime Video primevideo-noreply@amazon.com To: ethan.j.brown77@outlook.com Subject: Your Amazon Prime Membership Has Been Canceled Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Body: Dear Ethan Brown, Your Amazon Prime membership, including Prime Video, has been canceled, effective June 20, 2025. No further charges will apply. Details: \u2022 Plan: Amazon Prime (includes Prime Video) \u2022 Cancellation Date: June 20, 2025 \u2022 Final Billing: None Restart at amazon.com/prime. Contact us at support@amazon.com or 1-888-280-4331. Thank you, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996-2025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 34,
+          "end": 55,
+          "label": "USER_GMAIL",
+          "value": "ethan.j.brown77@outlook.com"
+        },
+        {
+          "start": 115,
+          "end": 126,
+          "label": "USERNAME",
+          "value": "Ethan Brown"
+        },
+        {
+          "start": 366,
+          "end": 382,
+          "label": "CANCELLATION_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 320,
+          "end": 348,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Amazon Prime (includes Prime Video)"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a49aef12-bbe3-45b1-92ea-c765a1d3c5e1",
+      "content": {
+        "raw_text": "From: Amazon Prime Video <no-reply@primevideo.com> To: emily.jordan23@outlook.com Subject: Your Monthly Amazon Prime Billing Statement Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Dear Emily Jordan, This is a confirmation that your Amazon Prime Video subscription has been automatically renewed for the current billing cycle. Details: \u2022 Plan: Prime Video Monthly \u2022 Billing Date: June 20, 2025 \u2022 Amount: $8.99/month (plus applicable taxes) \u2022 Payment Method: Mastercard ending in 1123 You can manage your plan in Your Account. For questions, reach us at support@amazon.com or 1-888-280-4331. Thank you for streaming with us, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996\u20132025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 39,
+          "end": 59,
+          "label": "USER_GMAIL",
+          "value": "emily.jordan23@outlook.com"
+        },
+        {
+          "start": 291,
+          "end": 309,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Prime Video Monthly"
+        },
+        {
+          "start": 332,
+          "end": 346,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 361,
+          "end": 367,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.99"
+        },
+        {
+          "start": 360,
+          "end": 361,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 390,
+          "end": 413,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 414,
+          "end": 418,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1123"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1e1d88a9-0985-4a3d-9f3e-6c9e1c72f6be",
+      "content": {
+        "raw_text": "From: Amazon Prime Video <notifications@amazonaws.com> To: daniel.k.morris47@gmail.com Subject: Your Prime Video Free Trial Ends in 3 Days Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Dear Daniel Morris, Your Amazon Prime Video free trial will end on June 23, 2025. After that, your subscription will continue automatically unless canceled. Details: \u2022 Plan: Prime Video Trial \u2192 Monthly ($8.99/month + taxes) \u2022 Billing Date: June 23, 2025 \u2022 Payment Method: Visa ending in 4576 To continue uninterrupted access, no action is needed. Cancel anytime from Your Account. Thanks for trying Prime Video, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996\u20132025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 39,
+          "end": 60,
+          "label": "USER_GMAIL",
+          "value": "daniel.k.morris47@gmail.com"
+        },
+        {
+          "start": 385,
+          "end": 401,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 23, 2025"
+        },
+        {
+          "start": 365,
+          "end": 394,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Prime Video Trial \u2192 Monthly"
+        },
+        {
+          "start": 424,
+          "end": 437,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 438,
+          "end": 442,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4576"
+        },
+        {
+          "start": 379,
+          "end": 387,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$8.99/month"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "bb6cf8a4-953f-4b96-8f39-3025c18e0cde",
+      "content": {
+        "raw_text": "From: Amazon Prime Video <alerts@amazon.com> To: rachel.p.gomez82@hotmail.com Subject: New Device Logged Into Your Prime Video Account Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Dear Rachel Gomez, A new device has signed into your Amazon Prime Video account. Details: \u2022 Device: Samsung Smart TV \u2022 Location: Dallas, TX, USA \u2022 Time: June 20, 2025, 02:15 IST If this was you, no further action is needed. If not, secure your account immediately. Visit Your Account or contact us at support@amazon.com. The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996\u20132025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 39,
+          "end": 61,
+          "label": "USER_GMAIL",
+          "value": "rachel.p.gomez82@hotmail.com"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "38277f97-62d3-4a99-9a31-fd948e28f6e9",
+      "content": {
+        "raw_text": "From: Amazon Prime Video <billing@amazon.com> To: harish.n.rao75@yahoo.com Subject: Payment Issue \u2013 Update Your Billing Info Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Dear Harish Rao, We were unable to process your recent Prime Video payment. To avoid service interruption, please update your billing information. Details: \u2022 Plan: Prime Video Monthly ($8.99/month) \u2022 Attempted On: June 20, 2025 \u2022 Payment Method: Visa ending in 9901 Update your details via Your Account. For assistance, call 1-888-280-4331 or email support@amazon.com. The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996\u20132025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 38,
+          "end": 59,
+          "label": "USER_GMAIL",
+          "value": "harish.n.rao75@yahoo.com"
+        },
+        {
+          "start": 301,
+          "end": 317,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Prime Video Monthly"
+        },
+        {
+          "start": 338,
+          "end": 344,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.99"
+        },
+        {
+          "start": 337,
+          "end": 338,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 356,
+          "end": 367,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 368,
+          "end": 372,
+          "label": "PAYMENT_AMOUNT",
+          "value": "9901"
+        },
+        {
+          "start": 330,
+          "end": 342,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f378a3d3-673f-47f0-b9f2-cb186df7a7a3",
+      "content": {
+        "raw_text": "From: Amazon Prime Video <no-reply@primevideo.com> To: sarah.l.ngo77@gmail.com Subject: Your Refund Has Been Processed Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Dear Sarah Ngo, Your refund for the STARZ Add-On subscription has been processed successfully. Details: \u2022 Subscription: STARZ Add-On \u2022 Refund Amount: $9.99 \u2022 Refunded To: Mastercard ending in 2345 \u2022 Refund Date: June 20, 2025 It may take 3\u20135 business days for the refund to appear on your statement. Questions? Visit Your Account or contact us at support@amazon.com. Thank you, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996\u20132025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 38,
+          "end": 55,
+          "label": "USER_GMAIL",
+          "value": "sarah.l.ngo77@gmail.com"
+        },
+        {
+          "start": 106,
+          "end": 115,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "STARZ Add-On"
+        },
+        {
+          "start": 146,
+          "end": 151,
+          "label": "PAYMENT_AMOUNT",
+          "value": "9.99"
+        },
+        {
+          "start": 166,
+          "end": 184,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 185,
+          "end": 189,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2345"
+        },
+        {
+          "start": 203,
+          "end": 219,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "03fda01c-5445-4a3e-b981-6e2e24393f7f",
+      "content": {
+        "raw_text": "From: Amazon Prime Video <promotions@amazon.com> To: kevin.s.lee22@gmail.com Subject: Get Showtime for 99\u00a2/mo for 2 Months Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Dear Kevin Lee, Enjoy your favorite content with our limited-time offer \u2013 subscribe to SHOWTIME on Prime Video Channels for just $0.99/month for 2 months. No commitments. Cancel anytime. Start Watching: Get Showtime Deal You can manage your subscriptions anytime under Your Account. Questions? Contact us at support@amazon.com or 1-888-280-4331. Enjoy the offer, The Amazon Prime Video Team Amazon.com | Privacy Notice | Conditions of Use \u00a9 1996\u20132025, Amazon.com, Inc. or its affiliates"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "Amazon Prime Video"
+        },
+        {
+          "start": 38,
+          "end": 56,
+          "label": "USER_GMAIL",
+          "value": "kevin.s.lee22@gmail.com"
+        },
+        {
+          "start": 155,
+          "end": 162,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 190,
+          "end": 197,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$0.99/mo"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

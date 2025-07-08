@@ -1,0 +1,796 @@
+{
+  "scribd_emails": [
+    {
+      "id": "eb35e1b7-0c64-4f2a-8a60-cd3f5c9e6a1a",
+      "content": {
+        "raw_text": "From: Scribd <no-reply@scribd.com> To: carla.t.bennett42@gmail.com Subject: Your Scribd Subscription Has Been Renewed Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Carla, Your Scribd subscription has been successfully renewed for another month. Enjoy unlimited books, audiobooks, and more! Details: \u2022 Plan: Scribd Monthly \u2022 Billing Date: June 20, 2025 \u2022 Amount: $11.99/month \u2022 Payment Method: Visa ending in 4390 Manage your subscription anytime by visiting your Account Settings. Thanks for reading with us, The Scribd Team \u00a9 2025 Scribd, Inc. | Privacy | Terms"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 47,
+          "label": "USER_GMAIL",
+          "value": "carla.t.bennett42@gmail.com"
+        },
+        {
+          "start": 78,
+          "end": 83,
+          "label": "USERNAME",
+          "value": "Carla"
+        },
+        {
+          "start": 176,
+          "end": 190,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Monthly"
+        },
+        {
+          "start": 202,
+          "end": 214,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 222,
+          "end": 233,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$11.99/month"
+        },
+        {
+          "start": 252,
+          "end": 266,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 267,
+          "end": 271,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4390"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d36e64fa-4880-43e4-8f9f-90a7f89041e4",
+      "content": {
+        "raw_text": "From: Scribd <support@scribd.com> To: matthew.c.jones92@outlook.com Subject: Your Scribd Free Trial Ends in 3 Days Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Matthew, Your free trial is almost up! On June 23, 2025, your subscription will convert to a paid plan at $11.99/month. \u2022 Plan: Scribd Free Trial \u2192 Monthly \u2022 Payment Method: Mastercard ending in 2134 No action needed if you wish to continue. Cancel before June 23 to avoid charges. Read On, Scribd"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 47,
+          "label": "USER_GMAIL",
+          "value": "matthew.c.jones92@outlook.com"
+        },
+        {
+          "start": 59,
+          "end": 66,
+          "label": "USERNAME",
+          "value": "Matthew"
+        },
+        {
+          "start": 115,
+          "end": 131,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 23, 2025"
+        },
+        {
+          "start": 150,
+          "end": 166,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Free Trial \u2192 Monthly"
+        },
+        {
+          "start": 199,
+          "end": 213,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 214,
+          "end": 218,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2134"
+        },
+        {
+          "start": 172,
+          "end": 183,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$11.99/month"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f9e76324-59f7-45d1-8cbb-ef2d45f51774",
+      "content": {
+        "raw_text": "From: Scribd <info@scribd.com> To: melissa.a.jordan55@yahoo.com Subject: Your Scribd Subscription Has Been Canceled Date: Sat, 21 Jun 2025 02:19:00 +0530 (IST) Hi Melissa, We're confirming your Scribd subscription has been canceled as of June 20, 2025. You\u2019ll still have access until your billing cycle ends. Details: \u2022 Plan: Scribd Monthly \u2022 Cancellation Date: June 20, 2025 We hope to see you again soon! The Scribd Team \u00a9 2025 Scribd, Inc."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 46,
+          "label": "USER_GMAIL",
+          "value": "melissa.a.jordan55@yahoo.com"
+        },
+        {
+          "start": 63,
+          "end": 70,
+          "label": "USERNAME",
+          "value": "Melissa"
+        },
+        {
+          "start": 141,
+          "end": 154,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Monthly"
+        },
+        {
+          "start": 172,
+          "end": 188,
+          "label": "CANCELLATION_DATE",
+          "value": "June 20, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "8e14b5ab-937e-4e5c-80f6-7f4bba28edb6",
+      "content": {
+        "raw_text": "From: Scribd <billing@scribd.com> To: anthony.v.roberts31@gmail.com Subject: You've Switched to the Scribd Annual Plan Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Anthony, Thanks for upgrading! You\u2019re now subscribed to Scribd's Annual Plan and can continue enjoying content uninterrupted. \u2022 Plan: Scribd Annual \u2022 Billing Date: June 20, 2025 \u2022 Amount: $99.99/year \u2022 Payment Method: Amex ending in 8812 Manage subscription in Account Settings. Happy reading, Scribd Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 50,
+          "label": "USER_GMAIL",
+          "value": "anthony.v.roberts31@gmail.com"
+        },
+        {
+          "start": 69,
+          "end": 76,
+          "label": "USERNAME",
+          "value": "Anthony"
+        },
+        {
+          "start": 131,
+          "end": 144,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Annual"
+        },
+        {
+          "start": 156,
+          "end": 168,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 176,
+          "end": 186,
+          "label": "PAYMENT_AMOUNT",
+          "value": "99.99"
+        },
+        {
+          "start": 185,
+          "end": 186,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 188,
+          "end": 202,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$99.99/year"
+        },
+        {
+          "start": 224,
+          "end": 237,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Amex ending"
+        },
+        {
+          "start": 238,
+          "end": 242,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8812"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "3262a1e8-3c11-4449-91df-2202e712d8e1",
+      "content": {
+        "raw_text": "From: Scribd <no-reply@scribd.com> To: rita.h.parker@live.com Subject: Trouble with Your Scribd Payment Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Rita, We weren\u2019t able to process your last payment. Please update your billing information to avoid interruption. Details: \u2022 Plan: Scribd Monthly \u2022 Attempted Charge: $11.99 \u2022 Payment Method: Visa ending in 7734 Update your payment info now to restore access. Thanks, The Scribd Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 40,
+          "label": "USER_GMAIL",
+          "value": "rita.h.parker@live.com"
+        },
+        {
+          "start": 51,
+          "end": 55,
+          "label": "USERNAME",
+          "value": "Rita"
+        },
+        {
+          "start": 104,
+          "end": 116,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Monthly"
+        },
+        {
+          "start": 140,
+          "end": 146,
+          "label": "PAYMENT_AMOUNT",
+          "value": "11.99"
+        },
+        {
+          "start": 148,
+          "end": 162,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 163,
+          "end": 167,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7734"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "6dbe3e91-54b4-4a50-9278-4777f4928877",
+      "content": {
+        "raw_text": "From: Scribd <welcome@scribd.com> To: jason.m.hart23@gmail.com Subject: Welcome to Scribd \u2013 Start Reading Now Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Jason, Welcome to Scribd! Your subscription includes unlimited access to books, audiobooks, documents, and more. Start exploring: \u2022 Recommended Reads \u2022 New Audiobooks \u2022 Trending Topics Visit your account to manage your preferences anytime. The Scribd Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 42,
+          "label": "USER_GMAIL",
+          "value": "jason.m.hart23@gmail.com"
+        },
+        {
+          "start": 45,
+          "end": 50,
+          "label": "USERNAME",
+          "value": "Jason"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "baa9746f-1d2d-4b1b-8143-b7b1224d28ef",
+      "content": {
+        "raw_text": "From: Scribd <gifts@scribd.com> To: angela.h.gomez44@yahoo.com Subject: You've Received a Scribd Gift Subscription! Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Angela, A friend has gifted you a 3-month Scribd subscription! Start reading right away. Redeem Now: [Link] Expires: July 20, 2025 Happy reading, Scribd"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 49,
+          "label": "USER_GMAIL",
+          "value": "angela.h.gomez44@yahoo.com"
+        },
+        {
+          "start": 52,
+          "end": 58,
+          "label": "USERNAME",
+          "value": "Angela"
+        },
+        {
+          "start": 73,
+          "end": 85,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "3-month"
+        },
+        {
+          "start": 105,
+          "end": 116,
+          "label": "RENEWAL_DATE",
+          "value": "July 20, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "62ebbf14-0c59-4f10-88de-d83a3f32253d",
+      "content": {
+        "raw_text": "From: Scribd no-reply@scribd.com To: michael.p.ross@hotmail.com Subject: Your Scribd Subscription Is Active Again Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Michael, Your subscription has been reactivated. Start reading where you left off! Details: \u2022 Plan: Scribd Monthly \u2022 Billing: $11.99/month \u2022 Payment Method: Visa ending in 5671 Thanks, Scribd"
+      },
+      "ner_entities": [
+        {
+          "start": 5,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 30,
+          "end": 54,
+          "label": "USER_GMAIL",
+          "value": "michael.p.ross@hotmail.com"
+        },
+        {
+          "start": 57,
+          "end": 64,
+          "label": "USERNAME",
+          "value": "Michael"
+        },
+        {
+          "start": 109,
+          "end": 121,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Monthly"
+        },
+        {
+          "start": 131,
+          "end": 143,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$11.99/month"
+        },
+        {
+          "start": 161,
+          "end": 175,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 176,
+          "end": 180,
+          "label": "PAYMENT_AMOUNT",
+          "value": "5671"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "aff8de8f-36cc-4ff4-9c17-9cb8d8546ec0",
+      "content": {
+        "raw_text": "From: Scribd promotions@scribd.com To: elena.c.miller88@gmail.com Subject: Come Back for 60 Days Free! Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Elena, We miss you! Reactivate now and enjoy 60 days free of unlimited reading. Offer valid until June 30, 2025. Reactivate Account \u2192 Scribd"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 23,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "elena.c.miller88@gmail.com"
+        },
+        {
+          "start": 98,
+          "end": 110,
+          "label": "RENEWAL_DATE",
+          "value": "June 30, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ca3cb0aa-7bbd-41b9-8de0-03d273a89c36",
+      "content": {
+        "raw_text": "From: Scribd billing@scribd.com To: david.kim17@outlook.com Subject: Your Scribd Annual Subscription Receipt Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi David, This email confirms your payment for Scribd Annual Plan. Details: \u2022 Plan: Annual \u2022 Amount: $99.99 \u2022 Billing Date: June 20, 2025 \u2022 Payment Method: Mastercard ending in 1234 Thanks, Scribd"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 36,
+          "label": "USER_GMAIL",
+          "value": "david.kim17@outlook.com"
+        },
+        {
+          "start": 104,
+          "end": 110,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Annual"
+        },
+        {
+          "start": 121,
+          "end": 127,
+          "label": "PAYMENT_AMOUNT",
+          "value": "99.99"
+        },
+        {
+          "start": 130,
+          "end": 142,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 158,
+          "end": 174,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 175,
+          "end": 179,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1234"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "e30b25ef-128e-4c0f-bd61-1f8671a320b7",
+      "content": {
+        "raw_text": "From: Scribd no-reply@scribd.com To: sophie.m.brown92@gmail.com Subject: Your Scribd Subscription Has Been Renewed Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Sophie, Your Scribd subscription has been successfully renewed for another month. Enjoy unlimited books, audiobooks, and more! Details: \u2022 Plan: Scribd Monthly \u2022 Billing Date: June 20, 2025 \u2022 Amount: $11.99/month \u2022 Payment Method: Visa ending in 4390 Manage your subscription anytime by visiting your Account Settings. Thanks for reading with us, The Scribd Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "sophie.m.brown92@gmail.com"
+        },
+        {
+          "start": 51,
+          "end": 57,
+          "label": "USERNAME",
+          "value": "Sophie"
+        },
+        {
+          "start": 119,
+          "end": 133,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Monthly"
+        },
+        {
+          "start": 145,
+          "end": 157,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 165,
+          "end": 176,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$11.99/month"
+        },
+        {
+          "start": 195,
+          "end": 209,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 210,
+          "end": 214,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4390"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b9f4e90d-2f1e-416e-b606-1a87962b263d",
+      "content": {
+        "raw_text": "From: Scribd support@scribd.com To: aaron.d.james77@outlook.com Subject: Your Scribd Free Trial Ends in 3 Days Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Aaron, Your free trial is almost up! On June 23, 2025, your subscription will convert to a paid plan at $11.99/month. \u2022 Plan: Scribd Free Trial \u2192 Monthly \u2022 Payment Method: Mastercard ending in 2134 No action needed if you wish to continue. Cancel before June 23 to avoid charges. Read On, Scribd"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "aaron.d.james77@outlook.com"
+        },
+        {
+          "start": 50,
+          "end": 55,
+          "label": "USERNAME",
+          "value": "Aaron"
+        },
+        {
+          "start": 105,
+          "end": 121,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 23, 2025"
+        },
+        {
+          "start": 140,
+          "end": 156,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Free Trial \u2192 Monthly"
+        },
+        {
+          "start": 189,
+          "end": 203,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 204,
+          "end": 208,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2134"
+        },
+        {
+          "start": 167,
+          "end": 178,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$11.99/month"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f2709c36-9747-4e6f-86de-16ca9b4b14db",
+      "content": {
+        "raw_text": "From: Scribd info@scribd.com To: claire.hamilton88@yahoo.com Subject: Your Scribd Subscription Has Been Canceled Date: Sat, 21 Jun 2025 02:19:00 +0530 (IST) Hi Claire, We're confirming your Scribd subscription has been canceled as of June 20, 2025. You\u2019ll still have access until your billing cycle ends. Details: \u2022 Plan: Scribd Monthly \u2022 Cancellation Date: June 20, 2025 We hope to see you again soon! The Scribd Team \u00a9 2025 Scribd, Inc."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "claire.hamilton88@yahoo.com"
+        },
+        {
+          "start": 50,
+          "end": 56,
+          "label": "USERNAME",
+          "value": "Claire"
+        },
+        {
+          "start": 117,
+          "end": 130,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Monthly"
+        },
+        {
+          "start": 148,
+          "end": 164,
+          "label": "CANCELLATION_DATE",
+          "value": "June 20, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "aa183a25-678f-41d4-9a0f-c91df25eecb0",
+      "content": {
+        "raw_text": "From: Scribd billing@scribd.com To: joseph.h.miller99@gmail.com Subject: You've Switched to the Scribd Annual Plan Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Joseph, Thanks for upgrading! You\u2019re now subscribed to Scribd's Annual Plan and can continue enjoying content uninterrupted. \u2022 Plan: Scribd Annual \u2022 Billing Date: June 20, 2025 \u2022 Amount: $99.99/year \u2022 Payment Method: Amex ending in 8812 Manage subscription in Account Settings. Happy reading, Scribd Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "joseph.h.miller99@gmail.com"
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "label": "USERNAME",
+          "value": "Joseph"
+        },
+        {
+          "start": 121,
+          "end": 134,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Annual"
+        },
+        {
+          "start": 146,
+          "end": 158,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 166,
+          "end": 176,
+          "label": "PAYMENT_AMOUNT",
+          "value": "99.99"
+        },
+        {
+          "start": 165,
+          "end": 166,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 178,
+          "end": 191,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$99.99/year"
+        },
+        {
+          "start": 213,
+          "end": 226,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Amex ending"
+        },
+        {
+          "start": 227,
+          "end": 231,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8812"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "795e86d0-9a5a-404a-a75d-52a2be17f4a5",
+      "content": {
+        "raw_text": "From: Scribd no-reply@scribd.com To: karen.l.murphy@live.com Subject: Trouble with Your Scribd Payment Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Karen, We weren\u2019t able to process your last payment. Please update your billing information to avoid interruption. Details: \u2022 Plan: Scribd Monthly \u2022 Attempted Charge: $11.99 \u2022 Payment Method: Visa ending in 7734 Update your payment info now to restore access. Thanks, The Scribd Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 42,
+          "label": "USER_GMAIL",
+          "value": "karen.l.murphy@live.com"
+        },
+        {
+          "start": 48,
+          "end": 53,
+          "label": "USERNAME",
+          "value": "Karen"
+        },
+        {
+          "start": 102,
+          "end": 114,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Monthly"
+        },
+        {
+          "start": 138,
+          "end": 144,
+          "label": "PAYMENT_AMOUNT",
+          "value": "11.99"
+        },
+        {
+          "start": 146,
+          "end": 160,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending"
+        },
+        {
+          "start": 161,
+          "end": 165,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7734"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "8ca8c1de-65d7-4ec9-bd78-6d45060f6a94",
+      "content": {
+        "raw_text": "From: Scribd billing@scribd.com To: kevin.j.hall84@gmail.com Subject: Your Payment Has Been Received Date: Fri, 20 Jun 2025 02:19:00 +0530 (IST) Hi Kevin, We\u2019ve successfully received your payment. Details: \u2022 Plan: Scribd Monthly \u2022 Amount: $11.99 \u2022 Date: June 20, 2025 \u2022 Payment Method: Mastercard ending in 1278 Thanks for staying with us, The Scribd Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Scribd"
+        },
+        {
+          "start": 18,
+          "end": 40,
+          "label": "USER_GMAIL",
+          "value": "kevin.j.hall84@gmail.com"
+        },
+        {
+          "start": 93,
+          "end": 105,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Scribd Monthly"
+        },
+        {
+          "start": 116,
+          "end": 122,
+          "label": "PAYMENT_AMOUNT",
+          "value": "11.99"
+        },
+        {
+          "start": 131,
+          "end": 143,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 164,
+          "end": 180,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending"
+        },
+        {
+          "start": 181,
+          "end": 185,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1278"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

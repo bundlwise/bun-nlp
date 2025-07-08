@@ -1,0 +1,772 @@
+{
+  "Medium": [
+    {
+      "id": "a1e2f3b4-d5a6-7e8f-9b10-c11d12e13f14",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: tiffany.mason@example.com Subject: Welcome to Medium Membership Date: 2025-01-03 14:33:12 Body: Hi Tiffany Mason, Thanks for subscribing to Medium Membership. Your subscription has been successfully activated. Transaction ID: 1c223a1b-f987-4d55-b13b-92b702d1e999 Amount Charged: $25.00 Card Ending in: 4381 Enjoy unlimited stories and support independent writers! Best, The Medium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 50,
+          "label": "USERNAME",
+          "value": "Tiffany Mason"
+        },
+        {
+          "start": 52,
+          "end": 74,
+          "label": "USER_GMAIL",
+          "value": "tiffany.mason@example.com"
+        },
+        {
+          "start": 136,
+          "end": 141,
+          "label": "PAYMENT_AMOUNT",
+          "value": "25.00"
+        },
+        {
+          "start": 142,
+          "end": 144,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b2c3d4e5-f6g7-h8i9-j10k11l12m13n14",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: robert.hill@fakemail.com Subject: Your Medium Membership is Renewing Soon Date: 2025-04-10 08:09:56 Body: Hi Robert Hill, Just a heads-up: your Medium Membership will renew in 3 days. Next Payment: $30.00 Card Ending in: 7723 No action is required unless you want to make changes. Thanks for being a member! \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 46,
+          "label": "USERNAME",
+          "value": "Robert Hill"
+        },
+        {
+          "start": 48,
+          "end": 71,
+          "label": "USER_GMAIL",
+          "value": "robert.hill@fakemail.com"
+        },
+        {
+          "start": 120,
+          "end": 125,
+          "label": "PAYMENT_AMOUNT",
+          "value": "30.00"
+        },
+        {
+          "start": 126,
+          "end": 128,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c3d4e5f6-g7h8-i9j10k11l12m13n14o15",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: emily.turner@protonmail.com Subject: Your Medium Payment Receipt Date: 2025-02-18 10:02:44 Body: Hi Emily Turner, Here\u2019s your receipt for your Medium Membership payment. Transaction ID: b9fe4a34-10c3-4e2d-bc80-568d6231cd5b Amount: $15.00 Date: 2025-02-18 Card Ending in: 6630 Thank you for your support. Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 47,
+          "label": "USERNAME",
+          "value": "Emily Turner"
+        },
+        {
+          "start": 49,
+          "end": 76,
+          "label": "USER_GMAIL",
+          "value": "emily.turner@protonmail.com"
+        },
+        {
+          "start": 140,
+          "end": 145,
+          "label": "PAYMENT_AMOUNT",
+          "value": "15.00"
+        },
+        {
+          "start": 146,
+          "end": 148,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d4e5f6g7-h8i9-j10k11l12m13n14o15p16",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: jason.fox@ymail.com Subject: Medium Membership Cancellation Confirmation Date: 2025-03-22 07:54:12 Body: Hi Jason Fox, Your Medium Membership has been canceled. We're sorry to see you go. Final Payment: $18.00 Card Ending in: 8094 You\u2019ll continue to have access until the end of your billing cycle. Come back anytime. The Medium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 43,
+          "label": "USERNAME",
+          "value": "Jason Fox"
+        },
+        {
+          "start": 45,
+          "end": 65,
+          "label": "USER_GMAIL",
+          "value": "jason.fox@ymail.com"
+        },
+        {
+          "start": 115,
+          "end": 120,
+          "label": "PAYMENT_AMOUNT",
+          "value": "18.00"
+        },
+        {
+          "start": 121,
+          "end": 123,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "e5f6g7h8-i9j10k11l12m13n14o15p16q17",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: laura.perez@example.org Subject: Your Medium Trial Ends in 3 Days Date: 2025-05-05 17:22:33 Body: Hi Laura Perez, Your free trial is almost over. To continue enjoying unlimited stories, your subscription will automatically begin in 3 days. Next Payment: $12.00 Card Ending in: 1856 Thanks for trying Medium! \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 45,
+          "label": "USERNAME",
+          "value": "Laura Perez"
+        },
+        {
+          "start": 47,
+          "end": 72,
+          "label": "USER_GMAIL",
+          "value": "laura.perez@example.org"
+        },
+        {
+          "start": 135,
+          "end": 140,
+          "label": "PAYMENT_AMOUNT",
+          "value": "12.00"
+        },
+        {
+          "start": 141,
+          "end": 143,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f6g7h8i9-j10k11l12m13n14o15p16q17r18",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: frank.bishop@inbox.com Subject: Issue with Your Medium Membership Payment Date: 2025-03-14 06:40:28 Body: Hi Frank Bishop, We couldn\u2019t process your last payment. Amount: $20.00 Card Ending in: 9345 Please update your payment information to continue your Membership. \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 47,
+          "label": "USERNAME",
+          "value": "Frank Bishop"
+        },
+        {
+          "start": 49,
+          "end": 72,
+          "label": "USER_GMAIL",
+          "value": "frank.bishop@inbox.com"
+        },
+        {
+          "start": 112,
+          "end": 117,
+          "label": "PAYMENT_AMOUNT",
+          "value": "20.00"
+        },
+        {
+          "start": 118,
+          "end": 120,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "g7h8i9j10-k11l12m13n14o15p16q17r18s19",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: amanda.sanders@icloud.com Subject: You\u2019ve Upgraded Your Medium Membership Date: 2025-02-08 13:19:50 Body: Hi Amanda Sanders, You\u2019ve successfully upgraded your Medium Membership. Transaction ID: 93cf0f61-df6d-4876-ae0f-7f0ac084014c New Plan Amount: $45.00 Card Ending in: 2771 Enjoy even more with your upgraded benefits! Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 49,
+          "label": "USERNAME",
+          "value": "Amanda Sanders"
+        },
+        {
+          "start": 51,
+          "end": 74,
+          "label": "USER_GMAIL",
+          "value": "amanda.sanders@icloud.com"
+        },
+        {
+          "start": 137,
+          "end": 142,
+          "label": "PAYMENT_AMOUNT",
+          "value": "45.00"
+        },
+        {
+          "start": 143,
+          "end": 145,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "h8i9j10-k11l12m13n14o15p16q17r18s19t20",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: kevin.murphy@fastmail.com Subject: Special Offer: 50% Off Medium Membership Date: 2025-06-01 12:44:22 Body: Hi Kevin Murphy, For a limited time, enjoy 50% off your Medium Membership. New Price: $7.50 Don\u2019t miss out \u2014 offer ends soon. Subscribe today and support great writing. Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 47,
+          "label": "USERNAME",
+          "value": "Kevin Murphy"
+        },
+        {
+          "start": 49,
+          "end": 77,
+          "label": "USER_GMAIL",
+          "value": "kevin.murphy@fastmail.com"
+        },
+        {
+          "start": 118,
+          "end": 122,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7.50"
+        },
+        {
+          "start": 123,
+          "end": 125,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "i9j10k11-l12m13n14o15p16q17r18s19t20u21",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: natalie.garcia@gmail.com Subject: Welcome to Medium Membership Date: 2025-03-15 08:12:44 Body: Hi Natalie Garcia, Thanks for subscribing to Medium Membership. Your subscription has been successfully activated. Transaction ID: 8b72f6c5-becf-4bfc-8bfe-e4168f55c3c2 Amount Charged: $28.00 Card Ending in: 0429 Best, The Medium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 50,
+          "label": "USERNAME",
+          "value": "Natalie Garcia"
+        },
+        {
+          "start": 52,
+          "end": 78,
+          "label": "USER_GMAIL",
+          "value": "natalie.garcia@gmail.com"
+        },
+        {
+          "start": 127,
+          "end": 132,
+          "label": "PAYMENT_AMOUNT",
+          "value": "28.00"
+        },
+        {
+          "start": 133,
+          "end": 135,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "j10k11l12-m13n14o15p16q17r18s19t20u21v22",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: chad.reed@tutanota.com Subject: Your Medium Membership is Renewing Soon Date: 2025-06-16 06:55:12 Body: Hi Chad Reed, Just a reminder: your Medium Membership will renew on June 19. Next Payment: $20.00 Card Ending in: 1182 No action is needed unless you wish to make changes. Thanks for being a member! \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 43,
+          "label": "USERNAME",
+          "value": "Chad Reed"
+        },
+        {
+          "start": 45,
+          "end": 73,
+          "label": "USER_GMAIL",
+          "value": "chad.reed@tutanota.com"
+        },
+        {
+          "start": 114,
+          "end": 119,
+          "label": "PAYMENT_AMOUNT",
+          "value": "20.00"
+        },
+        {
+          "start": 120,
+          "end": 122,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "k11l12m13-n14o15p16q17r18s19t20u21v22",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: stephanie.holt@yahoo.com Subject: Your Medium Payment Receipt Date: 2025-01-26 15:11:44 Body: Hi Stephanie Holt, Here\u2019s your receipt for your Medium Membership payment. Transaction ID: 23d7c2fd-5fc6-4d27-8222-34838de6f9c3 Amount: $22.00 Date: 2025-01-26 Card Ending in: 9904 Thank you for your continued support. Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 52,
+          "label": "USERNAME",
+          "value": "Stephanie Holt"
+        },
+        {
+          "start": 54,
+          "end": 80,
+          "label": "USER_GMAIL",
+          "value": "stephanie.holt@yahoo.com"
+        },
+        {
+          "start": 141,
+          "end": 146,
+          "label": "PAYMENT_AMOUNT",
+          "value": "22.00"
+        },
+        {
+          "start": 147,
+          "end": 149,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "l12m13n14-o15p16q17r18s19t20u21v22w23",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: tyler.cook@opay.org Subject: Subscription Cancellation Confirmation Date: 2025-04-04 09:32:56 Body: Hi Tyler Cook, Your Medium Membership has been canceled. You\u2019ll retain access until the end of your billing period. Final Payment: $29.00 Card Ending in: 7108 We hope to see you again. Medium Support Team"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 45,
+          "label": "USERNAME",
+          "value": "Tyler Cook"
+        },
+        {
+          "start": 47,
+          "end": 73,
+          "label": "USER_GMAIL",
+          "value": "tyler.cook@opay.org"
+        },
+        {
+          "start": 115,
+          "end": 120,
+          "label": "PAYMENT_AMOUNT",
+          "value": "29.00"
+        },
+        {
+          "start": 121,
+          "end": 123,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "m13n14o15-p16q17r18s19t20u21v22w23x24",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: isabella.bell@zoho.com Subject: Welcome to Medium \u2013 Your Membership is Active Date: 2025-05-11 10:30:11 Body: Hi Isabella Bell, Your Medium Membership is now active. Transaction ID: 66a4cf3c-55f4-43cb-990f-ff0efcb2e5a5 Amount Charged: $17.00 Card Ending in: 5562 Happy reading! \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 47,
+          "label": "USERNAME",
+          "value": "Isabella Bell"
+        },
+        {
+          "start": 49,
+          "end": 75,
+          "label": "USER_GMAIL",
+          "value": "isabella.bell@zoho.com"
+        },
+        {
+          "start": 136,
+          "end": 141,
+          "label": "PAYMENT_AMOUNT",
+          "value": "17.00"
+        },
+        {
+          "start": 142,
+          "end": 144,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "n14o15p16-q17r18s19t20u21v22w23x24y25",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: eric.evans@startmail.com Subject: Your Payment for Medium Failed Date: 2025-02-21 08:08:29 Body: Hi Eric Evans, Unfortunately, we couldn\u2019t process your recent payment. Amount: $19.00 Card Ending in: 6824 Please update your billing info to avoid service interruption. \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 47,
+          "label": "USERNAME",
+          "value": "Eric Evans"
+        },
+        {
+          "start": 49,
+          "end": 75,
+          "label": "USER_GMAIL",
+          "value": "eric.evans@startmail.com"
+        },
+        {
+          "start": 111,
+          "end": 116,
+          "label": "PAYMENT_AMOUNT",
+          "value": "19.00"
+        },
+        {
+          "start": 117,
+          "end": 119,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "o15p16q17-r18s19t20u21v22w23x24y25z26",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: victoria.fisher@mailbox.com Subject: Medium Premium Offer: Limited Time Only Date: 2025-06-10 18:02:44 Body: Hi Victoria Fisher, Unlock premium content and features with 40% off your first year. Discounted Price: $12.00 Join or renew now to keep reading great stories. \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 50,
+          "label": "USERNAME",
+          "value": "Victoria Fisher"
+        },
+        {
+          "start": 52,
+          "end": 81,
+          "label": "USER_GMAIL",
+          "value": "victoria.fisher@mailbox.com"
+        },
+        {
+          "start": 143,
+          "end": 148,
+          "label": "PAYMENT_AMOUNT",
+          "value": "12.00"
+        },
+        {
+          "start": 149,
+          "end": 151,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "p16q17r18-s19t20u21v22w23x24y25z26a27",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: daniel.harrison@example.net Subject: Your Trial is Ending \u2013 Act Now Date: 2025-03-30 07:41:55 Body: Hi Daniel Harrison, Your free trial ends in 3 days. Your paid subscription will begin unless canceled. Amount: $15.00 Card Ending in: 2333 Thanks for trying Medium. \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 49,
+          "label": "USERNAME",
+          "value": "Daniel Harrison"
+        },
+        {
+          "start": 51,
+          "end": 81,
+          "label": "USER_GMAIL",
+          "value": "daniel.harrison@example.net"
+        },
+        {
+          "start": 116,
+          "end": 121,
+          "label": "PAYMENT_AMOUNT",
+          "value": "15.00"
+        },
+        {
+          "start": 122,
+          "end": 124,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "q17r18s19-t20u21v22w23x24y25z26a27b28",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: lisa.anderson@fakemail.com Subject: Payment Received \u2013 Thank You Date: 2025-04-08 14:22:00 Body: Hi Lisa Anderson, Thank you! We\u2019ve received your Medium Membership payment. Transaction ID: ef8f716f-9c39-4559-8d6a-08e75d9c2ae6 Amount: $23.00 Date: 2025-04-08 Card Ending in: 9031 Happy reading! \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 49,
+          "label": "USERNAME",
+          "value": "Lisa Anderson"
+        },
+        {
+          "start": 51,
+          "end": 79,
+          "label": "USER_GMAIL",
+          "value": "lisa.anderson@fakemail.com"
+        },
+        {
+          "start": 134,
+          "end": 139,
+          "label": "PAYMENT_AMOUNT",
+          "value": "23.00"
+        },
+        {
+          "start": 140,
+          "end": 142,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "r18s19t20-u21v22w23x24y25z26a27b28c29",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: patrick.gray@tmail.net Subject: Membership Renewal Confirmed Date: 2025-05-28 10:45:37 Body: Hi Patrick Gray, Your Medium Membership has been renewed successfully. Transaction ID: dfa4a19d-b54c-49f9-b8a5-70cf1905c4fc Amount: $18.00 Card Ending in: 1115 Thanks for staying with us. \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 47,
+          "label": "USERNAME",
+          "value": "Patrick Gray"
+        },
+        {
+          "start": 49,
+          "end": 73,
+          "label": "USER_GMAIL",
+          "value": "patrick.gray@tmail.net"
+        },
+        {
+          "start": 122,
+          "end": 127,
+          "label": "PAYMENT_AMOUNT",
+          "value": "18.00"
+        },
+        {
+          "start": 128,
+          "end": 130,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "s19t20u21-v22w23x24y25z26a27b28c29d30",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: hannah.brown@freemail.org Subject: Welcome Back to Medium Membership Date: 2025-02-13 12:55:18 Body: Hi Hannah Brown, Welcome back! Your Medium Membership has been reactivated. Transaction ID: 2a763e17-caf6-4cdd-97fc-3922d29aa94b Amount Charged: $20.00 Card Ending in: 5784 We\u2019re glad to have you back. Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 47,
+          "label": "USERNAME",
+          "value": "Hannah Brown"
+        },
+        {
+          "start": 49,
+          "end": 77,
+          "label": "USER_GMAIL",
+          "value": "hannah.brown@freemail.org"
+        },
+        {
+          "start": 132,
+          "end": 137,
+          "label": "PAYMENT_AMOUNT",
+          "value": "20.00"
+        },
+        {
+          "start": 138,
+          "end": 140,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "t20u21v22-w23x24y25z26a27b28c29d30e31",
+      "content": {
+        "raw_text": "From: noreply@medium.com To: joseph.morris@safe-mail.com Subject: Special Reward: 1 Free Month of Membership Date: 2025-06-03 11:05:43 Body: Hi Joseph Morris, As a thank you, enjoy 1 free month of Medium Membership on us! No action required \u2014 your next billing date is extended. Thanks for supporting independent voices. \u2014 Medium"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Medium"
+        },
+        {
+          "start": 33,
+          "end": 48,
+          "label": "USERNAME",
+          "value": "Joseph Morris"
+        },
+        {
+          "start": 50,
+          "end": 80,
+          "label": "USER_GMAIL",
+          "value": "joseph.morris@safe-mail.com"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

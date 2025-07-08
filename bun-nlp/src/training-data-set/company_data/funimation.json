@@ -1,0 +1,480 @@
+{
+  "Funimation": [
+    {
+      "id": "92e1ce84-3144-4a78-9a1a-373a33e720f5",
+      "content": {
+        "raw_text": "From: Funimation notifications@funimation.com To: david.morrison84@gmail.com Subject: Now that you\u2019ve signed up, you're ready to receive anime news, announcements and the latest offers from Funimation Hi David, Thanks for signing up! Now that you\u2019re part of the Funimation community, you're all set to receive the latest anime news, show announcements, and exclusive offers straight to your inbox. Here\u2019s what you can look forward to: Notifications about new subbed and dubbed episodes Updates on upcoming simulcasts and releases Special offers and discounts on your favorite titles and merchandise Start exploring now \u2192 https://www.funimation.com/welcome If you\u2019re new to anime or looking for where to begin, we\u2019ve got curated collections and trending picks ready for you. Thanks again for joining us. We\u2019re excited to have you with us. \u2014 The Funimation Team You\u2019re receiving this email because you signed up at www.funimation.com. To manage your email preferences or unsubscribe, click here. Need help? Visit our Support Center. \u00a9 2024 Funimation Global Group, LLC. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Funimation"
+        },
+        {
+          "start": 19,
+          "end": 45,
+          "label": "USER_GMAIL",
+          "value": "david.morrison84@gmail.com"
+        },
+        {
+          "start": 70,
+          "end": 76,
+          "label": "USERNAME",
+          "value": "David"
+        }
+      ]
+    },
+    {
+      "id": "3d8a44b7-c456-43f0-90e4-bba9c4f1512e",
+      "content": {
+        "raw_text": "From: Funimation billing@funimation.com To: arjun.verma77@gmail.com Subject: Your Funimation subscription is confirmed Hi Arjun, Thanks for starting your Funimation subscription! Your account is now active, and your first payment has been successfully processed. Here are the details: Subscription: Premium Plus Monthly Date Activated: June 21, 2025 Next Renewal Date: July 21, 2025 Here\u2019s what you can do next: Log in at any time to start watching your favorite anime Manage your plan, payment info, or preferences in your Account Settings Need help? Visit our Support Center anytime Start watching now \u2192 https://www.funimation.com/watch Thanks for joining the community\u2014we're thrilled to bring the anime you love right to your screen. \u2014 The Funimation Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Funimation"
+        },
+        {
+          "start": 19,
+          "end": 45,
+          "label": "USER_GMAIL",
+          "value": "arjun.verma77@gmail.com"
+        },
+        {
+          "start": 51,
+          "end": 56,
+          "label": "USERNAME",
+          "value": "Arjun"
+        },
+        {
+          "start": 136,
+          "end": 157,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Plus Monthly"
+        },
+        {
+          "start": 175,
+          "end": 190,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 21, 2025"
+        },
+        {
+          "start": 213,
+          "end": 228,
+          "label": "RENEWAL_DATE",
+          "value": "July 21, 2025"
+        }
+      ]
+    },
+    {
+      "id": "2bb3725c-bff8-4b9d-8a10-455fb32e4e27",
+      "content": {
+        "raw_text": "From: Funimation Billing billing@funimation.com To: priya.sharma23@gmail.com Subject: Your payment to Funimation has been received Hi Priya, We wanted to let you know that your recent payment for your Funimation subscription was successfully processed. Thank you for continuing your journey with us. Your subscription remains active, and you now have uninterrupted access to our full library of anime, including subbed and dubbed episodes, simulcasts, and exclusive content. Here are the details for your records: Subscription Plan: Premium Plus Monthly Amount Paid: \u20b9799.00 Payment Method: Visa ending in\u202f1234 Date of Payment: June 21, 2023 Next Billing Date: July 21, 2023 As always, you can manage your subscription at any time by visiting your account settings. Whether you need to update your payment method, view past transactions, or make changes to your plan, everything is just a few clicks away. If you have any questions about this payment or need assistance with your account, our Support Center is available to help. We\u2019re here to ensure your experience remains smooth and enjoyable. Start watching now \u2192 https://www.funimation.com/watch Thanks for being part of the Funimation community. We hope you enjoy what\u2019s streaming this month. \u2014 The Funimation Billing Team You\u2019re receiving this email because a payment was processed on your Funimation account. To make changes to your subscription or payment settings, visit your Account Settings. Need help? Our Support Center has answers. \u00a9 2025 Funimation Global Group, LLC. All rights reserved"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Funimation"
+        },
+        {
+          "start": 19,
+          "end": 45,
+          "label": "USER_GMAIL",
+          "value": "priya.sharma23@gmail.com"
+        },
+        {
+          "start": 51,
+          "end": 56,
+          "label": "USERNAME",
+          "value": "Priya"
+        },
+        {
+          "start": 351,
+          "end": 372,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Plus Monthly"
+        },
+        {
+          "start": 388,
+          "end": 396,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b9799.00"
+        },
+        {
+          "start": 388,
+          "end": 389,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 389,
+          "end": 396,
+          "label": "PAYMENT_AMOUNT",
+          "value": "799.00"
+        },
+        {
+          "start": 434,
+          "end": 449,
+          "label": "PAYMENT_DATE",
+          "value": "June 21, 2023"
+        },
+        {
+          "start": 471,
+          "end": 486,
+          "label": "RENEWAL_DATE",
+          "value": "July 21, 2023"
+        }
+      ]
+    },
+    {
+      "id": "6e9d8a69-9ddf-40b6-a9b4-b2596c72b716",
+      "content": {
+        "raw_text": "From: Funimation Billing billing@funimation.com To: claire.dubois58@example.com Subject: Oops \u2014 we had trouble processing your Funimation payment Hi Claire, We attempted to process your Funimation subscription payment but were unfortunately unable to complete it. Don\u2019t worry\u2014your access isn't gone yet, but without an updated payment method, your subscription may be paused soon. Payment Details: Subscription Plan: Premium Monthly Attempted Amount: $7.99 Date: August 22, 2023 Payment Method: Visa ending in\u202f4321 What you can do now: Visit your Account Settings to update your payment information Once updated, your subscription will automatically renew and access will continue If you don't update within 72 hours, your account may be temporarily suspended If you\u2019ve already updated your billing info, you can simply ignore this message\u2014nothing more is needed. Update payment details \u2192 https://www.funimation.com/settings/billing Need help? Visit our Support Center or reply directly to this email\u2014we\u2019re here to help!Thanks for being with us. We\u2019ll notify you again if we can\u2019t process the next attempt. \u2014 The Funimation Billing TeamYou\u2019re receiving this email because a billing issue occurred with your Funimation subscription. To cancel your subscription or update preferences, go to your Account Settings. Need assistance? Check our Support Center. \u00a9 2023 Funimation Global Group, LLC. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Funimation"
+        },
+        {
+          "start": 19,
+          "end": 50,
+          "label": "USER_GMAIL",
+          "value": "claire.dubois58@example.com"
+        },
+        {
+          "start": 56,
+          "end": 62,
+          "label": "USERNAME",
+          "value": "Claire"
+        },
+        {
+          "start": 265,
+          "end": 280,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Monthly"
+        },
+        {
+          "start": 299,
+          "end": 305,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 300,
+          "end": 305,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7.99"
+        },
+        {
+          "start": 313,
+          "end": 328,
+          "label": "PAYMENT_DATE",
+          "value": "August 22, 2023"
+        }
+      ]
+    },
+    {
+      "id": "889fcd2a-9470-4e95-81cd-fb0b9a29ed9d",
+      "content": {
+        "raw_text": "From: Funimation Billing billing@funimation.com To: luka.kovacic42@example.com Subject: Your Funimation subscription will renew soon Hi Luka, We wanted to give you a heads-up that your Funimation subscription is set to renew automatically. Thanks for staying with us\u2014your continued support means you\u2019ll keep uninterrupted access to our expanding library of subbed and dubbed anime, plus the latest simulcasts and exclusive releases. Renewal Details: Subscription Plan: Premium Plus Annual Upcoming Renewal Date: December 15, 2023 Amount Due: \u20ac79.99 Payment Method: Mastercard ending in\u202f5678 Here\u2019s what happens next On December 15, 2023, your payment method will be charged \u20ac79.99 for another year of access. Your subscription will remain active, so you can keep binge\u2011watching without interruption. If you\u2019d like to switch plans, update your payment info, or change your renewal date, just head to Account Settings before the renewal date. This will help prevent any billing issues and make sure everything aligns with your preferences. Manage your subscription \u2192 https://www.funimation.com/settings A little more about us: We\u2019re constantly adding new anime series across different genres\u2014think action, romance, sci\u2011fi, and more. Plus, seasonal simulcasts drop weekly so you can stay current with ongoing shows, and exclusive dubs give you more viewing flexibility. Should you ever need help with your account or want recommendations on what to watch next, our Support Center is always ready with assistance. Thanks again for choosing Funimation\u2014we\u2019re thrilled to continue bringing the anime you love straight to your screen. \u2014 The Funimation Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Funimation"
+        },
+        {
+          "start": 19,
+          "end": 49,
+          "label": "USER_GMAIL",
+          "value": "luka.kovacic42@example.com"
+        },
+        {
+          "start": 55,
+          "end": 59,
+          "label": "USERNAME",
+          "value": "Luka"
+        },
+        {
+          "start": 312,
+          "end": 334,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Plus Annual"
+        },
+        {
+          "start": 362,
+          "end": 381,
+          "label": "RENEWAL_DATE",
+          "value": "December 15, 2023"
+        },
+        {
+          "start": 395,
+          "end": 402,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 396,
+          "end": 402,
+          "label": "PAYMENT_AMOUNT",
+          "value": "79.99"
+        }
+      ]
+    },
+    {
+      "id": "44b6115a-3c18-4a7a-a362-05947d68efba",
+      "content": {
+        "raw_text": "From: Funimation Billing billing@funimation.com To: sofia.martinez38@example.com Subject: Your Funimation subscription has been cancelled Hi Sofia, We wanted to confirm that your Funimation subscription was successfully cancelled. We\u2019re sorry to see you go, but appreciate the time you spent with us enjoying our anime catalog. Here are the details for your records: Subscription Plan: Premium Plus Monthly Cancellation Date: September 12, 2023 Service End Date: October 1, 2023 Last Charged Amount: \u20ac7.99 on September 12, 2023 What this means for you Your subscription benefits\u2014including access to subbed and dubbed episodes, simulcasts, and exclusive content\u2014will remain active until October 1, 2023, after which your account will revert to the free tier. You won\u2019t be charged again, and no additional steps are required on your part. If you\u2019d prefer to keep your access active beyond this date, you can easily resubscribe at any time by visiting your Account Settings. We\u2019d be happy to welcome you back whenever you're ready. We also understand that circumstances change\u2014if you\u2019d like to share feedback about why you\u2019re cancelling, we welcome your thoughts via our Support Center. Your insights help us improve for all fans. Resume or resubscribe \u2192 https://www.funimation.com/settings You\u2019re receiving this email because your subscription was cancelled on the Funimation website. Need help? Visit our Support Center. For details about your account or subscription, please check your Account Settings. \u00a9\u202f2023 Funimation Global Group, LLC. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Funimation"
+        },
+        {
+          "start": 19,
+          "end": 53,
+          "label": "USER_GMAIL",
+          "value": "sofia.martinez38@example.com"
+        },
+        {
+          "start": 59,
+          "end": 64,
+          "label": "USERNAME",
+          "value": "Sofia"
+        },
+        {
+          "start": 236,
+          "end": 257,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Plus Monthly"
+        },
+        {
+          "start": 280,
+          "end": 300,
+          "label": "PAYMENT_DATE",
+          "value": "September 12, 2023"
+        },
+        {
+          "start": 276,
+          "end": 283,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 277,
+          "end": 283,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7.99"
+        },
+        {
+          "start": 234,
+          "end": 257,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Plus Monthly"
+        },
+        {
+          "start": 279,
+          "end": 300,
+          "label": "PAYMENT_DATE",
+          "value": "September 12, 2023"
+        },
+        {
+          "start": 323,
+          "end": 339,
+          "label": "RENEWAL_DATE",
+          "value": "October 1, 2023"
+        }
+      ]
+    },
+    {
+      "id": "a4cc547c-6d8e-43d2-bc34-31ae3ac83aaf",
+      "content": {
+        "raw_text": "From: Funimation Billing billing@funimation.com To: hans.schmidt27@example.com Subject: Your refund from Funimation has been processed Hi Hans, We\u2019re writing to let you know that your refund request has been successfully processed. We apologize that things didn\u2019t work out this time but appreciate your patience throughout the process. The refunded amount has been returned to your original payment method and should reflect in your account within 3\u20135 business days, depending on your bank\u2019s processing times. Refund Details: Subscription Plan: Premium Plus Monthly Refund Amount: $7.99 Original Payment Date: November 18, 2023 Refund Processed Date: November 25, 2023 What to expect next Please allow 3\u20135 business days for the refund to appear on your statement\u2014sometimes your bank may take a bit longer, so thank you for your understanding. You don\u2019t need to take any further action; your Funimation subscription has been fully cancelled and no additional charges will occur. If you\u2019d like to rejoin in the future, you can easily resubscribe at any time through your [Account Settings]. Meanwhile, feel free to browse our curated collections of past seasons and fan-favorite titles. We value your experience and would welcome any feedback you'd like to share\u2014simply reply to this email or drop us a note in our [Support Center]. Your input helps us serve you and the anime community better. \u2014 The Funimation Billing Team You\u2019re receiving this email because you submitted a refund request on Funimation. Need help? Visit our Support Center or your Account Settings.\u00a9 2023 Funimation Global Group, LLC. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Funimation"
+        },
+        {
+          "start": 19,
+          "end": 52,
+          "label": "USER_GMAIL",
+          "value": "hans.schmidt27@example.com"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "label": "USERNAME",
+          "value": "Hans"
+        },
+        {
+          "start": 275,
+          "end": 296,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Plus Monthly"
+        },
+        {
+          "start": 316,
+          "end": 321,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 317,
+          "end": 321,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7.99"
+        },
+        {
+          "start": 348,
+          "end": 368,
+          "label": "PAYMENT_DATE",
+          "value": "November 18, 2023"
+        },
+        {
+          "start": 395,
+          "end": 415,
+          "label": "RENEWAL_DATE",
+          "value": "November 25, 2023"
+        }
+      ]
+    },
+    {
+      "id": "a238eb2a-4e5d-4c4c-95dc-499b7315b418",
+      "content": {
+        "raw_text": "From: Funimation Support support@funimation.com To: alessandro.rossi21@example.com Subject: Funimation password reset requested Hi Alessandro, We received a request to reset the password for your Funimation account on December 1, 2023. If you made this request, you can securely reset your password using the link below. For your safety, the link will expire in 24 hours. Reset your password now \u2192 https://www.funimation.com/reset-password?token=abc123xyz Why this email matters Protecting your account is our top priority. That\u2019s why we\u2019ve issued this password reset link that\u2019s single-use and time-limited. If you didn\u2019t request a reset, rest assured \u2014 no changes have been made to your account and your password is still secure. In that case, you can simply disregard this message. However, if you\u2019d like to review your security settings or sign in from a new device, feel free to log in and update your password in Account Settings. If you continue to experience any trouble accessing your account or suspect unauthorized activity, don\u2019t hesitate to reach out to our Support Center for help. We're here to assist you and to help keep your anime collection safe. Visit Support Center \u2192 [https://help.funimation.com] You\u2019re receiving this email because a password reset request was submitted for your account on December 1, 2023. If you didn\u2019t make this request or need to update your account settings, please visit Account Settings.\u00a9\u202f2023 Funimation Global Group, LLC. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Funimation"
+        },
+        {
+          "start": 19,
+          "end": 58,
+          "label": "USER_GMAIL",
+          "value": "alessandro.rossi21@example.com"
+        },
+        {
+          "start": 64,
+          "end": 75,
+          "label": "USERNAME",
+          "value": "Alessandro"
+        },
+        {
+          "start": 153,
+          "end": 173,
+          "label": "PAYMENT_DATE",
+          "value": "December 1, 2023"
+        }
+      ]
+    },
+    {
+      "id": "f9a6ff90-3a90-4906-b845-02f80bc3f6a0",
+      "content": {
+        "raw_text": "From: Funimation Support support@funimation.com To: matthias.schneider44@example.com Subject: Your Funimation account email has been updated Hi Matthias, We\u2019re writing to let you know that the email address associated with your Funimation account was changed on November 5, 2023. This update ensures you\u2019ll continue receiving important account notifications, billing updates, and streaming alerts without interruption. Here are the updated details for your records: Previous Email Address: matthias.old@example.com New Email Address: matthias.schneider44@example.com Date of Change: November 5, 2023 What this means for you All future Funimation-related communications\u2014including subscription invoices, password resets, and curated recommendations\u2014will now go to your new email address. If you didn\u2019t authorize this change or suspect unauthorized access, please visit Account Settings immediately to secure your account. You can also contact our Support Center for assistance or to restore your previous email. Your security is our top priority. We recommend enabling two-factor authentication in your account preferences if you haven\u2019t already. Keeping your login details and email updated helps us ensure your profile and viewing history remain protected. Verify your account settings \u2192 https://www.funimation.com/settings You\u2019re receiving this email because an email change request was submitted on your Funimation account. If this wasn\u2019t you or you need help updating your security settings, please visit our Support Center or check your Account Settings.\u00a9\u202f2023 Funimation Global Group, LLC. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Funimation"
+        },
+        {
+          "start": 19,
+          "end": 58,
+          "label": "USER_GMAIL",
+          "value": "matthias.schneider44@example.com"
+        },
+        {
+          "start": 64,
+          "end": 73,
+          "label": "USERNAME",
+          "value": "Matthias"
+        },
+        {
+          "start": 225,
+          "end": 250,
+          "label": "USER_GMAIL",
+          "value": "matthias.old@example.com"
+        },
+        {
+          "start": 257,
+          "end": 296,
+          "label": "USER_GMAIL",
+          "value": "matthias.schneider44@example.com"
+        },
+        {
+          "start": 317,
+          "end": 337,
+          "label": "PAYMENT_DATE",
+          "value": "November 5, 2023"
+        }
+      ]
+    },
+    {
+      "id": "89fc3898-eac4-4be0-9d4f-b650e905cb0b",
+      "content": {
+        "raw_text": "From: Funimation Support support@funimation.com To: emilia.kowalski29@example.com Subject: Your Funimation account has been deactivated Hi Emilia, We\u2019re writing to confirm that your Funimation account was deactivated on October 18, 2023, following your request. While your access is closed, your account data (including viewing history and preferences) is being retained for 30 days in case you choose to reactivate. After that period, all personal information will be permanently deleted. Account Details: Account Holder: Emilia Kowalski Email Address: emilia.kowalski29@example.com Deactivation Date: October 18, 2023 Data Retention Period Ends: November 17, 2023 What this means Your subscription has been cancelled, and no further charges will occur. You won\u2019t have access to any content, including past purchases, streaming history, or saved preferences. Over the next 30 days, your account data is held securely in case you want to return. After November 17, 2023, all associated data will be permanently deleted and cannot be recovered. If you change your mind during the 30-day window, you can easily restore your account and access all your previous settings and watch history by logging in again and resubscribing. We\u2019d be more than happy to welcome you back.. Restore your account \u2192 https://www.funimation.com/settings You\u2019re receiving this email because you submitted a deactivation request on October 18, 2023. If you need assistance or wish to confirm final deletion, please visit our Support Center or your Account Settings.\u00a9\u202f2023 Funimation Global Group, LLC. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "Funimation"
+        },
+        {
+          "start": 19,
+          "end": 57,
+          "label": "USER_GMAIL",
+          "value": "emilia.kowalski29@example.com"
+        },
+        {
+          "start": 63,
+          "end": 69,
+          "label": "USERNAME",
+          "value": "Emilia"
+        },
+        {
+          "start": 215,
+          "end": 257,
+          "label": "USER_GMAIL",
+          "value": "emilia.kowalski29@example.com"
+        },
+        {
+          "start": 279,
+          "end": 299,
+          "label": "PAYMENT_DATE",
+          "value": "October 18, 2023"
+        },
+        {
+          "start": 336,
+          "end": 356,
+          "label": "RENEWAL_DATE",
+          "value": "November 17, 2023"
+        }
+      ]
+    }
+  ]
+}

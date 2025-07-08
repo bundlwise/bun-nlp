@@ -1,0 +1,366 @@
+{
+  "NBA League Pass": [
+    {
+      "id": "7a4e8999-b2c6-45fc-9c7c-e188ea50b8d6",
+      "content": {
+        "raw_text": "Subject: Your NBA League Pass Payment is Confirmed! Get Ready for Tip-Off. From: NBA League Pass info@nba.com To: alessandro.rossi@email.com Dear Alessandro Rossi, Great news! We've successfully received your payment for your NBA League Pass subscription. Thank you for securing your access to the ultimate NBA experience. Your subscription ensures you won't miss a single dunk, assist, or buzzer-beater, bringing you closer to the action from anywhere. We're thrilled to have you as part of the global NBA fan community, ready to witness every thrilling moment of the season. Payment Details: Plan: NBA League Pass Premium (Full Season) Amount Paid: \u20b914,999.00 INR Payment Date: October 10, 2022 Next Billing Date: October 10, 2023 (for auto-renewing subscriptions) You can always review your purchase history, manage your subscription settings, and update your payment information by logging into your NBA.com account at https://www.nba.com/account/login. If you have any questions about this transaction or need assistance with your League Pass, our support team is available to help at https://support.watch.nba.com/hc/en-us. Get ready for an unforgettable season! Sincerely, The NBA League Pass Team"
+      },
+      "ner_entities": [
+        {
+          "start": 13,
+          "end": 29,
+          "label": "COMPANY_NAME",
+          "value": "NBA League Pass"
+        },
+        {
+          "start": 35,
+          "end": 63,
+          "label": "USER_GMAIL",
+          "value": "alessandro.rossi@email.com"
+        },
+        {
+          "start": 70,
+          "end": 88,
+          "label": "USERNAME",
+          "value": "Alessandro Rossi"
+        },
+        {
+          "start": 290,
+          "end": 325,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "NBA League Pass Premium"
+        },
+        {
+          "start": 326,
+          "end": 341,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Full Season"
+        },
+        {
+          "start": 351,
+          "end": 366,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b914,999.00 INR"
+        },
+        {
+          "start": 351,
+          "end": 352,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 353,
+          "end": 359,
+          "label": "PAYMENT_AMOUNT",
+          "value": "14,999"
+        },
+        {
+          "start": 379,
+          "end": 395,
+          "label": "PAYMENT_DATE",
+          "value": "October 10, 2022"
+        },
+        {
+          "start": 420,
+          "end": 436,
+          "label": "RENEWAL_DATE",
+          "value": "October 10, 2023"
+        }
+      ]
+    },
+    {
+      "id": "4f49632c-ea2d-4c9f-a983-e3eabde91fdf",
+      "content": {
+        "raw_text": "Subject: Your NBA League Pass Refund Has Been Processed From: NBA League Pass support@nba.com To: emma.johansson@email.com Dear Emma Johansson, This email confirms that your refund for your recent NBA League Pass subscription has been successfully processed. We understand that circumstances can change, and we aim to make this process as smooth as possible for our valued fans. The refunded amount will be credited back to your original payment method. Please allow 5-10 business days for the funds to appear on your bank or card statement, as processing times can vary depending on your financial institution. Refund Summary: Plan: NBA League Pass (Monthly) Amount Refunded: \u20b91,599.00 INR Processed Date: January 25, 2021 Payment Method: Visa ending in **** 1234 Your NBA League Pass subscription associated with this refund has now been deactivated. While your access to live and on-demand games will cease, you can still follow the latest news and highlights on NBA.com. Should you decide to jump back into the action and resubscribe in the future, you can easily do so at https://www.nba.com/leaguepass/buy. We hope to see you court-side again soon! Best regards, The NBA League Pass Team"
+      },
+      "ner_entities": [
+        {
+          "start": 13,
+          "end": 29,
+          "label": "COMPANY_NAME",
+          "value": "NBA League Pass"
+        },
+        {
+          "start": 35,
+          "end": 63,
+          "label": "USER_GMAIL",
+          "value": "emma.johansson@email.com"
+        },
+        {
+          "start": 70,
+          "end": 86,
+          "label": "USERNAME",
+          "value": "Emma Johansson"
+        },
+        {
+          "start": 319,
+          "end": 337,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "NBA League Pass"
+        },
+        {
+          "start": 339,
+          "end": 347,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly"
+        },
+        {
+          "start": 359,
+          "end": 375,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b91,599.00 INR"
+        },
+        {
+          "start": 359,
+          "end": 360,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 361,
+          "end": 366,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,599"
+        },
+        {
+          "start": 396,
+          "end": 412,
+          "label": "PAYMENT_DATE",
+          "value": "January 25, 2021"
+        }
+      ]
+    },
+    {
+      "id": "0a0ed66d-ea52-4b38-80b2-3b7bc1a9b2f1",
+      "content": {
+        "raw_text": "Subject: Confirmation: Your NBA League Pass Subscription Has Been Cancelled From: NBA League Pass info@nba.com To: hiromi.sugiyama@email.com Dear Hiromi Sugiyama, This is to confirm that your NBA League Pass subscription has been successfully cancelled, as per your recent request. We're sorry to see you go and appreciate you being part of the global NBA fan base. We hope you enjoyed the extensive coverage of games, highlights, and original content that League Pass provides. Your passion for basketball is what drives us, and we value your time with us. Cancellation Details: Plan: NBA League Pass (Full Season) Cancellation Date: June 15, 2024 Premium Access Ends On: October 15, 2024 (End of your current paid period) You will continue to have full access to all NBA League Pass features, including live games, replays, and exclusive content, until the end of your current paid period. After this date, your access to League Pass content will cease. You can still follow general NBA news and scores on NBA.com. Should you wish to rejoin the action for future seasons or explore other subscription options, you can easily reactivate your plan anytime through your NBA.com account settings at https://www.nba.com/account/login. Thank you for being a valued fan. Sincerely, The NBA League Pass Team"
+      },
+      "ner_entities": [
+        {
+          "start": 61,
+          "end": 90,
+          "label": "USER_GMAIL",
+          "value": "hiromi.sugiyama@email.com"
+        },
+        {
+          "start": 97,
+          "end": 114,
+          "label": "USERNAME",
+          "value": "Hiromi Sugiyama"
+        },
+        {
+          "start": 176,
+          "end": 192,
+          "label": "COMPANY_NAME",
+          "value": "NBA League Pass"
+        },
+        {
+          "start": 293,
+          "end": 309,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "NBA League Pass"
+        },
+        {
+          "start": 311,
+          "end": 323,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Full Season"
+        },
+        {
+          "start": 345,
+          "end": 361,
+          "label": "PAYMENT_DATE",
+          "value": "June 15, 2024"
+        },
+        {
+          "start": 388,
+          "end": 405,
+          "label": "RENEWAL_DATE",
+          "value": "October 15, 2024"
+        }
+      ]
+    },
+    {
+      "id": "37cf78fc-05dc-4747-a648-935cfc2ab586",
+      "content": {
+        "raw_text": "Subject: Welcome to NBA League Pass! Your All-Access Ticket to the Game. From: NBA League Pass welcome@nba.com To: carlos.fernandez@email.com Dear Carlos Fernandez, Welcome to NBA League Pass! We are thrilled to have you join us for an unparalleled basketball viewing experience. Your subscription is now active, granting you access to live and on-demand games, comprehensive archives, and exclusive content that brings you closer to your favorite teams and players. Prepare to immerse yourself in every dribble, pass, and shot from across the league, wherever you are. To help you get started and make the most of your new subscription: Download the App: Get the NBA App on your mobile device, tablet, smart TV, or gaming console for seamless viewing. Find compatible devices at https://www.nba.com/leaguepass/devices. Explore Live Games: Check the schedule and jump into live games or watch replays of recent matchups. Customize Your Experience: Follow your favorite teams and set up notifications so you never miss a moment. Visit the Help Center: For any questions or guidance on navigating League Pass, our comprehensive support portal is available at https://support.watch.nba.com/hc/en-us. Get ready to experience basketball like never before. We're excited for you to be part of the action! Enjoy the game, The NBA League Pass Team"
+      },
+      "ner_entities": [
+        {
+          "start": 69,
+          "end": 96,
+          "label": "USER_GMAIL",
+          "value": "carlos.fernandez@email.com"
+        },
+        {
+          "start": 103,
+          "end": 120,
+          "label": "USERNAME",
+          "value": "Carlos Fernandez"
+        },
+        {
+          "start": 138,
+          "end": 154,
+          "label": "COMPANY_NAME",
+          "value": "NBA League Pass"
+        }
+      ]
+    },
+    {
+      "id": "a215700b-ec49-4d52-9a91-2fd091a32d8a",
+      "content": {
+        "raw_text": "Subject: Action Required: Your NBA League Pass Payment Could Not Be Processed From: NBA League Pass billing@nba.com To: chloe.martin@email.com Dear Chloe Martin, We encountered an issue processing your recent payment for your NBA League Pass subscription. This could be due to several reasons, such as an expired credit card, insufficient funds, or a temporary issue with your bank. To ensure continuous access to live games, replays, and all the exclusive content you love, you must update your payment information promptly. We understand that these situations can arise, and we want to help you resolve this quickly to avoid any interruption to your viewing experience. Details of Failed Payment: Plan: NBA League Pass (Monthly) Attempted Date: April 01, 2023 Amount Due: \u20b91,599.00 INR To update your payment method and prevent any interruption to your NBA League Pass service, please log into your NBA.com account at https://www.nba.com/account/login and navigate to the \"Billing Information\" section. We will automatically retry the charge once your updated details are received. Please note that if payment is not successfully received within a few days, your access to League Pass content may be suspended. For assistance, our support team is ready to help at https://support.watch.nba.com/hc/en-us. Thank you for your immediate attention to this matter. Sincerely, The NBA League Pass Team"
+      },
+      "ner_entities": [
+        {
+          "start": 90,
+          "end": 113,
+          "label": "USER_GMAIL",
+          "value": "chloe.martin@email.com"
+        },
+        {
+          "start": 120,
+          "end": 133,
+          "label": "USERNAME",
+          "value": "Chloe Martin"
+        },
+        {
+          "start": 177,
+          "end": 193,
+          "label": "COMPANY_NAME",
+          "value": "NBA League Pass"
+        },
+        {
+          "start": 470,
+          "end": 496,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "NBA League Pass (Monthly)"
+        },
+        {
+          "start": 517,
+          "end": 532,
+          "label": "PAYMENT_DATE",
+          "value": "April 01, 2023"
+        },
+        {
+          "start": 547,
+          "end": 559,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 547,
+          "end": 556,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,599.00"
+        }
+      ]
+    },
+    {
+      "id": "2ae8849e-8161-4f7e-b263-f65f1d9c57b8",
+      "content": {
+        "raw_text": "Subject: Reminder: Your NBA League Pass Subscription Renewal is Coming Soon From: NBA League Pass info@nba.com To: david.mueller@email.com Dear David Mueller, This is a proactive notification to inform you that your NBA League Pass Premium (Full Season) subscription is scheduled for automatic renewal on September 20, 2020. Your ongoing subscription ensures you have unlimited access to every game, every team, and every moment of the NBA season, including live and on-demand content and full-game replays. We are committed to bringing you the best possible basketball viewing experience. Upcoming Renewal Information: Plan: NBA League Pass Premium (Full Season) Renewal Date: September 20, 2020 Amount Due: \u20b914,999.00 INR (plus applicable taxes) Payment Method: Your saved payment method ending in **** 5678 will be charged automatically. No action is required from your side if you wish to continue enjoying uninterrupted access to your favorite sport. If you need to manage your subscription, update your payment details, or cancel auto-renewal, please visit your NBA.com account online at https://www.nba.com/account/login before the renewal date. If you choose not to renew, your League Pass access will expire after this date. Thank you for being a dedicated NBA fan. Best regards, The NBA League Pass Team"
+      },
+      "ner_entities": [
+        {
+          "start": 76,
+          "end": 100,
+          "label": "USER_GMAIL",
+          "value": "david.mueller@email.com"
+        },
+        {
+          "start": 107,
+          "end": 120,
+          "label": "USERNAME",
+          "value": "David Mueller"
+        },
+        {
+          "start": 183,
+          "end": 206,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "NBA League Pass Premium"
+        },
+        {
+          "start": 208,
+          "end": 221,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Full Season"
+        },
+        {
+          "start": 264,
+          "end": 281,
+          "label": "RENEWAL_DATE",
+          "value": "September 20, 2020"
+        },
+        {
+          "start": 377,
+          "end": 389,
+          "label": "COMPANY_NAME",
+          "value": "NBA League Pass"
+        },
+        {
+          "start": 433,
+          "end": 445,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 433,
+          "end": 443,
+          "label": "PAYMENT_AMOUNT",
+          "value": "14,999.00"
+        }
+      ]
+    },
+    {
+      "id": "b0a7d4b5-5173-4b71-8822-5d1d2f38987f",
+      "content": {
+        "raw_text": "Subject: Your NBA League Pass Subscription is Active From: NBA League Pass info@nba.com To: olivia.wong@email.com Dear Olivia Wong, This email confirms that your NBA League Pass subscription is currently active. We wanted to provide you with a quick status update on your subscription, assuring you that you have full access to all its fantastic benefits. Your active plan allows you to seamlessly enjoy live and on-demand NBA games, delve into extensive archives, and catch up on all the action from anywhere in the world. We're excited for you to continue your journey through the NBA season. Your Current Subscription Status: Plan: NBA League Pass (Full Season) Subscription Start Date: October 26, 2023 Next Renewal Date: October 26, 2024 Status: Active You can manage all aspects of your NBA League Pass subscription, including viewing details, upgrading your plan, or updating your payment information, by logging into your NBA.com account at https://www.nba.com/account/login. We encourage you to explore all the features that League Pass offers to maximize your basketball viewing experience. Enjoy the game, The NBA League Pass Team"
+      },
+      "ner_entities": [
+        {
+          "start": 77,
+          "end": 98,
+          "label": "USER_GMAIL",
+          "value": "olivia.wong@email.com"
+        },
+        {
+          "start": 105,
+          "end": 117,
+          "label": "USERNAME",
+          "value": "Olivia Wong"
+        },
+        {
+          "start": 195,
+          "end": 211,
+          "label": "COMPANY_NAME",
+          "value": "NBA League Pass"
+        },
+        {
+          "start": 368,
+          "end": 387,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "NBA League Pass"
+        },
+        {
+          "start": 389,
+          "end": 401,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Full Season"
+        },
+        {
+          "start": 429,
+          "end": 445,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "October 26, 2023"
+        },
+        {
+          "start": 471,
+          "end": 487,
+          "label": "RENEWAL_DATE",
+          "value": "October 26, 2024"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "Discovery": [
+    {
+      "id": "0d478c65-0c08-4899-82be-ef2a195b8456",
+      "content": {
+        "raw_text": "From: support@discoveryplus.com To: rahul.kumar@inboxmail.com Date: April 14, 2023, 9:42 AM IST Subject: Your Discovery+ subscription renews soon \u2014 April 21, Hi Rahul, Thank you for being a valued Discovery+ subscriber! We wanted to let you know that your Monthly Plan (\u20b999) is set to renew on Friday, April 21, 2023. When your subscription renews, \u20b999 will be charged to your saved payment method ending in 5483. Your subscription gives you continued access to: Top shows from Discovery, TLC, Animal Planet & more New originals, documentaries, and regional content in 8+ Indian languages Offline downloads for on-the-go viewing If you'd like to review or make changes to your subscription, you can do so anytime: Manage My Subscription Need help or have questions? Just reply to this email or visit our Help Center \u2014 we\u2019re always here for you. Thank you for choosing Discovery+. We love having you with us. Warm regards, Priya Singh Customer Support Executive support@discoveryplus.com www.discoveryplus.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Discovery+"
+        },
+        {
+          "start": 23,
+          "end": 49,
+          "label": "USER_GMAIL",
+          "value": "rahul.kumar@inboxmail.com"
+        },
+        {
+          "start": 91,
+          "end": 96,
+          "label": "USERNAME",
+          "value": "Rahul"
+        },
+        {
+          "start": 177,
+          "end": 189,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Monthly Plan"
+        },
+        {
+          "start": 190,
+          "end": 194,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b999"
+        },
+        {
+          "start": 190,
+          "end": 191,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 216,
+          "end": 235,
+          "label": "RENEWAL_DATE",
+          "value": "April 21, 2023"
+        }
+      ]
+    },
+    {
+      "id": "e6f3dc64-6f0d-45e2-8c31-934e8212fbd1",
+      "content": {
+        "raw_text": "From: support@discoveryplus.com To: emily.martin@outlook.com Date: April 21, 2023, 7:02 AM GMT Subject: Your Discovery+ payment was successful Reply-To: support@discoveryplus.com Hi Emily, Thanks for your payment! We\u2019re happy to let you know that your Discovery+ Ad-Free Monthly Plan has been successfully renewed on April 21, 2023. A charge of $6.99 has been applied to your card ending in 5821. Your subscription details: \u2022 Plan: Ad-Free Monthly \u2022 Amount Charged: $6.99 \u2022 Payment Method: Visa ending in 5821 \u2022 Next Billing Date: May 21, 2023 With your subscription, you\u2019ll continue to enjoy: Unlimited streaming without ads Access to exclusive Discovery+ Originals Popular content from HGTV, TLC, Animal Planet, ID, and more Offline downloads to watch anywhere, anytime Need to make changes or update your payment method? You can do that anytime: Manage My Subscription If you have any questions, feel free to reply to this email or visit our Help Center. Thanks again for choosing Discovery+. We\u2019re glad to have you with us. Warm regards, Sarah Coleman Customer Experience Team Discovery+ support@discoveryplus.com www.discoveryplus.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Discovery+"
+        },
+        {
+          "start": 23,
+          "end": 49,
+          "label": "USER_GMAIL",
+          "value": "emily.martin@outlook.com"
+        },
+        {
+          "start": 91,
+          "end": 96,
+          "label": "USERNAME",
+          "value": "Emily"
+        },
+        {
+          "start": 155,
+          "end": 167,
+          "label": "COMPANY_NAME",
+          "value": "Discovery+"
+        },
+        {
+          "start": 168,
+          "end": 186,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Ad-Free Monthly Plan"
+        },
+        {
+          "start": 225,
+          "end": 240,
+          "label": "PAYMENT_DATE",
+          "value": "April 21, 2023"
+        },
+        {
+          "start": 257,
+          "end": 263,
+          "label": "PAYMENT_AMOUNT",
+          "value": "$6.99"
+        },
+        {
+          "start": 257,
+          "end": 258,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 291,
+          "end": 295,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        },
+        {
+          "start": 339,
+          "end": 353,
+          "label": "RENEWAL_DATE",
+          "value": "May 21, 2023"
+        }
+      ]
+    },
+    {
+      "id": "6f602b0f-30a7-4e68-a7c1-d0c3075740bb",
+      "content": {
+        "raw_text": "From: welcome@discoveryplus.com To: daniel.smith@gmail.com Date: July 12, 2023, 5:46 PM GMT Subject: Welcome to Discovery+ \u2014 Let\u2019s get started Reply-To: support@discoveryplus.com Hi Daniel, Welcome to Discovery+ \u2014 we\u2019re excited you\u2019re here! Your account is now active, and you can start exploring the best real\u2011life entertainment. From gripping true crime to lifestyle, nature, food, and science \u2014 there\u2019s something amazing waiting for you. What\u2019s next? Browse free episodes and featured content Discover what\u2019s trending on Discovery, TLC, HGTV, Animal Planet & more Upgrade anytime for full access and an ad-free experience Start Browsing See Plans & Pricing Need help setting up your account or devices? Contact customer support Enjoy the journey, The Discovery+ Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Discovery+"
+        },
+        {
+          "start": 23,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "daniel.smith@gmail.com"
+        },
+        {
+          "start": 95,
+          "end": 102,
+          "label": "USERNAME",
+          "value": "Daniel"
+        },
+        {
+          "start": 114,
+          "end": 126,
+          "label": "COMPANY_NAME",
+          "value": "Discovery+"
+        },
+        {
+          "start": 63,
+          "end": 78,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "July 12, 2023"
+        }
+      ]
+    },
+    {
+      "id": "92d51e6d-92a1-4d94-bef5-9cb657db8d29",
+      "content": {
+        "raw_text": "From: welcome@discoveryplus.com To: emma.jones@outlook.com Date: February 11, 2023, 8:12 AM GMT Subject: Welcome to Discovery+ \u2014 Your subscription is now active Reply-To: support@discoveryplus.com Hi Emma, Welcome to Discovery+ \u2014 we\u2019re thrilled you\u2019re here! \ud83c\udf89 Your subscription is live and ready to roll. Your plan details: \u2022 Plan: Ad-Free Monthly \u2022 Start Date: February 11, 2023 \u2022 Next Billing Date: March 11, 2023 \u2022 Amount: $8.99/month Here\u2019s what you can do right now: Watch shows from Discovery, TLC, Animal Planet, HGTV, ID & more Stream on all your devices: mobile, web, tablet, or smart TV Download episodes for offline viewing (Ad\u2011Free only) Enjoy multiple language options (where available) Start Streaming Now Set Up Your Devices Need help? Visit our Help Center Thanks for joining Discovery+. Happy streaming! The Discovery+ Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Discovery+"
+        },
+        {
+          "start": 23,
+          "end": 49,
+          "label": "USER_GMAIL",
+          "value": "emma.jones@outlook.com"
+        },
+        {
+          "start": 94,
+          "end": 99,
+          "label": "USERNAME",
+          "value": "Emma"
+        },
+        {
+          "start": 111,
+          "end": 123,
+          "label": "COMPANY_NAME",
+          "value": "Discovery+"
+        },
+        {
+          "start": 168,
+          "end": 184,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Ad-Free Monthly"
+        },
+        {
+          "start": 197,
+          "end": 214,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "February 11, 2023"
+        },
+        {
+          "start": 239,
+          "end": 254,
+          "label": "RENEWAL_DATE",
+          "value": "March 11, 2023"
+        },
+        {
+          "start": 266,
+          "end": 278,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$8.99/month"
+        },
+        {
+          "start": 266,
+          "end": 267,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 267,
+          "end": 272,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8.99"
+        }
+      ]
+    },
+    {
+      "id": "cc5c891a-5d25-4567-92b4-3a5c4264b68a",
+      "content": {
+        "raw_text": "Subject: Payment issue \u2013 action needed to keep streaming From: support@discoveryplus.com To: charlotte.brown@gmail.com Date: january 5, 2023, 4:18 PM GMT Reply\u2011To: support@discoveryplus.com Hi Charlotte, We were unable to process your latest Discovery+ payment for the Ad-Free Monthly Plan 99$ on May 5, 2023. The issue might be due to an expired card, insufficient funds, or a temporary bank error. To keep your streaming uninterrupted: Log in and update your payment method You have 7 days before your subscription is paused We'll attempt another charge once your info is updated If you need any help or have questions, feel free to reply or visit our Help Center. Thanks for being with us, The Discovery+ Team"
+      },
+      "ner_entities": [
+        {
+          "start": 57,
+          "end": 83,
+          "label": "USER_GMAIL",
+          "value": "charlotte.brown@gmail.com"
+        },
+        {
+          "start": 88,
+          "end": 97,
+          "label": "USERNAME",
+          "value": "Charlotte"
+        },
+        {
+          "start": 145,
+          "end": 157,
+          "label": "COMPANY_NAME",
+          "value": "Discovery+"
+        },
+        {
+          "start": 169,
+          "end": 186,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Ad-Free Monthly"
+        },
+        {
+          "start": 187,
+          "end": 190,
+          "label": "PAYMENT_AMOUNT",
+          "value": "99"
+        },
+        {
+          "start": 190,
+          "end": 191,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 195,
+          "end": 207,
+          "label": "PAYMENT_DATE",
+          "value": "May 5, 2023"
+        }
+      ]
+    },
+    {
+      "id": "df2e780f-046a-49ae-b84e-e05f20a6e6cc",
+      "content": {
+        "raw_text": "Subject: Refund processed for your Discovery+ subscription From: support@discoveryplus.com To: charlotte.brown@gmail.com Date: May 10, 2023, 2:05 PM GMT Reply\u2011To: support@discoveryplus.com Hi Charlotte, We\u2019ve processed your refund of \u20b999 for the Ad-Free Monthly Plan. The amount has been credited back to your card ending in 5824. You should see it reflected in your account within 5\u20137 business days, depending on your bank. As your refund has been issued, your subscription has ended and access to content will stop immediately. We\u2019re sorry to see you go, but hope to welcome you back soon. Visit Your Account to view subscription details Need help? Visit our Help Center or reply to this email Thanks for spending time with us, The Discovery+ Team"
+      },
+      "ner_entities": [
+        {
+          "start": 66,
+          "end": 92,
+          "label": "USER_GMAIL",
+          "value": "charlotte.brown@gmail.com"
+        },
+        {
+          "start": 97,
+          "end": 106,
+          "label": "USERNAME",
+          "value": "Charlotte"
+        },
+        {
+          "start": 145,
+          "end": 157,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b999"
+        },
+        {
+          "start": 145,
+          "end": 146,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 165,
+          "end": 182,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Ad-Free Monthly Plan"
+        },
+        {
+          "start": 13,
+          "end": 25,
+          "label": "COMPANY_NAME",
+          "value": "Discovery+"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "label": "COMPANY_NAME",
+          "value": "Discovery+"
+        },
+        {
+          "start": 51,
+          "end": 65,
+          "label": "PAYMENT_DATE",
+          "value": "May 10, 2023"
+        }
+      ]
+    }
+  ]
+}

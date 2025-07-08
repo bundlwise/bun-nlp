@@ -1,0 +1,368 @@
+{
+  "Apple TV": [
+    {
+      "id": "a5b3fc27-0b2c-4c03-8728-1f1fd87c2119",
+      "content": {
+        "raw_text": "From: Apple TV+ no_reply@email.apple.com To: Lars Benedetti lars.benedetti@posteo.eu Date: Thu, 24 Aug 2023 08:16:22 +0100 Subject: Welcome to Apple TV+ \u2014 Start streaming now Welcome to Apple TV+ Hi Lars, You\u2019re in. Your journey into Apple Originals begins now. On 24 August 2023, your subscription to Apple TV+ was successfully activated. From deeply emotional dramas and high-stakes thrillers to award-winning documentaries and lighthearted comedies, we\u2019re excited to bring stories to life \u2014 just for you. Whether you're watching on iPhone during a train ride, on your iPad while relaxing, or on your Apple TV with family at home, we've made it simple for you to enjoy every moment. Apple TV+ is ad-free and crafted to fit seamlessly into your day. Here's what you can expect: Exclusive access to Apple Original series and films. No ads. Just the story \u2014 uninterrupted. Stream anywhere, anytime, across all your Apple devices. Need a recommendation to get started? Try \u201cSilo\u201d for an edge-of-your-seat mystery or laugh along with \u201cTed Lasso,\u201d our multi-Emmy\u00ae winner. With new episodes released weekly and fresh stories launching regularly, there\u2019s always something waiting. Click below to start watching your next favorite show. [Start Watching] Thanks for joining us, \u2014The Apple TV+ Team Need help? Visit Apple Support or manage your subscription in your device settings. Apple Inc. One Apple Park Way, Cupertino, CA 95014, United States \u00a9 2023 Apple Inc. All rights reserved. Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "Apple TV+"
+        },
+        {
+          "start": 27,
+          "end": 55,
+          "label": "USER_GMAIL",
+          "value": "lars.benedetti@posteo.eu"
+        },
+        {
+          "start": 204,
+          "end": 220,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "24 August 2023"
+        }
+      ]
+    },
+    {
+      "id": "82a89ec9-4c87-4c7d-bc0a-016d678a2b3e",
+      "content": {
+        "raw_text": "From: Apple\u202fTV+ subscriptions@support.apple.com To: Ana\u00efs Garc\u00eda anais.garcia@protonmail.com Date: Tue, 5 Dec 2023 14:22:10 +0100 Subject: Your trial ends soon \u2014 continue the story Your free trial ends in 3 days Hi Ana\u00efs, Thanks for being part of our Apple\u202fTV+ community. Your free trial will end on 8 December 2023, but there\u2019s still time to finish what you\u2019ve started \u2014 and discover even more. In the past few weeks, you\u2019ve watched Finch, See, and caught a glimpse of the intriguing world of Foundation. When your trial ends, your subscription will automatically continue at \u20b999/month, so you won\u2019t miss out on next week\u2019s new Severance episode or the finale of Pachinko. Here\u2019s what staying with us means: Ad-free streaming on all your Apple devices\u2014phone, tablet, TV, Mac. Eye\u2011opening originals: From sci\u2011fi mysteries to heartwarming comedies. Weekly episode drops and special films just for you. If you'd rather take a break, simply cancel before 8 December 2023 in your Apple TV subscription settings. But thousands of fans are choosing to stay\u2014and we think you will too. [Continue Watching] Looking forward to seeing you soon, \u2014The Apple TV+ Team Need help with your subscription? Visit support.apple.com/tv or manage your trial in your device settings. Apple Inc., One Apple Park Way, Cupertino, CA 95014, United States \u00a9 2023 Apple Inc. All rights reserved. Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "Apple\u202fTV+"
+        },
+        {
+          "start": 27,
+          "end": 56,
+          "label": "USER_GMAIL",
+          "value": "anais.garcia@protonmail.com"
+        },
+        {
+          "start": 165,
+          "end": 182,
+          "label": "RENEWAL_DATE",
+          "value": "8 December 2023"
+        },
+        {
+          "start": 309,
+          "end": 321,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b999/month"
+        },
+        {
+          "start": 309,
+          "end": 310,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 310,
+          "end": 312,
+          "label": "PAYMENT_AMOUNT",
+          "value": "99"
+        }
+      ]
+    },
+    {
+      "id": "8707ae35-06e6-4c5f-9bb1-e76379268c0c",
+      "content": {
+        "raw_text": "From: Apple no_reply@id.apple.com To: Maja Novak maja.novak@seznam.cz Date: Wed, 13 Sep 2023 11:07:22 +0200 Subject: Your receipt from Apple Your Apple receipt is ready Hello Maja Novak, Thank you for your payment. Here\u2019s a summary of your Apple TV+ transaction: Invoice #: 1234567890 Date Paid: 12 September 2023, 17:03 CET Payment Method:\u2022\u2022\u2022\u202f4321 (Mastercard) Subscription: Apple TV+ Monthly Plan Amount: CZK 99.00 What happens next Your subscription to Apple TV+ continues without interruption. Future payments will be charged automatically on the same day each month. You can manage or cancel your subscription anytime via your Apple ID settings or by visiting reportaproblem.apple.com. What you get Ad-free access to Apple TV+ Originals on all your devices New episodes released weekly Seamless experience across iPhone, iPad, Apple TV, and Mac If you didn\u2019t authorize this charge or need help, please visit support.apple.com. We're here to assist. Thank you for choosing Apple TV+. We look forward to bringing you more great stories. Warm regards, \u2014The Apple Support Team Apple Inc. One Apple Park Way, Cupertino, CA 95014, USA \u00a9\u202f2023 Apple Inc. All rights reserved. Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 20,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "maja.novak@seznam.cz"
+        },
+        {
+          "start": 166,
+          "end": 188,
+          "label": "PAYMENT_DATE",
+          "value": "12 September 2023"
+        },
+        {
+          "start": 249,
+          "end": 270,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Apple TV+ Monthly Plan"
+        },
+        {
+          "start": 281,
+          "end": 291,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "CZK 99.00"
+        },
+        {
+          "start": 281,
+          "end": 284,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "CZK"
+        },
+        {
+          "start": 285,
+          "end": 290,
+          "label": "PAYMENT_AMOUNT",
+          "value": "99.00"
+        },
+        {
+          "start": 213,
+          "end": 222,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard"
+        }
+      ]
+    },
+    {
+      "id": "e0a16890-5b07-44a3-8f84-92de70f6a135",
+      "content": {
+        "raw_text": "From: Apple no_reply@id.apple.com To: Isabel Rossi isabel.rossi@virgilio.it Date: Fri, 1 Dec 2023 09:45:12 +0100 Subject: Your Apple\u202fTV+ subscription is confirmed Your subscription is now active Hello Isabel Rossi, Welcome to Apple\u202fTV+. Your subscription began on 1 December 2023. Thank you for choosing our service\u2014you\u2019re now set to enjoy Apple Originals, award-winning films, and exclusive content whenever and wherever you like. Subscription Details Subscription Type: Apple\u202fTV+ Monthly Plan Start Date: 1 December 2023 Pricing: \u20ac6.99 per month, billed monthly Next Billing Date: 1 January 2024 Payment Method: \u2022\u2022\u2022\u2022\u202f1234 (Visa) What\u2019s next? Start exploring our library\u2014whether you're in the mood for uplifting drama, laugh-out-loud comedy, or gripping documentary. Why not begin with our current fan-favorite, The Morning Show, and keep an eye out for the upcoming premiere of Silo next week? Your plan is ad-free, supports HDR and Dolby Atmos, and works seamlessly across all your Apple devices. Need to manage your subscription? You can pause or cancel anytime by visiting your Apple\u202fTV subscription settings or going to reportaproblem.apple.com. If you ever need assistance, our friendly Apple Support team is here to help. Thanks for joining us\u2014happy streaming! \u2014The Apple\u202fTV+ Team Apple Inc. \u2022 One Apple Park Way, Cupertino, CA 95014, USA \u00a9 2023 Apple Inc. All rights reserved. Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 20,
+          "end": 46,
+          "label": "USER_GMAIL",
+          "value": "isabel.rossi@virgilio.it"
+        },
+        {
+          "start": 168,
+          "end": 187,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "1 December 2023"
+        },
+        {
+          "start": 226,
+          "end": 252,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Apple\u202fTV+ Monthly Plan"
+        },
+        {
+          "start": 286,
+          "end": 303,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20ac6.99 per month"
+        },
+        {
+          "start": 286,
+          "end": 287,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 287,
+          "end": 291,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6.99"
+        },
+        {
+          "start": 366,
+          "end": 370,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        },
+        {
+          "start": 314,
+          "end": 330,
+          "label": "RENEWAL_DATE",
+          "value": "1 January 2024"
+        }
+      ]
+    },
+    {
+      "id": "beebd682-86ae-4066-91fa-3cbfb00d70ae",
+      "content": {
+        "raw_text": "From: Apple\u202fno_reply@email.apple.com To: J\u00f3nas Eklund jonas.eklund@telia.com Date: Fri, 8 Dec 2023 17:28:05 +0100 Subject: There\u2019s a problem with your payment method There was a problem with your payment Hi J\u00f3nas, We\u2019ve been unable to renew your Apple\u202fTV+ subscription. Your payment method \u2022\u2022\u2022\u2022\u202f5678 (Visa) couldn\u2019t be charged for the 8 December 2023 renewal. To avoid interruption, please update your payment information at your earliest convenience. What you can do now In your Apple ID account: Go to Settings > [Your Name] > Payment & Shipping (on iPhone/iPad) or App Store > [Your Name] > View Information (on Mac). Update your current payment method or add a new card. We\u2019ll automatically retry the charge\u2014no need to resubscribe. Why it\u2019s worth acting now Keep streaming without missing episodes of Severance, Pachinko, and Ted Lasso. Continue with ad\u2011free access across all Apple devices. Avoid having to manually restart your subscription later. We\u2019ll attempt to charge your account again over the next few days. If you prefer not to continue Apple\u202fTV+, you can cancel at any time in your subscription settings. Need help? Visit support.apple.com or go to Settings\u202f>\u202fApple\u202fID > Support on your device. We\u2019re here for you. Thanks for your attention\u2014let\u2019s keep you streaming. \u2014The Apple\u202fTV+ Team Apple Inc. \u2022 One Apple Park Way, Cupertino, CA 95014, USA \u00a9 2023 Apple Inc. All rights reserved. Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 20,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "jonas.eklund@telia.com"
+        },
+        {
+          "start": 165,
+          "end": 185,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Apple\u202fTV+ subscription"
+        },
+        {
+          "start": 231,
+          "end": 252,
+          "label": "PAYMENT_DATE",
+          "value": "8 December 2023"
+        },
+        {
+          "start": 211,
+          "end": 215,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "id": "e3a9f6e5-295c-4df5-b416-bdb69e527c7c",
+      "content": {
+        "raw_text": "From: Apple no_reply@id.apple.com To: Carlos Fern\u00e1ndez carlos.fernandez@correo.es Date: Tue, 3 Oct 2023 10:14:08 +0200 Subject: Your refund has been issued Your refund is on its way Hello Carlos Fern\u00e1ndez, We\u2019ve processed your refund request for your Apple\u202fTV+ subscription. On 2 October 2023, we refunded \u20ac6.99 to your ****\u202f9876 (Visa) card. It may take 3\u20135 business days for the credit to appear, depending on your bank. Here\u2019s what this means for you We appreciate your time with Apple\u202fTV+. Your access to Apple\u202fTV+ Originals will end at the close of your current billing period, but you can re\u2011subscribe anytime. If this refund was unexpected or you have questions, our Support team is ready to help\u2014just visit support.apple.com. Why it\u2019s processed this way You were charged \u20ac6.99 on 1 October 2023, and since you requested a full refund within 48 hours, we promptly initiated the credit. The refund goes back to the same payment method you used, and you\u2019ll receive confirmation via this email. Thanks for choosing Apple\u202fTV+. We hope to see you again soon. \u2014The Apple\u202fSupport Team Apple Inc. \u2022 One Apple Park Way, Cupertino, CA 95014, USA \u00a9\u202f2023 Apple Inc. All rights reserved. Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 20,
+          "end": 53,
+          "label": "USER_GMAIL",
+          "value": "carlos.fernandez@correo.es"
+        },
+        {
+          "start": 110,
+          "end": 133,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Apple\u202fTV+ subscription"
+        },
+        {
+          "start": 139,
+          "end": 155,
+          "label": "PAYMENT_DATE",
+          "value": "2 October 2023"
+        },
+        {
+          "start": 171,
+          "end": 176,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 171,
+          "end": 176,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6.99"
+        },
+        {
+          "start": 185,
+          "end": 189,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        },
+        {
+          "start": 307,
+          "end": 322,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Apple\u202fTV+ Originals"
+        },
+        {
+          "start": 487,
+          "end": 503,
+          "label": "PAYMENT_DATE",
+          "value": "1 October 2023"
+        }
+      ]
+    },
+    {
+      "id": "a9b4d2c7-0ef2-4c3a-9b89-03d8d732da18",
+      "content": {
+        "raw_text": "From: Apple no_reply@id.apple.com To: Elodie Dubois elodie.dubois@laposte.net Date: Wed, 6 Dec 2023 12:45:10 +0100 Subject: Your payment method wasn\u2019t updated There was an issue with your payment method Hi Elodie, We tried to renew your Apple\u202fTV+ subscription today for 6 December 2023, but your card ending in \u2022\u2022\u2022\u2022\u202f4321 (Visa) couldn\u2019t be charged. This may be due to an expired card, an expired billing address, or a declined transaction. To ensure uninterrupted access to the shows you love\u2014like Severance, Liaison, and Pachinko\u2014please update your payment method as soon as you can. Next steps to resolve On your iPhone or iPad, open Settings \u2192 tap your name \u2192 Payment & Shipping. On Mac, open the App Store app \u2192 click your name \u2192 View Information \u2192 Manage Payments. Update the existing card or add a new one. After that, we\u2019ll retry the payment automatically\u2014no need to resubscribe. Why updating helps Your subscription will continue without interruption. You\u2019ll keep streaming ad-free across iPhone, iPad, Apple\u202fTV, and Mac. You won\u2019t lose your place in ongoing series or upcoming premieres. We\u2019ll make additional attempts over the next few days. If you\u2019d prefer not to continue Apple\u202fTV+, you can cancel in Settings \u2192 Subscriptions before your access ends. Need help? Visit support.apple.com or open Support in your device settings. We\u2019re here to assist. Thanks for your attention\u2014let\u2019s keep you streaming. \u2014The Apple\u202fTV+ Team Apple Inc. \u2022 One Apple Park Way, Cupertino, CA 95014, USA \u00a9 2023 Apple Inc. All rights reserved. Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 20,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "elodie.dubois@laposte.net"
+        },
+        {
+          "start": 123,
+          "end": 144,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Apple\u202fTV+ subscription"
+        },
+        {
+          "start": 159,
+          "end": 175,
+          "label": "PAYMENT_DATE",
+          "value": "6 December 2023"
+        },
+        {
+          "start": 201,
+          "end": 205,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "id": "f7d93190-00b5-4f62-928b-93604854fc77",
+      "content": {
+        "raw_text": "From: Apple no_reply@id.apple.com To: Markus van Dijk markus.vandijk@ziggo.nl Date: Mon, 15 Nov 2023 09:32:45 +0100 Subject: Your Apple\u202fTV+ subscription has been canceled Your subscription is canceled Hello Markus van Dijk, This is confirmation that your Apple\u202fTV+ subscription was canceled on 15 November 2023. You\u2019ll continue to have full access to Apple\u202fTV+ Originals\u2014like Severance, For All Mankind, and Pachinko\u2014until 15 December 2023, which is the end of your current billing period. What to expect next After 15 December 2023, your subscription will not renew and your billing will stop. You can still enjoy shows and movies until your access ends. If you'd like to return later, resubscribing is simple\u2014just tap the \u201cSubscribe\u201d button in the Apple\u202fTV app anytime. Need help? Visit support.apple.com or go to Settings > [Your Name] > Subscriptions on your device. Our team is here to assist with any questions about billing, service access, or content. Thank you for watching with us\u2014we hope to welcome you back soon. \u2014The Apple\u202fTV+ Team Apple Inc. \u2022 One Apple Park Way, Cupertino, CA 95014, USA \u00a9 2023 Apple Inc. All rights reserved. Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "Apple"
+        },
+        {
+          "start": 20,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "markus.vandijk@ziggo.nl"
+        },
+        {
+          "start": 112,
+          "end": 133,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Apple\u202fTV+ subscription"
+        },
+        {
+          "start": 154,
+          "end": 172,
+          "label": "PAYMENT_DATE",
+          "value": "15 November 2023"
+        },
+        {
+          "start": 251,
+          "end": 269,
+          "label": "RENEWAL_DATE",
+          "value": "15 December 2023"
+        }
+      ]
+    }
+  ]
+}

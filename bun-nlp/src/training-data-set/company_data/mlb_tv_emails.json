@@ -1,0 +1,1666 @@
+{
+  "mlb_tv_emails": [
+    {
+      "id": "a8c4ebd9-54b1-4e4a-9e3b-cb4a4d8f5f2a",
+      "content": {
+        "raw_text": "From: no-reply@mlb.tv To: sneha_kapoor29@outlook.com Date: 2025-06-10 08:45:12 Dear Sneha Kapoor, Welcome to MLB.tv! Your subscription has been successfully activated. Plan: Premium Payment Method: Netbanking Billing Location: Delhi, India Amount: INR 999 Timestamp: 2025-06-10 08:45:12 Enjoy all the live action and exclusive replays. Regards, MLB.tv Support Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "label": "USER_GMAIL",
+          "value": "sneha_kapoor29@outlook.com"
+        },
+        {
+          "start": 71,
+          "end": 83,
+          "label": "USERNAME",
+          "value": "Sneha Kapoor"
+        },
+        {
+          "start": 118,
+          "end": 125,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 143,
+          "end": 153,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Netbanking"
+        },
+        {
+          "start": 172,
+          "end": 183,
+          "label": "BILLING_LOCATION",
+          "value": "Delhi, India"
+        },
+        {
+          "start": 192,
+          "end": 200,
+          "label": "PAYMENT_AMOUNT",
+          "value": "INR 999"
+        },
+        {
+          "start": 210,
+          "end": 229,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "2025-06-10 08:45:12"
+        },
+        {
+          "start": 10,
+          "end": 20,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 296,
+          "end": 302,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f63d72be-372a-4fca-8d03-8db7f04d6a3b",
+      "content": {
+        "raw_text": "From: no-reply@mlb.tv To: john.miller22@hotmail.com Date: 2025-05-20 14:20:45 Dear John Miller, Your free trial has begun! Welcome aboard. Plan: Super (7-day trial) Payment Method: Debit Card Billing Location: New York, USA Timestamp: 2025-05-20 14:20:45 If you love it, your paid subscription will start automatically. Regards, MLB.tv Support Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 25,
+          "label": "USER_GMAIL",
+          "value": "john.miller22@hotmail.com"
+        },
+        {
+          "start": 61,
+          "end": 71,
+          "label": "USERNAME",
+          "value": "John Miller"
+        },
+        {
+          "start": 111,
+          "end": 117,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Super"
+        },
+        {
+          "start": 131,
+          "end": 141,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Debit Card"
+        },
+        {
+          "start": 160,
+          "end": 175,
+          "label": "BILLING_LOCATION",
+          "value": "New York, USA"
+        },
+        {
+          "start": 185,
+          "end": 204,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "2025-05-20 14:20:45"
+        },
+        {
+          "start": 10,
+          "end": 20,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 292,
+          "end": 298,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f2a5c3db-65e4-438f-b327-cd7d4770d6a7",
+      "content": {
+        "raw_text": "From: no-reply@mlb.tv To: carlos.diaz84@gmail.com Date: 2025-05-26 09:15:00 Dear Carlos D\u00edaz, Heads up\u2014your free trial ends soon. Plan: Super (trial) Payment Method: Credit Card Billing Location: Madrid, Spain Amount after trial: EUR 120 Trial expires: 2025-05-27 Timestamp: 2025-05-26 09:15:00 Subscribe now to avoid interruption. Regards, MLB.tv Support Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 27,
+          "label": "USER_GMAIL",
+          "value": "carlos.diaz84@gmail.com"
+        },
+        {
+          "start": 61,
+          "end": 72,
+          "label": "USERNAME",
+          "value": "Carlos D\u00edaz"
+        },
+        {
+          "start": 105,
+          "end": 110,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Super"
+        },
+        {
+          "start": 124,
+          "end": 135,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Credit Card"
+        },
+        {
+          "start": 154,
+          "end": 167,
+          "label": "BILLING_LOCATION",
+          "value": "Madrid, Spain"
+        },
+        {
+          "start": 187,
+          "end": 195,
+          "label": "PAYMENT_AMOUNT",
+          "value": "EUR 120"
+        },
+        {
+          "start": 210,
+          "end": 220,
+          "label": "RENEWAL_DATE",
+          "value": "2025-05-27"
+        },
+        {
+          "start": 230,
+          "end": 249,
+          "label": "PAYMENT_DATE",
+          "value": "2025-05-26 09:15:00"
+        },
+        {
+          "start": 10,
+          "end": 20,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 310,
+          "end": 316,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c8827612-e469-4fa7-b061-2bb1790412c4",
+      "content": {
+        "raw_text": "From: billing@mlb.tv To: emily.clark89@yahoo.com Date: 2025-06-01 12:00:30 Dear Emily Clark, Your payment went through successfully! Plan: Mobile Payment Method: Credit Card (****\u202f1234) Billing Location: London, UK Amount Charged: GBP 8.99 Date: 2025-06-01 Timestamp: 2025-06-01 12:00:30 Thank you for staying with us! Regards, MLB.tv Billing Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 29,
+          "label": "USER_GMAIL",
+          "value": "emily.clark89@yahoo.com"
+        },
+        {
+          "start": 58,
+          "end": 69,
+          "label": "USERNAME",
+          "value": "Emily Clark"
+        },
+        {
+          "start": 92,
+          "end": 98,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Mobile"
+        },
+        {
+          "start": 115,
+          "end": 140,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Credit Card (****\u202f1234)"
+        },
+        {
+          "start": 158,
+          "end": 169,
+          "label": "BILLING_LOCATION",
+          "value": "London, UK"
+        },
+        {
+          "start": 188,
+          "end": 197,
+          "label": "PAYMENT_AMOUNT",
+          "value": "GBP 8.99"
+        },
+        {
+          "start": 208,
+          "end": 218,
+          "label": "PAYMENT_DATE",
+          "value": "2025-06-01"
+        },
+        {
+          "start": 229,
+          "end": 248,
+          "label": "PAYMENT_DATE",
+          "value": "2025-06-01 12:00:30"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 318,
+          "end": 324,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "25ccfcaf-261e-4ca0-b5d1-5035121e9ad2",
+      "content": {
+        "raw_text": "From: billing@mlb.tv To: rajat.verma86@gmail.com Date: 2025-05-29 07:05:14 Dear Rajat Verma, Unfortunately, your recent payment attempt failed. Plan: Premium Payment Method: UPI Billing Location: Mumbai, India Amount Due: INR 1,499 Due Date: 2025-06-01 Timestamp: 2025-05-29 07:05:14 Please update your payment method to avoid interruption. Regards, MLB.tv Billing Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 26,
+          "label": "USER_GMAIL",
+          "value": "rajat.verma86@gmail.com"
+        },
+        {
+          "start": 56,
+          "end": 66,
+          "label": "USERNAME",
+          "value": "Rajat Verma"
+        },
+        {
+          "start": 91,
+          "end": 98,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 114,
+          "end": 117,
+          "label": "PAYMENT_PLATFORM",
+          "value": "UPI"
+        },
+        {
+          "start": 136,
+          "end": 150,
+          "label": "BILLING_LOCATION",
+          "value": "Mumbai, India"
+        },
+        {
+          "start": 165,
+          "end": 174,
+          "label": "PAYMENT_AMOUNT",
+          "value": "INR 1,499"
+        },
+        {
+          "start": 185,
+          "end": 195,
+          "label": "RENEWAL_DATE",
+          "value": "2025-06-01"
+        },
+        {
+          "start": 204,
+          "end": 223,
+          "label": "PAYMENT_DATE",
+          "value": "2025-05-29 07:05:14"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 320,
+          "end": 326,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "471d3c8d-faa3-4d06-a947-3f4e3c4f6f9d",
+      "content": {
+        "raw_text": "From: no-reply@mlb.tv To: sneha_kapoor29@outlook.com Date: 2025-06-30 00:01:05 Dear Sneha Kapoor, Your MLB.tv subscription has been auto-renewed. Plan: Premium Payment Method: Netbanking Billing Location: Delhi, India Amount Charged: INR 2,999 Renewal Date: 2025-06-30 Timestamp: 2025-06-30 00:01:05 Thanks for staying with us! Regards, MLB.tv Support Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 27,
+          "label": "USER_GMAIL",
+          "value": "sneha_kapoor29@outlook.com"
+        },
+        {
+          "start": 57,
+          "end": 69,
+          "label": "USERNAME",
+          "value": "Sneha Kapoor"
+        },
+        {
+          "start": 105,
+          "end": 112,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 129,
+          "end": 139,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Netbanking"
+        },
+        {
+          "start": 158,
+          "end": 169,
+          "label": "BILLING_LOCATION",
+          "value": "Delhi, India"
+        },
+        {
+          "start": 186,
+          "end": 196,
+          "label": "PAYMENT_AMOUNT",
+          "value": "INR 2,999"
+        },
+        {
+          "start": 213,
+          "end": 223,
+          "label": "RENEWAL_DATE",
+          "value": "2025-06-30"
+        },
+        {
+          "start": 233,
+          "end": 252,
+          "label": "PAYMENT_DATE",
+          "value": "2025-06-30 00:01:05"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 316,
+          "end": 322,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "3c2c81a2-faa1-4a9c-81d4-62f03fcd53f8",
+      "content": {
+        "raw_text": "From: no-reply@mlb.tv To: john.miller22@hotmail.com Date: 2025-04-12 18:40:23 Dear John Miller, We're sorry to see you go\u2014your subscription has been canceled as requested. Plan: Super Payment Method: Debit Card Billing Location: New York, USA Canceled On: 2025-04-12 Timestamp: 2025-04-12 18:40:23 You\u2019ll retain access until the end of your current billing period. Regards, MLB.tv Support Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 26,
+          "label": "USER_GMAIL",
+          "value": "john.miller22@hotmail.com"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "label": "USERNAME",
+          "value": "John Miller"
+        },
+        {
+          "start": 102,
+          "end": 107,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Super"
+        },
+        {
+          "start": 123,
+          "end": 132,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Debit Card"
+        },
+        {
+          "start": 151,
+          "end": 166,
+          "label": "BILLING_LOCATION",
+          "value": "New York, USA"
+        },
+        {
+          "start": 178,
+          "end": 188,
+          "label": "RENEWAL_DATE",
+          "value": "2025-04-12"
+        },
+        {
+          "start": 197,
+          "end": 216,
+          "label": "PAYMENT_DATE",
+          "value": "2025-04-12 18:40:23"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 313,
+          "end": 319,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1d13dcd7-9624-4c22-8c2c-c928b7bb25f5",
+      "content": {
+        "raw_text": "From: no-reply@mlb.tv To: carlos.diaz84@gmail.com Date: 2025-03-15 10:02:55 Dear Carlos D\u00edaz, Your plan has been upgraded! Previous Plan: Mobile New Plan: Premium Payment Method: Credit Card Billing Location: Madrid, Spain Additional Amount Charged: EUR 7.50 Timestamp: 2025-03-15 10:02:55 Enjoy premium access! Regards, MLB.tv Support Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 27,
+          "label": "USER_GMAIL",
+          "value": "carlos.diaz84@gmail.com"
+        },
+        {
+          "start": 61,
+          "end": 72,
+          "label": "USERNAME",
+          "value": "Carlos D\u00edaz"
+        },
+        {
+          "start": 105,
+          "end": 111,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Mobile"
+        },
+        {
+          "start": 123,
+          "end": 130,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 146,
+          "end": 157,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Credit Card"
+        },
+        {
+          "start": 176,
+          "end": 189,
+          "label": "BILLING_LOCATION",
+          "value": "Madrid, Spain"
+        },
+        {
+          "start": 211,
+          "end": 219,
+          "label": "PAYMENT_AMOUNT",
+          "value": "EUR 7.50"
+        },
+        {
+          "start": 230,
+          "end": 249,
+          "label": "PAYMENT_DATE",
+          "value": "2025-03-15 10:02:55"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 310,
+          "end": 316,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d79c5963-8391-4f3a-9a44-27119e7bc2d4",
+      "content": {
+        "raw_text": "From: no-reply@mlb.tv To: emily.clark89@yahoo.com Date: 2025-04-25 21:47:08 Dear Emily Clark, Your plan has been downgraded. Previous Plan: Premium New Plan: Mobile Payment Method: Credit Card Billing Location: London, UK Credit Applied: GBP 4 Timestamp: 2025-04-25 21:47:08 Your new benefits change will take effect on your next cycle. Regards, MLB.tv Support Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 29,
+          "label": "USER_GMAIL",
+          "value": "emily.clark89@yahoo.com"
+        },
+        {
+          "start": 58,
+          "end": 69,
+          "label": "USERNAME",
+          "value": "Emily Clark"
+        },
+        {
+          "start": 102,
+          "end": 109,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 120,
+          "end": 126,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Mobile"
+        },
+        {
+          "start": 138,
+          "end": 149,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Credit Card"
+        },
+        {
+          "start": 168,
+          "end": 177,
+          "label": "BILLING_LOCATION",
+          "value": "London, UK"
+        },
+        {
+          "start": 190,
+          "end": 195,
+          "label": "PAYMENT_AMOUNT",
+          "value": "GBP 4"
+        },
+        {
+          "start": 206,
+          "end": 225,
+          "label": "PAYMENT_DATE",
+          "value": "2025-04-25 21:47:08"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 318,
+          "end": 324,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b1d67102-e111-4a1f-a4ca-8676c135f71c",
+      "content": {
+        "raw_text": "From: promo@mlb.tv To: rajat.verma86@gmail.com Date: 2025-05-18 09:11:49 Dear Rajat Verma, You\u2019ve been upgraded to Super plan for 1 month\u2014on us! Plan: Premium promo Payment Method: UPI Billing Location: Mumbai, India No charge today. Next billing starts: 2025-06-18 Timestamp: 2025-05-18 09:11:49 Enjoy the extra access! Regards, MLB.tv Promo Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 26,
+          "label": "USER_GMAIL",
+          "value": "rajat.verma86@gmail.com"
+        },
+        {
+          "start": 56,
+          "end": 66,
+          "label": "USERNAME",
+          "value": "Rajat Verma"
+        },
+        {
+          "start": 101,
+          "end": 113,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium promo"
+        },
+        {
+          "start": 129,
+          "end": 132,
+          "label": "PAYMENT_PLATFORM",
+          "value": "UPI"
+        },
+        {
+          "start": 151,
+          "end": 165,
+          "label": "BILLING_LOCATION",
+          "value": "Mumbai, India"
+        },
+        {
+          "start": 190,
+          "end": 200,
+          "label": "RENEWAL_DATE",
+          "value": "2025-06-18"
+        },
+        {
+          "start": 210,
+          "end": 229,
+          "label": "PAYMENT_DATE",
+          "value": "2025-05-18 09:11:49"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 320,
+          "end": 326,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9e95316f-01b8-4e2b-b8d3-fd28f85ec23d",
+      "content": {
+        "raw_text": "From: billing@mlb.tv To: sneha_kapoor29@outlook.com Date: 2025-06-05 16:05:32 Dear Sneha Kapoor, A refund has been issued to your account. Plan: Premium Payment Method: Netbanking Billing Location: Delhi, India Amount Refunded: INR 699 Original Charge Date: 2025-06-01 Timestamp: 2025-06-05 16:05:32 We hope to serve you again soon. Regards, MLB.tv Billing Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 27,
+          "label": "USER_GMAIL",
+          "value": "sneha_kapoor29@outlook.com"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "label": "USERNAME",
+          "value": "Sneha Kapoor"
+        },
+        {
+          "start": 89,
+          "end": 96,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 112,
+          "end": 122,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Netbanking"
+        },
+        {
+          "start": 141,
+          "end": 152,
+          "label": "BILLING_LOCATION",
+          "value": "Delhi, India"
+        },
+        {
+          "start": 169,
+          "end": 177,
+          "label": "PAYMENT_AMOUNT",
+          "value": "INR 699"
+        },
+        {
+          "start": 197,
+          "end": 207,
+          "label": "PAYMENT_DATE",
+          "value": "2025-06-01"
+        },
+        {
+          "start": 216,
+          "end": 235,
+          "label": "PAYMENT_DATE",
+          "value": "2025-06-05 16:05:32"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 318,
+          "end": 324,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a987f04b-3256-4e97-b33a-c77453f5f151",
+      "content": {
+        "raw_text": "From: billing@mlb.tv To: john.miller22@hotmail.com Date: 2025-06-15 11:22:41 Dear John Miller, Here\u2019s your receipt for today's payment. Plan: Super Payment Method: Debit Card Billing Location: New York, USA Amount Paid: USD 14.99 Transaction ID: TXN123456789 Timestamp: 2025-06-15 11:22:41 Thank you for your payment! Regards, MLB.tv Billing Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 27,
+          "label": "USER_GMAIL",
+          "value": "john.miller22@hotmail.com"
+        },
+        {
+          "start": 61,
+          "end": 71,
+          "label": "USERNAME",
+          "value": "John Miller"
+        },
+        {
+          "start": 86,
+          "end": 91,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Super"
+        },
+        {
+          "start": 107,
+          "end": 117,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Debit Card"
+        },
+        {
+          "start": 136,
+          "end": 151,
+          "label": "BILLING_LOCATION",
+          "value": "New York, USA"
+        },
+        {
+          "start": 165,
+          "end": 173,
+          "label": "PAYMENT_AMOUNT",
+          "value": "USD 14.99"
+        },
+        {
+          "start": 187,
+          "end": 203,
+          "label": "TRANSACTION_ID",
+          "value": "TXN123456789"
+        },
+        {
+          "start": 214,
+          "end": 233,
+          "label": "PAYMENT_DATE",
+          "value": "2025-06-15 11:22:41"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 323,
+          "end": 329,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "7884b324-3f44-4c49-b051-8b4f960c68c7",
+      "content": {
+        "raw_text": "From: invite@mlb.tv To: carlos.diaz84@gmail.com Date: 2025-05-07 14:33:00 Dear Carlos D\u00edaz, You\u2019ve been invited to join the family plan on MLB.tv! Invited by: Emily Clark Plan: Family (up to 4 members) Invitation Code: FAM987654 Expires: 2025-05-14 Timestamp: 2025-05-07 14:33:00 Share and enjoy together. Regards, MLB.tv Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 27,
+          "label": "USER_GMAIL",
+          "value": "carlos.diaz84@gmail.com"
+        },
+        {
+          "start": 61,
+          "end": 72,
+          "label": "USERNAME",
+          "value": "Carlos D\u00edaz"
+        },
+        {
+          "start": 103,
+          "end": 113,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Family"
+        },
+        {
+          "start": 143,
+          "end": 152,
+          "label": "USERNAME",
+          "value": "Emily Clark"
+        },
+        {
+          "start": 174,
+          "end": 183,
+          "label": "RENEWAL_DATE",
+          "value": "2025-05-14"
+        },
+        {
+          "start": 193,
+          "end": 212,
+          "label": "PAYMENT_DATE",
+          "value": "2025-05-07 14:33:00"
+        },
+        {
+          "start": 10,
+          "end": 20,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 326,
+          "end": 332,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "3a3e24b6-6f5e-4f5f-9ad9-6e21be965a2a",
+      "content": {
+        "raw_text": "From: statement@mlb.tv To: sneha_kapoor29@outlook.com Date: 2025-05-31 18:00:00 Dear Sneha Kapoor, Here\u2019s your statement for May 2025. Plan: Premium Payment Method: Netbanking Billing Location: Delhi, India Total Charged: INR 2,999 Billing Cycle: 2025-05-01 to 2025-05-31 Timestamp: 2025-05-31 18:00:00 Download full statement in your account. Regards, MLB.tv Support Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 27,
+          "label": "USER_GMAIL",
+          "value": "sneha_kapoor29@outlook.com"
+        },
+        {
+          "start": 61,
+          "end": 73,
+          "label": "USERNAME",
+          "value": "Sneha Kapoor"
+        },
+        {
+          "start": 102,
+          "end": 109,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 125,
+          "end": 135,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Netbanking"
+        },
+        {
+          "start": 154,
+          "end": 165,
+          "label": "BILLING_LOCATION",
+          "value": "Delhi, India"
+        },
+        {
+          "start": 182,
+          "end": 190,
+          "label": "PAYMENT_AMOUNT",
+          "value": "INR 2,999"
+        },
+        {
+          "start": 203,
+          "end": 217,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "2025-05-01 to 2025-05-31"
+        },
+        {
+          "start": 228,
+          "end": 247,
+          "label": "PAYMENT_DATE",
+          "value": "2025-05-31 18:00:00"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 310,
+          "end": 316,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9d51d8c6-6a36-4d92-b7b4-3180a5f4ee58",
+      "content": {
+        "raw_text": "From: promo@mlb.tv To: emily.clark89@yahoo.com Date: 2025-05-29 10:50:12 Dear Emily Clark, Your special offer is expiring soon. Plan: Mobile \u2013 20% off Payment Method: Credit Card Billing Location: London, UK Offer Expires: 2025-06-01 Timestamp: 2025-05-29 10:50:12 Subscribe now to lock in savings. Regards, MLB.tv Promo Team Unsubscribe: https://mlb.tv/unsubscribe MLB Advanced Media, L.P. 75 Ninth Avenue, New York, NY 10011"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 29,
+          "label": "USER_GMAIL",
+          "value": "emily.clark89@yahoo.com"
+        },
+        {
+          "start": 57,
+          "end": 63,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Mobile"
+        },
+        {
+          "start": 67,
+          "end": 73,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "20% off"
+        },
+        {
+          "start": 88,
+          "end": 99,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Credit Card"
+        },
+        {
+          "start": 118,
+          "end": 127,
+          "label": "BILLING_LOCATION",
+          "value": "London, UK"
+        },
+        {
+          "start": 140,
+          "end": 150,
+          "label": "RENEWAL_DATE",
+          "value": "2025-06-01"
+        },
+        {
+          "start": 160,
+          "end": 179,
+          "label": "PAYMENT_DATE",
+          "value": "2025-05-29 10:50:12"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        },
+        {
+          "start": 320,
+          "end": 326,
+          "label": "COMPANY_NAME",
+          "value": "MLB.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ea31d4be-e865-4637-a2e1-25e82a89a446",
+      "content": {
+        "raw_text": "From: support@stream.mlb.com To: jane.doe@example.com Subject: Welcome to MLB.TV \u2013 Your Yearly Subscription Is Active! Date: Wed, 05 Mar 2025 09:12:44 -0500 Message-ID: <20250305-091244-001@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hi Jane, Thanks for joining MLB.TV! Your Yearly plan is now active. \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 Plan:        MLB.TV Yearly  Start date:  05-Mar-2025  Price:       USD 149.99  Card:        Visa \u2022\u2022\u2022\u2022 0427 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 Watch on any supported device and never miss a pitch. Questions? Visit our Help Center or reply to this email. Play ball! \u2014The MLB.TV Team \u2500\u2500\u2500\u2500 This is an automated notification. Please do not reply to this message."
+      },
+      "ner_entities": [
+        {
+          "start": 23,
+          "end": 42,
+          "label": "USER_GMAIL",
+          "value": "jane.doe@example.com"
+        },
+        {
+          "start": 81,
+          "end": 85,
+          "label": "USERNAME",
+          "value": "Jane"
+        },
+        {
+          "start": 100,
+          "end": 109,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Yearly"
+        },
+        {
+          "start": 128,
+          "end": 138,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "05-Mar-2025"
+        },
+        {
+          "start": 146,
+          "end": 155,
+          "label": "PAYMENT_AMOUNT",
+          "value": "USD 149.99"
+        },
+        {
+          "start": 161,
+          "end": 180,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa \u2022\u2022\u2022\u2022 0427"
+        },
+        {
+          "start": 9,
+          "end": 20,
+          "label": "COMPANY_NAME",
+          "value": "MLB.TV"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "96313fbd-c0e7-4cd2-9b99-bd60f74a4f10",
+      "content": {
+        "raw_text": "From: billing@stream.mlb.com To: chris.robinson@example.net Subject: Payment Receipt \u2013 MLB.TV Monthly (March 2025) Date: Sat, 01 Mar 2025 00:07:18 -0500 Message-ID: <20250301-000718-014@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hello Chris, Your payment for the March cycle was successful. \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 Subscription: MLB.TV Monthly  Billing date: 01-Mar-2025  Amount paid:  USD 24.99  Card ending:  6011  Invoice #:    73A6-E912-7F \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 You can download a PDF invoice from My Account \u2192 Billing History. Thanks for being part of MLB.TV. Regards, MLB.TV Billing Operations"
+      },
+      "ner_entities": [
+        {
+          "start": 23,
+          "end": 42,
+          "label": "USER_GMAIL",
+          "value": "chris.robinson@example.net"
+        },
+        {
+          "start": 49,
+          "end": 54,
+          "label": "USERNAME",
+          "value": "Chris"
+        },
+        {
+          "start": 93,
+          "end": 105,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly"
+        },
+        {
+          "start": 118,
+          "end": 128,
+          "label": "PAYMENT_DATE",
+          "value": "01-Mar-2025"
+        },
+        {
+          "start": 140,
+          "end": 150,
+          "label": "PAYMENT_AMOUNT",
+          "value": "USD 24.99"
+        },
+        {
+          "start": 165,
+          "end": 167,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Card"
+        },
+        {
+          "start": 178,
+          "end": 182,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6011"
+        },
+        {
+          "start": 187,
+          "end": 203,
+          "label": "TRANSACTION_ID",
+          "value": "73A6-E912-7F"
+        },
+        {
+          "start": 9,
+          "end": 20,
+          "label": "COMPANY_NAME",
+          "value": "MLB.TV"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "8406e721-2f4a-45e3-9d27-60d4bcddccbd",
+      "content": {
+        "raw_text": "From: alerts@stream.mlb.com To: alex.nguyen@example.org Subject: Action Required \u2013 Please Update Your Payment Method Date: Mon, 10 Mar 2025 16:32:09 +0000 Message-ID: <20250310-163209-020@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hi Alex, We were unable to process your recent MLB.TV payment because the card on file was declined. Next attempt: 13-Mar-2025  Amount due: USD 24.99 Please update your payment method before the next attempt to avoid service interruption: Account \u2192 Payment Settings \u2192 Update Card Need help? Chat with us anytime. \u2014MLB.TV Account Services"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 27,
+          "label": "USER_GMAIL",
+          "value": "alex.nguyen@example.org"
+        },
+        {
+          "start": 41,
+          "end": 45,
+          "label": "USERNAME",
+          "value": "Alex"
+        },
+        {
+          "start": 112,
+          "end": 120,
+          "label": "PAYMENT_AMOUNT",
+          "value": "USD 24.99"
+        },
+        {
+          "start": 198,
+          "end": 203,
+          "label": "RENEWAL_DATE",
+          "value": "13-Mar-2025"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "a5519321-f5bc-4b8f-912f-67190b96b8a7",
+      "content": {
+        "raw_text": "From: team@stream.mlb.com To: maria.lopez@example.com Subject: Renewal Reminder \u2013 Your Annual Plan Renews April 2 Date: Tue, 18 Mar 2025 08:01:55 -0400 Message-ID: <20250318-080155-032@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hi Maria, Your MLB.TV Yearly subscription will renew on 02-Apr-2025 for USD 149.99 using your Mastercard \u2022\u2022\u2022\u2022 1884. No action is needed if you wish to continue. To make changes or cancel, visit My Account before 01-Apr-2025 23:59 ET. We\u2019re gearing up for Opening Day\u2014see you then! Cheers, MLB.TV"
+      },
+      "ner_entities": [
+        {
+          "start": 18,
+          "end": 36,
+          "label": "USER_GMAIL",
+          "value": "maria.lopez@example.com"
+        },
+        {
+          "start": 40,
+          "end": 45,
+          "label": "USERNAME",
+          "value": "Maria"
+        },
+        {
+          "start": 106,
+          "end": 116,
+          "label": "RENEWAL_DATE",
+          "value": "02-Apr-2025"
+        },
+        {
+          "start": 121,
+          "end": 132,
+          "label": "PAYMENT_AMOUNT",
+          "value": "USD 149.99"
+        },
+        {
+          "start": 139,
+          "end": 155,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard \u2022\u2022\u2022\u2022 1884"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "e435d9a3-839d-45c7-8ab7-6e409288ec06",
+      "content": {
+        "raw_text": "From: trial@stream.mlb.com To: samir.patel@example.in Subject: Your Free Trial Ends Tomorrow \u2013 Keep Streaming Baseball Live Date: Fri, 21 Mar 2025 19:44:02 +0530 Message-ID: <20250321-194402-077@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hey Samir, Just a heads-up\u2014your 7-day free trial ends on 22-Mar-2025 at 23:59 IST. Unless you cancel, we\u2019ll automatically start your Monthly plan (USD 24.99) using card \u2022\u2022\u2022\u2022 0923. Enjoy every game, every team\u2014ad-free. Cancel anytime: My Account \u2192 Subscription. Play on, The MLB.TV Crew"
+      },
+      "ner_entities": [
+        {
+          "start": 13,
+          "end": 27,
+          "label": "USER_GMAIL",
+          "value": "samir.patel@example.in"
+        },
+        {
+          "start": 31,
+          "end": 36,
+          "label": "USERNAME",
+          "value": "Samir"
+        },
+        {
+          "start": 121,
+          "end": 131,
+          "label": "RENEWAL_DATE",
+          "value": "22-Mar-2025"
+        },
+        {
+          "start": 173,
+          "end": 183,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly"
+        },
+        {
+          "start": 187,
+          "end": 198,
+          "label": "PAYMENT_AMOUNT",
+          "value": "USD 24.99"
+        },
+        {
+          "start": 204,
+          "end": 210,
+          "label": "PAYMENT_PLATFORM",
+          "value": "card \u2022\u2022\u2022\u2022 0923"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1c519ea9-c45c-4e84-9b68-23a8d167e88c",
+      "content": {
+        "raw_text": "From: billing@stream.mlb.com To: kelly.brown@example.co.uk Subject: Your Card Expires Soon \u2013 Don\u2019t Miss a Game Date: Mon, 24 Mar 2025 11:22:10 +0000 Message-ID: <20250324-112210-088@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hello Kelly, We noticed that your Visa \u2022\u2022\u2022\u2022 0045 on file expires 04/25. Please update your payment details by 31-Mar-2025 to ensure uninterrupted MLB.TV service. Update now \u2192 https://www.mlb.com/account/payment Thank you, MLB.TV Billing"
+      },
+      "ner_entities": [
+        {
+          "start": 7,
+          "end": 18,
+          "label": "USER_GMAIL",
+          "value": "kelly.brown@example.co.uk"
+        },
+        {
+          "start": 13,
+          "end": 18,
+          "label": "USERNAME",
+          "value": "Kelly"
+        },
+        {
+          "start": 84,
+          "end": 97,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa \u2022\u2022\u2022\u2022 0045"
+        },
+        {
+          "start": 123,
+          "end": 131,
+          "label": "RENEWAL_DATE",
+          "value": "31-Mar-2025"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "af36b0ae-5046-48b0-9a23-d1085aa89fae",
+      "content": {
+        "raw_text": "From: cancellations@stream.mlb.com To: mark.sanchez@example.com Subject: Cancellation Confirmed \u2013 MLB.TV Subscription Date: Thu, 27 Mar 2025 14:18:33 -0700 Message-ID: <20250327-141833-099@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hi Mark, This email confirms that your MLB.TV Monthly subscription has been cancelled effective 27-Mar-2025. You\u2019ll continue to have access until the end of your current billing period (31-Mar-2025). We hope you\u2019ll be back next season. Take our quick survey and tell us why you left (takes 30 sec). Best regards, MLB.TV Retention Team"
+      },
+      "ner_entities": [
+        {
+          "start": 20,
+          "end": 38,
+          "label": "USER_GMAIL",
+          "value": "mark.sanchez@example.com"
+        },
+        {
+          "start": 42,
+          "end": 46,
+          "label": "USERNAME",
+          "value": "Mark"
+        },
+        {
+          "start": 93,
+          "end": 100,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly"
+        },
+        {
+          "start": 135,
+          "end": 145,
+          "label": "RENEWAL_DATE",
+          "value": "27-Mar-2025"
+        },
+        {
+          "start": 191,
+          "end": 201,
+          "label": "RENEWAL_DATE",
+          "value": "31-Mar-2025"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "7f2a1a3b-e1a6-412a-b02a-0e7d4e179baf",
+      "content": {
+        "raw_text": "From: gifts@stream.mlb.com To: emily.hsu@example.sg Subject: Your Gift Subscription Has Been Redeemed \u2013 Enjoy MLB.TV! Date: Sun, 30 Mar 2025 07:45:59 +0800 Message-ID: <20250330-074559-104@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Congrats Emily! Gift code G9X-27T-BQ4 has been applied to your account. You now have MLB.TV Yearly access through 29-Mar-2026. Start streaming \u2192 https://www.mlb.com/tv/watch If you run into any issues, just reply to this email. Have a great season, MLB.TV Support"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 31,
+          "label": "USER_GMAIL",
+          "value": "emily.hsu@example.sg"
+        },
+        {
+          "start": 24,
+          "end": 29,
+          "label": "USERNAME",
+          "value": "Emily"
+        },
+        {
+          "start": 72,
+          "end": 85,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Yearly"
+        },
+        {
+          "start": 103,
+          "end": 113,
+          "label": "RENEWAL_DATE",
+          "value": "29-Mar-2026"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "3e956c8e-3e87-44a5-b39b-40d159c292bb",
+      "content": {
+        "raw_text": "From: notify@stream.mlb.com To: david.lee@example.com Subject: Blackout Notice \u2013 LAD @ SD on April 4 Date: Wed, 02 Apr 2025 12:00:00 -0700 Message-ID: <20250402-120000-118@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hi David, Due to MLB blackout rules, the LAD vs SD game on 04-Apr-2025 at 6:40 PM PT will be unavailable in your local viewing area (ZIP 92101). All other out-of-market games remain available. Learn more about blackout restrictions \u2192 Thanks for understanding, MLB.TV Operations"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 26,
+          "label": "USER_GMAIL",
+          "value": "david.lee@example.com"
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "label": "USERNAME",
+          "value": "David"
+        },
+        {
+          "start": 105,
+          "end": 115,
+          "label": "RENEWAL_DATE",
+          "value": "04-Apr-2025"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "43a52c63-b73e-4b9b-b0c0-2695a3601c08",
+      "content": {
+        "raw_text": "From: account@stream.mlb.com To: olivia.martin@example.fr Subject: Account Suspended \u2013 Payment Failed Date: Fri, 04 Apr 2025 05:31:27 +0200 Message-ID: <20250404-053127-125@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Bonjour Olivia, Your MLB.TV service has been temporarily suspended because the payment on 04-Apr-2025 was declined. To restore access: 1. Sign in to mlb.com/account  2. Add a valid payment method  3. Click \u201cReactivate\u201d Need assistance? Our support team is available 24/7. Merci, MLB.TV Billing"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 28,
+          "label": "USER_GMAIL",
+          "value": "olivia.martin@example.fr"
+        },
+        {
+          "start": 36,
+          "end": 42,
+          "label": "USERNAME",
+          "value": "Olivia"
+        },
+        {
+          "start": 102,
+          "end": 112,
+          "label": "PAYMENT_DATE",
+          "value": "04-Apr-2025"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "f89e430a-5742-429f-9e70-4ed2f2a73d6d",
+      "content": {
+        "raw_text": "From: updates@stream.mlb.com To: liwei.chen@example.cn Subject: Price Update \u2013 MLB.TV Monthly Goes to USD 26.99 Date: Tue, 08 Apr 2025 10:14:09 +0800 Message-ID: <20250408-101409-132@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Dear Li Wei, Starting with your next billing cycle on 01-May-2025, the price of MLB.TV Monthly will change: Old price: USD 24.99 New price: USD 26.99 No action is required. If you do nothing, the new price will apply automatically. You may cancel anytime before 30-Apr-2025. Thank you for streaming with us. \u2014MLB.TV"
+      },
+      "ner_entities": [
+        {
+          "start": 13,
+          "end": 27,
+          "label": "USER_GMAIL",
+          "value": "liwei.chen@example.cn"
+        },
+        {
+          "start": 34,
+          "end": 40,
+          "label": "USERNAME",
+          "value": "Li Wei"
+        },
+        {
+          "start": 134,
+          "end": 144,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly"
+        },
+        {
+          "start": 160,
+          "end": 169,
+          "label": "PAYMENT_AMOUNT",
+          "value": "USD 24.99"
+        },
+        {
+          "start": 187,
+          "end": 196,
+          "label": "PAYMENT_AMOUNT",
+          "value": "USD 26.99"
+        },
+        {
+          "start": 239,
+          "end": 249,
+          "label": "RENEWAL_DATE",
+          "value": "30-Apr-2025"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "345e226b-3a8c-4dfb-9f7d-6d61b78b7a51",
+      "content": {
+        "raw_text": "From: premium@stream.mlb.com To: lucas.moretti@example.it Subject: Upgrade Confirmed \u2013 You\u2019re Now an MLB.TV Premium Member Date: Thu, 10 Apr 2025 13:22:11 +0200 Message-ID: <20250410-132211-140@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Ciao Lucas, Your upgrade to MLB.TV Premium is complete! Benefits unlocked: \u2022 Home & away broadcast feeds \u2022 4-device simultaneous streaming \u2022 In-game DVR controls Charge today: EUR 54.99 (prorated) Next annual renewal: 09-Apr-2026 Enjoy the show, MLB.TV Premium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 11,
+          "end": 30,
+          "label": "USER_GMAIL",
+          "value": "lucas.moretti@example.it"
+        },
+        {
+          "start": 36,
+          "end": 41,
+          "label": "USERNAME",
+          "value": "Lucas"
+        },
+        {
+          "start": 64,
+          "end": 71,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 145,
+          "end": 154,
+          "label": "PAYMENT_AMOUNT",
+          "value": "EUR 54.99"
+        },
+        {
+          "start": 173,
+          "end": 183,
+          "label": "RENEWAL_DATE",
+          "value": "09-Apr-2026"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "5e671710-596f-41b6-8354-8f8ffb8b6a4c",
+      "content": {
+        "raw_text": "From: reactivate@stream.mlb.com To: hannah.green@example.ca Subject: Welcome Back \u2013 Your MLB.TV Service Is Restored Date: Mon, 14 Apr 2025 08:07:02 -0400 Message-ID: <20250414-080702-151@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hi Hannah, We\u2019re excited to have you back! Your MLB.TV Monthly subscription is active again as of 14-Apr-2025. Need a refresher? Check out our new features guide \u2192 See you at first pitch! MLB.TV Fan Support"
+      },
+      "ner_entities": [
+        {
+          "start": 21,
+          "end": 40,
+          "label": "USER_GMAIL",
+          "value": "hannah.green@example.ca"
+        },
+        {
+          "start": 43,
+          "end": 49,
+          "label": "USERNAME",
+          "value": "Hannah"
+        },
+        {
+          "start": 109,
+          "end": 119,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly"
+        },
+        {
+          "start": 138,
+          "end": 148,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "14-Apr-2025"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "cdba7d24-324a-49f2-b7ce-cda38f07e229",
+      "content": {
+        "raw_text": "From: annual@stream.mlb.com To: raj.kapoor@example.com Subject: Auto-Renewal Successful \u2013 MLB.TV Yearly 2025-26 Date: Wed, 16 Apr 2025 22:09:41 +0530 Message-ID: <20250416-220941-164@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hi Raj, Your MLB.TV Yearly plan has renewed for the 2025-26 season. \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 Renewal date: 16-Apr-2025 Amount:       INR 12,299 Payment:      Card \u2022\u2022\u2022\u2022 8842 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 Thank you for staying with us. \u2014MLB.TV India"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 30,
+          "label": "USER_GMAIL",
+          "value": "raj.kapoor@example.com"
+        },
+        {
+          "start": 33,
+          "end": 36,
+          "label": "USERNAME",
+          "value": "Raj"
+        },
+        {
+          "start": 88,
+          "end": 98,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Yearly"
+        },
+        {
+          "start": 110,
+          "end": 120,
+          "label": "RENEWAL_DATE",
+          "value": "16-Apr-2025"
+        },
+        {
+          "start": 131,
+          "end": 142,
+          "label": "PAYMENT_AMOUNT",
+          "value": "INR 12,299"
+        },
+        {
+          "start": 155,
+          "end": 165,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Card \u2022\u2022\u2022\u2022 8842"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "58f45009-3a3e-41c9-9d12-750cb02fbeeb",
+      "content": {
+        "raw_text": "From: student@stream.mlb.com To: lily.adams@example.edu Subject: Student Discount Approved \u2013 Save 35% on MLB.TV Date: Fri, 18 Apr 2025 15:00:00 -0400 Message-ID: <20250418-150000-173@mlb.com> MIME-Version: 1.0 Content-Type: text/plain; charset=\"utf-8\" Hi Lily, Great news\u2014your student verification is complete! Beginning with your next charge on 01-May-2025, you\u2019ll receive 35 % off MLB.TV Monthly (now USD 17.54). Stay on top of the action (and your budget). Regards, MLB.TV Student Program"
+      },
+      "ner_entities": [
+        {
+          "start": 13,
+          "end": 29,
+          "label": "USER_GMAIL",
+          "value": "lily.adams@example.edu"
+        },
+        {
+          "start": 32,
+          "end": 36,
+          "label": "USERNAME",
+          "value": "Lily"
+        },
+        {
+          "start": 131,
+          "end": 138,
+          "label": "PAYMENT_AMOUNT",
+          "value": "35 % off"
+        },
+        {
+          "start": 160,
+          "end": 168,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly"
+        },
+        {
+          "start": 174,
+          "end": 180,
+          "label": "PAYMENT_AMOUNT",
+          "value": "USD 17.54"
+        },
+        {
+          "start": 198,
+          "end": 208,
+          "label": "RENEWAL_DATE",
+          "value": "01-May-2025"
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "label": "COMPANY_NAME",
+          "value": "mlb.tv"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "Asana": [
+    {
+      "id": "bd7dfccd-7f8e-4d27-b6d3-b0ed8d36aa4c",
+      "content": {
+        "raw_text": "From: Asana <notifications@asana.com> To: amit.sharma@example.com Subject: Your Asana Premium Payment Was Successful - Receipt Included Hi Amit, Thank you for your recent payment to Asana! We're pleased to confirm that your payment for Asana Premium has been successfully processed. You now have uninterrupted access to all the advanced features that help your team streamline workflows and achieve more. Your continued subscription helps us enhance Asana, bringing you new functionalities and improvements designed to boost your productivity. Payment Summary: Plan: Asana Premium - Annual Amount Paid: \u20b96,999.00 INR Payment Date: June 20, 2025 Next Billing Date: June 20, 2026 You can always review your complete payment history and download your official receipts by logging into your Asana account and navigating to the \"Billing\" section under your workspace settings. If you have any questions regarding this payment or your subscription, please don't hesitate to contact our support team. We're here to ensure your experience with Asana is as smooth and productive as possible. Best regards, The Asana Team"
+      },
+      "ner_entities": [
+        {
+          "start": 40,
+          "end": 64,
+          "label": "USER_GMAIL",
+          "value": "amit.sharma@example.com"
+        },
+        {
+          "start": 68,
+          "end": 72,
+          "label": "USERNAME",
+          "value": "Amit"
+        },
+        {
+          "start": 111,
+          "end": 116,
+          "label": "COMPANY_NAME",
+          "value": "Asana"
+        },
+        {
+          "start": 160,
+          "end": 174,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Asana Premium"
+        },
+        {
+          "start": 261,
+          "end": 278,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Asana Premium - Annual"
+        },
+        {
+          "start": 293,
+          "end": 306,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b96,999.00 INR"
+        },
+        {
+          "start": 293,
+          "end": 294,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 294,
+          "end": 301,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6,999.00"
+        },
+        {
+          "start": 320,
+          "end": 334,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 356,
+          "end": 370,
+          "label": "RENEWAL_DATE",
+          "value": "June 20, 2026"
+        }
+      ]
+    },
+    {
+      "id": "e3f86217-8e84-44c4-8ac7-9a8e4e8374b5",
+      "content": {
+        "raw_text": "From: Asana <notifications@asana.com> To: deepa.patel@example.com Subject: Your Asana Refund Has Been Processed Hi Deepa, This email confirms that your refund for your recent Asana Premium subscription has been successfully processed. We understand that sometimes plans change, and we aim to make this process as straightforward as possible for you. The refund amount will be credited back to your original payment method. Please allow 5-7 business days for the funds to reflect in your account, as processing times can vary depending on your bank or financial institution. Refund Details: Amount Refunded: \u20b96,999.00 INR Original Plan: Asana Premium - Annual Refund Processed On: June 20, 2025 Payment Method: Visa ending in **** 1234 Your Asana account has now been adjusted, and your subscription has been reverted to the Asana Basic (free) plan. All your projects, tasks, and data remain safe and accessible within your account, so you can continue to use Asana's core features. We appreciate you giving Asana a try and hope you found it helpful. Should you decide to explore our premium features again in the future, we'd be happy to welcome you back. Warmly, The Asana Team"
+      },
+      "ner_entities": [
+        {
+          "start": 40,
+          "end": 64,
+          "label": "USER_GMAIL",
+          "value": "deepa.patel@example.com"
+        },
+        {
+          "start": 68,
+          "end": 73,
+          "label": "USERNAME",
+          "value": "Deepa"
+        },
+        {
+          "start": 134,
+          "end": 139,
+          "label": "COMPANY_NAME",
+          "value": "Asana"
+        },
+        {
+          "start": 193,
+          "end": 208,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Asana Premium"
+        },
+        {
+          "start": 304,
+          "end": 317,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b96,999.00 INR"
+        },
+        {
+          "start": 304,
+          "end": 305,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 305,
+          "end": 312,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6,999.00"
+        },
+        {
+          "start": 377,
+          "end": 401,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Asana Premium - Annual"
+        },
+        {
+          "start": 427,
+          "end": 441,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 463,
+          "end": 467,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "id": "f9365583-40a6-4f00-93b4-26543d71fd65",
+      "content": {
+        "raw_text": "From: Asana <notifications@asana.com> To: vishal.singh@example.com Subject: Your Asana Premium Subscription Has Been Cancelled Hi Vishal, This is to confirm that your Asana Premium subscription for your workspace has been successfully cancelled, as per your request. We're sorry to see you go and genuinely appreciate the time you've spent using our premium features to manage your team's work. Our goal is always to provide tools that empower teams, and we value the feedback of all our users. Cancellation Details: Plan: Asana Premium Cancellation Date: June 20, 2025 Premium Access Ends On: July 20, 2025 (End of current billing cycle) You will continue to have full access to all Premium features until the end of your current billing cycle. After this date, your workspace will automatically revert to the Asana Basic (free) plan. Your tasks, projects, and data will remain fully accessible, allowing you to continue managing your work with Asana's core functionalities. If you change your mind, you can reactivate your Premium subscription at any time directly from your workspace settings. Thank you for being a part of the Asana community. Sincerely, The Asana Team"
+      },
+      "ner_entities": [
+        {
+          "start": 40,
+          "end": 67,
+          "label": "USER_GMAIL",
+          "value": "vishal.singh@example.com"
+        },
+        {
+          "start": 71,
+          "end": 77,
+          "label": "USERNAME",
+          "value": "Vishal"
+        },
+        {
+          "start": 113,
+          "end": 118,
+          "label": "COMPANY_NAME",
+          "value": "Asana"
+        },
+        {
+          "start": 119,
+          "end": 134,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Asana Premium"
+        },
+        {
+          "start": 296,
+          "end": 310,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Asana Premium"
+        },
+        {
+          "start": 337,
+          "end": 351,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 377,
+          "end": 392,
+          "label": "RENEWAL_DATE",
+          "value": "July 20, 2025"
+        }
+      ]
+    },
+    {
+      "id": "e3b1cde3-1df7-4c3a-bf9f-8c7d3c9293a0",
+      "content": {
+        "raw_text": "From: Asana <welcome@asana.com> To: priya.mittal@example.com Subject: Welcome to Asana! Let's Get Started Organizing Your Work Hi Priya, Welcome to Asana! We are thrilled to have you join our global community of millions of teams and individuals who are transforming how they work. Asana is designed to help you organize, track, and manage all your tasks and projects with clarity, so you can achieve your goals more efficiently and stress-free. Whether you're working solo or collaborating with a large team, Asana provides the tools to keep everyone aligned. Here are a few steps to help you get started and make the most of your Asana experience: Create Your First Project: Start by outlining a new project, adding tasks, and assigning them to team members. Invite Your Team: Collaboration is at the heart of Asana. Invite your colleagues to your workspace to start working together seamlessly. Download the Mobile App: Keep your work at your fingertips by downloading the Asana app for iOS or Android. Explore Templates: Utilize our pre-built templates for common workflows like marketing campaigns, product launches, or event planning. We recommend visiting our Help Center for comprehensive guides and tutorials that will help you quickly master Asana's features. We aim to help you reduce busywork and focus on the work that matters most. We're excited to see what you'll accomplish with Asana! Happy organizing, The Asana Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 67,
+          "label": "USER_GMAIL",
+          "value": "priya.mittal@example.com"
+        },
+        {
+          "start": 71,
+          "end": 76,
+          "label": "USERNAME",
+          "value": "Priya"
+        },
+        {
+          "start": 95,
+          "end": 100,
+          "label": "COMPANY_NAME",
+          "value": "Asana"
+        }
+      ]
+    },
+    {
+      "id": "b82dc764-0732-44d2-88f4-73990bc76eaf",
+      "content": {
+        "raw_text": "From: Asana <notifications@asana.com> To: rajesh.kumar@example.com Subject: Action Required: Your Asana Premium Payment Failed Hi Rajesh, We regret to inform you that we were unable to process your recent payment for your Asana Premium subscription. This could be due to a variety of reasons, such as an expired card, insufficient funds, or an issue with your bank. To ensure your uninterrupted access to Asana's premium features, it's important to update your payment information as soon as possible. We understand that these things happen, and we're here to help you resolve it quickly. Details of the Failed Payment: Plan: Asana Premium Attempted Date: June 20, 2025 Amount: \u20b96,999.00 INR To prevent any disruption to your team's workflow and continued use of Premium features, please log into your Asana account and update your payment method in the \"Billing\" section. We will automatically retry the charge once your information has been successfully updated. If the payment remains unsuccessful after several attempts, your workspace may eventually be downgraded to the Asana Basic plan. Should you encounter any difficulties or have questions, our support team is ready to assist you. Thank you for your prompt attention to this matter. Sincerely, The Asana Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 67,
+          "label": "USER_GMAIL",
+          "value": "rajesh.kumar@example.com"
+        },
+        {
+          "start": 71,
+          "end": 77,
+          "label": "USERNAME",
+          "value": "Rajesh"
+        },
+        {
+          "start": 123,
+          "end": 128,
+          "label": "COMPANY_NAME",
+          "value": "Asana"
+        },
+        {
+          "start": 182,
+          "end": 196,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Asana Premium"
+        },
+        {
+          "start": 223,
+          "end": 238,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 247,
+          "end": 258,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 248,
+          "end": 258,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6,999.00"
+        }
+      ]
+    },
+    {
+      "id": "f67d204f-2ad6-462a-89a0-080d46019541",
+      "content": {
+        "raw_text": "From: Asana <notifications@asana.com> To: geeta.devi@example.com Subject: Your Asana Premium Subscription Will Renew Soon Hi Geeta, This is a friendly reminder that your Asana Premium annual subscription for your workspace is scheduled for automatic renewal on July 20, 2025. Your continued subscription ensures your team benefits from unlimited tasks, advanced reporting, custom fields, and many other features that empower efficient project management and collaboration. We are committed to continually improving Asana to provide you with the best tools for your productivity needs. Upcoming Renewal Details: Plan: Asana Premium - Annual Renewal Date: July 20, 2025 Amount Due: \u20b96,999.00 INR (plus applicable taxes) Payment Method: Your saved card ending in **** 5678 will be charged automatically. No action is required from your side if you wish to continue enjoying your Premium benefits. The renewal will be processed automatically on the specified date. If you need to review your subscription details, update your payment method, or consider changes to your plan, you can do so anytime by visiting the \"Billing\" section within your Asana workspace settings. Should you have any questions or require assistance, please feel free to contact our support team. We appreciate your continued trust in Asana. Best regards, The Asana Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 65,
+          "label": "USER_GMAIL",
+          "value": "geeta.devi@example.com"
+        },
+        {
+          "start": 69,
+          "end": 74,
+          "label": "USERNAME",
+          "value": "Geeta"
+        },
+        {
+          "start": 127,
+          "end": 133,
+          "label": "COMPANY_NAME",
+          "value": "Asana"
+        },
+        {
+          "start": 134,
+          "end": 157,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Asana Premium - Annual"
+        },
+        {
+          "start": 199,
+          "end": 213,
+          "label": "RENEWAL_DATE",
+          "value": "July 20, 2025"
+        },
+        {
+          "start": 235,
+          "end": 246,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 236,
+          "end": 246,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6,999.00"
+        }
+      ]
+    },
+    {
+      "id": "97ec5672-b15b-41bb-8b92-d3b9ec2f36e4",
+      "content": {
+        "raw_text": "From: Asana <notifications@asana.com> To: subhash.gupta@example.com Subject: Your Asana Premium Subscription is Active Hi Subhash, This email confirms that your Asana Premium subscription is currently active and you are enjoying all the enhanced features designed to help your team succeed. We wanted to provide you with a quick confirmation of your current plan status, ensuring you have peace of mind regarding your access to Asana's advanced functionalities. Your active subscription empowers your team with tools for clearer communication, better organization, and more focused execution on critical projects. Current Subscription Status: Plan: Asana Premium - Annual Subscription Start Date: June 20, 2024 Next Renewal Date: June 20, 2025 Status: Active You can manage all aspects of your subscription, including viewing details, updating payment information, or exploring other plan options, by visiting the \"Billing\" section in your Asana workspace settings. We encourage you to continue exploring the full potential of Asana Premium to maximize your team's productivity and collaboration. Our help center is also available with numerous resources to guide you. Thank you for choosing Asana to power your team's success. Sincerely, The Asana Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 67,
+          "label": "USER_GMAIL",
+          "value": "subhash.gupta@example.com"
+        },
+        {
+          "start": 71,
+          "end": 78,
+          "label": "USERNAME",
+          "value": "Subhash"
+        },
+        {
+          "start": 116,
+          "end": 121,
+          "label": "COMPANY_NAME",
+          "value": "Asana"
+        },
+        {
+          "start": 168,
+          "end": 191,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Asana Premium - Annual"
+        },
+        {
+          "start": 217,
+          "end": 231,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2024"
+        },
+        {
+          "start": 253,
+          "end": 267,
+          "label": "RENEWAL_DATE",
+          "value": "June 20, 2025"
+        }
+      ]
+    }
+  ]
+}

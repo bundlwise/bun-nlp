@@ -1,0 +1,336 @@
+{
+  "Rosetta Stone": [
+    {
+      "id": "ea6c5e0c-40f3-4051-9cd7-7e4b9510acdf",
+      "content": {
+        "raw_text": "Subject: Your Rosetta Stone Payment is Confirmed! Let Your Language Journey Continue. From: Rosetta Stone noreply@rosettastone.com To: hiroko.yamamoto@email.com Dear Hiroko Yamamoto, We're pleased to confirm that your payment for your Rosetta Stone subscription has been successfully processed. Thank you for continuing your language learning journey with us. Your dedication to mastering a new language is inspiring, and we are committed to providing you with the most effective and immersive learning experience. This successful transaction ensures your uninterrupted access to our dynamic lessons, interactive exercises, and native-speaker pronunciations, helping you build fluency with confidence. Payment Details: Plan: Lifetime Access - All Languages Amount Paid: \u20b919,999.00 INR Payment Date: April 01, 2023 Next Billing Date: N/A (Lifetime Access) You can always review your purchase history and manage your subscription details by logging into your Rosetta Stone account at https://my.rosettastone.com/sign_in. If you have any questions regarding this payment or your language program, please visit our support page at https://support.rosettastone.com/. We're here to help you achieve your language goals. Happy learning, The Rosetta Stone Team"
+      },
+      "ner_entities": [
+        {
+          "start": 62,
+          "end": 86,
+          "label": "COMPANY_NAME",
+          "value": "Rosetta Stone"
+        },
+        {
+          "start": 90,
+          "end": 116,
+          "label": "USER_GMAIL",
+          "value": "hiroko.yamamoto@email.com"
+        },
+        {
+          "start": 123,
+          "end": 141,
+          "label": "USERNAME",
+          "value": "Hiroko Yamamoto"
+        },
+        {
+          "start": 525,
+          "end": 557,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Lifetime Access - All Languages"
+        },
+        {
+          "start": 572,
+          "end": 586,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 573,
+          "end": 583,
+          "label": "PAYMENT_AMOUNT",
+          "value": "19,999.00"
+        },
+        {
+          "start": 602,
+          "end": 616,
+          "label": "PAYMENT_DATE",
+          "value": "April 01, 2023"
+        }
+      ]
+    },
+    {
+      "id": "7c053acc-49a5-4566-b69f-cd6f7e7efded",
+      "content": {
+        "raw_text": "Subject: Your Rosetta Stone Refund Has Been Processed From: Rosetta Stone support@rosettastone.com To: elara.petrov@email.com Dear Elara Petrov, This email confirms that your refund for your recent Rosetta Stone subscription has been successfully processed. We understand that sometimes plans change, and we aim to facilitate a smooth and efficient refund experience. The refunded amount will be credited back to your original payment method. Please allow 5-10 business days for the funds to reflect on your bank or card statement, as processing times can vary depending on your financial institution. Refund Summary: Plan: 12-Month Subscription - Spanish (Latin America) Amount Refunded: \u20b94,999.00 INR Processed Date: July 20, 2022 Payment Method: Visa ending in **** 9876 Your Rosetta Stone subscription associated with this refund has now been deactivated. While your access to the language program will cease, we hope you found your time with us valuable. Should you decide to resume your language studies or explore other languages in the future, you can easily purchase a new subscription anytime at https://www.rosettastone.com/store/. We wish you all the best in your future endeavors. Sincerely, The Rosetta Stone Team"
+      },
+      "ner_entities": [
+        {
+          "start": 18,
+          "end": 42,
+          "label": "COMPANY_NAME",
+          "value": "Rosetta Stone"
+        },
+        {
+          "start": 46,
+          "end": 70,
+          "label": "USER_GMAIL",
+          "value": "elara.petrov@email.com"
+        },
+        {
+          "start": 77,
+          "end": 90,
+          "label": "USERNAME",
+          "value": "Elara Petrov"
+        },
+        {
+          "start": 511,
+          "end": 558,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "12-Month Subscription - Spanish (Latin America)"
+        },
+        {
+          "start": 577,
+          "end": 591,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 578,
+          "end": 588,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4,999.00"
+        },
+        {
+          "start": 610,
+          "end": 624,
+          "label": "PAYMENT_DATE",
+          "value": "July 20, 2022"
+        }
+      ]
+    },
+    {
+      "id": "a99190d1-f217-4d88-9d8d-847b7c5b8d42",
+      "content": {
+        "raw_text": "Subject: Confirmation: Your Rosetta Stone Subscription Has Been Cancelled From: Rosetta Stone noreply@rosettastone.com To: diego.sanchez@email.com Dear Diego Sanchez, This is to confirm that your Rosetta Stone 6-Month French subscription has been successfully cancelled, as per your recent request. We appreciate you choosing Rosetta Stone for your language learning journey and are sorry to see you go. We hope you enjoyed the immersive lessons and made significant progress towards your fluency goals during your time with us. Your dedication to learning is commendable. Cancellation Details: Plan: 6-Month Subscription - French Cancellation Date: November 05, 2024 Access Ends On: December 05, 2024 (End of your current paid period) You will continue to have full access to all your Rosetta Stone lessons and features for the French language until the end of your current paid period. After this date, your access to the language program will cease. Your Rosetta Stone account will remain active. Should you wish to resume your studies or explore a new language in the future, you can easily reactivate your subscription or purchase a new one anytime through your account settings at https://my.rosettastone.com/sign_in. Thank you for being part of the Rosetta Stone community. Sincerely, The Rosetta Stone Team"
+      },
+      "ner_entities": [
+        {
+          "start": 45,
+          "end": 59,
+          "label": "COMPANY_NAME",
+          "value": "Rosetta Stone"
+        },
+        {
+          "start": 63,
+          "end": 85,
+          "label": "USER_GMAIL",
+          "value": "diego.sanchez@email.com"
+        },
+        {
+          "start": 92,
+          "end": 106,
+          "label": "USERNAME",
+          "value": "Diego Sanchez"
+        },
+        {
+          "start": 163,
+          "end": 196,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "6-Month French subscription"
+        },
+        {
+          "start": 437,
+          "end": 465,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "6-Month Subscription - French"
+        },
+        {
+          "start": 486,
+          "end": 504,
+          "label": "PAYMENT_DATE",
+          "value": "November 05, 2024"
+        },
+        {
+          "start": 523,
+          "end": 541,
+          "label": "RENEWAL_DATE",
+          "value": "December 05, 2024"
+        }
+      ]
+    },
+    {
+      "id": "ca1bc18e-1a34-41c0-84be-c63bb1549866",
+      "content": {
+        "raw_text": "Subject: Welcome to Rosetta Stone! Begin Your Language Journey Today. From: Rosetta Stone welcome@rosettastone.com To: maria.silva@email.com Dear Maria Silva, Welcome to Rosetta Stone! We are delighted to have you embark on your language learning journey with us. Your subscription is now active, granting you immediate access to our award-winning method designed to help you speak, read, and write a new language with confidence. Prepare to immerse yourself in interactive lessons, real-life scenarios, and proprietary speech recognition technology that guides you every step of the way. We are committed to making language learning intuitive and effective for you. To help you get started and make the most of your new subscription: Download the App: Access your language program on the go by downloading the Rosetta Stone app for your mobile device or tablet. Find compatible devices at https://www.rosettastone.com/apps/. Start Your First Lesson: Log in to your account and dive into your introductory lesson to begin building foundational vocabulary and phrases. Explore Features: Discover helpful tools like Phrasebook, Stories, and Live Tutoring sessions (if applicable to your plan). Visit Our Help Center: For any questions or guidance, our comprehensive support portal is available at https://support.rosettastone.com/. We're excited for you to experience the joy of speaking a new language. Happy learning! The Rosetta Stone Team"
+      },
+      "ner_entities": [
+        {
+          "start": 38,
+          "end": 52,
+          "label": "COMPANY_NAME",
+          "value": "Rosetta Stone"
+        },
+        {
+          "start": 83,
+          "end": 103,
+          "label": "USER_GMAIL",
+          "value": "maria.silva@email.com"
+        },
+        {
+          "start": 110,
+          "end": 122,
+          "label": "USERNAME",
+          "value": "Maria Silva"
+        }
+      ]
+    },
+    {
+      "id": "78e3ebf1-75b9-42df-94b3-f728b12de935",
+      "content": {
+        "raw_text": "Subject: Action Required: Your Rosetta Stone Payment Could Not Be Processed From: Rosetta Stone billing@rosettastone.com To: li.wei@email.com Dear Li Wei, We regret to inform you that we encountered an issue processing your recent payment for your Rosetta Stone subscription. This could be due to several reasons, such as an expired credit card, insufficient funds, or a temporary issue with your bank. To ensure continuous access to your language program and uninterrupted progress, you must update your payment information promptly. We understand that these situations can arise, and we want to help you resolve this quickly to avoid any disruption to your learning. Details of Failed Payment: Plan: 12-Month Subscription - English (American) Attempted Date: August 15, 2021 Amount Due: \u20b94,999.00 INR To update your payment method and prevent any interruption to your Rosetta Stone service, please log into your account at https://my.rosettastone.com/sign_in and navigate to the \"Account Settings\" or \"Billing\" section. We will automatically retry the charge once your updated details are received. Please note that if payment is not successfully received within a few days, your access to lessons may be suspended. For assistance, our support team is ready to help at https://support.rosettastone.com/. Thank you for your immediate attention to this matter. Sincerely, The Rosetta Stone Team"
+      },
+      "ner_entities": [
+        {
+          "start": 49,
+          "end": 63,
+          "label": "COMPANY_NAME",
+          "value": "Rosetta Stone"
+        },
+        {
+          "start": 94,
+          "end": 111,
+          "label": "USER_GMAIL",
+          "value": "li.wei@email.com"
+        },
+        {
+          "start": 118,
+          "end": 125,
+          "label": "USERNAME",
+          "value": "Li Wei"
+        },
+        {
+          "start": 526,
+          "end": 568,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "12-Month Subscription - English (American)"
+        },
+        {
+          "start": 590,
+          "end": 606,
+          "label": "PAYMENT_DATE",
+          "value": "August 15, 2021"
+        },
+        {
+          "start": 621,
+          "end": 636,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b94,999.00 INR"
+        },
+        {
+          "start": 621,
+          "end": 622,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 623,
+          "end": 630,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4,999.00"
+        }
+      ]
+    },
+    {
+      "id": "9ff4df14-2d34-4e84-91d0-35d948a21e03",
+      "content": {
+        "raw_text": "Subject: Reminder: Your Rosetta Stone Subscription Will Renew Soon From: Rosetta Stone noreply@rosettastone.com To: aditya.sharma@email.com Dear Aditya Sharma, This is a proactive notification to inform you that your Rosetta Stone 3-Month German subscription is scheduled for automatic renewal on March 10, 2020. Your ongoing subscription ensures continuous access to our comprehensive German language program, allowing you to build fluency at your own pace with our proven immersive method. We are committed to providing you with the tools and support needed to achieve your language learning aspirations. Upcoming Renewal Information: Plan: 3-Month Subscription - German Renewal Date: March 10, 2020 Amount Due: \u20b92,499.00 INR (plus applicable taxes) Payment Method: Your saved payment method ending in **** 4567 will be charged automatically. No action is required from your side if you wish to continue enjoying uninterrupted access to your language lessons. If you need to manage your subscription, update your payment details, or cancel auto-renewal, please visit your Rosetta Stone account online at https://my.rosettastone.com/sign_in before the renewal date. If you choose not to renew, your access to the program will expire after this date. Thank you for trusting Rosetta Stone with your language education. Best regards, The Rosetta Stone Team"
+      },
+      "ner_entities": [
+        {
+          "start": 43,
+          "end": 57,
+          "label": "COMPANY_NAME",
+          "value": "Rosetta Stone"
+        },
+        {
+          "start": 89,
+          "end": 112,
+          "label": "USER_GMAIL",
+          "value": "aditya.sharma@email.com"
+        },
+        {
+          "start": 119,
+          "end": 133,
+          "label": "USERNAME",
+          "value": "Aditya Sharma"
+        },
+        {
+          "start": 241,
+          "end": 274,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "3-Month German subscription"
+        },
+        {
+          "start": 321,
+          "end": 337,
+          "label": "RENEWAL_DATE",
+          "value": "March 10, 2020"
+        },
+        {
+          "start": 465,
+          "end": 480,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b92,499.00 INR"
+        },
+        {
+          "start": 465,
+          "end": 466,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 467,
+          "end": 474,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2,499.00"
+        }
+      ]
+    },
+    {
+      "id": "97e07c5a-cf35-49c2-9216-118db0bb7876",
+      "content": {
+        "raw_text": "Subject: Your Rosetta Stone Subscription is Active From: Rosetta Stone noreply@rosettastone.com To: isabelle.legrand@email.com Dear Isabelle Legrand, This email confirms that your Rosetta Stone 12-Month Italian subscription is currently active. We wanted to provide you with a quick status update on your subscription, assuring you that you have full access to all its fantastic benefits. Your active plan allows you to seamlessly continue your Italian language learning journey, access all lessons, practice exercises, and utilize the full suite of Rosetta Stone's interactive tools to help you master the language. We are excited for you to continue making progress towards fluency. Your Current Subscription Status: Plan: 12-Month Subscription - Italian Subscription Start Date: January 01, 2024 Next Renewal Date: January 01, 2025 Status: Active You can manage all aspects of your Rosetta Stone subscription, including viewing details, extending your plan, or updating your account information, by logging into your account at https://my.rosettastone.com/sign_in. We encourage you to explore all the features that Rosetta Stone offers to maximize your learning experience. Happy learning, The Rosetta Stone Team"
+      },
+      "ner_entities": [
+        {
+          "start": 36,
+          "end": 50,
+          "label": "COMPANY_NAME",
+          "value": "Rosetta Stone"
+        },
+        {
+          "start": 82,
+          "end": 111,
+          "label": "USER_GMAIL",
+          "value": "isabelle.legrand@email.com"
+        },
+        {
+          "start": 118,
+          "end": 135,
+          "label": "USERNAME",
+          "value": "Isabelle Legrand"
+        },
+        {
+          "start": 167,
+          "end": 200,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "12-Month Italian subscription"
+        },
+        {
+          "start": 487,
+          "end": 504,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "January 01, 2024"
+        },
+        {
+          "start": 530,
+          "end": 547,
+          "label": "RENEWAL_DATE",
+          "value": "January 01, 2025"
+        }
+      ]
+    }
+  ]
+}

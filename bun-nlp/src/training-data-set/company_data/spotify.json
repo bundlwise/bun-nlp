@@ -1,0 +1,224 @@
+{
+  "Spotify": [
+    {
+      "id": "d2c7b239-3906-4a7b-90a5-5e8378d945c5",
+      "content": {
+        "raw_text": "Email 1:- Payment Confirmation Hi Michel, We\u2019ve received your payment of \u20b9199.00 INR for Spotify Premium on June 20, 2025. Payment summary: Plan: Premium Individual Amount: \u20b9199.00 INR Date: June 20, 2025 Next billing date: July 20, 2025 (if they include it\u2014optional but sometimes shown) You can view or download your receipt anytime in the Order history section of your [Spotify account] (https://www.spotify.com/account/overview/) community.spotify.com+4support.spotify.com+4community.spotify.com+4. You\u2019re receiving this email because a payment was processed. If you didn\u2019t authorize this charge, please check your account activity or visit Spotify Support. Spotify AB Birger Jarlsgatan 61, 113\u202f56 Stockholm, Sweden Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 76,
+          "end": 83,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b9199.00"
+        },
+        {
+          "start": 76,
+          "end": 77,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 87,
+          "end": 92,
+          "label": "COMPANY_NAME",
+          "value": "Spotify"
+        },
+        {
+          "start": 93,
+          "end": 100,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 155,
+          "end": 173,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Individual"
+        },
+        {
+          "start": 196,
+          "end": 205,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b9199.00"
+        },
+        {
+          "start": 196,
+          "end": 197,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 214,
+          "end": 229,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 257,
+          "end": 272,
+          "label": "RENEWAL_DATE",
+          "value": "July 20, 2025"
+        }
+      ]
+    },
+    {
+      "id": "d435ff32-9f5e-4d2e-b2ab-41ebdca720ef",
+      "content": {
+        "raw_text": "Hey\u202fisobel, We couldn\u2019t process your Spotify Premium payment on July 2, 2024 using the card on file (maybe expired or insufficient funds). No worries\u2014we\u2019ll retry in a day or two. Plan: Premium Individual Date of failed payment: June 20, 2025 To avoid any interruptions, please update your payment method now: What happens next: \u2013 We\u2019ll automatically retry shortly. \u2013 Your Premium access remains active for now. \u2013 If payments keep failing, your membership might switch to Free. Need help? You can review or update payment details under Account \u2192 Payments & billing, or visit our Failed payment help article pcrisk.com+7pcrisk.com+7reddit.com+7tripwire.com+2community.spotify.com+2reddit.com+2support.spotify.com+1support.spotify.com+1. Security note: Spotify will never ask for your full password, CVV, or banking details via email. If anything seems off, head straight to Spotify Support."
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 49,
+          "label": "COMPANY_NAME",
+          "value": "Spotify"
+        },
+        {
+          "start": 50,
+          "end": 57,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 151,
+          "end": 169,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Individual"
+        },
+        {
+          "start": 197,
+          "end": 212,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 81,
+          "end": 94,
+          "label": "RENEWAL_DATE",
+          "value": "July 2, 2024"
+        }
+      ]
+    },
+    {
+      "id": "a69dbb33-3e96-4f63-9de1-13c6b1837409",
+      "content": {
+        "raw_text": "Hey Maria, Your Spotify Premium (Individual) plan is set to renew on May 10, 2021. Keep enjoying all the benefits you love: \ud83c\udfa7 Ad-free music \u2b07\ufe0f Offline downloads \ud83d\udd0a Unlimited skips and high-quality streaming You\u2019re receiving this email as part of your subscription notifications. If you wish to cancel or update your plan, you can do so anytime in your account settings. Spotify AB Birger Jarlsgatan 61, 113\u202f56 Stockholm, Sweden"
+      },
+      "ner_entities": [
+        {
+          "start": 13,
+          "end": 20,
+          "label": "COMPANY_NAME",
+          "value": "Spotify"
+        },
+        {
+          "start": 21,
+          "end": 28,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 30,
+          "end": 40,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Individual"
+        },
+        {
+          "start": 63,
+          "end": 76,
+          "label": "RENEWAL_DATE",
+          "value": "May 10, 2021"
+        }
+      ]
+    },
+    {
+      "id": "e3de9bcf-7925-4bd2-b75c-57d37350fc2f",
+      "content": {
+        "raw_text": "Subject: You\u2019ve cancelled your Spotify Premium subscription From: Spotify no-reply@spotify.com To: zoe.thomas91@gmail.com Date: May 12, 2023 Hey Zoe, We\u2019re sorry to see you go \u2014 your Spotify Premium subscription has been successfully cancelled. Here\u2019s what that means: Plan: Premium Individual Cancellation date: May 12, 2023 Premium access ends on: June 12, 2023 You\u2019ll continue to enjoy Premium features \u2014 like ad-free music and offline listening \u2014 until June 12. After that, your account will switch to Spotify Free. Want to come back anytime? Rejoin Premium Or explore our plans This email confirms your cancellation request. If you didn\u2019t request this or need help, visit our Support Center. Thanks for being part of the Premium experience \ud83c\udfa7 \u2014 The Spotify Team Spotify AB Birger Jarlsgatan 61, 113 56 Stockholm, Sweden Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "Spotify"
+        },
+        {
+          "start": 103,
+          "end": 125,
+          "label": "USER_GMAIL",
+          "value": "zoe.thomas91@gmail.com"
+        },
+        {
+          "start": 132,
+          "end": 145,
+          "label": "PAYMENT_DATE",
+          "value": "May 12, 2023"
+        },
+        {
+          "start": 217,
+          "end": 224,
+          "label": "COMPANY_NAME",
+          "value": "Spotify"
+        },
+        {
+          "start": 256,
+          "end": 263,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 264,
+          "end": 274,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Individual"
+        },
+        {
+          "start": 299,
+          "end": 312,
+          "label": "PAYMENT_DATE",
+          "value": "May 12, 2023"
+        },
+        {
+          "start": 345,
+          "end": 359,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "June 12, 2023"
+        }
+      ]
+    },
+    {
+      "id": "73a972e2-63f9-4b4d-981a-0d98f82303f7",
+      "content": {
+        "raw_text": "From: Spotify no-reply@spotify.com To: maria.lopez87@gmail.com Date: June 10, 2025 Hey Maria, Welcome to the band! Your Spotify account is all set\u2014let\u2019s get you started. Here\u2019s what you can do next: Download the app on your phone or desktop Create your first playlist \u2014 add songs or artists you love Go offline: Download tunes and playlists for offline listening Why Spotify? \u2022  Access millions of tracks and podcasts \u2022  Personalized playlists just for you \u2022  No ads interruptions on Premium \u2022  Stream anytime, anywher You\u2019re receiving this welcome email because you just joined Spotify. If you ever want to leave the band, you can unsubscribe at any time \u2014 but we'd hate to see you go! Questions? Check out our Help Center. Follow us on: [Twitter] [Instagram] [Facebook] Spotify AB Birger Jarlsgatan 61, 113\u202f56 Stockholm, Sweden Privacy Policy | Terms & Conditions"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "Spotify"
+        },
+        {
+          "start": 47,
+          "end": 70,
+          "label": "USER_GMAIL",
+          "value": "maria.lopez87@gmail.com"
+        },
+        {
+          "start": 78,
+          "end": 92,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 10, 2025"
+        },
+        {
+          "start": 180,
+          "end": 187,
+          "label": "COMPANY_NAME",
+          "value": "Spotify"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "Paramount+": [
+    {
+      "id": "9c99368a-ece4-4b01-bf6c-ec3c80c7ef61",
+      "content": {
+        "raw_text": "From: Paramount+ no-reply@paramountplus.com To: clara.meijer91@webmail.de Date: Fri, 8 Sep 2023 07:42:18 +0000 Subject: Welcome to Paramount+, Clara! Hi Clara, Welcome to Paramount+! Your streaming journey begins now. We\u2019re thrilled to have you with us. Your account was successfully created on Friday, 8 September 2023. With your subscription, you now have access to an exciting lineup of exclusive originals, hit series, blockbuster movies, and live events\u2014all in one place. From acclaimed dramas and thrilling action to family favorites and real-time sports, Paramount+ offers something for everyone. Whether you\u2019re watching on your TV, phone, or tablet, you can stream anytime, anywhere. It's all just a click away. Before you get started, please take a moment to confirm your email address. This helps us make sure everything is secure and ready to go. [ Confirm Your Email ] Need help? Our support team is here for you. Visit our Help Center or reply to this email anytime. Thanks again for choosing Paramount+. We\u2019re glad to have you aboard. Warm regards, The Paramount+ Team You're receiving this email because you signed up for a Paramount+ account using clara.meijer91@webmail.de. Paramount Streaming Services | 1515 Broadway, New York, NY 10036 \u00a9 2023 Paramount Streaming. All rights reserved. Privacy Policy | Terms of Use | Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 16,
+          "label": "COMPANY_NAME",
+          "value": "Paramount+"
+        },
+        {
+          "start": 24,
+          "end": 52,
+          "label": "USER_GMAIL",
+          "value": "clara.meijer91@webmail.de"
+        },
+        {
+          "start": 167,
+          "end": 187,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "8 September 2023"
+        }
+      ]
+    },
+    {
+      "id": "3496e4f2-9112-405d-bda5-fdf0b5ddad3d",
+      "content": {
+        "raw_text": "From: Paramount+ Billing billing@paramountplus.com To: anna.kovacs72@freemail.hu Date: Monday, 4 September 2023 at 12:30 PM Subject: Your Paramount+ Invoice for September 2023 Hi Anna, Thank you for being a valued Paramount+ subscriber. This is a confirmation that your payment of $12.99 has been successfully processed for the billing period beginning Monday, 4 September 2023. Your subscription remains active, and you can continue enjoying your favorite shows, movies, and live events without interruption. Below are the details of your transaction: Invoice Number: #789012 Invoice Date: 4 September 2023 Billing Period: 4 September 2023 \u2013 3 October 2023 Plan: Premium Monthly Amount Charged: $12.99 Payment Method: Visa ending in 2487 You can view or download a copy of your invoice at any time by signing into your Paramount+ account. If you have any questions about this charge, feel free to contact our Support Team or visit the Help Center. We\u2019re always here to assist you. Thanks again for choosing Paramount+. We\u2019re glad to have you with us. Warm regards, The Paramount+ Billing Team You're receiving this email because you subscribed to Paramount+ using anna.kovacs72@freemail.hu. Paramount Streaming Services | 1515 Broadway, New York, NY 10036 \u00a9 2023 Paramount Streaming. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Paramount+"
+        },
+        {
+          "start": 25,
+          "end": 51,
+          "label": "USER_GMAIL",
+          "value": "anna.kovacs72@freemail.hu"
+        },
+        {
+          "start": 196,
+          "end": 216,
+          "label": "PAYMENT_AMOUNT",
+          "value": "12.99"
+        },
+        {
+          "start": 195,
+          "end": 196,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 273,
+          "end": 293,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "4 September 2023"
+        },
+        {
+          "start": 400,
+          "end": 415,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Monthly"
+        },
+        {
+          "start": 443,
+          "end": 448,
+          "label": "PAYMENT_AMOUNT",
+          "value": "12.99"
+        },
+        {
+          "start": 470,
+          "end": 490,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending in 2487"
+        }
+      ]
+    },
+    {
+      "id": "e1efc196-967e-45f6-a7b6-d9984ab46248",
+      "content": {
+        "raw_text": "From: Paramount+ Billing billing@paramountplus.com To: isabella.ricci24@libero.it Date: Thursday, 30 November 2023 at 2:22 PM Subject: Your Paramount+ Refund Has Been Issued Hi Isabella, We\u2019re reaching out to let you know that a refund of $12.99 has been issued to your original payment method on Thursday, 30 November 2023. This refund is associated with the cancellation of your Paramount+ subscription. Depending on your bank or card issuer, it may take up to 5\u20137 business days for the funds to reflect in your account. If you do not see the refund after this period, we recommend contacting your payment provider for further assistance. Email: isabella.ricci24@libero.it Refund Amount: $12.99 Refund Date: 30 November 2023 Reason: User-requested cancellation We\u2019re sorry to see you go, and we hope to welcome you back in the future. If you ever wish to return, reactivating your subscription is just a few clicks away. Warm regards, The Paramount+ Billing Team You\u2019re receiving this email because you canceled your Paramount+ subscription under the email isabella.ricci24@libero.it. Paramount Streaming Services | 1515 Broadway, New York, NY 10036 \u00a9 2023 Paramount Streaming. All rights reserved. Privacy Policy | Terms of Use | Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Paramount+"
+        },
+        {
+          "start": 25,
+          "end": 56,
+          "label": "USER_GMAIL",
+          "value": "isabella.ricci24@libero.it"
+        },
+        {
+          "start": 203,
+          "end": 208,
+          "label": "PAYMENT_AMOUNT",
+          "value": "12.99"
+        },
+        {
+          "start": 202,
+          "end": 203,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 271,
+          "end": 292,
+          "label": "PAYMENT_DATE",
+          "value": "30 November 2023"
+        }
+      ]
+    },
+    {
+      "id": "59e1cf63-5e58-447e-a8de-d1f6ee6d9e62",
+      "content": {
+        "raw_text": "From: Paramount+ no-reply@paramountplus.com To: diego.morera09@correo.ec Date: Tuesday, 5 December 2023 at 11:45 AM Subject: Action Needed \u2014 We Couldn't Process Your Payment Hi Diego, We tried to renew your Paramount+ subscription on Tuesday, 5 December 2023, but unfortunately, the payment did not go through. As a result, your account has been placed on hold, and streaming access has been temporarily paused. To avoid any disruption in your viewing experience, please update your billing information. Once your payment is successfully processed, your access to Paramount+ will be fully restored. Account Email: diego.morera09@correo.ec Plan: Premium Monthly Next Billing Amount: $12.99 Reason for Failure: Declined by payment provider To continue enjoying Paramount+ Originals, live sports, and movies without interruption, please update your payment details now. Update your billing info today to keep watching seamlessly. Warm regards, The Paramount+ Team You're receiving this message because you are subscribed to Paramount+ with the email diego.morera09@correo.ec. Paramount Streaming Services | 1515 Broadway, New York, NY 10036 \u00a9 2023 Paramount Streaming. All rights reserved. Privacy Policy | Terms of Use | Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Paramount+"
+        },
+        {
+          "start": 25,
+          "end": 52,
+          "label": "USER_GMAIL",
+          "value": "diego.morera09@correo.ec"
+        },
+        {
+          "start": 228,
+          "end": 249,
+          "label": "PAYMENT_DATE",
+          "value": "5 December 2023"
+        },
+        {
+          "start": 384,
+          "end": 388,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 384,
+          "end": 390,
+          "label": "PAYMENT_AMOUNT",
+          "value": "12.99"
+        },
+        {
+          "start": 309,
+          "end": 324,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Monthly"
+        }
+      ]
+    },
+    {
+      "id": "7dc0ff99-10a1-4cb3-8b37-60ff21447bd8",
+      "content": {
+        "raw_text": "From: Paramount+ no-reply@paramountplus.com To: sophie.larsson56@post.se Date: Friday, 15 December 2023 at 8:05 AM Subject: Your Subscription Was Renewed Successfully Hi Sophie, Thanks for staying with us! Your Paramount+ subscription has been successfully renewed on Friday, 15 December 2023. You\u2019ll continue enjoying uninterrupted access to thousands of hit shows, blockbuster movies, and exclusive live sports events. Subscription Email: sophie.larsson56@post.se Plan: Premium Monthly Amount Billed: $12.99 Billing Date: 15 December 2023 Next Renewal Date: 15 January 2024 Ready to stream something new? Check out fresh episodes of FBI: International, family favorites, or the latest live UEFA coverage\u2014all included with your plan. Thank you for being part of the Paramount+ community. Let the streaming continue! Best regards, The Paramount+ Team You're receiving this email as a subscribed user of Paramount+ under sophie.larsson56@post.se. Paramount Streaming Services | 1515 Broadway, New York, NY 10036 \u00a9 2023 Paramount Streaming. All rights reserved. Privacy Policy | Terms of Use | Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Paramount+"
+        },
+        {
+          "start": 25,
+          "end": 55,
+          "label": "USER_GMAIL",
+          "value": "sophie.larsson56@post.se"
+        },
+        {
+          "start": 195,
+          "end": 216,
+          "label": "PAYMENT_DATE",
+          "value": "15 December 2023"
+        },
+        {
+          "start": 282,
+          "end": 289,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 282,
+          "end": 296,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Monthly"
+        },
+        {
+          "start": 313,
+          "end": 318,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 313,
+          "end": 319,
+          "label": "PAYMENT_AMOUNT",
+          "value": "12.99"
+        },
+        {
+          "start": 337,
+          "end": 356,
+          "label": "PAYMENT_DATE",
+          "value": "15 December 2023"
+        },
+        {
+          "start": 380,
+          "end": 397,
+          "label": "RENEWAL_DATE",
+          "value": "15 January 2024"
+        }
+      ]
+    },
+    {
+      "id": "d54c98e1-3190-4f4f-9f03-b2e9d4469b39",
+      "content": {
+        "raw_text": "From: Paramount+ no-reply@paramountplus.com To: helena.schmidt@beispiel.de Date: Wednesday, 6 September 2023 at 08:02 AM Subject: Your Paramount+ Subscription Has Ended Hi Helena, We\u2019re sorry to inform you that your Paramount+ subscription has been cancelled as of Wednesday, 6 September 2023. We value having you as a member and hope you enjoyed exploring our library of award-winning originals, blockbuster films, and live sporting events. As this billing cycle concludes, your access to Paramount+ content will end, but your profile and viewing preferences will remain saved should you decide to return. If you choose to come back, reactivating your subscription is easy\u2014just update your payment details and you can immediately resume watching everything from the latest episodes of FBI: International to family favorites or exclusive live sports coverage. We\u2019d love to welcome you back whenever you\u2019re ready, and you\u2019ll still have full access to all of your personalized watchlists, downloads, and recommendations. Should you need assistance, our Help Center is available 24/7, or you can reply directly to this email and our support team will get right back to you. In the meantime, thank you for being with Paramount+ and please keep an eye out for future offers that may interest you. Warm regards, The Paramount+ Team You're receiving this email because you cancelled your Paramount+ subscription under the address helena.schmidt@beispiel.de. Paramount Streaming Services | 1515 Broadway, New York, NY 10036 \u00a9 2023 Paramount Streaming. All rights reserved. Privacy Policy | Terms of Use | Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Paramount+"
+        },
+        {
+          "start": 25,
+          "end": 56,
+          "label": "USER_GMAIL",
+          "value": "helena.schmidt@beispiel.de"
+        },
+        {
+          "start": 168,
+          "end": 189,
+          "label": "PAYMENT_DATE",
+          "value": "6 September 2023"
+        }
+      ]
+    },
+    {
+      "id": "a31b7d3f-57e6-4f2d-a3d6-730f4e4c5b85",
+      "content": {
+        "raw_text": "From: Paramount+ no-reply@paramountplus.com To: lukas.fischer87@web.de Date: Saturday, 9 September 2023 at 07:42 AM Subject: Your Paramount+ Free Trial Is Ending Soon Hi Lukas, We hope you\u2019ve been enjoying your free trial of Paramount+! As a reminder, your trial will come to an end on Tuesday, 12 September 2023. Unless you cancel before that date, your subscription will automatically continue, and your payment method on file will be charged \u20ac9.99 for the next billing cycle. We\u2019d love to have you stay with us. With Paramount+, you\u2019ll keep access to an expansive world of entertainment\u2014including award-winning series, exclusive Paramount+ Originals, popular blockbuster movies, and thrilling live sports. Whether you\u2019ve been binge-watching your favorite shows or discovering something completely new, there\u2019s always something exciting just a click away. If you wish to continue, no action is needed. But if you decide Paramount+ isn\u2019t right for you, you can cancel anytime before the trial ends to avoid being charged. You\u2019ll still have access until the end of your trial period. Should you have any questions or need support, visit our Help Center or simply reply to this message. We\u2019re here to help. Thanks for trying out Paramount+. We hope you\u2019ve had a great experience. Warm regards, The Paramount+ Team You\u2019re receiving this message because you signed up for a free trial using lukas.fischer87@web.de. Paramount Streaming Services | 1515 Broadway, New York, NY 10036 \u00a9 2023 Paramount Streaming. All rights reserved. Privacy Policy | Terms of Use | Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Paramount+"
+        },
+        {
+          "start": 25,
+          "end": 51,
+          "label": "USER_GMAIL",
+          "value": "lukas.fischer87@web.de"
+        },
+        {
+          "start": 189,
+          "end": 210,
+          "label": "RENEWAL_DATE",
+          "value": "12 September 2023"
+        },
+        {
+          "start": 275,
+          "end": 280,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 280,
+          "end": 285,
+          "label": "PAYMENT_AMOUNT",
+          "value": "9.99"
+        },
+        {
+          "start": 224,
+          "end": 274,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20ac9.99 for the next billing cycle"
+        }
+      ]
+    },
+    {
+      "id": "b2e9c3fd-88f1-4f87-a92c-3465dd9a86b4",
+      "content": {
+        "raw_text": "From: Paramount+ no-reply@paramountplus.com To: juliette.moreau73@orange.fr Date: Friday, 22 December 2023 at 09:16 AM Subject: Your Paramount+ Account Has Been Deleted Hi Juliette, We\u2019re writing to confirm that your Paramount+ account linked to juliette.moreau73@orange.fr was permanently deleted on Friday, 22 December 2023, following your request. Your personal information, account data, and viewing history have been removed from our systems in accordance with our privacy policy and data retention guidelines. We\u2019re truly sorry to see you go. At Paramount+, we strive to offer an engaging streaming experience filled with premium entertainment\u2014from acclaimed originals and global films to live sports and family favorites. We hope you enjoyed your time with us, and we\u2019d be happy to welcome you back at any time. Should you decide to return in the future, you\u2019ll need to create a new account as this one can no longer be recovered. If you believe this action was taken in error or if you have any questions regarding your account or data privacy, please don\u2019t hesitate to reach out to our Help Center. Our team is available to assist you with any inquiries or concerns. Thank you again for being a part of the Paramount+ community. Sincerely, The Paramount+ Team This email was sent to juliette.moreau73@orange.fr in relation to your Paramount+ account activity. Paramount Streaming Services | 1515 Broadway, New York, NY 10036 \u00a9 2023 Paramount Streaming. All rights reserved. Privacy Policy | Terms of Use | Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Paramount+"
+        },
+        {
+          "start": 25,
+          "end": 59,
+          "label": "USER_GMAIL",
+          "value": "juliette.moreau73@orange.fr"
+        },
+        {
+          "start": 172,
+          "end": 198,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "22 December 2023"
+        }
+      ]
+    }
+  ]
+}

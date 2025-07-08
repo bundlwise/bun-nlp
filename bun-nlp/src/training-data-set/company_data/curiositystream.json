@@ -1,0 +1,1162 @@
+{
+  "CuriosityStream": [
+    {
+      "id": "b0d78788-4c2c-4e50-a8e6-40cbf563f1da",
+      "content": {
+        "raw_text": "New Annual Plan\u2014Welcome & Receipt From: CuriosityStream <welcome@curiositystream.com> To: alex.lopez@example.com Date: Tue, 11 Mar 2025 14:02:18 -0400 Subject: \ud83c\udf89 Welcome to CuriosityStream! Your Annual Plan Starts Now Message-ID: <20250311180218.8181.annual@curiositystream.com> Hi Alex, Thanks for joining the CuriosityStream community! Your Annual Plan is now active and ready to stream thousands of documentaries. \u2023 Plan: HD Annual (12 months) \u2023 Price: US $39.99 (plus applicable taxes) \u2023 Payment method: Visa \u2022\u2022\u2022\u2022 6932 \u2023 Invoice #: CSTM-1357924680 You can log in any time at https://curiositystream.com to explore curated collections, download videos, and create watchlists. Need help? Just reply or visit our Help Center. \u2014The CuriosityStream Team *This is an automatic email; replies are monitored Monday\u2013Friday, 9 am\u20135 pm ET.*"
+      },
+      "ner_entities": [
+        {
+          "start": 40,
+          "end": 54,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 92,
+          "end": 107,
+          "label": "USER_GMAIL",
+          "value": "alex.lopez@example.com"
+        },
+        {
+          "start": 368,
+          "end": 378,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "HD Annual"
+        },
+        {
+          "start": 381,
+          "end": 390,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "12 months"
+        },
+        {
+          "start": 402,
+          "end": 409,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 410,
+          "end": 415,
+          "label": "PAYMENT_AMOUNT",
+          "value": "39.99"
+        },
+        {
+          "start": 442,
+          "end": 446,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "814d9a55-982d-48d4-8142-36c3d24b8e5f",
+      "content": {
+        "raw_text": "Upcoming Renewal Reminder (30 days out) From: CuriosityStream <billing@curiositystream.com> To: katie.chen@example.net Date: Wed, 26 Feb 2025 08:15:04 -0500 Subject: Your CuriosityStream plan renews on 28 Mar 2025\u2014no action needed Message-ID: <20250226131504.4411.renew@curiositystream.com> Hi Katie, Just a heads-up: your HD Monthly Plan will renew on 28 Mar 2025 for US $4.99 using Mastercard \u2022\u2022\u2022\u2022 2480. If you\u2019d like to update your payment info or cancel auto-renew, visit Account \u2192 Subscriptions before the renewal date. Happy streaming! Billing Operations CuriosityStream"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 79,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "katie.chen@example.net"
+        },
+        {
+          "start": 199,
+          "end": 211,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "HD Monthly Plan"
+        },
+        {
+          "start": 252,
+          "end": 255,
+          "label": "RENEWAL_DATE",
+          "value": "28 Mar 2025"
+        },
+        {
+          "start": 260,
+          "end": 264,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 264,
+          "end": 268,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4.99"
+        },
+        {
+          "start": 276,
+          "end": 285,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "38e2c15f-235d-4b6e-9581-47e3a572f2b1",
+      "content": {
+        "raw_text": "Payment Success Confirmation From: CuriosityStream <receipts@curiositystream.com> To: david.owens@sample.org Date: Mon, 28 Apr 2025 03:02:47 +0000 Subject: Payment received\u2014thank you for staying curious! Message-ID: <20250428030247.5522.receipt@curiositystream.com> Hello David, We\u2019ve successfully processed your subscription payment. \u2022 Plan: 4K Monthly \u2022 Charge: US $9.99 \u2022 Date: 28 Apr 2025 \u2022 Order ID: CS-987654321 A PDF receipt is attached for your records. Enjoy the view in stunning 4K! \u2014CuriosityStream Finance"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 75,
+          "end": 97,
+          "label": "USER_GMAIL",
+          "value": "david.owens@sample.org"
+        },
+        {
+          "start": 144,
+          "end": 153,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "4K Monthly"
+        },
+        {
+          "start": 166,
+          "end": 169,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 169,
+          "end": 173,
+          "label": "PAYMENT_AMOUNT",
+          "value": "9.99"
+        },
+        {
+          "start": 182,
+          "end": 193,
+          "label": "PAYMENT_DATE",
+          "value": "28 Apr 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "e77eae9f-43f4-4eb4-9e91-cabf670d8a7e",
+      "content": {
+        "raw_text": "Payment Failure & Retry Notice From: CuriosityStream <alerts@curiositystream.com> To: priya.r@example.co.in Date: Fri, 20 Jun 2025 07:22:03 +0530 Subject: Action required\u2014We couldn\u2019t process your last payment Message-ID: <20250620015203.6123.fail@curiositystream.com> Hi Priya, Your July renewal (US \u20b9499) didn\u2019t go through because your bank declined the charge on card \u2022\u2022\u2022\u2022 4510. We\u2019ll retry automatically on 23 Jun 2025. To avoid interruption, update your payment details at https://curiositystream.com/billing. Questions? Reply to this message\u2014our support team is here to help. Thanks for streaming with us. \u2014CuriosityStream Billing Support"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 75,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "priya.r@example.co.in"
+        },
+        {
+          "start": 128,
+          "end": 132,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US \u20b9"
+        },
+        {
+          "start": 132,
+          "end": 135,
+          "label": "PAYMENT_AMOUNT",
+          "value": "499"
+        },
+        {
+          "start": 182,
+          "end": 192,
+          "label": "RENEWAL_DATE",
+          "value": "23 Jun 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "94a4b7e4-0b1e-46d0-a27a-e138e13b54a8",
+      "content": {
+        "raw_text": "Upgrade Confirmation (HD \u2192 4K) From: CuriosityStream <support@curiositystream.com> To: mark_h@domain.com Date: Sun, 15 Jun 2025 19:48:55 +0100 Subject: Your plan has been upgraded to 4K\u2014enjoy the extra detail! Message-ID: <20250615184855.7999.upgrade@curiositystream.com> Hi Mark, Great choice! Your subscription now includes 4K streaming on compatible devices. New plan preview \u2022 4K Annual\u2014renews 15 Jun 2026 at US $69.99 \u2022 Pro-rated upgrade charge today: US $22.04 Start watching our Ultra HD titles like \u201cLight On Earth\u201d or \u201cSecrets of the Solar System\u201d. Cheers, The CuriosityStream Crew"
+      },
+      "ner_entities": [
+        {
+          "start": 40,
+          "end": 54,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 84,
+          "end": 100,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "4K Annual"
+        },
+        {
+          "start": 111,
+          "end": 121,
+          "label": "RENEWAL_DATE",
+          "value": "15 Jun 2026"
+        },
+        {
+          "start": 125,
+          "end": 129,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 129,
+          "end": 134,
+          "label": "PAYMENT_AMOUNT",
+          "value": "69.99"
+        },
+        {
+          "start": 165,
+          "end": 169,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 169,
+          "end": 174,
+          "label": "PAYMENT_AMOUNT",
+          "value": "22.04"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c3c4de12-9f19-4010-9f92-8a416c1d6a50",
+      "content": {
+        "raw_text": "Card Expiring Soon From: CuriosityStream <billing@curiositystream.com> To: jane.vo@example.com Date: Thu, 1 May 2025 00:07:09 -0700 Subject: Your card on file expires this month\u2014update now to keep streaming Message-ID: <20250501070709.2266.card@curiositystream.com> Hello Jane, The Visa card ending 1923 on your account expires 31 May 2025. Add a new payment method before your next billing on 2 Jun 2025 to prevent service disruption. Update card \u2192 Account > Billing Thank you! CuriosityStream Billing"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 71,
+          "end": 87,
+          "label": "USER_GMAIL",
+          "value": "jane.vo@example.com"
+        },
+        {
+          "start": 109,
+          "end": 113,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        },
+        {
+          "start": 128,
+          "end": 138,
+          "label": "RENEWAL_DATE",
+          "value": "31 May 2025"
+        },
+        {
+          "start": 188,
+          "end": 192,
+          "label": "RENEWAL_DATE",
+          "value": "2 Jun 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "efca85ea-1a30-4b37-8575-64b6e3a9ca62",
+      "content": {
+        "raw_text": "Cancellation Confirmation & Survey From: CuriosityStream <goodbye@curiositystream.com> To: tomas.ivanov@example.cz Date: Tue, 22 Apr 2025 10:30:11 +0200 Subject: We\u2019re sorry to see you go, Tom\u00e1\u0161 Message-ID: <20250422083011.3177.cancel@curiositystream.com> Hi Tom\u00e1\u0161, Your subscription has been canceled effective 22 Apr 2025. You\u2019ll keep access until the end of your current billing period on 5 May 2025. We\u2019d love to hear why you left\u2014two-minute survey: https://curiositystream.com/exit-survey You\u2019re always welcome back. All the best, CuriosityStream Team"
+      },
+      "ner_entities": [
+        {
+          "start": 44,
+          "end": 58,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 85,
+          "end": 108,
+          "label": "USER_GMAIL",
+          "value": "tomas.ivanov@example.cz"
+        },
+        {
+          "start": 161,
+          "end": 173,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "22 Apr 2025"
+        },
+        {
+          "start": 219,
+          "end": 229,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "5 May 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "7aa36c26-e301-4d99-8f75-4fdd62a1946c",
+      "content": {
+        "raw_text": "Re-Join Offer (Win-back) From: CuriosityStream <offers@curiositystream.com> To: former.user@isp.eu Date: Tue, 27 May 2025 12:01:00 +0000 Subject: 40 % off if you return to CuriosityStream this week Message-ID: <20250527120100.4844.winback@curiositystream.com> Hello, We miss our favorite explorer! Restart your account by 3 Jun 2025 and get 40 % off your first year\u2014just US $23.99. Redeem code: RETURN40 Questions? Chat live \u2192 https://curiositystream.com/help Happy watching, Marketing @ CuriosityStream"
+      },
+      "ner_entities": [
+        {
+          "start": 40,
+          "end": 54,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 152,
+          "end": 157,
+          "label": "RENEWAL_DATE",
+          "value": "3 Jun 2025"
+        },
+        {
+          "start": 180,
+          "end": 183,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 183,
+          "end": 188,
+          "label": "PAYMENT_AMOUNT",
+          "value": "23.99"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "38ddf7e0-6b89-4d0b-8c4b-fc3f146f1db2",
+      "content": {
+        "raw_text": "Gift Subscription Delivered From: CuriosityStream <gifts@curiositystream.com> To: kevin.doe@samplemail.com Date: Sun, 8 Dec 2024 06:45:33 -0500 Subject: \ud83c\udf81 Your CuriosityStream gift for Sarah has been emailed Message-ID: <20241208114533.3636.gift@curiositystream.com> Hi Kevin, Your gift subscription has been sent to sarah.brown@samplemail.com with your personal note. Gift details \u2022 12-month HD Plan \u2022 Delivery date/time: 8 Dec 2024 06:45 EST \u2022 Order #: CS-GFT-55667788 Thank you for sharing the joy of learning! \u2014CuriosityStream Gifts Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 88,
+          "end": 110,
+          "label": "USER_GMAIL",
+          "value": "kevin.doe@samplemail.com"
+        },
+        {
+          "start": 177,
+          "end": 197,
+          "label": "USER_GMAIL",
+          "value": "sarah.brown@samplemail.com"
+        },
+        {
+          "start": 224,
+          "end": 236,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "12-month HD Plan"
+        },
+        {
+          "start": 265,
+          "end": 281,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "8 Dec 2024 06:45 EST"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b6a1d0c9-8b63-4fc1-867f-f35a6cc67d0b",
+      "content": {
+        "raw_text": "Refund Processed From: CuriosityStream <billing@curiositystream.com> To: rachel_nguyen@example.sg Date: Mon, 3 Feb 2025 18:12:09 +0800 Subject: Your refund for order CS-39485712 is on its way Message-ID: <20250203101209.7744.refund@curiositystream.com> Hi Rachel, A refund of SGD 9.99 has been issued to your Visa \u2022\u2022\u2022\u2022 9910 for your January monthly charge. Expect it to appear on your statement within 5-7 business days. If something wasn\u2019t right, please tell us\u2014your feedback helps improve our service. Kind regards, CuriosityStream Billing"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 75,
+          "end": 97,
+          "label": "USER_GMAIL",
+          "value": "rachel_nguyen@example.sg"
+        },
+        {
+          "start": 126,
+          "end": 129,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "SGD"
+        },
+        {
+          "start": 130,
+          "end": 135,
+          "label": "PAYMENT_AMOUNT",
+          "value": "9.99"
+        },
+        {
+          "start": 152,
+          "end": 156,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "433dab98-3fc1-456a-b597-88186c61d0a1",
+      "content": {
+        "raw_text": "Subscription Paused (User Request) From: CuriosityStream <noreply@curiositystream.com> To: diego.martinez@example.mx Date: Sat, 5 Apr 2025 09:01:44 -0600 Subject: Your plan is paused\u2014come back anytime! Message-ID: <20250405150144.8899.pause@curiositystream.com> Hola Diego, We\u2019ve paused your Monthly HD Plan as requested. No future charges will occur until you reactivate. To restart: Sign in \u2192 Account > Resume Subscription. We\u2019ll save your profiles and watch history for 24 months. Hasta luego, CuriosityStream"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 65,
+          "end": 89,
+          "label": "USER_GMAIL",
+          "value": "diego.martinez@example.mx"
+        },
+        {
+          "start": 121,
+          "end": 135,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly HD Plan"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "153a1088-ec51-4d49-83d2-b61e5b8cc354",
+      "content": {
+        "raw_text": "Account Reactivation Confirmation From: CuriosityStream <support@curiositystream.com> To: diego.martinez@example.mx Date: Wed, 24 Jul 2025 10:20:07 -0600 Subject: Welcome back\u2014your CuriosityStream adventure continues! Message-ID: <20250724162007.9988.resume@curiositystream.com> Diego, Your subscription has been reactivated. Your next charge of MXN 99 will occur on 24 Aug 2025. Explore our \u201cSpace Race\u201d collection\u2014brand-new episodes just released. Enjoy! CuriosityStream Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 65,
+          "end": 89,
+          "label": "USER_GMAIL",
+          "value": "diego.martinez@example.mx"
+        },
+        {
+          "start": 138,
+          "end": 141,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "MXN"
+        },
+        {
+          "start": 142,
+          "end": 144,
+          "label": "PAYMENT_AMOUNT",
+          "value": "99"
+        },
+        {
+          "start": 165,
+          "end": 175,
+          "label": "RENEWAL_DATE",
+          "value": "24 Aug 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "89309b4c-88f6-44c3-9a1f-5f9259cb9ca9",
+      "content": {
+        "raw_text": "Terms of Use Update (contractual) From: CuriosityStream <legal@curiositystream.com> To: all-members@curiositystream.com Date: Fri, 7 Mar 2025 22:15:22 +0000 Subject: We\u2019re updating our Terms of Use\u2014effective 7 Apr 2025 Message-ID: <20250307221522.1122.tos@curiositystream.com> Dear Member, We\u2019re making some improvements to our Terms of Use and Privacy Policy, including: \u2022 Clearer descriptions of how we process payments \u2022 Added information on downloadable content limits \u2022 Updated dispute-resolution procedures The updated terms take effect 7 Apr 2025. Continuing to use CuriosityStream after that date means you accept the new terms. Read the full policies \u2192 https://curiositystream.com/terms Thank you for being curious, CuriosityStream Legal"
+      },
+      "ner_entities": [
+        {
+          "start": 40,
+          "end": 54,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 261,
+          "end": 271,
+          "label": "RENEWAL_DATE",
+          "value": "7 Apr 2025"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "8c6d9261-5090-43a7-91a3-0e8d7e50a77b",
+      "content": {
+        "raw_text": "Promotional Add-On (Bundle Offer) From: CuriosityStream <promotions@curiositystream.com> To: lara.patel@example.uk Date: Mon, 29 Sep 2025 09:40:19 +0100 Subject: Add Nebula for just $1/mo\u2014limited-time partner offer Message-ID: <20250929084019.4466.bundle@curiositystream.com> Hi Lara, For a limited time, bundle Nebula\u2014the creator-owned streaming service\u2014with your CuriosityStream plan for only $1 per month for the first year. Click here to upgrade \u2192 Account > Add-Ons (offer ends 12 Oct 2025). Happy learning, CuriosityStream Partnerships"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 130,
+          "end": 132,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 132,
+          "end": 133,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1"
+        },
+        {
+          "start": 232,
+          "end": 242,
+          "label": "RENEWAL_DATE",
+          "value": "12 Oct 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a5e2850e-154d-4d7c-9cbf-2cae40c8056a",
+      "content": {
+        "raw_text": "Invoice PDF (Annual Renewal) From: CuriosityStream <invoices@curiositystream.com> To: ming.lee@example.kr Date: Tue, 18 Feb 2025 17:55:08 +0900 Subject: Your CuriosityStream invoice\u2014Annual 4K Plan Message-ID: <20250218085508.6677.invoice@curiositystream.com> Attachments: invoice-CS-2025-02-18-4K-PLN.pdf (231 KB) Hello Ming, Please find your invoice attached for the 4K Annual Plan renewal on 18 Feb 2025. \u2022 Amount: KRW 83 900 (VAT included) \u2022 Transaction ID: CS-TXN-20250218-33445566 \u2022 Next renewal: 18 Feb 2026 If you have any billing questions, simply reply to this email. Best regards, CuriosityStream Finance"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 81,
+          "end": 94,
+          "label": "USER_GMAIL",
+          "value": "ming.lee@example.kr"
+        },
+        {
+          "start": 193,
+          "end": 198,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "KRW"
+        },
+        {
+          "start": 199,
+          "end": 205,
+          "label": "PAYMENT_AMOUNT",
+          "value": "83 900"
+        },
+        {
+          "start": 274,
+          "end": 284,
+          "label": "RENEWAL_DATE",
+          "value": "18 Feb 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9b1eeac8-c8c3-45c9-8c09-f27b6d6f36e2",
+      "content": {
+        "raw_text": "Free-Trial Activation From: CuriosityStream <welcome@curiositystream.com> To: nora.jensen@example.dk Date: Thu, 10 Apr 2025 11:12:51 +0200 Subject: Your 7-day CuriosityStream trial has begun\u2014start exploring! Message-ID: <20250410091251.1600.trial@curiositystream.com> Hej Nora, Your free trial is live from 10 Apr 2025 until 17 Apr 2025. After the trial, your card (Visa \u2022\u2022\u2022\u2022 3404) will be billed DKK 49 per month unless you cancel. See what\u2019s trending \u2192 https://curiositystream.com/home Happy watching! CuriosityStream Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 77,
+          "end": 96,
+          "label": "USER_GMAIL",
+          "value": "nora.jensen@example.dk"
+        },
+        {
+          "start": 118,
+          "end": 128,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "10 Apr 2025"
+        },
+        {
+          "start": 134,
+          "end": 144,
+          "label": "RENEWAL_DATE",
+          "value": "17 Apr 2025"
+        },
+        {
+          "start": 192,
+          "end": 196,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        },
+        {
+          "start": 197,
+          "end": 200,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "DKK"
+        },
+        {
+          "start": 201,
+          "end": 203,
+          "label": "PAYMENT_AMOUNT",
+          "value": "49"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "21698c1d-930b-4b72-8eb4-0bf236da1a14",
+      "content": {
+        "raw_text": "Trial Ending Reminder (48 h) From: CuriosityStream <alerts@curiositystream.com> To: nora.jensen@example.dk Date: Tue, 15 Apr 2025 11:15:22 +0200 Subject: Nora, your CuriosityStream trial ends in 48 hours Message-ID: <20250415091522.1600.trialend@curiositystream.com> Hi Nora, Just a quick reminder\u2014your free trial finishes on 17 Apr 2025. No action needed if you\u2019d like to keep streaming; we\u2019ll charge DKK 49/month. To cancel: Account \u2192 Subscription \u2192 Cancel. Questions? We\u2019re here 24/7. \u2014CuriosityStream Support"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 77,
+          "end": 96,
+          "label": "USER_GMAIL",
+          "value": "nora.jensen@example.dk"
+        },
+        {
+          "start": 147,
+          "end": 157,
+          "label": "RENEWAL_DATE",
+          "value": "17 Apr 2025"
+        },
+        {
+          "start": 178,
+          "end": 181,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "DKK"
+        },
+        {
+          "start": 182,
+          "end": 184,
+          "label": "PAYMENT_AMOUNT",
+          "value": "49"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b9169cb6-19e2-4d1e-8bd5-c9af7ae22e92",
+      "content": {
+        "raw_text": "Annual Renewal Receipt with Tax Breakdown From: CuriosityStream <receipts@curiositystream.com> To: leo.perez@example.es Date: Mon, 19 May 2025 05:07:04 +0000 Subject: Payment confirmation\u2014Annual HD Plan renewal Message-ID: <20250519050704.2170.renew@curiositystream.com> Hola Leo, We\u2019ve processed your annual renewal: \u2022 Plan: HD Annual \u2022 Amount: \u20ac29.99 \u2022 VAT (21 %): \u20ac6.30 \u2022 Total charged: \u20ac36.29 \u2022 Transaction ID: CS-20250519-761122 PDF invoice attached for your records. \u00a1Gracias por seguir aprendiendo! CuriosityStream Finanzas"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 79,
+          "end": 92,
+          "label": "USER_GMAIL",
+          "value": "leo.perez@example.es"
+        },
+        {
+          "start": 151,
+          "end": 154,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "HD Annual"
+        },
+        {
+          "start": 168,
+          "end": 171,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 171,
+          "end": 176,
+          "label": "PAYMENT_AMOUNT",
+          "value": "29.99"
+        },
+        {
+          "start": 187,
+          "end": 190,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 190,
+          "end": 194,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6.30"
+        },
+        {
+          "start": 210,
+          "end": 213,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 213,
+          "end": 218,
+          "label": "PAYMENT_AMOUNT",
+          "value": "36.29"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "91f4aeb7-8e45-4a6a-b7ee-1a1fbb849c07",
+      "content": {
+        "raw_text": "From: CuriosityStream <billing@curiositystream.com> To: suzanne@sample.ca Date: Wed, 4 Jun 2025 18:42:19 -0400 Subject: Your plan price is changing on 5 Jul 2025 Message-ID: <20250604224219.3307.price@curiositystream.com> Hi Suzanne, To continue investing in new documentaries, your HD Monthly rate will change from CAD 4.99 to CAD 5.99 on 5 Jul 2025. No action is needed\u2014your existing payment method will be billed at the new price. If you\u2019d rather cancel, visit Account \u203a Subscription before the next bill date. Thank you for your support, CuriosityStream"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 68,
+          "end": 83,
+          "label": "USER_GMAIL",
+          "value": "suzanne@sample.ca"
+        },
+        {
+          "start": 206,
+          "end": 209,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "CAD"
+        },
+        {
+          "start": 210,
+          "end": 214,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4.99"
+        },
+        {
+          "start": 222,
+          "end": 225,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "CAD"
+        },
+        {
+          "start": 226,
+          "end": 230,
+          "label": "PAYMENT_AMOUNT",
+          "value": "5.99"
+        },
+        {
+          "start": 234,
+          "end": 244,
+          "label": "RENEWAL_DATE",
+          "value": "5 Jul 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a383c5dd-78d0-4b7f-8f94-22e029e5db64",
+      "content": {
+        "raw_text": "Regional Tax Rate Change From: CuriosityStream <legal@curiositystream.com> To: pierre.martin@example.fr Date: Wed, 4 Jun 2025 08:30:11 +0200 Subject: Update: new VAT rate on your subscription Message-ID: <20250604063011.2121.tax@curiositystream.com> Bonjour Pierre, French VAT on digital subscriptions will rise from 20 % to 21 % effective 1 Jul 2025. Your base price remains \u20ac3.99; tax will adjust automatically on your July bill. Full details: https://curiositystream.com/vat-update-2025 Merci, CuriosityStream Compliance"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 191,
+          "end": 200,
+          "label": "RENEWAL_DATE",
+          "value": "1 Jul 2025"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "1dd62c1a-1a57-4eb4-9da2-5a29b1878ef9",
+      "content": {
+        "raw_text": "Payment Method Added Confirmation From: CuriosityStream <security@curiositystream.com> To: lucy.dawson@protonmail.com Date: Sun, 8 Jun 2025 17:14:03 +0000 Subject: New payment method saved to your account Message-ID: <20250608171403.2222.card-add@curiositystream.com> Hi Lucy, Mastercard \u2022\u2022\u2022\u2022 1134 ending 04/28 was just added to your CuriosityStream wallet. If you didn\u2019t add this card, please reset your password and contact support immediately. \u2014Account Security"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 65,
+          "end": 89,
+          "label": "USER_GMAIL",
+          "value": "lucy.dawson@protonmail.com"
+        },
+        {
+          "start": 91,
+          "end": 100,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "3d922eca-68d7-400e-94ca-46a0f62db313",
+      "content": {
+        "raw_text": "Autopay Method Switched to PayPal From: CuriosityStream <billing@curiositystream.com> To: lucy.dawson@protonmail.com Date: Mon, 9 Jun 2025 00:01:22 +0000 Subject: You\u2019re all set\u2014PayPal will handle future payments Message-ID: <20250609000122.2323.pp-switch@curiositystream.com> Hi Lucy, You\u2019ve chosen PayPal (Primary) for automatic billing. Your next charge on 8 Jul 2025 will use PayPal order CS-PP-2025-06-09. No further steps required. Thanks for staying curious! CuriosityStream Billing"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 65,
+          "end": 89,
+          "label": "USER_GMAIL",
+          "value": "lucy.dawson@protonmail.com"
+        },
+        {
+          "start": 194,
+          "end": 200,
+          "label": "PAYMENT_PLATFORM",
+          "value": "PayPal"
+        },
+        {
+          "start": 212,
+          "end": 222,
+          "label": "RENEWAL_DATE",
+          "value": "8 Jul 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "6f4de972-c01e-44f0-8f15-3d4a0c994b4d",
+      "content": {
+        "raw_text": "Family-Profile Invite Sent From: CuriosityStream <family@curiositystream.com> To: michelle.choi@gmail.com Date: Wed, 18 Jun 2025 12:40:55 -0700 Subject: Your invitation to join Daniel\u2019s CuriosityStream plan Message-ID: <20250618194055.2424.invite@curiositystream.com> Hi Michelle, Daniel Choi (daniel.choi@example.com) has added you as a Family Member on his 4K Annual plan. Click \u201cAccept Invitation\u201d to set up your profile and start streaming: https://curiositystream.com/accept?token=JK3f8uP Happy viewing! CuriosityStream"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 67,
+          "end": 86,
+          "label": "USER_GMAIL",
+          "value": "michelle.choi@gmail.com"
+        },
+        {
+          "start": 96,
+          "end": 117,
+          "label": "USER_GMAIL",
+          "value": "daniel.choi@example.com"
+        },
+        {
+          "start": 142,
+          "end": 151,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "4K Annual"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d4ff17e9-4d9d-4c41-b21b-5d7bf58b57a1",
+      "content": {
+        "raw_text": "Final Payment Attempt (72 h notice) From: CuriosityStream <alerts@curiositystream.com> To: priya.r@example.co.in Date: Thu, 26 Jun 2025 04:02:59 +0530 Subject: Final attempt in 72 hours\u2014update payment now to avoid suspension Message-ID: <20250625223259.2525.final@curiositystream.com> Hi Priya, Our second retry on 25 Jun 2025 for \u20b9499 failed. We\u2019ll make a final attempt on 28 Jun 2025. Update or replace card \u2022\u2022\u2022\u2022 4510 at https://curiositystream.com/billing to keep your documentaries flowing. Need help? Reply to this email. \u2014CuriosityStream Billing Support"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 75,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "priya.r@example.co.in"
+        },
+        {
+          "start": 127,
+          "end": 130,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 130,
+          "end": 133,
+          "label": "PAYMENT_AMOUNT",
+          "value": "499"
+        },
+        {
+          "start": 161,
+          "end": 171,
+          "label": "RENEWAL_DATE",
+          "value": "25 Jun 2025"
+        },
+        {
+          "start": 196,
+          "end": 206,
+          "label": "RENEWAL_DATE",
+          "value": "28 Jun 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "0c2aa47f-9f8f-4a7c-9bba-7f9db2c17c46",
+      "content": {
+        "raw_text": "Account Suspension Notice From: CuriosityStream <noreply@curiositystream.com> To: priya.r@example.co.in Date: Sun, 29 Jun 2025 00:15:20 +0530 Subject: Streaming paused\u2014payment required to resume Message-ID: <20250628204520.2626.suspend@curiositystream.com> Hello Priya, We couldn\u2019t process your final payment attempt on 28 Jun 2025. Your subscription is now suspended. Reactivate any time by adding a valid payment method. We\u2019ll keep your watch history for 90 days. \u2014CuriosityStream"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 65,
+          "end": 89,
+          "label": "USER_GMAIL",
+          "value": "priya.r@example.co.in"
+        },
+        {
+          "start": 165,
+          "end": 175,
+          "label": "RENEWAL_DATE",
+          "value": "28 Jun 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1489b70b-4fce-4081-b6a9-f5da29d02a96",
+      "content": {
+        "raw_text": "Reactivation After Payment From: CuriosityStream <support@curiositystream.com> To: priya.r@example.co.in Date: Tue, 1 Jul 2025 11:44:07 +0530 Subject: Welcome back\u2014your access has been restored Message-ID: <20250701111407.2727.resume@curiositystream.com> Hi Priya, Thanks for updating your payment info! Your HD Monthly plan is active again. Next charge: 1 Aug 2025. Dive into \u201cIndia From Above\u201d\u2014now streaming in HD. Enjoy! CuriosityStream Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 65,
+          "end": 89,
+          "label": "USER_GMAIL",
+          "value": "priya.r@example.co.in"
+        },
+        {
+          "start": 184,
+          "end": 194,
+          "label": "RENEWAL_DATE",
+          "value": "1 Aug 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "57749c8f-6503-4e40-82d9-e6b9df5bb7b0",
+      "content": {
+        "raw_text": "Promotional Upgrade \u2013 Smart Bundle From: CuriosityStream <promotions@curiositystream.com> To: leonardo.silva@uol.com.br Date: Wed, 16 Jul 2025 13:02:18 -0300 Subject: Upgrade to the Smart Bundle\u2014save 50 % on Nebula + CuriosityStream Message-ID: <20250716160218.2828.bundle@curiositystream.com> Ol\u00e1 Leonardo, For this week only, add Nebula to your CuriosityStream plan for R$2.99 / m\u00eas (50 % off). Cancel anytime. Redeem code: NEB50BR Expires: 23 Jul 2025 Aproveite! CuriosityStream Parcerias"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 114,
+          "end": 117,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "R$"
+        },
+        {
+          "start": 117,
+          "end": 121,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2.99"
+        },
+        {
+          "start": 144,
+          "end": 154,
+          "label": "RENEWAL_DATE",
+          "value": "23 Jul 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "0e6be95b-0f8e-4d43-91f0-b4322cda7e5a",
+      "content": {
+        "raw_text": "Year-End Statement for Tax Purposes From: CuriosityStream <invoices@curiositystream.com> To: angela.ross@company.co.uk Date: Fri, 2 Jan 2026 09:00:00 +0000 Subject: Your 2025 subscription summary (PDF attached) Message-ID: <20260102090000.2929.statement@curiositystream.com> Hi Angela, Attached is a consolidated statement listing all CuriosityStream charges and VAT paid during the 2025 tax year. Questions? Email finance@curiositystream.com. Best regards, CuriosityStream Finance"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 81,
+          "end": 101,
+          "label": "USER_GMAIL",
+          "value": "angela.ross@company.co.uk"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "32b7b52e-47e4-4034-8a02-2075e1cfb7f3",
+      "content": {
+        "raw_text": "Gift Plan Auto-Renewal Reminder From: CuriosityStream <gifts@curiositystream.com> To: kevin.doe@samplemail.com Date: Sun, 9 Nov 2025 08:20:44 -0500 Subject: Your gift for Sarah renews on 9 Dec\u2014change or cancel anytime Message-ID: <20251109132044.3030.gift-renew@curiositystream.com> Hi Kevin, The gift subscription you purchased for sarah.brown@samplemail.com will renew on 9 Dec 2025 for US $39.99. Want to cancel auto-renew? Visit Gifts \u203a Manage before 8 Dec 2025. Thanks for sharing curiosity! \u2014CuriosityStream Gifts Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 88,
+          "end": 110,
+          "label": "USER_GMAIL",
+          "value": "kevin.doe@samplemail.com"
+        },
+        {
+          "start": 132,
+          "end": 154,
+          "label": "USER_GMAIL",
+          "value": "sarah.brown@samplemail.com"
+        },
+        {
+          "start": 174,
+          "end": 181,
+          "label": "RENEWAL_DATE",
+          "value": "9 Dec 2025"
+        },
+        {
+          "start": 195,
+          "end": 198,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 198,
+          "end": 203,
+          "label": "PAYMENT_AMOUNT",
+          "value": "39.99"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "dfbc43ec-6a2e-40be-9c2e-09d4484311f6",
+      "content": {
+        "raw_text": "Downgrade Confirmation (4K \u2192 HD) From: CuriosityStream <support@curiositystream.com> To: brian.taylor@icloud.com Date: Mon, 15 Dec 2025 15:55:12 -0500 Subject: Your plan has been changed to HD Monthly Message-ID: <20251215205512.3131.downgrade@curiositystream.com> Hi Brian, As requested, you\u2019ve switched from 4K Monthly (US $9.99) to HD Monthly (US $4.99). The change takes effect on 15 Jan 2026 at the next billing cycle. Pro-rated credit of US $2.50 will be applied. Let us know if you change your mind\u2014upgrades are instant! Cheers, CuriosityStream Support"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 55,
+          "label": "COMPANY_NAME",
+          "value": "CuriosityStream"
+        },
+        {
+          "start": 79,
+          "end": 96,
+          "label": "USER_GMAIL",
+          "value": "brian.taylor@icloud.com"
+        },
+        {
+          "start": 135,
+          "end": 138,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 138,
+          "end": 143,
+          "label": "PAYMENT_AMOUNT",
+          "value": "9.99"
+        },
+        {
+          "start": 153,
+          "end": 160,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "HD Monthly"
+        },
+        {
+          "start": 170,
+          "end": 173,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 173,
+          "end": 177,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4.99"
+        },
+        {
+          "start": 187,
+          "end": 197,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "15 Jan 2026"
+        },
+        {
+          "start": 224,
+          "end": 229,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2.50"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

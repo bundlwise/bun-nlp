@@ -1,0 +1,358 @@
+{
+  "Pocket": [
+    {
+      "id": "d26784d9-ea44-4a3a-8eb2-1b29111e9d90",
+      "content": {
+        "raw_text": "From: Pocket Team <noreply@getpocket.com> To: Petra Ivankovi\u0107 <petra.ivankovic93@gmail.com> Date: September 22, 2023 Subject: Your Pocket Premium payment receipt Reply-To: support@getpocket.com Hi Petra, Thank you for subscribing to Pocket Premium. This email confirms that your payment has been successfully processed, and your Premium subscription is now active. You\u2019ve chosen the Annual Plan, which offers a permanent library of everything you save, advanced search across your entire list, suggested tags, and an ad-free experience across all platforms. Your subscription will renew automatically unless canceled before the renewal date. Payment Details: \u2022 Plan: Pocket Premium (Annual) \u2022 Amount Charged: $44.99 USD \u2022 Date Charged: September 22, 2023 \u2022 Payment Method: Visa ending in 5027 \u2022 Invoice ID: #PCKT-87344128 You can manage your subscription, update your billing information, or view invoices by visiting your account settings. If you have any questions, our support team is available to help. You can reach us anytime at support@getpocket.com. Thanks again for supporting a better reading experience. \u2014 The Pocket Team Pocket Support \u2022 Terms \u2022 Privacy \u00a9 2023 Mozilla Corporation, 2 Harrison Street, San Francisco, CA 94105"
+      },
+      "ner_entities": [
+        {
+          "start": 39,
+          "end": 71,
+          "label": "USER_GMAIL",
+          "value": "petra.ivankovic93@gmail.com"
+        },
+        {
+          "start": 94,
+          "end": 100,
+          "label": "PAYMENT_DATE",
+          "value": "September 22, 2023"
+        },
+        {
+          "start": 119,
+          "end": 125,
+          "label": "COMPANY_NAME",
+          "value": "Pocket"
+        },
+        {
+          "start": 183,
+          "end": 199,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Pocket Premium"
+        },
+        {
+          "start": 262,
+          "end": 274,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Annual Plan"
+        },
+        {
+          "start": 392,
+          "end": 411,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Pocket Premium"
+        },
+        {
+          "start": 414,
+          "end": 428,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Annual"
+        },
+        {
+          "start": 433,
+          "end": 447,
+          "label": "PAYMENT_AMOUNT",
+          "value": "44.99"
+        },
+        {
+          "start": 432,
+          "end": 433,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 472,
+          "end": 492,
+          "label": "PAYMENT_DATE",
+          "value": "September 22, 2023"
+        },
+        {
+          "start": 514,
+          "end": 532,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending in 5027"
+        }
+      ]
+    },
+    {
+      "id": "e82c513d-623e-4ec5-8594-6c45aafbc022",
+      "content": {
+        "raw_text": "From: Pocket Billing <billing@getpocket.com> To: Emilie Thomassen <emilie.thomassen@protonmail.com> Date: November 18, 2023 Subject: Your Pocket Premium invoice Reply-To: support@getpocket.com Hi Emilie, Thank you for subscribing to Pocket Premium. This email is to confirm that your invoice has been generated for your recent subscription payment. You\u2019ve now unlocked a range of features designed to enhance your reading experience across devices, including permanent library access, full-text search, suggested tagging, and an ad-free interface. The following invoice includes the full details of your subscription plan and associated billing information. You were charged upon confirmation of the annual plan. This charge will automatically renew each year unless canceled beforehand. Invoice Summary \u2022 Invoice ID: #PCKT-11498274 \u2022 Plan: Pocket Premium \u2013 Annual \u2022 Billing Date: November 18, 2023 \u2022 Amount Charged: $44.99 USD \u2022 Payment Method: Mastercard ending in 7614 You can view or download your invoice anytime by accessing your Pocket account settings. If you\u2019d like to update your billing method or change your subscription preferences, those options are available through the same dashboard. Renewal occurs automatically at the end of each billing cycle unless you cancel beforehand. Should you have any questions about your billing, feel free to reach out to us directly at support@getpocket.com. We\u2019re here to help. \u2014 The Pocket Team Pocket Support \u2022 Terms of Service \u2022 Privacy Policy \u00a9 2023 Mozilla Corporation, 2 Harrison Street, San Francisco, CA 94105"
+      },
+      "ner_entities": [
+        {
+          "start": 47,
+          "end": 83,
+          "label": "USER_GMAIL",
+          "value": "emilie.thomassen@protonmail.com"
+        },
+        {
+          "start": 91,
+          "end": 109,
+          "label": "PAYMENT_DATE",
+          "value": "November 18, 2023"
+        },
+        {
+          "start": 134,
+          "end": 140,
+          "label": "COMPANY_NAME",
+          "value": "Pocket"
+        },
+        {
+          "start": 169,
+          "end": 185,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Pocket Premium"
+        },
+        {
+          "start": 585,
+          "end": 612,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Pocket Premium \u2013 Annual"
+        },
+        {
+          "start": 640,
+          "end": 658,
+          "label": "PAYMENT_DATE",
+          "value": "November 18, 2023"
+        },
+        {
+          "start": 681,
+          "end": 691,
+          "label": "PAYMENT_AMOUNT",
+          "value": "44.99"
+        },
+        {
+          "start": 680,
+          "end": 681,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 720,
+          "end": 746,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard ending in 7614"
+        }
+      ]
+    },
+    {
+      "id": "cdfbc2d9-0979-44f4-a841-19755f971c52",
+      "content": {
+        "raw_text": "From: Pocket Billing <billing@getpocket.com> To: Carlos Fern\u00e1ndez <carlos.fernandez78@mail.com> Date: September 14, 2023 Subject: We couldn\u2019t process your Pocket Premium payment Reply\u2011To: support@getpocket.com Hi Carlos, We\u2019re sorry, but there was an issue processing your recent Pocket Premium renewal. We tried to charge your card on file but couldn\u2019t complete the payment, and your subscription remains active\u2014for now\u2014but your billing information may need updating. Payment Attempt Details: \u2022 Plan: Pocket Premium \u2013 Monthly \u2022 Attempt Date: September 14, 2023 \u2022 Amount: $4.99 USD \u2022 Card on File: Visa ending in 3456 \u2022 Invoice ID: #PCKT-24561309 It\u2019s possible your card has expired, reached its limit, or your bank declined the transaction. To avoid any interruption to your features\u2014like full\u2011text search, suggested tags, highlights, and the permanent library\u2014please visit your Pocket account settings and update your payment information as soon as possible. If your billing info is already correct, your bank may have declined it\u2014sometimes due to international charges or temporary holds. We recommend contacting your bank for more details. Once the issue is resolved, we\u2019ll attempt the renewal again in 24 hours. If you believe this message reached you in error, or if you need help updating your information, please reach out to us at support@getpocket.com. We\u2019re here to help and ensure your experience remains seamless. \u2014 The Pocket Team Pocket Support \u2022 Terms of Service \u2022 Privacy Policy \u00a9 2023 Mozilla Corporation, 2 Harrison Street, San Francisco, CA 94105"
+      },
+      "ner_entities": [
+        {
+          "start": 49,
+          "end": 80,
+          "label": "USER_GMAIL",
+          "value": "carlos.fernandez78@mail.com"
+        },
+        {
+          "start": 88,
+          "end": 106,
+          "label": "PAYMENT_DATE",
+          "value": "September 14, 2023"
+        },
+        {
+          "start": 131,
+          "end": 137,
+          "label": "COMPANY_NAME",
+          "value": "Pocket"
+        },
+        {
+          "start": 260,
+          "end": 286,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Pocket Premium \u2013 Monthly"
+        },
+        {
+          "start": 309,
+          "end": 327,
+          "label": "PAYMENT_DATE",
+          "value": "September 14, 2023"
+        },
+        {
+          "start": 341,
+          "end": 346,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4.99"
+        },
+        {
+          "start": 340,
+          "end": 341,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 372,
+          "end": 398,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending in 3456"
+        }
+      ]
+    },
+    {
+      "id": "d92e9be6-0b99-4d19-8cc9-eed8d78a3e6a",
+      "content": {
+        "raw_text": "From: Pocket Billing <billing@getpocket.com> To: Anika Kuznetsova <anika.kuznetsova82@mail.com> Date: December 5, 2023 Subject: Your refund has been processed Reply-To: support@getpocket.com Hi Anika, We\u2019re sorry to see you go, but we\u2019ve processed a refund for your recent Pocket Premium subscription. The unused balance has been returned to your original payment method, and your account now reflects the updated subscription status. Refund Summary \u2022 Plan Refunded: Pocket Premium \u2013 Annual \u2022 Original Billing Date: September 22, 2023 \u2022 Refund Date: December 5, 2023 \u2022 Refund Amount: $22.50 USD (prorated) \u2022 Payment Method: Visa ending in 4291 \u2022 Original Invoice ID: #PCKT-11053267 Please note it may take 5\u201310 business days for the refund to appear on your statement, depending on your bank or card issuer. Your subscription has been canceled, and you still have access to Premium features through your current billing cycle. If you have any questions or believe there\u2019s been an error, feel free to reach out to us at support@getpocket.com. We\u2019re here to help. Thank you for using Pocket and supporting mindful reading. \u2014 The Pocket Team Pocket Support \u2022 Terms \u2022 Privacy \u00a9\u202f2023 Mozilla Corporation, 2\u202fHarrison\u202fStreet, San\u202fFrancisco, CA\u202f94105"
+      },
+      "ner_entities": [
+        {
+          "start": 44,
+          "end": 74,
+          "label": "USER_GMAIL",
+          "value": "anika.kuznetsova82@mail.com"
+        },
+        {
+          "start": 82,
+          "end": 100,
+          "label": "PAYMENT_DATE",
+          "value": "December 5, 2023"
+        },
+        {
+          "start": 151,
+          "end": 157,
+          "label": "COMPANY_NAME",
+          "value": "Pocket"
+        },
+        {
+          "start": 222,
+          "end": 248,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Pocket Premium \u2013 Annual"
+        },
+        {
+          "start": 279,
+          "end": 297,
+          "label": "PAYMENT_DATE",
+          "value": "September 22, 2023"
+        },
+        {
+          "start": 319,
+          "end": 337,
+          "label": "PAYMENT_DATE",
+          "value": "December 5, 2023"
+        },
+        {
+          "start": 356,
+          "end": 362,
+          "label": "PAYMENT_AMOUNT",
+          "value": "22.50"
+        },
+        {
+          "start": 355,
+          "end": 356,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 384,
+          "end": 406,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa ending in 4291"
+        }
+      ]
+    },
+    {
+      "id": "a213c4ff-b1f9-43d4-9e59-573740ceec88",
+      "content": {
+        "raw_text": "From: Pocket Billing <billing@getpocket.com> To: S\u00f8ren Vestergaard <soren.vestergaard76@mail.com> Date: October 20, 2023 Subject: Your Pocket Premium subscription has renewed Reply\u2011To: support@getpocket.com Hi S\u00f8ren, Thank you for staying with us. Your Pocket Premium subscription has successfully renewed, and you now continue to enjoy uninterrupted access to all premium features\u2014including unlimited permanent library storage, full-text search, suggested tags, highlights, and an ad-free reading experience across all your devices\u2014for another term. Renewal Details \u2022 Plan: Pocket Premium \u2013 Annual \u2022 Renewal Date: October 20, 2023 \u2022 Amount Charged: $44.99 USD \u2022 Payment Method: Mastercard ending in 3287 \u2022 Invoice ID: #PCKT-13245789 You can view or download the invoice by logging into your Pocket account settings. Your subscription is set to automatically renew at the end of each billing period unless canceled before the renewal date\u2014so feel free to manage or cancel at any time. If you ever need assistance or want to explore our latest feature updates, our support team is ready to help. Just reply to this email or visit the Pocket Help Center. Thank you for continuing to support thoughtful reading. We\u2019re glad to keep bringing you on-board. \u2014 The Pocket Team Pocket Support \u2022 Terms of Service \u2022 Privacy Policy \u00a9\u202f2023\u202fMozilla Corporation, 2\u202fHarrison\u202fStreet, San\u202fFrancisco, CA\u202f94105"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Pocket"
+        },
+        {
+          "start": 23,
+          "end": 42,
+          "label": "USER_GMAIL",
+          "value": "soren.vestergaard76@mail.com"
+        },
+        {
+          "start": 222,
+          "end": 247,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Pocket Premium \u2013 Annual"
+        },
+        {
+          "start": 252,
+          "end": 268,
+          "label": "RENEWAL_DATE",
+          "value": "October 20, 2023"
+        },
+        {
+          "start": 271,
+          "end": 281,
+          "label": "PAYMENT_AMOUNT",
+          "value": "44.99"
+        },
+        {
+          "start": 270,
+          "end": 271,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 305,
+          "end": 314,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard"
+        }
+      ]
+    },
+    {
+      "id": "5a1c63d5-bf7c-40fd-b364-0e8b3ff51a18",
+      "content": {
+        "raw_text": "From: Pocket Billing <billing@getpocket.com> To: Lucia M\u00e9ndez <lucia.mendez91@mail.com> Date: December 2, 2023 Subject: We couldn\u2019t process your Pocket Premium payment Reply\u2011To: support@getpocket.com Hi Lucia, We\u2019re sorry, but we couldn\u2019t process your recent Pocket Premium renewal. Your card on file was declined, and while your subscription remains active today, your Premium features may be interrupted if payment isn\u2019t updated soon. Payment Attempt Details: \u2022 Plan: Pocket Premium \u2013 Monthly \u2022 Attempt Date: December 2, 2023 \u2022 Amount: $4.99 USD \u2022 Card on File: Mastercard ending in 6423 \u2022 Invoice ID: #PCKT-18928452 Sometimes payments fail because cards expire, hit limits, or banks block transactions. Don\u2019t worry\u2014we\u2019ll try again automatically within 24 hours. To ensure seamless access to your permanent library, highlights, full\u2011text search, suggested tags, and an ad\u2011free experience, please update your payment information by logging into your Pocket account settings. If you believe your current card should work or if this message feels unexpected, you can also contact your bank\u2014they may have flagged the charge. If you run into any problems updating your details, just reply to this email or visit our Help Center and we\u2019ll assist you personally. You won\u2019t lose access immediately, but we recommend updating your payment soon to keep everything running smoothly. We appreciate you being part of Pocket and look forward to continuing to support your reading journey. \u2014 The Pocket Team Pocket Support \u2022 Terms of Service \u2022 Privacy Policy \u00a9\u202f2023 Mozilla Corporation, 2 Harrison Street, San Francisco, CA 94105"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 12,
+          "label": "COMPANY_NAME",
+          "value": "Pocket"
+        },
+        {
+          "start": 23,
+          "end": 45,
+          "label": "USER_GMAIL",
+          "value": "lucia.mendez91@mail.com"
+        },
+        {
+          "start": 222,
+          "end": 248,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Pocket Premium \u2013 Monthly"
+        },
+        {
+          "start": 254,
+          "end": 272,
+          "label": "PAYMENT_DATE",
+          "value": "December 2, 2023"
+        },
+        {
+          "start": 285,
+          "end": 290,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4.99"
+        },
+        {
+          "start": 284,
+          "end": 285,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 318,
+          "end": 328,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard"
+        }
+      ]
+    }
+  ]
+}

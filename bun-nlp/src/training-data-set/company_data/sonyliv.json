@@ -1,0 +1,724 @@
+{
+  "sonyliv": [
+    {
+      "id": "d8b45c3a-2d14-4fbd-8e6c-e713482f8d58",
+      "content": {
+        "raw_text": "From: SonyLIV Support <support@sonyliv.com> To: rahul.sathe12@hotmail.com Subject: SonyLIV refund of \u20b9299 processed Date: Thu, 18 Sep 2025 15:18:49 +0530 Content-Type: text/plain Hi Rahul, Your refund for Transaction #SLV-0925-299 has been issued to UPI rahul@ybl. It may take up to 7 working days to reflect. Thank you for choosing SonyLIV."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 20,
+          "end": 39,
+          "label": "USER_GMAIL",
+          "value": "rahul.sathe12@hotmail.com"
+        },
+        {
+          "start": 57,
+          "end": 60,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 108,
+          "end": 114,
+          "label": "PAYMENT_PLATFORM",
+          "value": "UPI rahul@ybl"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "14c63e02-1e3f-4535-9e3e-6f41c76f6e17",
+      "content": {
+        "raw_text": "From: SonyLIV <no-reply@sonyliv.com> To: priya.iyer07@gmail.com Subject: \ud83c\udf89 Welcome to SonyLIV Mobile! Your subscription is active Date: Sat, 21 Jun 2025 11:12:05 +0530 MIME-Version: 1.0 Content-Type: text/html; charset=\"UTF-8\" Hello Priya, Thanks for subscribing to SonyLIV Mobile (Monthly). Start date: 21 Jun 2025 Next renewal: 21 Jul 2025 Amount: \u20b9149 (incl. taxes) Payment method: UPI \u2022\u2022\u2022\u20226789 (priya@ybl) Begin streaming on one mobile device right away. Need HD on TV? Upgrade here. Happy watching! \u2014 Team SonyLIV \u00a9 2025 Sony Pictures Networks India Pvt Ltd, Mumbai 400013."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 20,
+          "end": 38,
+          "label": "USER_GMAIL",
+          "value": "priya.iyer07@gmail.com"
+        },
+        {
+          "start": 107,
+          "end": 118,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "SonyLIV Mobile (Monthly)"
+        },
+        {
+          "start": 134,
+          "end": 144,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "21 Jun 2025"
+        },
+        {
+          "start": 158,
+          "end": 168,
+          "label": "RENEWAL_DATE",
+          "value": "21 Jul 2025"
+        },
+        {
+          "start": 179,
+          "end": 183,
+          "label": "PAYMENT_AMOUNT",
+          "value": "149"
+        },
+        {
+          "start": 178,
+          "end": 179,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 201,
+          "end": 217,
+          "label": "PAYMENT_PLATFORM",
+          "value": "UPI \u2022\u2022\u2022\u20226789 (priya@ybl)"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "2e32c64f-c47e-4ff4-8f64-8d1d5f1b342d",
+      "content": {
+        "raw_text": "From: SonyLIV <no-reply@sonyliv.com> To: arjun.malhotra88@yahoo.com Subject: Your SonyLIV Premium (Annual) membership has begun Date: Mon, 03 Mar 2025 09:02:43 +0530 Content-Type: text/plain Hi Arjun, Welcome to SonyLIV Premium! Plan: Premium Annual (4 screens, 4K) Start date: 03 Mar 2025 Renewal: 03 Mar 2026 Amount charged: \u20b9999 via Visa \u2022\u2022\u2022\u20222010 Invoice PDF: https://www.sonyliv.com/invoice/SLV-ANN-0325-2010 Enjoy Originals, Live Sports & more! Team SonyLIV"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 20,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "arjun.malhotra88@yahoo.com"
+        },
+        {
+          "start": 84,
+          "end": 98,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Annual"
+        },
+        {
+          "start": 115,
+          "end": 125,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "03 Mar 2025"
+        },
+        {
+          "start": 136,
+          "end": 146,
+          "label": "RENEWAL_DATE",
+          "value": "03 Mar 2026"
+        },
+        {
+          "start": 163,
+          "end": 166,
+          "label": "PAYMENT_AMOUNT",
+          "value": "999"
+        },
+        {
+          "start": 172,
+          "end": 188,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa \u2022\u2022\u2022\u20222010"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b7b6f12e-172b-474d-9747-09e5bb45d3c9",
+      "content": {
+        "raw_text": "From: SonyLIV Trials <trials@sonyliv.com> To: kavita.sharma56@outlook.com Subject: Your 14-day SonyLIV trial is live \u2013 start bingeing! Date: Tue, 11 Feb 2025 07:44:18 +0530 Content-Type: text/plain Hi Kavita, Your 14-day SonyLIV Premium trial has started and ends on 25 Feb 2025. \u20b9299/month thereafter (HDFC card \u2022\u2022\u2022\u20221212). Cancel anytime in Account > Subscription. Stream now \u2192 https://www.sonyliv.com/start Cheers, SonyLIV Team"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 32,
+          "end": 51,
+          "label": "USER_GMAIL",
+          "value": "kavita.sharma56@outlook.com"
+        },
+        {
+          "start": 88,
+          "end": 108,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "SonyLIV Premium trial"
+        },
+        {
+          "start": 132,
+          "end": 142,
+          "label": "RENEWAL_DATE",
+          "value": "25 Feb 2025"
+        },
+        {
+          "start": 144,
+          "end": 150,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 165,
+          "end": 176,
+          "label": "PAYMENT_PLATFORM",
+          "value": "HDFC card \u2022\u2022\u2022\u20221212"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9a9e7ecf-08b3-42a7-9b84-2cc35e99e17a",
+      "content": {
+        "raw_text": "From: SonyLIV <reminder@sonyliv.com> To: kavita.sharma56@outlook.com Subject: \u23f0 Your SonyLIV trial ends tomorrow \u2013 keep the excitement going Date: Mon, 24 Feb 2025 08:15:02 +0530 Content-Type: text/plain Hi Kavita, Your free trial ends on 25 Feb 2025. Do nothing and we\u2019ll charge \u20b9299 to HDFC \u2022\u2022\u2022\u20221212. Cancel before 11:59 PM IST tomorrow if you\u2019d like to avoid charges. \u2014 SonyLIV Billing"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 32,
+          "end": 51,
+          "label": "USER_GMAIL",
+          "value": "kavita.sharma56@outlook.com"
+        },
+        {
+          "start": 94,
+          "end": 104,
+          "label": "RENEWAL_DATE",
+          "value": "25 Feb 2025"
+        },
+        {
+          "start": 114,
+          "end": 120,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 124,
+          "end": 140,
+          "label": "PAYMENT_PLATFORM",
+          "value": "HDFC \u2022\u2022\u2022\u20221212"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "3b726e8a-8a4f-41a1-9d94-8a51d6a0c39a",
+      "content": {
+        "raw_text": "From: SonyLIV Billing <billing@sonyliv.com> To: deepak_naidu23@rediffmail.com Subject: Payment received \u2013 your SonyLIV subscription continues Date: Fri, 14 Feb 2025 04:11:27 +0530 Content-Type: text/plain \u20b9299 was successfully charged to UPI (deepak@ybl) on 14 Feb 2025 for your Premium Monthly plan. Next billing date: 14 Mar 2025. Thanks for staying with us! Invoice: https://www.sonyliv.com/invoice/SLV-M-0225-299"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 19,
+          "end": 46,
+          "label": "USER_GMAIL",
+          "value": "deepak_naidu23@rediffmail.com"
+        },
+        {
+          "start": 56,
+          "end": 59,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 68,
+          "end": 84,
+          "label": "PAYMENT_PLATFORM",
+          "value": "UPI (deepak@ybl)"
+        },
+        {
+          "start": 88,
+          "end": 98,
+          "label": "PAYMENT_DATE",
+          "value": "14 Feb 2025"
+        },
+        {
+          "start": 124,
+          "end": 135,
+          "label": "RENEWAL_DATE",
+          "value": "14 Mar 2025"
+        },
+        {
+          "start": 139,
+          "end": 164,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Monthly"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9d01aafe-f43d-4087-a344-60ddda1c5e3a",
+      "content": {
+        "raw_text": "From: SonyLIV Billing <billing@sonyliv.com> To: meera.joshi90@icloud.com Subject: \u26a0\ufe0f We couldn\u2019t renew your SonyLIV subscription Date: Thu, 28 Aug 2025 03:09:55 +0530 Content-Type: text/plain Dear Meera, Your automatic payment of \u20b9299 (Premium Monthly) on 28 Aug 2025 was declined by ICICI Bank (card \u2022\u2022\u2022\u20227711). We\u2019ll retry in 48 hrs. Update card \u2192 https://www.sonyliv.com/payments Access pauses on 31 Aug 2025 if payment fails. Need help? Call 1800-3000-8000. SonyLIV Support"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 18,
+          "end": 35,
+          "label": "USER_GMAIL",
+          "value": "meera.joshi90@icloud.com"
+        },
+        {
+          "start": 97,
+          "end": 100,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 111,
+          "end": 125,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Monthly"
+        },
+        {
+          "start": 128,
+          "end": 140,
+          "label": "PAYMENT_DATE",
+          "value": "28 Aug 2025"
+        },
+        {
+          "start": 168,
+          "end": 172,
+          "label": "PAYMENT_BANK",
+          "value": "ICICI"
+        },
+        {
+          "start": 180,
+          "end": 184,
+          "label": "PAYMENT_AMOUNT",
+          "value": "7711"
+        },
+        {
+          "start": 211,
+          "end": 221,
+          "label": "RENEWAL_DATE",
+          "value": "31 Aug 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1aaed66b-9c61-4da3-9cbf-8e4d4d5c8477",
+      "content": {
+        "raw_text": "From: SonyLIV <no-reply@sonyliv.com> To: gaurav.tiwari44@gmail.com Subject: Your SonyLIV Premium plan has been renewed Date: Sun, 05 Jan 2025 02:20:09 +0530 Content-Type: text/plain Hi Gaurav, We\u2019ve charged \u20b9999 to Amex \u2022\u2022\u2022\u20225544 on 05 Jan 2025, renewing your Premium Annual plan through 05 Jan 2026. Invoice: https://www.sonyliv.com/invoice/SLV-ANN-0125-5544 Manage subscription: https://www.sonyliv.com/account"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 20,
+          "end": 41,
+          "label": "USER_GMAIL",
+          "value": "gaurav.tiwari44@gmail.com"
+        },
+        {
+          "start": 57,
+          "end": 60,
+          "label": "PAYMENT_AMOUNT",
+          "value": "999"
+        },
+        {
+          "start": 64,
+          "end": 80,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Amex \u2022\u2022\u2022\u20225544"
+        },
+        {
+          "start": 107,
+          "end": 121,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Annual"
+        },
+        {
+          "start": 133,
+          "end": 143,
+          "label": "RENEWAL_DATE",
+          "value": "05 Jan 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "735b3f0b-0a8f-429b-8ed1-3f7f84ff28df",
+      "content": {
+        "raw_text": "From: SonyLIV <cancellations@sonyliv.com> To: anita.bhandari03@gmail.com Subject: Your SonyLIV membership has been cancelled Date: Thu, 17 Apr 2025 19:34:14 +0530 Content-Type: text/html; charset=\"UTF-8\" Hi Anita, As requested, your SonyLIV Premium subscription was cancelled on 17 Apr 2025. You can continue streaming until 16 May 2025 (end of paid period). No further charges will apply. Changed your mind? Restart membership anytime. \u00a9 2025 SonyLIV | Privacy | Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 20,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "anita.bhandari03@gmail.com"
+        },
+        {
+          "start": 106,
+          "end": 116,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "SonyLIV Premium"
+        },
+        {
+          "start": 130,
+          "end": 140,
+          "label": "CANCELLATION_DATE",
+          "value": "17 Apr 2025"
+        },
+        {
+          "start": 182,
+          "end": 192,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "16 May 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "4e47748c-fce2-45ed-8f03-49b46b933ef3",
+      "content": {
+        "raw_text": "From: SonyLIV <upgrade@sonyliv.com> To: priya.iyer07@gmail.com Subject: \ud83c\udf89 Upgrade successful \u2013 enjoy SonyLIV Premium! Date: Sun, 21 Sep 2025 10:25:11 +0530 Content-Type: text/plain Congrats, Priya! You\u2019ve upgraded to Premium Monthly. \u20b9150 (pro-rated) was charged to UPI (priya@ybl). 4K streaming on 2 screens is now unlocked."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 20,
+          "end": 38,
+          "label": "USER_GMAIL",
+          "value": "priya.iyer07@gmail.com"
+        },
+        {
+          "start": 71,
+          "end": 82,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Monthly"
+        },
+        {
+          "start": 84,
+          "end": 87,
+          "label": "PAYMENT_AMOUNT",
+          "value": "150"
+        },
+        {
+          "start": 96,
+          "end": 112,
+          "label": "PAYMENT_PLATFORM",
+          "value": "UPI (priya@ybl)"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "5c89c5cd-8aee-4cc9-9e6e-39123cde9e5f",
+      "content": {
+        "raw_text": "From: SonyLIV <update@sonyliv.com> To: gaurav.tiwari44@gmail.com Subject: Your plan has been changed to Mobile Date: Wed, 10 Sep 2025 12:44:00 +0530 Content-Type: text/plain Hi Gaurav, You\u2019ve switched to Mobile Monthly (\u20b9149). Your Premium benefits remain until 05 Jan 2026; Mobile pricing applies after. Questions? Reply to this email."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 20,
+          "end": 41,
+          "label": "USER_GMAIL",
+          "value": "gaurav.tiwari44@gmail.com"
+        },
+        {
+          "start": 64,
+          "end": 79,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Mobile Monthly"
+        },
+        {
+          "start": 81,
+          "end": 85,
+          "label": "PAYMENT_AMOUNT",
+          "value": "149"
+        },
+        {
+          "start": 114,
+          "end": 124,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "05 Jan 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f4429840-b376-4aee-83e1-6c360ab86cb3",
+      "content": {
+        "raw_text": "From: SonyLIV Deals <offers@sonyliv.com> To: meera.joshi90@icloud.com Subject: 50% off on SonyLIV Premium \u2013 72 hrs only! Date: Fri, 04 Jul 2025 09:00:18 +0530 Content-Type: text/html Upgrade to Premium Annual for just \u20b9499 (50% off). Claim offer \u2192 Offer valid till 07 Jul 2025 23:59 IST. T&Cs apply."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 27,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": ""
+        },
+        {
+          "start": 88,
+          "end": 91,
+          "label": "PAYMENT_AMOUNT",
+          "value": "499"
+        },
+        {
+          "start": 108,
+          "end": 119,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Annual"
+        },
+        {
+          "start": 139,
+          "end": 150,
+          "label": "RENEWAL_DATE",
+          "value": "07 Jul 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a3f30998-9f4b-4e42-82f6-c567c7a9ddf2",
+      "content": {
+        "raw_text": "From: SonyLIV Support <refunds@sonyliv.com> To: arjun.malhotra88@yahoo.com Subject: Refund processed \u2013 \u20b9299 has been credited Date: Tue, 22 Apr 2025 16:08:22 +0530 Content-Type: text/plain Hello Arjun, We\u2019ve issued a refund of \u20b9299 to Visa \u2022\u2022\u2022\u20222010 for the duplicate charge on 21 Apr 2025. Funds may take 5-7 business days. Reference: RFND-SLV-0425-299"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 20,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "arjun.malhotra88@yahoo.com"
+        },
+        {
+          "start": 90,
+          "end": 93,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 97,
+          "end": 110,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa \u2022\u2022\u2022\u20222010"
+        },
+        {
+          "start": 145,
+          "end": 155,
+          "label": "PAYMENT_DATE",
+          "value": "21 Apr 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "15eb6ac6-3d03-45c4-9e12-8180cc24a12f",
+      "content": {
+        "raw_text": "From: SonyLIV Billing <billing@sonyliv.com> To: deepak_naidu23@rediffmail.com Subject: Your SonyLIV invoice \u2013 June 2025 Date: Sat, 14 Jun 2025 04:11:29 +0530 Content-Type: text/plain Invoice #: SLV-M-0625-299 Plan: Premium Monthly Amount: \u20b9299 Download PDF: https://www.sonyliv.com/invoice/SLV-M-0625-299"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 19,
+          "end": 46,
+          "label": "USER_GMAIL",
+          "value": "deepak_naidu23@rediffmail.com"
+        },
+        {
+          "start": 73,
+          "end": 76,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 109,
+          "end": 145,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Monthly"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "dca34b22-c88a-4c6b-91ce-1ab416d3d1a6",
+      "content": {
+        "raw_text": "From: SonyLIV <share@sonyliv.com> To: priya.iyer07@gmail.com Subject: \ud83d\udcfa Invite a family member to your SonyLIV Premium account Date: Mon, 07 Jul 2025 13:02:47 +0530 Content-Type: text/plain Hi Priya, Your Premium plan lets you stream on 2 screens. Share one with family! Invite link (expires in 48 hrs): https://www.sonyliv.com/family/ef45gh67"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 20,
+          "end": 38,
+          "label": "USER_GMAIL",
+          "value": "priya.iyer07@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "61d0d3cd-3baf-442e-a49f-1a4e6d81d8f3",
+      "content": {
+        "raw_text": "From: SonyLIV Statements <statements@sonyliv.com> To: kavita.sharma56@outlook.com Subject: Your SonyLIV statement \u2013 May 2025 Date: Sun, 01 Jun 2025 07:00:04 +0530 Content-Type: text/plain May 2025 usage Plan Premium Monthly Hours streamed 78 h Top show Scam 1992 Screens used 2 No payment due until 11 Jun 2025."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 26,
+          "end": 45,
+          "label": "USER_GMAIL",
+          "value": "kavita.sharma56@outlook.com"
+        },
+        {
+          "start": 66,
+          "end": 79,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Monthly"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "37f7e1a7-8a68-4e1c-b7ca-3b1e4509dfc6",
+      "content": {
+        "raw_text": "From: SonyLIV Deals <offers@sonyliv.com> To: meera.joshi90@icloud.com Subject: \u23f3 Your 50% Premium coupon expires tonight Date: Mon, 07 Jul 2025 09:01:07 +0530 Content-Type: text/plain Hi Meera, Just a heads-up: coupon PREM50 expires at 23:59 IST today (07 Jul 2025). Redeem \u2192 https://www.sonyliv.com/upgrade?code=PREM50"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 18,
+          "end": 35,
+          "label": "USER_GMAIL",
+          "value": "meera.joshi90@icloud.com"
+        },
+        {
+          "start": 104,
+          "end": 115,
+          "label": "RENEWAL_DATE",
+          "value": "07 Jul 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "992b9bbf-5b23-4e7b-88fa-3cae768e5b68",
+      "content": {
+        "raw_text": "From: SonyLIV Billing <refunds@sonyliv.com> To: arjun.malhotra88@yahoo.com Subject: Refund processed \u2013 \u20b9299 has been credited Date: Tue, 22 Apr 2025 16:08:22 +0530 Content-Type: text/plain Hello Arjun, We\u2019ve issued a refund of \u20b9299 to Visa \u2022\u2022\u2022\u20222010 for the duplicate charge on 21 Apr 2025. Funds may take 5-7 business days. Reference: RFND-SLV-0425-299"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "SonyLIV"
+        },
+        {
+          "start": 20,
+          "end": 43,
+          "label": "USER_GMAIL",
+          "value": "arjun.malhotra88@yahoo.com"
+        },
+        {
+          "start": 90,
+          "end": 93,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 97,
+          "end": 110,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa \u2022\u2022\u2022\u20222010"
+        },
+        {
+          "start": 145,
+          "end": 155,
+          "label": "PAYMENT_DATE",
+          "value": "21 Apr 2025"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

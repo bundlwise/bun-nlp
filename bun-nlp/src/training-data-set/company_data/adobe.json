@@ -1,0 +1,342 @@
+{
+  "Adobe": [
+    {
+      "id": "987a928c-d478-4e5f-8604-f46b1ecae7b2",
+      "content": {
+        "raw_text": "Subject: Your Adobe Creative Cloud Payment Was Successful - Thank You From: Adobe noreply@adobe.com To: elara.smith@adobe.com Dear Elara Smith, We're pleased to confirm that your recent payment for your Adobe Creative Cloud subscription has been successfully processed. Thank you for your continued commitment to creativity and innovation with Adobe tools. Your active subscription empowers you with access to industry-leading applications like Photoshop, Illustrator, Premiere Pro, and more, enabling you to bring your visions to life with unparalleled precision and creative freedom. We are dedicated to providing you with the most powerful and reliable software solutions for your professional and personal projects. Payment Details: Plan: Creative Cloud All Apps (Annual, Paid Monthly) Amount Paid: \u20b94,230.00 INR Payment Date: February 10, 2024 Next Billing Date: March 10, 2024 You can always review your billing history, manage your subscription, and update your payment information by signing in to your Adobe account at https://account.adobe.com/plans. Should you have any questions regarding this payment or your Creative Cloud membership, our support resources are available online at https://helpx.adobe.com/support.html. We appreciate your trust in Adobe. Sincerely, The Adobe Team"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Adobe"
+        },
+        {
+          "start": 59,
+          "end": 84,
+          "label": "USER_GMAIL",
+          "value": "elara.smith@adobe.com"
+        },
+        {
+          "start": 91,
+          "end": 104,
+          "label": "USERNAME",
+          "value": "Elara Smith"
+        },
+        {
+          "start": 415,
+          "end": 465,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Creative Cloud All Apps (Annual, Paid Monthly)"
+        },
+        {
+          "start": 481,
+          "end": 495,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 482,
+          "end": 491,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4,230.00"
+        },
+        {
+          "start": 509,
+          "end": 525,
+          "label": "PAYMENT_DATE",
+          "value": "February 10, 2024"
+        },
+        {
+          "start": 547,
+          "end": 561,
+          "label": "RENEWAL_DATE",
+          "value": "March 10, 2024"
+        }
+      ]
+    },
+    {
+      "id": "2e6331ae-217e-48b7-a2ae-9263be9971a9",
+      "content": {
+        "raw_text": "Subject: Your Adobe Refund Has Been Processed - Confirmation From: Adobe noreply@adobe.com To: hiroshi.tanaka@adobe.com Dear Hiroshi Tanaka, This email confirms that your refund for your recent Adobe subscription has been successfully processed. We understand that circumstances can change, and we strive to ensure our refund process is as clear and efficient as possible. The refunded amount will be credited back to your original payment method. Please allow 5-10 business days for the funds to reflect on your bank or card statement, as processing times can vary depending on your financial institution and local banking regulations. Refund Summary: Plan: Adobe Photoshop Single App (Monthly) Amount Refunded: \u20b91,676.00 INR Processed Date: July 01, 2021 Payment Method: Visa ending in **** 8765 Your Adobe subscription associated with this refund has now been deactivated. While your access to the application will cease, we hope you found the tools valuable for your creative endeavors. Should you decide to resume your subscription or explore other Adobe products in the future, you can easily purchase a new plan anytime at https://www.adobe.com/creativecloud/plans.html. Thank you for your understanding. Sincerely, The Adobe Team"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Adobe"
+        },
+        {
+          "start": 59,
+          "end": 88,
+          "label": "USER_GMAIL",
+          "value": "hiroshi.tanaka@adobe.com"
+        },
+        {
+          "start": 95,
+          "end": 110,
+          "label": "USERNAME",
+          "value": "Hiroshi Tanaka"
+        },
+        {
+          "start": 463,
+          "end": 502,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Adobe Photoshop Single App (Monthly)"
+        },
+        {
+          "start": 518,
+          "end": 532,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 519,
+          "end": 528,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,676.00"
+        },
+        {
+          "start": 551,
+          "end": 565,
+          "label": "PAYMENT_DATE",
+          "value": "July 01, 2021"
+        }
+      ]
+    },
+    {
+      "id": "7aa0efac-ef18-44fc-b2fc-bc6f20bc4690",
+      "content": {
+        "raw_text": "Subject: Your Adobe Creative Cloud Subscription Has Been Cancelled From: Adobe noreply@adobe.com To: maria.garcia@adobe.com Dear Maria Garcia, This is to confirm that your Adobe Creative Cloud Single App (Illustrator) subscription has been successfully cancelled, as per your recent request. We appreciate you choosing Adobe to power your creative work and are sorry to see you go. We hope you found our tools effective in bringing your designs and ideas to life, and we value your time as a subscriber. Cancellation Details: Plan: Creative Cloud Single App (Illustrator) Cancellation Date: December 05, 2023 Access Ends On: January 05, 2024 (End of your current billing cycle) You will continue to have full access to Adobe Illustrator and any associated cloud services until the end of your current billing period. After this date, your access to the premium features of Illustrator will cease, and your cloud storage will revert to the free tier. Any files exceeding the free storage limit may become inaccessible. Should you wish to resume your subscription or explore other Adobe plans in the future, you can easily reactivate your plan anytime through your Adobe account settings at https://account.adobe.com/plans. Thank you for being part of the Adobe community. Sincerely, The Adobe Team"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Adobe"
+        },
+        {
+          "start": 59,
+          "end": 83,
+          "label": "USER_GMAIL",
+          "value": "maria.garcia@adobe.com"
+        },
+        {
+          "start": 90,
+          "end": 103,
+          "label": "USERNAME",
+          "value": "Maria Garcia"
+        },
+        {
+          "start": 194,
+          "end": 243,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Creative Cloud Single App (Illustrator)"
+        },
+        {
+          "start": 261,
+          "end": 277,
+          "label": "PAYMENT_DATE",
+          "value": "December 05, 2023"
+        },
+        {
+          "start": 294,
+          "end": 309,
+          "label": "RENEWAL_DATE",
+          "value": "January 05, 2024"
+        }
+      ]
+    },
+    {
+      "id": "a21497ef-5d24-4b3f-9bde-81287b5f3cf7",
+      "content": {
+        "raw_text": "Subject: Welcome to Adobe Creative Cloud! Your Creative Journey Begins. From: Adobe welcome@adobe.com To: jean-luc.duval@adobe.com Dear Jean-Luc Duval, Welcome to Adobe Creative Cloud! We are thrilled to have you join our global community of creators, designers, and innovators. Your subscription is now active, granting you immediate access to a world of powerful tools designed to unleash your imagination and elevate your work. From photo editing and graphic design to video production and web development, Creative Cloud offers everything you need to bring your most ambitious projects to fruition. We are committed to providing you with the most advanced and integrated creative workflows. To help you get started and make the most of your new subscription: Download Your Apps: Visit your Creative Cloud desktop app or log in online to download and install your chosen applications: https://creativecloud.adobe.com/apps/all/desktop. Explore Tutorials: Dive into our extensive library of tutorials to quickly master new skills and features: https://helpx.adobe.com/creative-cloud/tutorials-training.html. Manage Your Assets: Learn how to use cloud storage and libraries to keep your creative assets organized and accessible across devices. Connect with the Community: Join fellow creators in the Adobe community forums for inspiration and support. We're excited to see what you'll create. Should you need any assistance, our comprehensive support resources are available online. Happy creating, The Adobe Team"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 17,
+          "label": "COMPANY_NAME",
+          "value": "Adobe"
+        },
+        {
+          "start": 56,
+          "end": 81,
+          "label": "USER_GMAIL",
+          "value": "jean-luc.duval@adobe.com"
+        },
+        {
+          "start": 88,
+          "end": 105,
+          "label": "USERNAME",
+          "value": "Jean-Luc Duval"
+        },
+        {
+          "start": 126,
+          "end": 147,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Creative Cloud"
+        }
+      ]
+    },
+    {
+      "id": "3d93d5e4-04fd-4b42-8c6d-0df7d2f36f38",
+      "content": {
+        "raw_text": "Subject: Action Required: Your Adobe Creative Cloud Payment Failed From: Adobe billing@adobe.com To: alessandro.ferrari@adobe.com Dear Alessandro Ferrari, We regret to inform you that we encountered an issue processing your recent payment for your Adobe Creative Cloud subscription. This could be due to several reasons, such as an expired credit card, insufficient funds, or a temporary issue with your bank. To ensure continuous access to your essential creative applications and uninterrupted workflow, it is crucial that you update your payment information promptly. We understand that these situations can arise, and we want to help you resolve this quickly to avoid any disruption to your creative projects. Details of Failed Payment: Plan: Creative Cloud Photography Plan (20GB) Attempted Date: October 18, 2022 Amount Due: \u20b9832.00 INR To update your payment method and prevent any interruption to your Adobe Creative Cloud service, please log into your Adobe account at https://account.adobe.com/plans and navigate to the \"Billing and Payment\" section. We will automatically retry the charge once your updated details are received. Please note that if payment is not successfully received within a few days, your access to premium features may be suspended. For assistance, our support team is ready to help at https://helpx.adobe.com/support.html. Thank you for your immediate attention to this matter. Sincerely, The Adobe Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 46,
+          "label": "COMPANY_NAME",
+          "value": "Adobe"
+        },
+        {
+          "start": 74,
+          "end": 104,
+          "label": "USER_GMAIL",
+          "value": "alessandro.ferrari@adobe.com"
+        },
+        {
+          "start": 111,
+          "end": 130,
+          "label": "USERNAME",
+          "value": "Alessandro Ferrari"
+        },
+        {
+          "start": 391,
+          "end": 425,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Creative Cloud Photography Plan (20GB)"
+        },
+        {
+          "start": 445,
+          "end": 462,
+          "label": "PAYMENT_DATE",
+          "value": "October 18, 2022"
+        },
+        {
+          "start": 472,
+          "end": 481,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 481,
+          "end": 487,
+          "label": "PAYMENT_AMOUNT",
+          "value": "832.00"
+        }
+      ]
+    },
+    {
+      "id": "e8f4b6b4-8d70-4d08-8e34-00ce45c4f781",
+      "content": {
+        "raw_text": "Subject: Reminder: Your Adobe Creative Cloud Subscription Will Renew Soon From: Adobe noreply@adobe.com To: sven.lindstrom@adobe.com Dear Sven Lindstrom, This is a proactive notification to inform you that your Adobe Creative Cloud All Apps subscription is scheduled for automatic renewal on August 25, 2020. Your ongoing subscription ensures you have uninterrupted access to our complete collection of creative desktop and mobile applications, cloud services, and premium content, keeping you at the forefront of digital creativity. We continually enhance our offerings to provide you with the latest innovations and powerful tools. Upcoming Renewal Information: Plan: Creative Cloud All Apps (Annual, Paid Monthly) Renewal Date: August 25, 2020 Amount Due: \u20b94,230.00 INR (plus applicable taxes) Payment Method: Your saved payment method ending in **** 3456 will be charged automatically. No action is required from your side if you wish to continue enjoying uninterrupted access to your creative tools. If you need to manage your subscription, update your payment details, or cancel auto-renewal, please visit your Adobe account online at https://account.adobe.com/plans before the renewal date. If you choose not to renew, your access to premium Creative Cloud features will expire after this date. Thank you for being a valued Adobe Creative Cloud member. Best regards, The Adobe Team"
+      },
+      "ner_entities": [
+        {
+          "start": 48,
+          "end": 53,
+          "label": "COMPANY_NAME",
+          "value": "Adobe"
+        },
+        {
+          "start": 72,
+          "end": 100,
+          "label": "USER_GMAIL",
+          "value": "sven.lindstrom@adobe.com"
+        },
+        {
+          "start": 107,
+          "end": 122,
+          "label": "USERNAME",
+          "value": "Sven Lindstrom"
+        },
+        {
+          "start": 260,
+          "end": 296,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Creative Cloud All Apps"
+        },
+        {
+          "start": 322,
+          "end": 339,
+          "label": "RENEWAL_DATE",
+          "value": "August 25, 2020"
+        },
+        {
+          "start": 357,
+          "end": 366,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 366,
+          "end": 373,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4,230.00"
+        }
+      ]
+    },
+    {
+      "id": "2c5c09a3-56e1-45cc-9a2d-15ceebbe22a1",
+      "content": {
+        "raw_text": "Subject: Your Adobe Creative Cloud Subscription is Active From: Adobe noreply@adobe.com To: olga.novakova@adobe.com Dear Olga Novakova, This email confirms that your Adobe Creative Cloud Single App (Photoshop) subscription is currently active. We wanted to provide you with a quick status update on your subscription, assuring you that you have full access to all its fantastic benefits. Your active plan allows you to seamlessly continue using Adobe Photoshop, harness its powerful image editing capabilities, and utilize associated cloud storage and services to manage your projects efficiently. We are excited for you to continue creating amazing visuals. Your Current Subscription Status: Plan: Creative Cloud Single App (Photoshop) Subscription Start Date: January 15, 2023 Next Renewal Date: January 15, 2024 Status: Active You can manage all aspects of your Adobe Creative Cloud subscription, including viewing details, exploring upgrade options, or updating your payment information, by logging into your Adobe account at https://account.adobe.com/plans. We encourage you to explore all the features that your current plan offers to maximize your creative output. Happy creating, The Adobe Team"
+      },
+      "ner_entities": [
+        {
+          "start": 20,
+          "end": 25,
+          "label": "COMPANY_NAME",
+          "value": "Adobe"
+        },
+        {
+          "start": 56,
+          "end": 82,
+          "label": "USER_GMAIL",
+          "value": "olga.novakova@adobe.com"
+        },
+        {
+          "start": 89,
+          "end": 104,
+          "label": "USERNAME",
+          "value": "Olga Novakova"
+        },
+        {
+          "start": 168,
+          "end": 210,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Creative Cloud Single App (Photoshop)"
+        },
+        {
+          "start": 389,
+          "end": 408,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Adobe Photoshop"
+        },
+        {
+          "start": 502,
+          "end": 521,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Creative Cloud Single App (Photoshop)"
+        },
+        {
+          "start": 547,
+          "end": 565,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "January 15, 2023"
+        },
+        {
+          "start": 587,
+          "end": 605,
+          "label": "RENEWAL_DATE",
+          "value": "January 15, 2024"
+        }
+      ]
+    }
+  ]
+}

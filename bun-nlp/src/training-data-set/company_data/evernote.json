@@ -1,0 +1,310 @@
+{
+  "Evernote": [
+    {
+      "id": "8a693360-2818-4f9e-9f3c-7f503ef28a75",
+      "content": {
+        "raw_text": "Subject: Welcome to Evernote! From: Evernote <no-reply@evernote.com> To: Aryan Mehta <aryan.mehta47@gmail.com> Hi Aryan, Welcome to Evernote. You're on your way to a more organized life. Evernote helps you capture and prioritize ideas, projects, and to-do lists, so nothing falls through the cracks. Here's how to get started: \u270f\ufe0f Create your first note \ud83d\udce5 Clip a webpage \ud83d\udcf1 Download the app to take your notes anywhere Download the App Need help getting started? Visit our Help & Learning Center. We\u2019re excited to have you on board! \u2014 The Evernote Team"
+      },
+      "ner_entities": [
+        {
+          "start": 24,
+          "end": 32,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 69,
+          "end": 91,
+          "label": "USER_GMAIL",
+          "value": "aryan.mehta47@gmail.com"
+        },
+        {
+          "start": 100,
+          "end": 105,
+          "label": "USERNAME",
+          "value": "Aryan"
+        },
+        {
+          "start": 119,
+          "end": 127,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        }
+      ]
+    },
+    {
+      "id": "3e580730-89aa-4f1c-b5dc-5b7de938fc18",
+      "content": {
+        "raw_text": "Subject: Your Evernote Professional trial has started From: Evernote <no-reply@evernote.com> To: Rahul Verma <rahul.verma88@gmail.com> Hi Rahul, Welcome to Evernote! Your Professional Plan free trial has officially started. Plan Details Professional Plan \u2013 $0 (was $16.66/month) 7-day free trial You won\u2019t be charged until April 12, 2023. Cancel any time. Automatic Renewal Terms Your Evernote subscription begins on April 12, 2023 at the regular price of $199.99/year, and will renew automatically on April 12, 2024. Sales tax may apply. If you wish to cancel, just do it before the renewal date and you won\u2019t be charged. You can cancel your subscription anytime by updating your Account Settings or contacting our Customer Support Team. Cancellations take effect at the end of your current billing cycle. See commercial terms Get Started Now Start my free trial Begin using Evernote Professional and explore powerful features like Tasks, Calendar integration, Offline Notebooks, and more. If you need any help, feel free to visit our Help Center or reach out to support. Thanks for choosing Evernote! The Evernote Team evernote.com"
+      },
+      "ner_entities": [
+        {
+          "start": 28,
+          "end": 36,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 73,
+          "end": 96,
+          "label": "USER_GMAIL",
+          "value": "rahul.verma88@gmail.com"
+        },
+        {
+          "start": 101,
+          "end": 106,
+          "label": "USERNAME",
+          "value": "Rahul"
+        },
+        {
+          "start": 120,
+          "end": 128,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 134,
+          "end": 151,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Professional Plan"
+        },
+        {
+          "start": 178,
+          "end": 191,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$16.66/month"
+        },
+        {
+          "start": 217,
+          "end": 231,
+          "label": "RENEWAL_DATE",
+          "value": "April 12, 2023"
+        },
+        {
+          "start": 288,
+          "end": 305,
+          "label": "PAYMENT_AMOUNT",
+          "value": "$199.99/year"
+        },
+        {
+          "start": 288,
+          "end": 289,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 340,
+          "end": 355,
+          "label": "RENEWAL_DATE",
+          "value": "April 12, 2024"
+        }
+      ]
+    },
+    {
+      "id": "bda49e67-6cf4-4e2c-b233-4b9648465fc1",
+      "content": {
+        "raw_text": "Subject: Your Evernote subscription has been canceled From: Evernote <no-reply@evernote.com> To: Dhananjay Mondal <dhananjay.mondal01@gmail.com> Hi Dhananjay, This is to confirm that your Evernote Personal subscription has been successfully canceled. You\u2019ll continue to have access to Personal features until the end of your current billing cycle, which ends on December 19, 2023. After that date, your account will automatically switch to Evernote Free. What does this mean? You won\u2019t be charged again. All your notes and data will remain safe and accessible. You can continue using core features with the Free plan. Got a minute? We\u2019d really appreciate your feedback to help us improve: Leave feedback You\u2019re always welcome back! If you change your mind, you can reactivate your plan at any time: Reactivate Evernote Personal For any questions, visit our Help Center or contact Customer Support. Thanks for being a part of Evernote The Evernote Team evernote.com"
+      },
+      "ner_entities": [
+        {
+          "start": 28,
+          "end": 36,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 73,
+          "end": 103,
+          "label": "USER_GMAIL",
+          "value": "dhananjay.mondal01@gmail.com"
+        },
+        {
+          "start": 108,
+          "end": 118,
+          "label": "USERNAME",
+          "value": "Dhananjay"
+        },
+        {
+          "start": 160,
+          "end": 168,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 169,
+          "end": 177,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Personal"
+        },
+        {
+          "start": 285,
+          "end": 302,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "December 19, 2023"
+        }
+      ]
+    },
+    {
+      "id": "2920a8d0-94d3-4d01-9f34-9c96a03d3879",
+      "content": {
+        "raw_text": "From: Evernote <no-reply@evernote.com> To: Emma Caldwell <emma.caldwell21@gmail.com> Hi Emma, We wanted to let you know that your Evernote Professional subscription will renew on September 5, 2023. At that time, your account will be charged $199.99 for a 1-year subscription. If you\u2019d like to make changes or cancel your plan, you can do so anytime before the renewal date. Want to manage your subscription? You can update your billing preferences or cancel directly from your Account Settings. Need help? Visit our Help Center or reach out to our Support Team. Thanks for using Evernote \u2014 we\u2019re glad to have you with us. Warm regards, The Evernote Team evernote.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 14,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 50,
+          "end": 78,
+          "label": "USER_GMAIL",
+          "value": "emma.caldwell21@gmail.com"
+        },
+        {
+          "start": 83,
+          "end": 88,
+          "label": "USERNAME",
+          "value": "Emma"
+        },
+        {
+          "start": 128,
+          "end": 136,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 137,
+          "end": 149,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Professional"
+        },
+        {
+          "start": 181,
+          "end": 197,
+          "label": "RENEWAL_DATE",
+          "value": "September 5, 2023"
+        },
+        {
+          "start": 239,
+          "end": 247,
+          "label": "PAYMENT_AMOUNT",
+          "value": "$199.99"
+        },
+        {
+          "start": 239,
+          "end": 240,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 257,
+          "end": 263,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "1-year"
+        }
+      ]
+    },
+    {
+      "id": "ee3020b8-80b5-4ad1-9403-31e9f90fc9b6",
+      "content": {
+        "raw_text": "From: Evernote <no-reply@evernote.com> To: Lucas Martin <lucas.martin89@gmail.com> Hi Lucas, We were unable to process your payment for your Evernote Professional subscription. Don\u2019t worry \u2014 this isn\u2019t the end! We\u2019ll automatically retry over the next 4 business days, with up to 7 attempts discussion.evernote.com+15help.evernote.com+15textexpander.com+15discussion.evernote.comdiscussion.evernote.com+1discussion.evernote.com+1. What you can do now: Update your payment info (card expiration, balance, etc.) Or choose a different method (Visa, Mastercard, PayPal) After several unsuccessful attempts, your plan may be downgraded to Evernote Free, but all your notes and data will stay safe. If you need help changing your billing info or have any questions, visit our Help Center or contact Support. Thanks for being with Evernote \u2014 we\u2019re here to help \ud83d\udcaa Warm regards, The Evernote Team evernote.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 14,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 50,
+          "end": 78,
+          "label": "USER_GMAIL",
+          "value": "lucas.martin89@gmail.com"
+        },
+        {
+          "start": 83,
+          "end": 88,
+          "label": "USERNAME",
+          "value": "Lucas"
+        },
+        {
+          "start": 135,
+          "end": 143,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 144,
+          "end": 156,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Professional"
+        }
+      ]
+    },
+    {
+      "id": "b2cb0d4d-17e4-4b8b-b705-950eacc0d36f",
+      "content": {
+        "raw_text": "From: Evernote <no-reply@evernote.com> To: Emma Walsh <emma.walsh87@gmail.com> Hi Emma, We\u2019ve processed your refund for your Evernote Professional subscription. Refund Details Amount refunded: $199.99 Payment method: Mastercard \u2022\u2022\u2022\u2022\u202f6423 Processed on: May 3, 2025 Please note: It may take 5\u20137 business days for the refund to appear in your account, depending on your bank or card provider. Your subscription has been canceled, and your account is now on the Evernote Free plan. All your notes, notebooks, and account data remain safe and accessible. You won\u2019t be charged again unless you choose to re-subscribe. Need help? Visit our Help Center or reach out to our Support Team if you have any questions about your refund or account. Thanks for trying Evernote \u2014 we hope to see you again in the future. Warm regards, The Evernote Team evernote.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 14,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 47,
+          "end": 70,
+          "label": "USER_GMAIL",
+          "value": "emma.walsh87@gmail.com"
+        },
+        {
+          "start": 75,
+          "end": 80,
+          "label": "USERNAME",
+          "value": "Emma"
+        },
+        {
+          "start": 126,
+          "end": 134,
+          "label": "COMPANY_NAME",
+          "value": "Evernote"
+        },
+        {
+          "start": 135,
+          "end": 147,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Professional"
+        },
+        {
+          "start": 168,
+          "end": 176,
+          "label": "PAYMENT_AMOUNT",
+          "value": "$199.99"
+        },
+        {
+          "start": 168,
+          "end": 169,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 198,
+          "end": 208,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard"
+        },
+        {
+          "start": 223,
+          "end": 235,
+          "label": "PAYMENT_DATE",
+          "value": "May 3, 2025"
+        }
+      ]
+    }
+  ]
+}

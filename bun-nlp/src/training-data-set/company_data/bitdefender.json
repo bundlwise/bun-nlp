@@ -1,0 +1,384 @@
+{
+  "Bitdefender": [
+    {
+      "id": "8e4c347d-10bc-4e15-b7f1-9ff02558dd61",
+      "content": {
+        "raw_text": "From: Bitdefender notifications@bitdefender.com To: sophie.dubois@email.com Subject: Your Bitdefender Payment Was Successful - Order #BD-2023-987654 Dear Sophie Dubois, We are pleased to confirm that your recent payment for your Bitdefender subscription has been successfully processed. Thank you for choosing Bitdefender to secure your digital life. Your proactive approach to cybersecurity is commendable, and we are committed to providing you with industry-leading protection against evolving threats. This successful transaction ensures that your devices remain safeguarded without interruption, allowing you to browse, work, and connect online with confidence. Payment Details: Order Number: BD-2023-987654 Product: Bitdefender Total Security (3 Devices, 1 Year) Amount Paid: \u20b92,499.00 INR Payment Date: November 15, 2023 Next Renewal Date: November 15, 2024 You can access your complete order history and download your official receipt by logging into your Bitdefender Central account at https://central.bitdefender.com/login. If you have any questions about your subscription or need assistance with product installation, our dedicated support team is available to help through our online knowledge base or direct contact options. Thank you for your trust in Bitdefender. Sincerely, The Bitdefender Team"
+      },
+      "ner_entities": [
+        {
+          "start": 44,
+          "end": 70,
+          "label": "USER_GMAIL",
+          "value": "sophie.dubois@email.com"
+        },
+        {
+          "start": 84,
+          "end": 101,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 109,
+          "end": 123,
+          "label": "USERNAME",
+          "value": "Sophie Dubois"
+        },
+        {
+          "start": 232,
+          "end": 243,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 324,
+          "end": 352,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Bitdefender Total Security"
+        },
+        {
+          "start": 367,
+          "end": 379,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b92,499.00 INR"
+        },
+        {
+          "start": 367,
+          "end": 368,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 368,
+          "end": 377,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2,499.00"
+        },
+        {
+          "start": 391,
+          "end": 408,
+          "label": "PAYMENT_DATE",
+          "value": "November 15, 2023"
+        },
+        {
+          "start": 430,
+          "end": 447,
+          "label": "RENEWAL_DATE",
+          "value": "November 15, 2024"
+        }
+      ]
+    },
+    {
+      "id": "5f1a7333-17ae-44fc-8724-0e2cf5ce13f5",
+      "content": {
+        "raw_text": "From: Bitdefender support@bitdefender.com To: omar.hassan@email.com Subject: Your Bitdefender Refund Has Been Processed - Reference #REF-2022-54321 Dear Omar Hassan, This email serves to confirm that your refund request for your recent Bitdefender subscription has been successfully processed. We understand that circumstances can change, and we aim to facilitate a smooth and efficient refund experience. The amount will be credited back to your original payment method. Please allow 5-10 business days for the refund to appear on your statement, as bank processing times may vary. Your satisfaction is important to us, and we appreciate your understanding. Refund Summary: Refund Reference: REF-2022-54321 Product: Bitdefender Antivirus Plus (1 Device, 1 Year) Amount Refunded: \u20b91,299.00 INR Processed Date: April 22, 2022 Payment Method: Credit Card ending in **** 7890 Your Bitdefender subscription associated with this refund has now been deactivated. While we are sad to see you go, you can always visit our website at https://www.bitdefender.com to explore other security solutions should your needs change in the future. For any further inquiries regarding this refund or your previous account, please visit our support portal at https://www.bitdefender.com/consumer/support/. Best regards, The Bitdefender Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 63,
+          "label": "USER_GMAIL",
+          "value": "omar.hassan@email.com"
+        },
+        {
+          "start": 77,
+          "end": 89,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 97,
+          "end": 109,
+          "label": "USERNAME",
+          "value": "Omar Hassan"
+        },
+        {
+          "start": 246,
+          "end": 258,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 346,
+          "end": 371,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Bitdefender Antivirus Plus"
+        },
+        {
+          "start": 388,
+          "end": 403,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b91,299.00 INR"
+        },
+        {
+          "start": 388,
+          "end": 389,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 389,
+          "end": 397,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,299.00"
+        },
+        {
+          "start": 423,
+          "end": 438,
+          "label": "PAYMENT_DATE",
+          "value": "April 22, 2022"
+        }
+      ]
+    },
+    {
+      "id": "ef6bb7c3-490b-45b4-a8b1-0b2b423510cf",
+      "content": {
+        "raw_text": "From: Bitdefender notifications@bitdefender.com To: elara.petrova@email.com Subject: Your Bitdefender Subscription Has Been Cancelled - Confirmation #CXL-2024-112233 Dear Elara Petrova, This is to confirm that your Bitdefender Internet Security subscription has been successfully cancelled, as per your recent request. We value your commitment to online security and regret to see you discontinue your service. Please be assured that your data and privacy remain our top priority, even after cancellation. We continually strive to provide robust protection and an intuitive user experience. Cancellation Details: Product: Bitdefender Internet Security (2 Devices) Cancellation Date: October 01, 2024 Premium Access Ends: November 01, 2024 (End of current billing cycle) You will continue to benefit from the full features of your Bitdefender Internet Security subscription until the end of your current billing period. After this date, your devices will no longer be protected by Bitdefender. We highly recommend maintaining a strong cybersecurity solution for all your devices. Should you wish to reactivate your subscription or explore other Bitdefender products, you can do so at any time by logging into your Bitdefender Central account at https://central.bitdefender.com/login. Thank you for being a Bitdefender customer. Sincerely, The Bitdefender Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 65,
+          "label": "USER_GMAIL",
+          "value": "elara.petrova@email.com"
+        },
+        {
+          "start": 77,
+          "end": 89,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 97,
+          "end": 110,
+          "label": "USERNAME",
+          "value": "Elara Petrova"
+        },
+        {
+          "start": 141,
+          "end": 172,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Bitdefender Internet Security"
+        },
+        {
+          "start": 272,
+          "end": 288,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "October 01, 2024"
+        },
+        {
+          "start": 315,
+          "end": 331,
+          "label": "RENEWAL_DATE",
+          "value": "November 01, 2024"
+        }
+      ]
+    },
+    {
+      "id": "b8fdf77e-6d6f-4e80-ae95-5057a3c670f7",
+      "content": {
+        "raw_text": "From: Bitdefender welcome@bitdefender.com To: kenji.tanaka@email.com Subject: Welcome to Bitdefender! Your Journey to Digital Security Begins Dear Kenji Tanaka, Welcome to the Bitdefender family! We are delighted to have you join millions of users worldwide who trust Bitdefender to safeguard their digital lives. With cyber threats becoming increasingly sophisticated, choosing a reliable security solution is paramount, and we are confident that Bitdefender will provide you with unparalleled protection against malware, ransomware, phishing, and other online dangers. We are committed to ensuring your online experience is safe, private, and fast. To help you get started and maximize your protection, here are some important first steps: Download and Install: Access your product download and installation instructions by logging into your Bitdefender Central account: https://central.bitdefender.com/login. Run a Scan: Once installed, we recommend performing a full system scan to ensure your device is clean from existing threats. Explore Features: Discover advanced features like VPN, Parental Control, and Password Manager, depending on your purchased product. Visit Our Support Center: For any questions or guidance, our comprehensive knowledge base and support resources are available at https://www.bitdefender.com/consumer/support/. We are excited to help you navigate the digital world securely. Should you need any assistance, our support team is always ready to help. Best regards, The Bitdefender Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 64,
+          "label": "USER_GMAIL",
+          "value": "kenji.tanaka@email.com"
+        },
+        {
+          "start": 74,
+          "end": 86,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 98,
+          "end": 111,
+          "label": "USERNAME",
+          "value": "Kenji Tanaka"
+        },
+        {
+          "start": 133,
+          "end": 145,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 237,
+          "end": 249,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        }
+      ]
+    },
+    {
+      "id": "fb4d1f38-2166-4e17-8108-7fbd2c8c778f",
+      "content": {
+        "raw_text": "From: Bitdefender billing@bitdefender.com To: fatima.ali@email.com Subject: Important: Your Bitdefender Payment Could Not Be Processed Dear Fatima Ali, We regret to inform you that we were unable to process the payment for your Bitdefender Total Security subscription on its scheduled renewal date. This could be due to several reasons, such as an expired credit card, insufficient funds, or a temporary issue with your bank. To ensure continuous protection for your devices and uninterrupted access to all your Bitdefender features, you must update your payment information promptly. We understand that such issues can occur, and we aim to resolve this as quickly as possible to prevent any lapse in your security. Failed Payment Details: Product: Bitdefender Total Security Attempted Date: August 05, 2020 Amount Due: \u20b92,999.00 INR To update your payment method and prevent any interruption in your cybersecurity coverage, please log into your Bitdefender Central account at https://central.bitdefender.com/login and navigate to the \"My Subscriptions\" or \"Billing\" section. We will automatically retry the charge once your updated details are received. Please note that if payment is not successfully received within a few days, your subscription may eventually revert to an unprotected status. If you require assistance, our support team is ready to guide you. Thank you for your urgent attention to this matter. Sincerely, The Bitdefender Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 61,
+          "label": "USER_GMAIL",
+          "value": "fatima.ali@email.com"
+        },
+        {
+          "start": 71,
+          "end": 83,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 95,
+          "end": 106,
+          "label": "USERNAME",
+          "value": "Fatima Ali"
+        },
+        {
+          "start": 174,
+          "end": 186,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 187,
+          "end": 206,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Total Security"
+        },
+        {
+          "start": 443,
+          "end": 457,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Bitdefender features"
+        },
+        {
+          "start": 570,
+          "end": 586,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender Central"
+        },
+        {
+          "start": 670,
+          "end": 683,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "August 05, 2020"
+        },
+        {
+          "start": 700,
+          "end": 711,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2,999.00"
+        },
+        {
+          "start": 698,
+          "end": 699,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        }
+      ]
+    },
+    {
+      "id": "70f6f682-bbc5-4ec3-9f17-c3a19f62a9f3",
+      "content": {
+        "raw_text": "From: Bitdefender notifications@bitdefender.com To: lucas.martinez@email.com Subject: Your Bitdefender Subscription Is Set to Renew Soon - Action May Be Required Dear Lucas Martinez, This is a proactive notification to inform you that your Bitdefender Premium Security subscription is scheduled for automatic renewal on September 10, 2021. Your continued subscription ensures comprehensive, multi-layered protection for all your devices against the latest cyber threats, including advanced ransomware, phishing attacks, and zero-day exploits. We are committed to maintaining the highest standards of security and continually updating our products to keep you safe in an evolving digital landscape. Upcoming Renewal Information: Product: Bitdefender Premium Security (10 Devices, 1 Year) Renewal Date: September 10, 2021 Amount: \u20b93,999.00 INR (plus applicable taxes) Payment Method: Your saved payment method ending in **** 2345 will be charged automatically. No action is required from your side if you wish to continue enjoying uninterrupted premium protection. If you need to update your payment details, manage your subscription, or review your product benefits, please log into your Bitdefender Central account at https://central.bitdefender.com/login before the renewal date. Should you decide not to renew, please ensure you cancel your subscription through your account settings to avoid unwanted charges. Thank you for trusting Bitdefender with your security. Best regards, The Bitdefender Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 66,
+          "label": "USER_GMAIL",
+          "value": "lucas.martinez@email.com"
+        },
+        {
+          "start": 76,
+          "end": 87,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 99,
+          "end": 113,
+          "label": "USERNAME",
+          "value": "Lucas Martinez"
+        },
+        {
+          "start": 169,
+          "end": 194,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Security"
+        },
+        {
+          "start": 226,
+          "end": 243,
+          "label": "RENEWAL_DATE",
+          "value": "September 10, 2021"
+        },
+        {
+          "start": 373,
+          "end": 385,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 269,
+          "end": 279,
+          "label": "PAYMENT_AMOUNT",
+          "value": "3,999.00"
+        },
+        {
+          "start": 267,
+          "end": 268,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        }
+      ]
+    },
+    {
+      "id": "0c6073a3-bec7-4ae3-8758-9e6ef5f15c9c",
+      "content": {
+        "raw_text": "From: Bitdefender notifications@bitdefender.com To: chen.wei@email.com Subject: Your Bitdefender Total Security Subscription is Active and Protecting Your Devices Dear Chen Wei, This email serves as a confirmation of your active Bitdefender Total Security subscription. We want to assure you that your devices are currently under robust protection, benefiting from Bitdefender's award-winning technologies designed to shield you from all forms of online threats. Your active subscription is essential for maintaining a secure computing environment, allowing you to carry out your online activities with peace of mind. We are dedicated to providing continuous, real-time protection to keep your digital life safe. Your Current Subscription Status: Product: Bitdefender Total Security Subscription Start Date: January 25, 2023 Next Renewal Date: January 25, 2024 Status: Active You can view the full details of your subscription, manage your devices, and explore additional features by logging into your Bitdefender Central account at https://central.bitdefender.com/login. We encourage you to utilize all the security tools included in your plan to maximize your protection across all your operating systems. Our comprehensive support resources are also available online should you have any questions. Thank you for choosing Bitdefender for your cybersecurity needs. Sincerely, The Bitdefender Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 60,
+          "label": "USER_GMAIL",
+          "value": "chen.wei@email.com"
+        },
+        {
+          "start": 70,
+          "end": 82,
+          "label": "COMPANY_NAME",
+          "value": "Bitdefender"
+        },
+        {
+          "start": 94,
+          "end": 103,
+          "label": "USERNAME",
+          "value": "Chen Wei"
+        },
+        {
+          "start": 157,
+          "end": 180,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Total Security"
+        },
+        {
+          "start": 399,
+          "end": 418,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "January 25, 2023"
+        },
+        {
+          "start": 444,
+          "end": 463,
+          "label": "RENEWAL_DATE",
+          "value": "January 25, 2024"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,931 @@
+{
+  "SHOWTIME": [
+    {
+      "id": "6e7ad2f2-d5d4-45b5-b1b5-5d7f0da7cf89",
+      "content": {
+        "raw_text": "From: SHOWTIME <welcome@mail.showtime.com> To: oliver.green@google.com Date: Mon, 10 Mar 2025 09:17:42 -0400 Subject: Welcome to SHOWTIME! Your streaming adventure starts now Message-ID: <20250310131742.2001.welcome@showtime.com> Hi Oliver, Thank you for subscribing to SHOWTIME. \u2022 Plan: Monthly Streaming (HD) \u2022 Price: US $10.99 + tax \u2022 Payment method: Visa \u2022\u2022\u2022\u2022 4473 \u2022 Invoice #: ST-INV-1357913579 Sign in at https://www.showtime.com to begin watching originals like \u201cBillions\u201d and \u201cYellowjackets.\u201d \u2014The SHOWTIME Team *Need help? Replies are monitored Mon\u2013Fri, 9 am\u20136 pm ET.*"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 124,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "oliver.green@google.com"
+        },
+        {
+          "start": 267,
+          "end": 272,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly Streaming (HD)"
+        },
+        {
+          "start": 290,
+          "end": 295,
+          "label": "PAYMENT_AMOUNT",
+          "value": "10.99"
+        },
+        {
+          "start": 296,
+          "end": 297,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 302,
+          "end": 321,
+          "label": "INVOICE_NUMBER",
+          "value": "ST-INV-1357913579"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d79a2b77-3ed0-4c55-9c9a-2a517c7fe26f",
+      "content": {
+        "raw_text": "From: SHOWTIME <trials@mail.showtime.com> To: mai.kawasaki@google.com Date: Tue, 18 Mar 2025 18:55:03 +0900 Subject: Your 7-day SHOWTIME trial is live Message-ID: <20250318105503.2002.trial@showtime.com> \u3053\u3093\u306b\u3061\u306f Mai, Your free trial runs through 25 Mar 2025. Unless you cancel, we\u2019ll bill \u00a51,320 on 26 Mar 2025 to Mastercard \u2022\u2022\u2022\u2022 0098. Watch now \u2192 https://www.showtime.com/start Enjoy, SHOWTIME"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 127,
+          "end": 146,
+          "label": "USER_GMAIL",
+          "value": "mai.kawasaki@google.com"
+        },
+        {
+          "start": 188,
+          "end": 193,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,320"
+        },
+        {
+          "start": 194,
+          "end": 197,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a5"
+        },
+        {
+          "start": 201,
+          "end": 215,
+          "label": "TRIAL_END_DATE",
+          "value": "25 Mar 2025"
+        },
+        {
+          "start": 222,
+          "end": 223,
+          "label": "PAYMENT_DATE",
+          "value": "26 Mar 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9c217d9d-1fd9-4203-b2e7-d95a1e57a601",
+      "content": {
+        "raw_text": "From: SHOWTIME <alerts@mail.showtime.com> To: mai.kawasaki@google.com Date: Sun, 23 Mar 2025 08:02:18 +0900 Subject: 48 hours left in your SHOWTIME trial Message-ID: <20250322230218.2003.trial-end@showtime.com> Hi Mai, Your trial ends on 25 Mar 2025. Do nothing to keep streaming\u2014billing begins \u00a51,320/month on 26 Mar. To cancel: Account \u203a Subscription before the trial ends. Thanks for trying SHOWTIME!"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 124,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "mai.kawasaki@google.com"
+        },
+        {
+          "start": 156,
+          "end": 161,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,320"
+        },
+        {
+          "start": 162,
+          "end": 165,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a5"
+        },
+        {
+          "start": 184,
+          "end": 198,
+          "label": "TRIAL_END_DATE",
+          "value": "25 Mar 2025"
+        },
+        {
+          "start": 200,
+          "end": 205,
+          "label": "PAYMENT_DATE",
+          "value": "26 Mar 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "6ba06b3a-0288-4b12-8c3f-6db350f79e3f",
+      "content": {
+        "raw_text": "From: SHOWTIME <receipts@mail.showtime.com> To: mai.kawasaki@yahoo.com Date: Wed, 26 Mar 2025 00:04:22 +0900 Subject: Your subscription is active\u2014payment received Message-ID: <20250326120422.2004.trial-conv@showtime.com> Hello Mai, We successfully processed your first monthly charge. \u2022 Amount: \u00a51,320 \u2022 Date: 26 Mar 2025 \u2022 Order ID: ST-JP-03261204 Enjoy SHOWTIME originals, movies, and live sports. \u2014SHOWTIME Finance"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 139,
+          "label": "USER_GMAIL",
+          "value": "mai.kawasaki@yahoo.com"
+        },
+        {
+          "start": 174,
+          "end": 179,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,320"
+        },
+        {
+          "start": 180,
+          "end": 183,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a5"
+        },
+        {
+          "start": 198,
+          "end": 216,
+          "label": "PAYMENT_DATE",
+          "value": "26 Mar 2025"
+        },
+        {
+          "start": 222,
+          "end": 237,
+          "label": "ORDER_ID",
+          "value": "ST-JP-03261204"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b7b59f74-06e6-44c4-b967-cbdc1eb63b6c",
+      "content": {
+        "raw_text": "From: SHOWTIME <receipts@mail.showtime.com> To: emma.stevens@gmail.com Date: Tue, 1 Apr 2025 02:11:10 +0000 Subject: April invoice\u2014SHOWTIME Streaming Message-ID: <20250401021110.2005.monthly@showtime.com> Hello Emma, We\u2019ve charged A$14.99 for your April access (1 Apr\u201330 Apr 2025). A PDF receipt is attached. Stay entertained, SHOWTIME Billing"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 113,
+          "end": 134,
+          "label": "USER_GMAIL",
+          "value": "emma.stevens@gmail.com"
+        },
+        {
+          "start": 181,
+          "end": 187,
+          "label": "PAYMENT_AMOUNT",
+          "value": "14.99"
+        },
+        {
+          "start": 188,
+          "end": 190,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "A$"
+        },
+        {
+          "start": 204,
+          "end": 211,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "1 Apr\u201330 Apr 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1eb52d0e-7274-4bfe-a18b-bb685f967354",
+      "content": {
+        "raw_text": "From: SHOWTIME <billing@mail.showtime.com> To: maya_li@yahoo.com Date: Thu, 3 Jul 2025 10:30:11 -0400 Subject: Your card ending 1923 expires this month\u2014update now Message-ID: <20250703143011.2006.card@showtime.com> Hi Maya, Visa \u2022\u2022\u2022\u2022 1923 expires 31 Jul 2025. Add a new payment method before your 2 Aug renewal to avoid interruption. Update card \u2192 Account \u203a Billing Thank you! SHOWTIME Customer Care"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 113,
+          "end": 133,
+          "label": "USER_GMAIL",
+          "value": "maya_li@yahoo.com"
+        },
+        {
+          "start": 165,
+          "end": 171,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "Visa"
+        },
+        {
+          "start": 173,
+          "end": 178,
+          "label": "PAYMENT_CARD_ENDING",
+          "value": "1923"
+        },
+        {
+          "start": 179,
+          "end": 194,
+          "label": "SUBSCRIPTION_RENEWAL_DATE",
+          "value": "2 Aug 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "4c14b193-e1cd-4158-880f-d7d879db64c7",
+      "content": {
+        "raw_text": "From: SHOWTIME <alerts@mail.showtime.com> To: maya_li@yahoo.ca Date: Tue, 6 Aug 2025 02:44:03 -0400 Subject: We couldn\u2019t process your August payment Message-ID: <20250806064403.2007.fail@showtime.com> Maya, Your August charge (CA $12.99) was declined. We\u2019ll retry automatically on 9 Aug 2025. Update your details \u2192 https://www.showtime.com/billing \u2014SHOWTIME Billing Support"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "maya_li@yahoo.ca"
+        },
+        {
+          "start": 178,
+          "end": 183,
+          "label": "PAYMENT_AMOUNT",
+          "value": "12.99"
+        },
+        {
+          "start": 184,
+          "end": 186,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "CA $"
+        },
+        {
+          "start": 197,
+          "end": 212,
+          "label": "PAYMENT_RETRY_DATE",
+          "value": "9 Aug 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "db799b8a-eed2-4fa5-b2d4-d0c0d11cc207",
+      "content": {
+        "raw_text": "From: SHOWTIME <alerts@mail.showtime.com> To: maya_li@yahoo.ca Date: Fri, 9 Aug 2025 02:44:03 -0400 Subject: Final attempt in 72 hours\u2014action required Message-ID: <20250809064403.2008.final@showtime.com> Hi Maya, Our second retry on 9 Aug 2025 failed. We\u2019ll make a final attempt on 12 Aug 2025. Update payment to keep streaming. \u2014SHOWTIME"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "maya_li@yahoo.ca"
+        },
+        {
+          "start": 175,
+          "end": 180,
+          "label": "PAYMENT_RETRY_DATE",
+          "value": "12 Aug 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "d240423e-b5b4-4096-b8a2-2f8ef6c50f5c",
+      "content": {
+        "raw_text": "From: SHOWTIME <noreply@mail.showtime.com> To: maya_li@yahoo.ca Date: Tue, 13 Aug 2025 00:15:20 -0400 Subject: Streaming paused\u2014payment required Message-ID: <20250813041520.2009.suspend@showtime.com> Hello Maya, We couldn\u2019t process your payment. Your subscription is now suspended. Reactivate anytime by adding a valid payment method. We\u2019ll save your watch list for 90 days. \u2014SHOWTIME"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "maya_li@yahoo.ca"
+        },
+        {
+          "start": 153,
+          "end": 163,
+          "label": "SUBSCRIPTION_STATUS",
+          "value": "suspended"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "29ff759f-7cd1-4fc5-9a99-7598f945a8d1",
+      "content": {
+        "raw_text": "From: SHOWTIME <support@mail.showtime.com> To: maya_li@yahoo.ca Date: Fri, 15 Aug 2025 11:44:07 -0400 Subject: Welcome back\u2014your access is restored Message-ID: <20250815154407.2010.resume@showtime.com> Hi Maya, Thanks for updating your payment info! Your plan is active again. Next charge: 15 Sep 2025. Catch the new episode of \u201cThe Chi\u201d tonight. Enjoy! SHOWTIME Team"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "maya_li@yahoo.ca"
+        },
+        {
+          "start": 170,
+          "end": 181,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "15 Sep 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9f66eb7b-b722-4e29-a8b6-c1930c7d8f4c",
+      "content": {
+        "raw_text": "From: SHOWTIME <support@mail.showtime.com> To: brian.taylor@icloud.com Date: Wed, 15 Oct 2025 11:43:12 -0400 Subject: You\u2019ve upgraded to Paramount+ with SHOWTIME Message-ID: <20251015154312.2011.upgrade@showtime.com> Hi Brian, Your account now includes Paramount+ for blockbuster films and NFL on CBS. \u2022 Pro-rated charge today: \u00a34.20 \u2022 New monthly price starting 15 Nov 2025: \u00a315.99 Start exploring \u2192 https://www.showtime.com/paramountplus \u2014SHOWTIME Support"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 144,
+          "label": "USER_GMAIL",
+          "value": "brian.taylor@icloud.com"
+        },
+        {
+          "start": 172,
+          "end": 177,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4.20"
+        },
+        {
+          "start": 178,
+          "end": 180,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a3"
+        },
+        {
+          "start": 211,
+          "end": 222,
+          "label": "PAYMENT_AMOUNT",
+          "value": "15.99"
+        },
+        {
+          "start": 223,
+          "end": 224,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a3"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "4081a1b9-e85d-4db0-b4fe-cfe881b21b62",
+      "content": {
+        "raw_text": "From: SHOWTIME <support@mail.showtime.com> To: brian.taylor@icloud.com Date: Tue, 10 Jan 2026 09:17:55 -0500 Subject: Your plan has been changed to SHOWTIME-only Message-ID: <20260110141755.2012.downgrade@showtime.com> Hi Brian, As requested, you\u2019ll switch to SHOWTIME-only (\u00a310.99/mo) on 10 Feb 2026. Paramount+ access ends then. Thanks for watching! SHOWTIME"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 144,
+          "label": "USER_GMAIL",
+          "value": "brian.taylor@icloud.com"
+        },
+        {
+          "start": 193,
+          "end": 201,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "SHOWTIME-only"
+        },
+        {
+          "start": 205,
+          "end": 213,
+          "label": "PAYMENT_AMOUNT",
+          "value": "10.99"
+        },
+        {
+          "start": 214,
+          "end": 216,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a3"
+        },
+        {
+          "start": 225,
+          "end": 233,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "10 Feb 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "72b3d95e-d7ca-457f-9d19-8e3770570fa9",
+      "content": {
+        "raw_text": "From: SHOWTIME <news@mail.showtime.com> To: pierre.martin@example.fr Date: Mon, 12 May 2025 12:02:18 +0200 Subject: Upcoming change to your SHOWTIME price Message-ID: <20250512100218.2013.price@showtime.com> Bonjour Pierre, From 12 Jun 2025 your monthly fee will change from \u20ac10,99 to \u20ac11,99. The increase funds new originals and expanded sports coverage. To cancel, visit Account \u203a Subscription before 11 Jun 2025. Merci de votre soutien, SHOWTIME"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 108,
+          "end": 134,
+          "label": "USER_GMAIL",
+          "value": "pierre.martin@example.fr"
+        },
+        {
+          "start": 159,
+          "end": 164,
+          "label": "PAYMENT_AMOUNT",
+          "value": "10,99"
+        },
+        {
+          "start": 165,
+          "end": 168,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 172,
+          "end": 177,
+          "label": "PAYMENT_AMOUNT",
+          "value": "11,99"
+        },
+        {
+          "start": 178,
+          "end": 180,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 203,
+          "end": 219,
+          "label": "CANCELLATION_DATE",
+          "value": "11 Jun 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f547e9b9-ff47-4663-b678-3df01938b8f5",
+      "content": {
+        "raw_text": "From: SHOWTIME <legal@mail.showtime.com> To: lucy.dawson@protonmail.com Date: Fri, 21 Jun 2025 15:22:11 +0000 Subject: GST rate change effective 1 Jul 2025 Message-ID: <20250621152211.2014.tax@showtime.com> Dear Lucy, Australia\u2019s GST on digital services rises from 10 % to 12 % on 1 Jul 2025. Your base fee (A$14.99) stays the same; tax adjusts automatically. Details \u2192 https://www.showtime.com/gst-update Regards, SHOWTIME Compliance"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "lucy.dawson@protonmail.com"
+        },
+        {
+          "start": 189,
+          "end": 194,
+          "label": "PAYMENT_AMOUNT",
+          "value": "14.99"
+        },
+        {
+          "start": 195,
+          "end": 198,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "A$"
+        },
+        {
+          "start": 184,
+          "end": 188,
+          "label": "TAX_RATE",
+          "value": "12 %"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f72597b5-1695-4b71-b01b-2b7e2cc1cfac",
+      "content": {
+        "raw_text": "From: SHOWTIME <billing@mail.showtime.com> To: jorge.ramirez@outlook.com Date: Wed, 1 Jan 2026 08:15:00 -0500 Subject: Your annual SHOWTIME plan renewed Message-ID: <20260101131500.2015.renew@showtime.com> Hola Jorge, Your Annual HD Plan has renewed. \u2022 Amount charged: US $109.99 \u2022 Transaction ID: ST-TXN-20260101-7788 \u2022 Next renewal: 1 Jan 2027 Thanks for staying with SHOWTIME."
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "jorge.ramirez@outlook.com"
+        },
+        {
+          "start": 168,
+          "end": 173,
+          "label": "PAYMENT_AMOUNT",
+          "value": "109.99"
+        },
+        {
+          "start": 174,
+          "end": 176,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 206,
+          "end": 221,
+          "label": "RENEWAL_DATE",
+          "value": "1 Jan 2027"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "6bc4d72c-7c31-493d-bfa0-8f3f4e9f8059",
+      "content": {
+        "raw_text": "From: SHOWTIME <goodbye@mail.showtime.com> To: tomas.ivanov@example.cz Date: Tue, 22 Apr 2025 10:30:11 +0200 Subject: We\u2019re sorry to see you go, Tom\u00e1\u0161 Message-ID: <20250422103011.2016.cancel@showtime.com> Hi Tom\u00e1\u0161, Your subscription was cancelled effective 22 Apr 2025. You\u2019ll retain access until 5 May 2025. Tell us why (2-min survey) \u2192 https://www.showtime.com/exit-survey You\u2019re welcome back anytime. \u2014SHOWTIME"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "tomas.ivanov@example.cz"
+        },
+        {
+          "start": 168,
+          "end": 179,
+          "label": "CANCELLATION_DATE",
+          "value": "22 Apr 2025"
+        },
+        {
+          "start": 196,
+          "end": 210,
+          "label": "ACCESS_END_DATE",
+          "value": "5 May 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c5f167b0-6ef0-49c7-842f-f5245e32c62d",
+      "content": {
+        "raw_text": "From: SHOWTIME <offers@mail.showtime.com> To: former.user@isp.eu Date: Thu, 9 Oct 2025 12:01:00 +0000 Subject: Rejoin SHOWTIME at 40 % off\u2014this week only Message-ID: <20251009120100.2017.winback@showtime.com> Hello, Restart your subscription by 16 Oct 2025 for \u20ac6.59/mo (40 % discount). Code: RETURN40 Chat with us \u2192 https://support.showtime.com \u2014Marketing, SHOWTIME"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 139,
+          "label": "USER_GMAIL",
+          "value": "former.user@isp.eu"
+        },
+        {
+          "start": 175,
+          "end": 182,
+          "label": "PAYMENT_AMOUNT",
+          "value": "6.59"
+        },
+        {
+          "start": 183,
+          "end": 188,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 185,
+          "end": 193,
+          "label": "PROMO_CODE",
+          "value": "RETURN40"
+        },
+        {
+          "start": 197,
+          "end": 211,
+          "label": "REACTIVATE_DATE",
+          "value": "16 Oct 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "30fbed9f-c4c3-4080-a788-c2fbc87dbb9b",
+      "content": {
+        "raw_text": "From: SHOWTIME <gifts@mail.showtime.com> To: kevin.doe@samplemail.com Date: Wed, 3 Dec 2025 07:33:33 -0500 Subject: Your SHOWTIME gift for Sarah has been delivered Message-ID: <20251203123333.2018.gift@showtime.com> Hi Kevin, We emailed your 12-month gift to sarah.brown@samplemail.com. Order #: ST-GFT-55003322 Thanks for sharing SHOWTIME!"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "kevin.doe@samplemail.com"
+        },
+        {
+          "start": 144,
+          "end": 163,
+          "label": "RECIPIENT_EMAIL",
+          "value": "sarah.brown@samplemail.com"
+        },
+        {
+          "start": 183,
+          "end": 201,
+          "label": "ORDER_ID",
+          "value": "ST-GFT-55003322"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9a1b0d29-6934-40b4-8c7a-c76d44e028ec",
+      "content": {
+        "raw_text": "From: SHOWTIME <gifts@mail.showtime.com> To: kevin.doe@samplemail.com Date: Mon, 3 Nov 2026 08:20:44 -0500 Subject: Your gift for Sarah renews 3 Dec\u2014manage anytime Message-ID: <20261103132044.2019.gift-renew@showtime.com> Kevin, We\u2019ll renew Sarah\u2019s gift on 3 Dec 2026 for US $109.99. Cancel auto-renew in Gifts \u203a Manage before 2 Dec. Thank you, SHOWTIME Gifts"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "kevin.doe@samplemail.com"
+        },
+        {
+          "start": 144,
+          "end": 157,
+          "label": "RECIPIENT_EMAIL",
+          "value": "sarah.brown@samplemail.com"
+        },
+        {
+          "start": 194,
+          "end": 203,
+          "label": "PAYMENT_AMOUNT",
+          "value": "109.99"
+        },
+        {
+          "start": 204,
+          "end": 209,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 214,
+          "end": 228,
+          "label": "RENEWAL_DATE",
+          "value": "3 Dec 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "8e5ff5a7-4f51-49d0-ae51-167ec9e9445e",
+      "content": {
+        "raw_text": "From: SHOWTIME <gifts@mail.showtime.com> To: sarah.brown@samplemail.com Date: Wed, 3 Dec 2025 07:34:10 -0500 Subject: Your SHOWTIME gift is active\u2014start watching Message-ID: <20251203123410.2020.gift-accept@showtime.com> Hi Sarah, Kevin sent you a 12-month SHOWTIME subscription. Sign in with this email to begin streaming. Enjoy! SHOWTIME"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "sarah.brown@samplemail.com"
+        },
+        {
+          "start": 144,
+          "end": 159,
+          "label": "SENDER_EMAIL",
+          "value": "kevin.doe@samplemail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "42c6e7b4-93d6-45b3-bfb4-7688cfbc81bc",
+      "content": {
+        "raw_text": "From: SHOWTIME <security@mail.showtime.com> To: pierre.martin@example.fr Date: Fri, 9 May 2025 22:11:30 +0200 Subject: New sign-in from Firefox on Windows Message-ID: <20250509201130.2021.security@showtime.com> Bonjour Pierre, Your SHOWTIME account was accessed from Lyon, FR at 22:09 CEST. If this wasn\u2019t you, reset your password: https://www.showtime.com/reset SHOWTIME Security"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "pierre.martin@example.fr"
+        },
+        {
+          "start": 160,
+          "end": 169,
+          "label": "ACCESS_LOCATION",
+          "value": "Lyon, FR"
+        },
+        {
+          "start": 173,
+          "end": 196,
+          "label": "PASSWORD_RESET_URL",
+          "value": "https://www.showtime.com/reset"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "7a9094a0-27f3-4744-b848-39e4517bc163",
+      "content": {
+        "raw_text": "From: SHOWTIME <security@mail.showtime.com> To: pierre.martin@example.fr Date: Fri, 9 May 2025 22:15:00 +0200 Subject: Two-step verification is now on Message-ID: <20250509201500.2022.2fa@showtime.com> Thanks, Pierre\u2014TOTP codes are now required at sign-in. Questions? security@showtime.com"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 141,
+          "label": "USER_GMAIL",
+          "value": "pierre.martin@example.fr"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "d11d3f82-13f6-4ed8-b423-7e02a019c0d1",
+      "content": {
+        "raw_text": "From: SHOWTIME <legal@mail.showtime.com> To: all-subscribers@mail.showtime.com Date: Mon, 3 Mar 2025 18:00:00 +0000 Subject: We\u2019re updating our Terms of Use\u2014effective 3 Apr 2025 Message-ID: <20250303180000.2023.tos@showtime.com> Dear Subscriber, Key changes: clearer refund rules and updated dispute-resolution process. Using SHOWTIME after 3 Apr 2025 means you accept the new terms. Full text \u2192 https://www.showtime.com/terms-2025 SHOWTIME Legal"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 90,
+          "end": 105,
+          "label": "SUBSCRIBER_EMAIL",
+          "value": "all-subscribers@mail.showtime.com"
+        },
+        {
+          "start": 240,
+          "end": 260,
+          "label": "TERMS_UPDATE_DATE",
+          "value": "3 Apr 2025"
+        },
+        {
+          "start": 278,
+          "end": 306,
+          "label": "TERMS_URL",
+          "value": "https://www.showtime.com/terms-2025"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "f30b6cc5-69e1-4408-8393-44153c83d037",
+      "content": {
+        "raw_text": "From: SHOWTIME <privacy@mail.showtime.com> To: all-subscribers@mail.showtime.com Date: Tue, 4 Mar 2025 09:45:00 +0000 Subject: Our Privacy Policy has changed Message-ID: <20250304094500.2024.privacy@showtime.com> We\u2019ve added details on personalised ads and cookie retention. Read more: https://www.showtime.com/privacy-2025 Contact: privacy@showtime.com"
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 90,
+          "end": 113,
+          "label": "SUBSCRIBER_EMAIL",
+          "value": "all-subscribers@mail.showtime.com"
+        },
+        {
+          "start": 176,
+          "end": 198,
+          "label": "PRIVACY_POLICY_URL",
+          "value": "https://www.showtime.com/privacy-2025"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "5f00bc24-cf7f-42a3-b712-206eff21b643",
+      "content": {
+        "raw_text": "From: SHOWTIME <newsdesk@mail.showtime.com> To: alex.lopez@example.com Date: Tue, 22 Apr 2025 14:03:18 +0000 Subject: Streaming now: \u201cDexter \u2013 Origins\u201d Episode 1 Message-ID: <20250422140318.2025.alert@showtime.com> Hi Alex, Episode 1 of the new series \u201cDexter \u2013 Origins\u201d is now available. Watch anytime \u2192 https://sho.com/dexter-origins You received this because you follow Crime Drama in your preferences."
+      },
+      "ner_entities": [
+        {
+          "start": 41,
+          "end": 48,
+          "label": "COMPANY_NAME",
+          "value": "SHOWTIME"
+        },
+        {
+          "start": 118,
+          "end": 137,
+          "label": "USER_GMAIL",
+          "value": "alex.lopez@example.com"
+        },
+        {
+          "start": 148,
+          "end": 176,
+          "label": "SERIES_NAME",
+          "value": "Dexter \u2013 Origins"
+        },
+        {
+          "start": 198,
+          "end": 227,
+          "label": "WATCH_LINK",
+          "value": "https://sho.com/dexter-origins"
+        }
+      ],
+      "is_subscription_email": false
+    }
+  ]
+}

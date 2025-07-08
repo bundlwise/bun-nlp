@@ -1,0 +1,694 @@
+{
+  "youtube": [
+    {
+      "id": "a1a16be8-5c8b-4c84-a94e-3f4103b6d08d",
+      "content": {
+        "raw_text": "From: YouTube no-reply@youtube.com To: salmankhan432@gmail.com Subject: Your membership has ended Your membership has ended RENEW NOW You\u2019re missing out on all this good stuff: \u2022 You won\u2019t be able to download your favorite videos for when you need to save data or can\u2019t get online. \u2022 Your videos will stop when you lock your screen or use other apps. \u2022 You\u2019ll lose ad-free listening on the completely reimagined YouTube Music app. Get YouTube Premium for the whole family and save. $17.99/month Up to 6 family members (Ages 13+) in the same household. TRY IT NOW This email was sent to hello@SmilesDavis.yeah because you indicated that you are willing to receive occasional YouTube product-related emails."
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 338,
+          "end": 345,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 33,
+          "end": 53,
+          "label": "USER_GMAIL",
+          "value": "salmankhan432@gmail.com"
+        },
+        {
+          "start": 417,
+          "end": 423,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 423,
+          "end": 428,
+          "label": "PAYMENT_AMOUNT",
+          "value": "17.99"
+        },
+        {
+          "start": 430,
+          "end": 441,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$17.99/month"
+        },
+        {
+          "start": 388,
+          "end": 416,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "YouTube Premium for the whole family"
+        },
+        {
+          "start": 494,
+          "end": 515,
+          "label": "USER_GMAIL",
+          "value": "hello@SmilesDavis.yeah"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "c411f45a-0738-4081-b8f9-50db721a88f2",
+      "content": {
+        "raw_text": "From: YouTube no-reply@youtube.com To: tanmaybhatt12@gmail.com Subject: Your member benefits will expire soon You\u2019ve cancelled YouTube Premium RENEW NOW You\u2019ll miss out on these member benefits: \u2022 Ad-free. You\u2019ll see ads on YouTube videos. \u2022 Downloads. You won\u2019t be able to download videos for offline viewing. \u2022 Background play. Your videos will stop when you lock your screen or use other apps. \u2022 YouTube Music Premium. You\u2019ll hear ads within the YouTube Music app. Didn\u2019t mean to cancel or want to keep your YouTube Premium benefits? RENEW NOW You received this message because you are subscribed to YouTube Premium."
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 338,
+          "end": 345,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 33,
+          "end": 52,
+          "label": "USER_GMAIL",
+          "value": "tanmaybhatt12@gmail.com"
+        },
+        {
+          "start": 385,
+          "end": 405,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "YouTube Premium"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "420d41e4-b1d1-4c9e-bd98-8019976a35cb",
+      "content": {
+        "raw_text": "From: YouTube Premium no-reply@youtube.com To: jakson1234@gmail.com Subject: Welcome to YouTube Premium Welcome to YouTube Premium Enjoy YouTube and YouTube Music ad-free Check out all of your member benefits: \u2022 Ad-free and background play Watch videos without ads, and keep them playing while using other apps. \u2022 Downloads Save videos to play offline, when traveling, or when you want to save on data. \u2022 Member perks From exclusive artist events to special product offers, you\u2019ll also get extra YouTube benefits coming your way. \u2022 YouTube Music Premium Listen to over 100 million songs, get personalized mixes, discover the latest hits, and more with our music app \u2014 all without ads. \u2022 Watch YouTube Kids uninterrupted Have kids? Premium benefits also extend to YouTube Kids, an app made just for kids. This means both you and your child can watch all the videos you love ad-free, offline, and in the background. Download YouTube Kids from Google Play or the App Store. Don\u2019t forget to get the YouTube Music app. It\u2019s included in your membership."
+      },
+      "ner_entities": [
+        {
+          "start": 21,
+          "end": 34,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 130,
+          "end": 137,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 141,
+          "end": 156,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Music"
+        },
+        {
+          "start": 39,
+          "end": 56,
+          "label": "USER_GMAIL",
+          "value": "jakson1234@gmail.com"
+        },
+        {
+          "start": 162,
+          "end": 178,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "YouTube Music Premium"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "e233f7d3-9b11-4314-bf81-9e4c2ec9d17f",
+      "content": {
+        "raw_text": "From: YouTube no-reply@youtube.com To: rajeshtiwari.bro@gmail.com Subject: Won\u2019t you miss all this? Won\u2019t you miss all this? Renew your membership to keep these benefits. RENEW NOW If you don\u2019t renew you\u2019ll lose access to these member benefits: \u2022 Ad-free and offline. You won\u2019t be able to enjoy YouTube ad-free, offline, and in the background. \u2022 YouTube Music Premium. You'll hear ads in the YouTube Music app and won't be able to play songs with your screen locked."
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 33,
+          "end": 56,
+          "label": "USER_GMAIL",
+          "value": "rajeshtiwari.bro@gmail.com"
+        },
+        {
+          "start": 123,
+          "end": 139,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "YouTube Music Premium"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ad5217a6-6e1b-4d27-8ef8-9c0c968084f0",
+      "content": {
+        "raw_text": "From: YouTube no-reply@youtube.com To: davidanderson456@gmail.com Subject: Welcome to your 1 month free trial of Music Premium Hi Smiles Davis, Welcome to your 1 month free trial of Music Premium membership! The payment method you provided will be charged monthly starting Feb 22, 2021. As a member you can explore, manage, and cancel your membership any time by visiting YouTube account settings. Welcome aboard! The YouTube Team Order Date: Jan 22, 2021 Order Number: 65000055650650 Billing and cancellations: Billing for your membership will be handled by Apple. You'll receive an email from Apple with your order confirmation and billing details. At the end of your free trial, if any, Apple will automatically charge you $12.99/month, plus applicable taxes. You may cancel your Music Premium membership anytime from your Apple ID account settings."
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 33,
+          "end": 58,
+          "label": "USER_GMAIL",
+          "value": "davidanderson456@gmail.com"
+        },
+        {
+          "start": 492,
+          "end": 493,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 493,
+          "end": 499,
+          "label": "PAYMENT_AMOUNT",
+          "value": "12.99"
+        },
+        {
+          "start": 475,
+          "end": 491,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$12.99/month"
+        },
+        {
+          "start": 550,
+          "end": 555,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Apple"
+        },
+        {
+          "start": 474,
+          "end": 479,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Music Premium"
+        },
+        {
+          "start": 259,
+          "end": 271,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "Feb 22, 2021"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "df3d9b35-7bfb-4ec9-bcd3-56a75f6b7015",
+      "content": {
+        "raw_text": "From: YouTube Premium Team no-reply@youtube.com To: hello@smilesdavis.yeah Subject: Updates to Your YouTube Premium Lite Plan Thank you for being a Premium Lite member. Premium Lite gives you fewer interruptions so you can watch more of the YouTube you love. We\u2019re writing to let you know that starting June 30, 2025, ads may appear on Shorts in addition to music content and while you search or browse. Most videos will remain ad-free. We hope you'll continue to be a member, but you can cancel your membership at any time. To check your account status and billing information, go to your Settings > Purchases & Memberships page. For more information about Premium Lite, visit our YouTube Help Center. We value your feedback and are always learning. Sincerely, The YouTube Premium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 21,
+          "end": 35,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 14,
+          "end": 33,
+          "label": "USER_GMAIL",
+          "value": "hello@smilesdavis.yeah"
+        },
+        {
+          "start": 153,
+          "end": 165,
+          "label": "RENEWAL_DATE",
+          "value": "June 30, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9e21c2f0-3c0a-4b74-a8b1-41a2641fa061",
+      "content": {
+        "raw_text": "From: YouTube Premium Team no-reply@youtube.com To: nivedan.rathi@gmail.com Subject: YouTube Premium Family Plan Price Update Hi Nivedan Rathi, Thank you for being a YouTube Premium member. We hope you and up to five members of your household are enjoying ad-free and downloadable videos, background play, and uninterrupted access to 100M+ songs. We\u2019re increasing your price to \u00a5389.00/month. You can save by signing up directly on our website at \u00a5299.00/month. Apple will email you additional information. You can cancel anytime or check your subscription in Settings > Purchases and Memberships. Learn more in our Help Centre. Yours sincerely, The YouTube Premium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 21,
+          "end": 35,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 44,
+          "end": 59,
+          "label": "USERNAME",
+          "value": "Nivedan Rathi"
+        },
+        {
+          "start": 66,
+          "end": 84,
+          "label": "USER_GMAIL",
+          "value": "nivedan.rathi@gmail.com"
+        },
+        {
+          "start": 236,
+          "end": 242,
+          "label": "PAYMENT_AMOUNT",
+          "value": "389.00"
+        },
+        {
+          "start": 234,
+          "end": 235,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a5"
+        },
+        {
+          "start": 251,
+          "end": 267,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u00a5389.00/month"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "63b8f62c-9bb3-4f03-9bb9-9e2f4b3e7fc2",
+      "content": {
+        "raw_text": "From: YouTube Premium Team no-reply@youtube.com To: johanna@gmail.com Subject: Your YouTube Premium Family Plan Price is Increasing Hi Johanna, We created YouTube Premium to provide an uninterrupted experience. To keep improving, we're increasing your Premium Family Plan from $17.99/month to $22.99/month. This change takes effect on your next billing cycle starting on or after November 21, 2022. Check your account via Settings > Purchases and Memberships. You may pause or cancel anytime. The YouTube Premium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 21,
+          "end": 35,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 48,
+          "end": 62,
+          "label": "USER_GMAIL",
+          "value": "johanna@gmail.com"
+        },
+        {
+          "start": 232,
+          "end": 239,
+          "label": "PAYMENT_AMOUNT",
+          "value": "17.99"
+        },
+        {
+          "start": 230,
+          "end": 231,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 240,
+          "end": 252,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$17.99/month"
+        },
+        {
+          "start": 271,
+          "end": 278,
+          "label": "PAYMENT_AMOUNT",
+          "value": "22.99"
+        },
+        {
+          "start": 270,
+          "end": 271,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 279,
+          "end": 291,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "$22.99/month"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ffb3ae9c-ff2e-4a59-9131-44e8e0738121",
+      "content": {
+        "raw_text": "From: YouTube Premium Team no-reply@youtube.com To: parthjadhav@gmail.com Subject: YouTube Premium Individual Plan Price Update Hi, Thank you for being a loyal member. You are currently paying a lower rate than new subscribers. We\u2019re giving you at least three extra months at your current price. Your price won\u2019t increase before your December billing date. We\u2019ll notify you at least 30 days before the new price takes effect. Cancel anytime or check your account in Settings > Purchases and Memberships. More info is available in the YouTube Help Center. Sincerely, The YouTube Premium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 33,
+          "end": 51,
+          "label": "USER_GMAIL",
+          "value": "parthjadhav@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "aa80f758-542d-44ef-866b-17e784dbb0cb",
+      "content": {
+        "raw_text": "From: YouTube no-reply@youtube.com To: annalibert23@gmail.com Subject: Your YouTube Premium Membership Has Been Canceled Your YouTube Premium membership has been canceled. You\u2019ll lose your membership benefits on July 7, 2024. If you want to keep your benefits, it\u2019s easy to restart your membership. The YouTube Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 33,
+          "end": 50,
+          "label": "USER_GMAIL",
+          "value": "annalibert23@gmail.com"
+        },
+        {
+          "start": 143,
+          "end": 155,
+          "label": "RENEWAL_DATE",
+          "value": "July 7, 2024"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "ff6010f7-89f9-4c02-a10b-62d0c5df2e24",
+      "content": {
+        "raw_text": "From: YouTube Team no-reply@youtube.com To: johnswift45@gmail.com Subject: Welcome to Your YouTube Premium Trial Welcome to your trial of YouTube Premium membership! You can manage your membership anytime by visiting YouTube account settings. Your membership is due to expire by July 15, 2022. Welcome aboard! The YouTube Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 33,
+          "end": 52,
+          "label": "USER_GMAIL",
+          "value": "johnswift45@gmail.com"
+        },
+        {
+          "start": 227,
+          "end": 239,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "July 15, 2022"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f9a5b947-c68e-4e5a-b0d3-f486d10b9f48",
+      "content": {
+        "raw_text": "From: YouTube Premium no-reply@youtube.com To: michelkhanwald@gmail.com Subject: Your YouTube Premium price is increasing Hi Michel, We created YouTube Premium to provide an uninterrupted YouTube experience, so you can get closer to the videos, creators, and music artists that you love. To continue delivering great service and features, we will be increasing your Premium price from ARS 119.00/month to ARS 389.00/month. This change will take place on your next billing cycle starting on or after November 21, 2022. To check the status of your account and billing information, go to your Settings > Purchases and Memberships page. All members have the flexibility to pause or cancel anytime here. YouTube Premium will keep delivering the benefits you enjoy, like ad-free YouTube with background and offline play, and uninterrupted access to over 100 million songs with the YouTube Music app. Members also get to try experimental new features and exclusive livestream afterparties with music artists. This update will allow us to develop even more Premium features and continue to support the creators and artists you watch on YouTube. You can find more information on the latest updates in the YouTube Help Center."
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 33,
+          "end": 54,
+          "label": "USER_GMAIL",
+          "value": "michelkhanwald@gmail.com"
+        },
+        {
+          "start": 271,
+          "end": 277,
+          "label": "PAYMENT_AMOUNT",
+          "value": "119.00"
+        },
+        {
+          "start": 269,
+          "end": 271,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "ARS"
+        },
+        {
+          "start": 335,
+          "end": 341,
+          "label": "PAYMENT_AMOUNT",
+          "value": "389.00"
+        },
+        {
+          "start": 333,
+          "end": 335,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "ARS"
+        },
+        {
+          "start": 277,
+          "end": 303,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "ARS 119.00/month"
+        },
+        {
+          "start": 341,
+          "end": 367,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "ARS 389.00/month"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f17050a3-73f2-4231-911f-f4c6a6db8506",
+      "content": {
+        "raw_text": "From: YouTube Premium Team no-reply@youtube.com To: bart01@gmail.com Subject: Your Premium Lite membership is ending Hi Bart, Thank you for being one of our first Premium Lite members. We\u2019re writing to let you know that after October 25, 2023, we will no longer offer your version of Premium Lite. While we understand this may be disappointing news, we continue to work on different versions of Premium Lite as we incorporate feedback from our users, creators, and partners. We will cancel your membership on October 25, 2023. Your Premium Lite benefits will remain active until that date."
+      },
+      "ner_entities": [
+        {
+          "start": 21,
+          "end": 35,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 33,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "bart01@gmail.com"
+        },
+        {
+          "start": 232,
+          "end": 246,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "October 25, 2023"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "cfbba23c-3de3-499e-8c25-5b4b1db91a40",
+      "content": {
+        "raw_text": "From: YouTube no-reply@youtube.com To: emily.choi95@gmail.com Subject: Time is almost up \u2013 your YouTube Premium benefits end soon Hi Emily, Your YouTube Premium membership benefits are ending soon. RENEW NOW Without Premium, you\u2019ll: \u2022 See ads on YouTube videos \u2022 Lose the ability to download for offline viewing \u2022 Lose background play when using other apps or locking your screen \u2022 Hear ads in the YouTube Music app Don\u2019t miss out. RENEW NOW You received this message because you were subscribed to YouTube Premium."
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 33,
+          "end": 52,
+          "label": "USER_GMAIL",
+          "value": "emily.choi95@gmail.com"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f51d2f92-3d4b-45e7-85b0-4050a1f7a2cb",
+      "content": {
+        "raw_text": "From: YouTube Premium no-reply@youtube.com To: ravi.patel23@outlook.com Subject: Action required: update your Indian-issued payment method Hi Ravi, We\u2019re writing to let you know that your YouTube Premium subscription needs attention. Starting December 5, 2024, YouTube Premium memberships in India must use a payment method issued by an Indian financial institution. Your current payment method may not meet this requirement. To continue your membership uninterrupted, update your payment method by December 5, 2024. Update your payment now Questions? Visit the YouTube Help Center. The YouTube Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 33,
+          "end": 51,
+          "label": "USER_GMAIL",
+          "value": "ravi.patel23@outlook.com"
+        },
+        {
+          "start": 161,
+          "end": 178,
+          "label": "RENEWAL_DATE",
+          "value": "December 5, 2024"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "78944528-6f1d-4cdb-8cd6-cac631147343",
+      "content": {
+        "raw_text": "From: YouTube no-reply@youtube.com To: daniel.mendez81@gmail.com Subject: Get more out of your YouTube Premium membership Hi Daniel, We\u2019re giving Premium members like you a special offer: 3 months of Stadia Pro, on us. Explore a growing collection of games you can instantly stream to your devices \u2014 no downloads, no waiting. Claim your offer now This offer is available for eligible YouTube Premium members in the U.S. Terms apply. Thanks for being a member, The YouTube Premium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 33,
+          "end": 53,
+          "label": "USER_GMAIL",
+          "value": "daniel.mendez81@gmail.com"
+        }
+      ],
+      "is_subscription_email": false
+    },
+    {
+      "id": "a0514b59-e812-4eb2-b383-63123d0c0492",
+      "content": {
+        "raw_text": "From: YouTube no-reply@youtube.com To: lucia.mora.ar@gmail.com Subject: Your YouTube Premium membership has been canceled Hi Lucia, Your YouTube Premium membership has been canceled because your current billing country is not supported. Your benefits will end on October 3, 2024. To continue your membership, please update your billing country to a supported location or subscribe again using a local payment method. Manage your membership Thanks for being with us, The YouTube Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 33,
+          "end": 54,
+          "label": "USER_GMAIL",
+          "value": "lucia.mora.ar@gmail.com"
+        },
+        {
+          "start": 175,
+          "end": 187,
+          "label": "RENEWAL_DATE",
+          "value": "October 3, 2024"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "5a75a61e-11bb-45cc-b4db-8ecb8801e302",
+      "content": {
+        "raw_text": "From: YouTube Premium no-reply@youtube.com To: carlos.ramirez98@yahoo.com Subject: Your YouTube Premium price is increasing Hi Carlos, We\u2019re updating the price of your YouTube Premium membership to ARS 389.00/month, starting on or after November 21, 2022. This change helps us continue providing ad-free videos, background play, offline access, and over 100 million songs with YouTube Music. You can cancel or manage your subscription at any time from your Purchases & Memberships page. For more details, visit our Help Center. Thanks for being a Premium member. \u2013 The YouTube Premium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 33,
+          "end": 56,
+          "label": "USER_GMAIL",
+          "value": "carlos.ramirez98@yahoo.com"
+        },
+        {
+          "start": 120,
+          "end": 126,
+          "label": "PAYMENT_AMOUNT",
+          "value": "389.00"
+        },
+        {
+          "start": 118,
+          "end": 121,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "ARS"
+        },
+        {
+          "start": 111,
+          "end": 131,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "ARS 389.00/month"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "4f4bb7f3-9d8f-45c1-97e0-91d1c8f0e1ec",
+      "content": {
+        "raw_text": "From: YouTube Premium no-reply@youtube.com To: laila.hassan.family@gmail.com Subject: Family members can join your YouTube Premium plan Hi Laila, YouTube Premium is better with family. You can share your plan with up to 5 additional household members (ages 13+) \u2014 all with ad-free videos, offline downloads, and background play. Invite your family now: Add members to your plan Check your current family group in Settings > Purchases & Memberships. The YouTube Premium Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 30,
+          "label": "COMPANY_NAME",
+          "value": "YouTube Premium"
+        },
+        {
+          "start": 33,
+          "end": 58,
+          "label": "USER_GMAIL",
+          "value": "laila.hassan.family@gmail.com"
+        },
+        {
+          "start": 111,
+          "end": 122,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "YouTube Premium plan"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "9cf09ff4-bcad-47be-80f4-77656f0d52d3",
+      "content": {
+        "raw_text": "From: YouTube no-reply@youtube.com To: jordan.mcallister2021@gmail.com Subject: Final reminder: your YouTube Premium benefits are ending Hi Jordan, Just a heads-up \u2014 your YouTube Premium benefits will end on July 2, 2025. After that date, you'll no longer have access to: \u2022 Ad-free YouTube \u2022 Offline downloads \u2022 Background play \u2022 YouTube Music Premium If you want to keep enjoying your Premium perks, it\u2019s easy to restart your membership. RESTART MEMBERSHIP We\u2019d love to have you back. The YouTube Team"
+      },
+      "ner_entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "label": "COMPANY_NAME",
+          "value": "YouTube"
+        },
+        {
+          "start": 33,
+          "end": 59,
+          "label": "USER_GMAIL",
+          "value": "jordan.mcallister2021@gmail.com"
+        },
+        {
+          "start": 159,
+          "end": 171,
+          "label": "RENEWAL_DATE",
+          "value": "July 2, 2025"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

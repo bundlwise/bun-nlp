@@ -1,0 +1,1090 @@
+{
+  "NordVPN": [
+    {
+      "id": "f1d2a3f4-5678-90ef-1234-56789abcdef0",
+      "content": {
+        "raw_text": "NordVPN Subscription Confirmation: Dear Rahul Sharma, Welcome to NordVPN! Your subscription has been activated with the 1-Year Standard Plan, billed \u20b94,599/year. The subscription will start on June 19, 2025, and will automatically renew yearly. Enjoy safe browsing!"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 36,
+          "label": "USERNAME",
+          "value": "Rahul Sharma"
+        },
+        {
+          "start": 54,
+          "end": 76,
+          "label": "USER_GMAIL",
+          "value": "rahul.sharma@email.com"
+        },
+        {
+          "start": 130,
+          "end": 160,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "1-Year Standard Plan"
+        },
+        {
+          "start": 177,
+          "end": 188,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b94,599/year"
+        },
+        {
+          "start": 189,
+          "end": 190,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 192,
+          "end": 196,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4599"
+        },
+        {
+          "start": 199,
+          "end": 204,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 19, 2025"
+        },
+        {
+          "start": 205,
+          "end": 215,
+          "label": "SUBSCRIPTION_RENEWAL",
+          "value": "auto-renews"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "b2e3c4f5-6789-90ab-cdef-123456789abc",
+      "content": {
+        "raw_text": "NordVPN Subscription Renewal Confirmation: Dear Priya Singh, Your NordVPN subscription has been renewed successfully. Plan: 1-Year Plan. Renewal Date: June 19, 2026. Amount Charged: \u20b94,599."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 35,
+          "label": "USERNAME",
+          "value": "Priya Singh"
+        },
+        {
+          "start": 82,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "priya.singh@email.com"
+        },
+        {
+          "start": 108,
+          "end": 119,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "1-Year Plan"
+        },
+        {
+          "start": 129,
+          "end": 140,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b94,599"
+        },
+        {
+          "start": 141,
+          "end": 142,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 168,
+          "end": 173,
+          "label": "SUBSCRIPTION_RENEWAL",
+          "value": "renewed"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "c3f4d5e6-7890-abcd-efgh-23456789abcd",
+      "content": {
+        "raw_text": "NordVPN Payment Failed Notice: Dear Anjali Mehta, we could not process your payment for the NordVPN subscription. Please update your payment information. Plan: 1-Year Plan, Amount: \u20b94,599. Date: June 19, 2025."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 36,
+          "label": "USERNAME",
+          "value": "Anjali Mehta"
+        },
+        {
+          "start": 86,
+          "end": 107,
+          "label": "USER_GMAIL",
+          "value": "anjali.mehta@email.com"
+        },
+        {
+          "start": 122,
+          "end": 133,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "1-Year Plan"
+        },
+        {
+          "start": 136,
+          "end": 142,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b94,599"
+        },
+        {
+          "start": 143,
+          "end": 144,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 145,
+          "end": 153,
+          "label": "PAYMENT_DATE",
+          "value": "June 19, 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "d4e5f6g7-8901-abcd-efgh-567890abcdef",
+      "content": {
+        "raw_text": "NordVPN Subscription Cancellation Confirmation: Dear Arjun Kapoor, we have processed your cancellation request. Your subscription will remain active until your current billing period ends on July 5, 2025."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Arjun Kapoor"
+        },
+        {
+          "start": 87,
+          "end": 104,
+          "label": "USER_GMAIL",
+          "value": "arjun.kapoor@email.com"
+        },
+        {
+          "start": 138,
+          "end": 151,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "canceled"
+        },
+        {
+          "start": 168,
+          "end": 180,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "July 5, 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "e5f6g7h8-9012-3456-7890-abcdef123456",
+      "content": {
+        "raw_text": "NordVPN Upcoming Auto-Renewal Notice: Dear Neha Gupta, your NordVPN subscription will auto-renew on June 19, 2025. Plan: 1-Year Standard, Amount: \u20b94,599."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Neha Gupta"
+        },
+        {
+          "start": 74,
+          "end": 87,
+          "label": "USER_GMAIL",
+          "value": "neha.gupta@email.com"
+        },
+        {
+          "start": 100,
+          "end": 116,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "1-Year Standard"
+        },
+        {
+          "start": 118,
+          "end": 128,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b94,599"
+        },
+        {
+          "start": 129,
+          "end": 130,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 160,
+          "end": 171,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 19, 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "f6g7h8i9-0123-4567-8901-abcdef234567",
+      "content": {
+        "raw_text": "NordVPN Free Trial Ending Reminder: Dear Aakash Patel, your 7-day NordVPN free trial is ending tomorrow. To continue uninterrupted access, please update your payment information or upgrade your plan. After trial, your subscription will auto-renew at \u20b94,599/year."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Aakash Patel"
+        },
+        {
+          "start": 74,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "aakash.patel@email.com"
+        },
+        {
+          "start": 132,
+          "end": 140,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b94,599/year"
+        },
+        {
+          "start": 141,
+          "end": 142,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 160,
+          "end": 171,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "trial end tomorrow"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "g7h8i9j0-1234-5678-9012-abcdef345678",
+      "content": {
+        "raw_text": "NordVPN Refund Processed: Dear Simran Kaur, your refund request has been completed. Amount Refunded: \u20b94,599. Plan: 1-Year Standard Plan. Date: June 17, 2025."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Simran Kaur"
+        },
+        {
+          "start": 85,
+          "end": 104,
+          "label": "USER_GMAIL",
+          "value": "simran.kaur@email.com"
+        },
+        {
+          "start": 131,
+          "end": 143,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "1-Year Standard Plan"
+        },
+        {
+          "start": 159,
+          "end": 164,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b94,599"
+        },
+        {
+          "start": 174,
+          "end": 175,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 187,
+          "end": 198,
+          "label": "PAYMENT_DATE",
+          "value": "June 17, 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "h8i9j0k1-2345-6789-0123-abcdef456789",
+      "content": {
+        "raw_text": "NordVPN Account Setup Confirmation: Dear Farhan Khan, your NordVPN account is ready! Download the app and enjoy secure browsing across your devices."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 32,
+          "label": "USERNAME",
+          "value": "Farhan Khan"
+        },
+        {
+          "start": 70,
+          "end": 92,
+          "label": "USER_GMAIL",
+          "value": "farhan.khan@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "i9j0k1l2-3456-7890-1234-abcdef567890",
+      "content": {
+        "raw_text": "NordVPN Subscription Expiry Reminder: Dear Leela Menon, your NordVPN subscription will expire on June 22, 2025. Renew now to avoid losing access to your secure VPN service."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Leela Menon"
+        },
+        {
+          "start": 75,
+          "end": 92,
+          "label": "USER_GMAIL",
+          "value": "leela.menon@email.com"
+        },
+        {
+          "start": 119,
+          "end": 144,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "June 22, 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "j0k1l2m3-4567-8901-2345-abcdef678901",
+      "content": {
+        "raw_text": "NordVPN Device Limit Reached: Dear Vikram Singh, You\u2019ve connected NordVPN on 6 devices \u2014 the maximum allowed for your plan. To connect another device, disconnect one from your current list or set up NordVPN on your router."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Vikram Singh"
+        },
+        {
+          "start": 74,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "vikram.singh@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "k1l2m3n4-5678-9012-3456-abcdef789012",
+      "content": {
+        "raw_text": "NordVPN Password Reset Request: Dear Tanya Roy, We received a request to reset your Nord Account password. If this was you, click below to continue: Reset Password \u2192 If you didn\u2019t request this, please ignore this email."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 31,
+          "label": "USERNAME",
+          "value": "Tanya Roy"
+        },
+        {
+          "start": 60,
+          "end": 79,
+          "label": "USER_GMAIL",
+          "value": "tanya.roy@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "l2m3n4o5-6789-0123-4567-abcdef890123",
+      "content": {
+        "raw_text": "NordVPN Email Address Changed: Dear Manish Seth, Your Nord Account email address has been changed to manish.seth@email.com. If you did not make this change, please contact support immediately."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 33,
+          "label": "USERNAME",
+          "value": "Manish Seth"
+        },
+        {
+          "start": 79,
+          "end": 103,
+          "label": "USER_GMAIL",
+          "value": "manish.seth@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "m3n4o5p6-7890-1234-5678-abcdef901234",
+      "content": {
+        "raw_text": "NordVPN Welcome Back: Dear Ritu Sharma, We\u2019re excited to have you back! Your subscription is active again. Plan: 1-Year Standard. Next charge: June 19, 2026. Amount: \u20b94,599."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Ritu Sharma"
+        },
+        {
+          "start": 78,
+          "end": 93,
+          "label": "USER_GMAIL",
+          "value": "ritu.sharma@email.com"
+        },
+        {
+          "start": 110,
+          "end": 125,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "1-Year Standard"
+        },
+        {
+          "start": 132,
+          "end": 143,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b94,599"
+        },
+        {
+          "start": 146,
+          "end": 147,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 152,
+          "end": 168,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 19, 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "n4o5p6q7-8901-2345-6789-abcdef012345",
+      "content": {
+        "raw_text": "NordVPN Cancellation Confirmation: Dear Arjun Verma, Your NordVPN subscription has been canceled. You will keep access until June 28, 2025."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Arjun Verma"
+        },
+        {
+          "start": 75,
+          "end": 91,
+          "label": "USER_GMAIL",
+          "value": "arjun.verma@email.com"
+        },
+        {
+          "start": 103,
+          "end": 124,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "June 28, 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "o5p6q7r8-9012-3456-7890-abcdef123456",
+      "content": {
+        "raw_text": "NordVPN Service Maintenance Notification: Dear Rahul Sharma, NordVPN will be undergoing scheduled maintenance on July 2, 2025, from 2:00 AM to 6:00 AM PST."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Rahul Sharma"
+        },
+        {
+          "start": 72,
+          "end": 93,
+          "label": "USER_GMAIL",
+          "value": "rahul.sharma@email.com"
+        },
+        {
+          "start": 103,
+          "end": 127,
+          "label": "SERVICE_DATE",
+          "value": "July 2, 2025, 2:00 AM \u2013 6:00 AM PST"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "p6q7r8s9-0123-4567-8901-abcdef234567",
+      "content": {
+        "raw_text": "NordVPN Upgrade Confirmation: Dear Karan Malhotra, Thank you for upgrading your NordVPN subscription! Your new plan details: Previous Plan: 1-Year Standard. New Plan: 2-Year Plus Plan. Next Billing Date: June 19, 2027. Amount Charged: \u20b98,999."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 36,
+          "label": "USERNAME",
+          "value": "Karan Malhotra"
+        },
+        {
+          "start": 81,
+          "end": 102,
+          "label": "USER_GMAIL",
+          "value": "karan.malhotra@email.com"
+        },
+        {
+          "start": 130,
+          "end": 144,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "2-Year Plus Plan"
+        },
+        {
+          "start": 161,
+          "end": 168,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b98,999"
+        },
+        {
+          "start": 169,
+          "end": 170,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 174,
+          "end": 190,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 19, 2027"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "q7r8s9t0-1234-5678-9012-abcdef345678",
+      "content": {
+        "raw_text": "NordVPN Payment Method Updated: Dear Divya Nair, Your payment method for your NordVPN subscription was successfully updated. No action is needed. If this wasn\u2019t you, please contact support immediately."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 33,
+          "label": "USERNAME",
+          "value": "Divya Nair"
+        },
+        {
+          "start": 82,
+          "end": 103,
+          "label": "USER_GMAIL",
+          "value": "divya.nair@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "r8s9t0u1-2345-6789-0123-abcdef456789",
+      "content": {
+        "raw_text": "NordVPN Account Locked Due to Suspicious Activity: Dear Aditya Raj, Due to suspicious login attempts, your Nord Account has been temporarily locked for your protection. Please reset your password immediately to regain access."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 33,
+          "label": "USERNAME",
+          "value": "Aditya Raj"
+        },
+        {
+          "start": 77,
+          "end": 98,
+          "label": "USER_GMAIL",
+          "value": "aditya.raj@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "s9t0u1v2-3456-7890-1234-abcdef567890",
+      "content": {
+        "raw_text": "NordVPN Beta Feature Invitation: Dear Sneha Joshi, We\u2019re excited to invite you to test our new VPN beta features! Get early access and help shape the future of NordVPN."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Sneha Joshi"
+        },
+        {
+          "start": 75,
+          "end": 98,
+          "label": "USER_GMAIL",
+          "value": "sneha.joshi@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "t0u1v2w3-4567-8901-2345-abcdef678901",
+      "content": {
+        "raw_text": "NordVPN Account Deletion Confirmation: Dear Rahul Desai, Your Nord Account and all associated data have been permanently deleted as per your request. If this was a mistake, please contact us immediately."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Rahul Desai"
+        },
+        {
+          "start": 84,
+          "end": 106,
+          "label": "USER_GMAIL",
+          "value": "rahul.desai@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "u1v2w3x4-5678-9012-3456-abcdef789012",
+      "content": {
+        "raw_text": "NordVPN Service Outage Notification: Dear Priya Sharma, We are currently experiencing a temporary service disruption affecting some users. Our team is working to resolve this ASAP."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Priya Sharma"
+        },
+        {
+          "start": 76,
+          "end": 98,
+          "label": "USER_GMAIL",
+          "value": "priya.sharma@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "v2w3x4y5-6789-0123-4567-abcdef890123",
+      "content": {
+        "raw_text": "NordVPN Special Offer Just for You: Dear Aman Verma, To thank you for being a loyal user, here\u2019s a 30% discount on your next subscription renewal. Use code LOYAL30 at checkout. Expires July 15, 2025."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 32,
+          "label": "USERNAME",
+          "value": "Aman Verma"
+        },
+        {
+          "start": 84,
+          "end": 105,
+          "label": "USER_GMAIL",
+          "value": "aman.verma@email.com"
+        },
+        {
+          "start": 151,
+          "end": 157,
+          "label": "DISCOUNT_CODE",
+          "value": "LOYAL30"
+        },
+        {
+          "start": 170,
+          "end": 185,
+          "label": "DISCOUNT_EXPIRY_DATE",
+          "value": "July 15, 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "w3x4y5z6-7890-1234-5678-abcdef901234",
+      "content": {
+        "raw_text": "NordVPN Referral Program Invitation: Dear Swati Kulkarni, Invite your friends to NordVPN and get 1 month free for each referral who subscribes."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Swati Kulkarni"
+        },
+        {
+          "start": 75,
+          "end": 98,
+          "label": "USER_GMAIL",
+          "value": "swati.kulkarni@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "x4y5z6a7-8901-2345-6789-abcdef012345",
+      "content": {
+        "raw_text": "NordVPN GDPR Data Request Confirmation: Dear Deepak Singh, Per your request, we have compiled your personal data stored with us. You can download the data package here: Download My Data \u2192"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 35,
+          "label": "USERNAME",
+          "value": "Deepak Singh"
+        },
+        {
+          "start": 75,
+          "end": 100,
+          "label": "USER_GMAIL",
+          "value": "deepak.singh@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "y5z6a7b8-9012-3456-7890-abcdef123456",
+      "content": {
+        "raw_text": "NordVPN Two-Factor Authentication Enabled: Dear Rhea Kapoor, Two-factor authentication (2FA) has been successfully enabled for your Nord Account."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 33,
+          "label": "USERNAME",
+          "value": "Rhea Kapoor"
+        },
+        {
+          "start": 76,
+          "end": 97,
+          "label": "USER_GMAIL",
+          "value": "rhea.kapoor@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "z6a7b8c9-0123-4567-8901-abcdef234567",
+      "content": {
+        "raw_text": "NordVPN Trial Extension Offer: Dear Kiran Joshi, Good news! Your NordVPN free trial has been extended by 3 days. Continue enjoying unlimited secure browsing without interruptions."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 33,
+          "label": "USERNAME",
+          "value": "Kiran Joshi"
+        },
+        {
+          "start": 75,
+          "end": 97,
+          "label": "USER_GMAIL",
+          "value": "kiran.joshi@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "a7b8c9d0-1234-5678-9012-abcdef345678",
+      "content": {
+        "raw_text": "NordVPN Password Change Confirmation: Dear Meera Nair, Your Nord Account password has been successfully changed."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 33,
+          "label": "USERNAME",
+          "value": "Meera Nair"
+        },
+        {
+          "start": 73,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "meera.nair@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "b8c9d0e1-2345-6789-0123-abcdef456789",
+      "content": {
+        "raw_text": "NordVPN Account Login Alert: Dear Ashok Rao, We detected a login to your Nord Account from a new device or location. If this was you, no action is needed."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 32,
+          "label": "USERNAME",
+          "value": "Ashok Rao"
+        },
+        {
+          "start": 77,
+          "end": 99,
+          "label": "USER_GMAIL",
+          "value": "ashok.rao@email.com"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "c9d0e1f2-3456-7890-1234-abcdef567890",
+      "content": {
+        "raw_text": "NordVPN Subscription Downgrade Confirmation: Dear Nisha Gupta, Your NordVPN subscription has been downgraded as requested. Previous Plan: 2-Year Plus. New Plan: 1-Year Standard. Next Billing Date: June 19, 2026. Amount: \u20b94,599."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Nisha Gupta"
+        },
+        {
+          "start": 92,
+          "end": 114,
+          "label": "USER_GMAIL",
+          "value": "nisha.gupta@email.com"
+        },
+        {
+          "start": 144,
+          "end": 156,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "1-Year Standard"
+        },
+        {
+          "start": 163,
+          "end": 174,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b94,599"
+        },
+        {
+          "start": 175,
+          "end": 176,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "d0e1f2g3-4567-8901-2345-abcdef678901",
+      "content": {
+        "raw_text": "NordVPN Annual Billing Summary: Dear Sandeep Malhotra, Here\u2019s your billing summary for the year 2024: Total Paid: \u20b94,599. Plan: 1-Year Standard. Billing Period: June 19, 2024 \u2013 June 19, 2025."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "label": "COMPANY_NAME",
+          "value": "NordVPN"
+        },
+        {
+          "start": 21,
+          "end": 37,
+          "label": "USERNAME",
+          "value": "Sandeep Malhotra"
+        },
+        {
+          "start": 78,
+          "end": 103,
+          "label": "USER_GMAIL",
+          "value": "sandeep.malhotra@email.com"
+        },
+        {
+          "start": 125,
+          "end": 137,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "1-Year Standard"
+        },
+        {
+          "start": 147,
+          "end": 152,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b94,599"
+        },
+        {
+          "start": 153,
+          "end": 154,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        }
+      ],
+      "is_subscription_related": true
+    }
+  ]
+}

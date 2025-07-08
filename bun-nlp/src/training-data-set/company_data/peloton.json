@@ -1,0 +1,372 @@
+{
+  "Peloton": [
+    {
+      "id": "f5286884-cc98-4048-859b-cd56ab6bb03c",
+      "content": {
+        "raw_text": "From: Peloton Support <support@onepeloton.com> To: Sofia Mehta <sofia.mehta47@example.com> Subject: Your Peloton Membership Payment Confirmation Hi Sofia, We\u2019re writing to confirm that your Peloton All\u2011Access Membership has been successfully processed. Payment Summary Plan: All\u2011Access Membership (Monthly) Date Charged: June 20, 2025 Amount Charged: \u20b9\u202f3,299 Payment Method: \u2022\u2022\u2022\u2022\u202f3456 Your membership remains active without any interruption. You now have full access to our live and on\u2011demand workout library across all devices. If you wish to review the transaction or update your billing details, please visit the Account & Billing section on your Peloton profile. Thank you for your continued support. We\u2019re here if you have any questions. Sincerely, Peloton Support support@onepeloton.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "Peloton"
+        },
+        {
+          "start": 39,
+          "end": 69,
+          "label": "USER_GMAIL",
+          "value": "sofia.mehta47@example.com"
+        },
+        {
+          "start": 75,
+          "end": 80,
+          "label": "USERNAME",
+          "value": "Sofia"
+        },
+        {
+          "start": 138,
+          "end": 168,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "All\u2011Access Membership"
+        },
+        {
+          "start": 184,
+          "end": 199,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 220,
+          "end": 231,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b9\u202f3,299"
+        },
+        {
+          "start": 220,
+          "end": 221,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 222,
+          "end": 227,
+          "label": "PAYMENT_AMOUNT",
+          "value": "3,299"
+        }
+      ]
+    },
+    {
+      "id": "69c7d9f0-bbee-4e34-b36d-4a70c4a96cd3",
+      "content": {
+        "raw_text": "From: Peloton Support <support@onepeloton.com> To: Marco Rossi <marco.rossi88@example.com> Subject: Your Peloton Refund Has Been Issued Hi Marco, This is to confirm that a refund has been processed for your recent Peloton transaction. Refund Details Plan: All\u2011Access Membership (Monthly) Original Charge Date: June 20, 2025 Refund Amount: \u20b9\u202f3,299 Refund Date: June 22, 2025 Payment Method: \u2022\u2022\u2022\u2022\u202f7890 The refund has been issued to your original payment method and may take 5\u201310 business days to show up in your account, depending on your financial institution. Your membership has been canceled effective immediately. To rejoin at any time, please sign in to your Peloton account and restart your membership. If you have any questions about this refund or would like assistance reactivating your access, feel free to reach out. Best regards, Peloton Support support@onepeloton.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "Peloton"
+        },
+        {
+          "start": 39,
+          "end": 70,
+          "label": "USER_GMAIL",
+          "value": "marco.rossi88@example.com"
+        },
+        {
+          "start": 76,
+          "end": 81,
+          "label": "USERNAME",
+          "value": "Marco"
+        },
+        {
+          "start": 150,
+          "end": 180,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "All\u2011Access Membership"
+        },
+        {
+          "start": 205,
+          "end": 220,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 237,
+          "end": 248,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b9\u202f3,299"
+        },
+        {
+          "start": 237,
+          "end": 238,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 239,
+          "end": 244,
+          "label": "PAYMENT_AMOUNT",
+          "value": "3,299"
+        },
+        {
+          "start": 260,
+          "end": 275,
+          "label": "PAYMENT_DATE",
+          "value": "June 22, 2025"
+        }
+      ]
+    },
+    {
+      "id": "94cfce39-06ae-43e3-b663-5dca6636c723",
+      "content": {
+        "raw_text": "From: Peloton Support <support@onepeloton.com> To: Hana Kim <hana.kim22@example.com> Subject: Your Peloton Membership Has Been Canceled Hi Hana, We\u2019re writing to confirm that your Peloton All\u2011Access Membership has been canceled per your request. Account Summary Plan Canceled: All\u2011Access Membership (Monthly) Cancellation Date: June 21, 2025 Next Billing Date: Not applicable You will retain access through the end of your current billing period. Once that period ends, your membership will become inactive and no further charges will occur. If this cancellation was made in error or you decide to return, you can reactivate your membership anytime via your Peloton account page. Thank you for being part of the Peloton community. We hope to welcome you back in the future. Warmly, Peloton Support support@onepeloton.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "Peloton"
+        },
+        {
+          "start": 38,
+          "end": 66,
+          "label": "USER_GMAIL",
+          "value": "hana.kim22@example.com"
+        },
+        {
+          "start": 72,
+          "end": 76,
+          "label": "USERNAME",
+          "value": "Hana"
+        },
+        {
+          "start": 144,
+          "end": 174,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "All\u2011Access Membership"
+        },
+        {
+          "start": 200,
+          "end": 215,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "June 21, 2025"
+        }
+      ]
+    },
+    {
+      "id": "d6ec77e5-02ec-4172-844a-2b57f40f790c",
+      "content": {
+        "raw_text": "From: Peloton Onboarding <welcome@onepeloton.com> To: Daniel Garc\u00eda <daniel.garcia75@example.com> Subject: Welcome to Peloton \u2014 Your Fitness Journey Begins Hi Daniel, Welcome to Peloton! We\u2019re thrilled to have you as a new All\u2011Access Member. Your Account Details Plan Activated: All\u2011Access Membership (Monthly) Activation Date: June 20, 2025 Next steps to get you started: Explore Classes: Dive into live and on\u2011demand rides, runs, yoga, strength, and more. Personalize Your Experience: Set up your profile, follow instructors, and check out the leaderboard. Begin Your Fitness Path: Try your first class or follow along with our \u201cGetting Started\u201d tutorials available in the app or on your Peloton device. Need help setting things up or navigating your account? Please visit our Getting Started Guide or reach out via the Support Center. Thank you for choosing Peloton \u2014 here\u2019s to a healthy, active journey ahead. Best, Peloton Onboarding welcome@onepeloton.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "Peloton"
+        },
+        {
+          "start": 41,
+          "end": 74,
+          "label": "USER_GMAIL",
+          "value": "daniel.garcia75@example.com"
+        },
+        {
+          "start": 80,
+          "end": 86,
+          "label": "USERNAME",
+          "value": "Daniel"
+        },
+        {
+          "start": 141,
+          "end": 171,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "All\u2011Access Membership"
+        },
+        {
+          "start": 192,
+          "end": 207,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        }
+      ]
+    },
+    {
+      "id": "6efc8dc7-c2c5-49f4-a1a2-6a3aeaa3b3b7",
+      "content": {
+        "raw_text": "From: Peloton Billing <billing@onepeloton.com> To: Aisha Patel <aisha.patel63@example.com> Subject: Peloton Payment Could Not Be Processed Hi Aisha, We were unable to process your most recent membership payment. Payment Details Plan: All\u2011Access Membership (Monthly) Scheduled Payment Date: June 20, 2025 Amount Due: \u20b9\u202f3,299 Payment Method: \u2022\u2022\u2022\u2022\u202f5678 Please update your billing information within the next 7 days to ensure uninterrupted service. To update your payment details: Sign in to your Peloton account Navigate to Account & Billing Add or update your payment method Confirm the new information If the payment issue is not resolved within seven days, your membership may be paused. You can restore service at any time by updating your payment information and reactivating your membership. If you need assistance, please visit the Support Center or reply to this email directly. Thank you, Peloton Billing Team billing@onepeloton.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "Peloton"
+        },
+        {
+          "start": 38,
+          "end": 70,
+          "label": "USER_GMAIL",
+          "value": "aisha.patel63@example.com"
+        },
+        {
+          "start": 76,
+          "end": 81,
+          "label": "USERNAME",
+          "value": "Aisha"
+        },
+        {
+          "start": 141,
+          "end": 171,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "All\u2011Access Membership"
+        },
+        {
+          "start": 197,
+          "end": 212,
+          "label": "PAYMENT_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 226,
+          "end": 237,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b9\u202f3,299"
+        },
+        {
+          "start": 226,
+          "end": 227,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 228,
+          "end": 233,
+          "label": "PAYMENT_AMOUNT",
+          "value": "3,299"
+        }
+      ]
+    },
+    {
+      "id": "d4aeea6b-0aa4-4f5d-b325-6fa9dc13f6e2",
+      "content": {
+        "raw_text": "From: Peloton Billing <billing@onepeloton.com> To: Pierre Dubois <pierre.dubois51@example.com> Subject: Your Peloton Membership Will Renew Soon Hi Pierre, This is a reminder that your Peloton All\u2011Access Membership is scheduled for automatic renewal. Renewal Details Plan: All\u2011Access Membership (Monthly) Renewal Date: July 20, 2025 Amount: \u20b9\u202f3,299 Payment Method: \u2022\u2022\u2022\u2022\u202f9012 No further action is required\u2014your membership will continue uninterrupted. If you wish to change your payment method or cancel, please do so before the renewal date to avoid being charged again. You can manage your subscription via the Account & Billing section in your Peloton profile. Thank you for staying with us. Best regards, Peloton Billing Team billing@onepeloton.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "Peloton"
+        },
+        {
+          "start": 38,
+          "end": 73,
+          "label": "USER_GMAIL",
+          "value": "pierre.dubois51@example.com"
+        },
+        {
+          "start": 79,
+          "end": 85,
+          "label": "USERNAME",
+          "value": "Pierre"
+        },
+        {
+          "start": 148,
+          "end": 178,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "All\u2011Access Membership"
+        },
+        {
+          "start": 198,
+          "end": 213,
+          "label": "RENEWAL_DATE",
+          "value": "July 20, 2025"
+        },
+        {
+          "start": 223,
+          "end": 234,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b9\u202f3,299"
+        },
+        {
+          "start": 223,
+          "end": 224,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 225,
+          "end": 230,
+          "label": "PAYMENT_AMOUNT",
+          "value": "3,299"
+        }
+      ]
+    },
+    {
+      "id": "beab524e-9899-42c8-bd15-eeb9d42189ff",
+      "content": {
+        "raw_text": "From: Peloton Support <support@onepeloton.com> To: Emily Nguyen <emily.nguyen34@example.com> Subject: Your Peloton Membership is Active Hi Emily, We\u2019re reaching out to confirm that your Peloton All\u2011Access Membership is currently active. Membership Overview Plan: All\u2011Access Membership (Monthly) Active Since: June 20, 2025 Next Billing Date: July 20, 2025 Payment Amount: \u20b9\u202f3,299 Payment Method: \u2022\u2022\u2022\u2022\u202f4321 You\u2019re all set to continue enjoying live classes, on\u2011demand workouts, and all features included with your membership. You can update your profile, payment method, or subscription plan at any time via the Account & Billing section of your Peloton account. If you have any questions or require assistance, we\u2019re here to help. Enjoy your next workout, Peloton Support support@onepeloton.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "Peloton"
+        },
+        {
+          "start": 39,
+          "end": 75,
+          "label": "USER_GMAIL",
+          "value": "emily.nguyen34@example.com"
+        },
+        {
+          "start": 81,
+          "end": 87,
+          "label": "USERNAME",
+          "value": "Emily"
+        },
+        {
+          "start": 147,
+          "end": 177,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "All\u2011Access Membership"
+        },
+        {
+          "start": 193,
+          "end": 208,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June 20, 2025"
+        },
+        {
+          "start": 229,
+          "end": 244,
+          "label": "RENEWAL_DATE",
+          "value": "July 20, 2025"
+        },
+        {
+          "start": 262,
+          "end": 273,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b9\u202f3,299"
+        },
+        {
+          "start": 262,
+          "end": 263,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 264,
+          "end": 269,
+          "label": "PAYMENT_AMOUNT",
+          "value": "3,299"
+        }
+      ]
+    }
+  ]
+}

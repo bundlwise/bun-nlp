@@ -1,0 +1,236 @@
+{
+  "Coursera": [
+    {
+      "id": "dc86bb7f-60a6-4bb2-9980-1d5efbde69fb",
+      "content": {
+        "raw_text": "From: Coursera Support <no-reply@t.mail.coursera.org> To: kavita.sharma92@example.com Subject: Your Receipt for Order #846271902 Hi Kavita, Thank you for your purchase. RECEIPT Coursera Inc. 381 E. Evelyn Avenue Mountain View, CA 94041 USA Date: August 14, 2024 Order Number: 846271902 Purchase Details: Description Amount (INR) Meta Front-End Developer Certificate \u20b94,932.00 GST Rate: 18% GST Amount: \u20b9752.14 HSN Code: 999294 Coursera GSTIN: 9919USA29027OS Total Billed: \u20b94,932.00 You can view this and all past orders in your Purchase History. Need a refund? Review our Refund Policy. Happy learning, The Coursera Team Need help? Visit our Help Center. Please do not reply to this email. This mailbox is not monitored.\u00a9 2024 Coursera Inc. 381 E. Evelyn Avenue, Mountain View, CA 94041 USA"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 14,
+          "label": "COMPANY_NAME",
+          "value": "Coursera"
+        },
+        {
+          "start": 47,
+          "end": 77,
+          "label": "USER_GMAIL",
+          "value": "kavita.sharma92@example.com"
+        },
+        {
+          "start": 82,
+          "end": 88,
+          "label": "USERNAME",
+          "value": "Kavita"
+        },
+        {
+          "start": 138,
+          "end": 146,
+          "label": "COMPANY_NAME",
+          "value": "Coursera"
+        },
+        {
+          "start": 198,
+          "end": 213,
+          "label": "PAYMENT_DATE",
+          "value": "August 14, 2024"
+        },
+        {
+          "start": 272,
+          "end": 294,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Meta Front-End Developer Certificate"
+        },
+        {
+          "start": 295,
+          "end": 305,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b94,932.00"
+        },
+        {
+          "start": 295,
+          "end": 296,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        }
+      ]
+    },
+    {
+      "id": "e20d9616-fd0e-4ab1-b79f-0d6d1d4f9a8c",
+      "content": {
+        "raw_text": "Coursera Support <no-reply@t.mail.coursera.org> To: jason.miller@example.com Subject: Your Coursera Plus Subscription Will Renew on October 14, 2024 Hi Jason, This is a reminder that your Coursera Plus annual subscription is set to renew on October 14, 2024. Renewal Details Plan: Coursera Plus (Annual) Amount: $399.00 USD Payment Method: Visa ending in 2958 Next Charge Date: October 14, 2024 Billing Frequency: Once per year You don\u2019t need to take any action \u2014 your subscription will renew automatically, and you\u2019ll receive a receipt once the payment is processed. To make changes to your subscription, visit your Subscription Settings. Need to Cancel? If you\u2019d like to cancel before your renewal, be sure to do so before October 14 to avoid being charged. You can review our Refund Policy for more details. Happy learning, The Coursera Team Please do not reply to this message. This inbox is not monitored. \u00a9 2024 Coursera Inc. | 381 E. Evelyn Avenue, Mountain View, CA 94041 USA"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 8,
+          "label": "COMPANY_NAME",
+          "value": "Coursera"
+        },
+        {
+          "start": 43,
+          "end": 69,
+          "label": "USER_GMAIL",
+          "value": "jason.miller@example.com"
+        },
+        {
+          "start": 74,
+          "end": 80,
+          "label": "USERNAME",
+          "value": "Jason"
+        },
+        {
+          "start": 151,
+          "end": 163,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Coursera Plus"
+        },
+        {
+          "start": 164,
+          "end": 172,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Annual"
+        },
+        {
+          "start": 184,
+          "end": 195,
+          "label": "RENEWAL_DATE",
+          "value": "October 14, 2024"
+        },
+        {
+          "start": 208,
+          "end": 218,
+          "label": "PAYMENT_AMOUNT",
+          "value": "$399.00"
+        },
+        {
+          "start": 208,
+          "end": 209,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 237,
+          "end": 241,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        },
+        {
+          "start": 255,
+          "end": 271,
+          "label": "RENEWAL_DATE",
+          "value": "October 14, 2024"
+        }
+      ]
+    },
+    {
+      "id": "f1773007-61be-43e3-9ff0-d4712cb6a7a6",
+      "content": {
+        "raw_text": "To: alex.johnson@example.com Subject: Welcome to Coursera, Alex! Discover your first course Hi Alex, Welcome to Coursera! We\u2019re thrilled you\u2019ve joined a global community of learners. Unlock Your First Steps The learning is free \u2013 the opportunities are limitless. Start exploring thousands of courses from top universities and companies. What you can do next: Browse popular courses: Data Science, Personal Development, AI, and more Customize your profile so we can recommend the right learning for you Try a free course now \u2013 there\u2019s zero commitment Need Help? Visit our Help Center to troubleshoot or explore all the ways Coursera can support your learning journey. Happy learning, \u2014 The Coursera Team \u00a9 2025 Coursera Inc. \u2022 381 E. Evelyn Avenue, Mountain View, CA 94041 USA You\u2019re receiving this email because you signed up for Coursera. If this wasn\u2019t you, please ignore this email."
+      },
+      "ner_entities": [
+        {
+          "start": 4,
+          "end": 30,
+          "label": "USER_GMAIL",
+          "value": "alex.johnson@example.com"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "label": "USERNAME",
+          "value": "Alex"
+        },
+        {
+          "start": 84,
+          "end": 92,
+          "label": "COMPANY_NAME",
+          "value": "Coursera"
+        }
+      ]
+    },
+    {
+      "id": "d0dbf1a0-e52a-4637-b139-14cf4c46b4a9",
+      "content": {
+        "raw_text": "From: Coursera Support <no-reply@t.mail.coursera.org> To: emily.thomas@example.com Subject: We couldn\u2019t process your payment for Coursera Plus Hi Emily, We tried to renew your Coursera Plus subscription, but your payment didn\u2019t go through. \u2757 What happened: On May 27, 2024, we attempted to charge your card ending in 4728, but the payment was unsuccessful. What you can do: To avoid interruption to your learning, please update your payment method as soon as possible. Update Payment Method Once your payment information is updated, we\u2019ll automatically retry the charge. Happy learning, The Coursera Team Please do not reply to this email. This inbox is not monitored. \u00a9 2024 Coursera Inc. | 381 E. Evelyn Avenue, Mountain View, CA 94041 USA"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 14,
+          "label": "COMPANY_NAME",
+          "value": "Coursera"
+        },
+        {
+          "start": 48,
+          "end": 74,
+          "label": "USER_GMAIL",
+          "value": "emily.thomas@example.com"
+        },
+        {
+          "start": 80,
+          "end": 85,
+          "label": "USERNAME",
+          "value": "Emily"
+        },
+        {
+          "start": 121,
+          "end": 134,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Coursera Plus"
+        },
+        {
+          "start": 163,
+          "end": 177,
+          "label": "PAYMENT_DATE",
+          "value": "May 27, 2024"
+        }
+      ]
+    },
+    {
+      "id": "6d4bb453-3994-40b9-b9eb-e12a3dbd44bb",
+      "content": {
+        "raw_text": "Coursera <no-reply@t.mail.coursera.org> To: emily.thomas@example.com Subject: New: You\u2019ve been granted a deadline extension Hi Emily, Good news! You now have extra time to complete your coursework in your Coursera course. Course: Machine Learning Specialization Instructor: Andrew Ng Offered by: Stanford University What\u2019s changed: We\u2019ve extended your deadline so you can catch up and complete assignments without penalty. New deadline: July 8, 2024 Original deadline: June 24, 2024 Need help or have questions? Visit our Help Center for more info. You\u2019ve got this, \u2014 The Coursera Team"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 8,
+          "label": "COMPANY_NAME",
+          "value": "Coursera"
+        },
+        {
+          "start": 42,
+          "end": 68,
+          "label": "USER_GMAIL",
+          "value": "emily.thomas@example.com"
+        },
+        {
+          "start": 74,
+          "end": 79,
+          "label": "USERNAME",
+          "value": "Emily"
+        },
+        {
+          "start": 151,
+          "end": 182,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Machine Learning Specialization"
+        },
+        {
+          "start": 280,
+          "end": 293,
+          "label": "RENEWAL_DATE",
+          "value": "July 8, 2024"
+        },
+        {
+          "start": 315,
+          "end": 330,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "June 24, 2024"
+        }
+      ]
+    }
+  ]
+}

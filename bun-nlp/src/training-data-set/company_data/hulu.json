@@ -1,0 +1,348 @@
+{
+  "Hulu": [
+    {
+      "id": "a3de5f44-e32c-4c12-a325-504594519ac2",
+      "content": {
+        "raw_text": "From: Hulu Accounts welcome@hulu.com To: lars.johansson72@example.se Date: Tue, 22 Aug 2023 14:18:02 +0200 Subject: Welcome to Hulu, Lars! Let\u2019s get you started \ud83c\udf89 Hi Lars, Welcome aboard \u2014 we\u2019re thrilled to have you join the Hulu family! We know there are countless ways to spend your free time, and we\u2019re honored you chose us. Whether it's binge-watching family favorites, diving into gripping Hulu Originals, or catching your local news from the comfort of your couch, your streaming adventure starts right here. Your account is all set up and ready to go. Once you\u2019re in, here are a few ways to make the most of Hulu right away: Set up your profile. Create your personal profile and avatar, so every member of your household gets their own curated recommendations. Start saving. Add shows and movies to your Watchlist so you can get back to them anytime \u2014 even on the go. Explore new originals. Whether you\u2019re in the mood for the tense drama of The Handmaid\u2019s Tale, the laughs from Only Murders in the Building, or something fresh, we\u2019ve got you covered. What Happens Next Over the coming week, you\u2019ll receive a few helpful tips and personalized content drops \u2014 all designed to enhance your experience: Friday, 25 Aug 2023: A personalized recommendations email tailored just for you based on what you watch. Monday, 28 Aug 2023: A guide to using voice search and setting up profiles on your TV. Thursday, 31 Aug 2023: A sneak peek at upcoming Hulu Originals you won\u2019t want to miss. We respect your inbox, so only the essentials and the stuff you\u2019ll love. You\u2019re in complete control \u2014 you can tweak your email preferences anytime in your account settings. If you ever run into questions or just want to share your thoughts, our support team is here 24/7. Feel free to reach out at care@hulu.com \u2014 we\u2019re always happy to help! Happy Streaming, The Hulu Onboarding Team"
+      },
+      "ner_entities": [
+        {
+          "start": 36,
+          "end": 67,
+          "label": "USER_GMAIL",
+          "value": "lars.johansson72@example.se"
+        },
+        {
+          "start": 105,
+          "end": 109,
+          "label": "COMPANY_NAME",
+          "value": "Hulu"
+        }
+      ]
+    },
+    {
+      "id": "f3e44ac0-56b8-41b5-8b23-1e832be1f09a",
+      "content": {
+        "raw_text": "From: Hulu Billing billing@hulu.com To: sofia.martinelli94@example.it Date: Thu, 05 Oct 2023 09:45:27 +0200 Subject: Your Hulu payment is confirmed, Sofia \ud83c\udf89 Hi\u202fSofia, Thanks for being part of our community! Your payment has been successfully processed, and we\u2019re excited to continue bringing you the shows, movies, and live programming you love. Let\u2019s take a look at the details: Description: Payment Summary Plan: Hulu (No Ads) Monthly Amount Charged: \u20ac11.99 Transaction Date: Thursday, 05 October 2023 Next Billing Date: Friday, 05 November 2023 Payment Method: Visa ending in \u2022\u2022\u2022\u2022 1234 Transaction ID: HULU\u2011TXN\u20117896543210 Your account access remains uninterrupted \u2014 from The Handmaid\u2019s Tale to tomorrow\u2019s big game, everything\u2019s ready whenever and wherever you are. And if you\u2019d like to tweak your plan, switch payment information, or explore add-ons like Live TV or Premium Networks, simply visit your account settings via the button below: [ \ud83d\udd12 Manage Your Account ] Happy streaming, The Hulu Billing Team Hulu, LLC 625 Madison Avenue, 22nd Floor \u2022 New York, NY 10022 \u00a9 2023 Hulu, LLC. All rights reserved. You received this email because you have an active Hulu subscription for sofia.martinelli94@example.it. You can [update your preferences] or [unsubscribe] \u2014 though we\u2019ll only send essential billing info unless you opt in for more."
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 78,
+          "label": "USER_GMAIL",
+          "value": "sofia.martinelli94@example.it"
+        },
+        {
+          "start": 108,
+          "end": 112,
+          "label": "COMPANY_NAME",
+          "value": "Hulu"
+        },
+        {
+          "start": 261,
+          "end": 286,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Hulu (No Ads) Monthly"
+        },
+        {
+          "start": 307,
+          "end": 313,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 307,
+          "end": 313,
+          "label": "PAYMENT_AMOUNT",
+          "value": "11.99"
+        },
+        {
+          "start": 336,
+          "end": 355,
+          "label": "PAYMENT_DATE",
+          "value": "Thursday, 05 October 2023"
+        },
+        {
+          "start": 383,
+          "end": 403,
+          "label": "RENEWAL_DATE",
+          "value": "Friday, 05 November 2023"
+        },
+        {
+          "start": 423,
+          "end": 427,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "id": "3dbfd51d-fd44-4cbf-a75d-89bc17b0d88b",
+      "content": {
+        "raw_text": "From: Hulu Billing billing@hulu.com To: jan.kowalski53@example.pl Date: Wed, 13 Sep 2023 11:17:54 +0200 Subject: Trouble with Your Hulu Payment, Jan Hi Jan, We attempted to process your recent Hulu payment, but it didn\u2019t go through. This can happen if your card expired, your bank blocked the charge, or the billing info needs an update. Here\u2019s what we tried: Plan: Hulu (No Ads) Monthly Amount: 56,99\u202fPLN Attempted On: Tuesday, 12 September 2023 Payment Method: Mastercard ending in \u2022\u2022\u2022\u2022 5678 Ref ID: HULU\u2011FAIL\u201120230912\u2011PL Your account is paused for now, but we\u2019ve given you 48 hours to update your payment method before any interruption. It only takes a minute: [ \ud83d\udcb3 Update Payment Info ] Once your info is updated, we\u2019ll process the charge again automatically. You\u2019ll get a confirmation email as soon as it goes through. If you didn\u2019t try to make this payment or have questions, reply to this email or contact us at billing@hulu.com \u2014 we\u2019re here 24/7. Thanks for choosing Hulu. We\u2019ll keep your watchlist warm! \u2013 The Hulu Billing Team Hulu, LLC 625 Madison Avenue, 22nd Floor \u2022 New York, NY 10022 \u00a9 2023 Hulu, LLC. All rights reserved. This message was sent to jan.kowalski53@example.pl."
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 71,
+          "label": "USER_GMAIL",
+          "value": "jan.kowalski53@example.pl"
+        },
+        {
+          "start": 112,
+          "end": 116,
+          "label": "COMPANY_NAME",
+          "value": "Hulu"
+        },
+        {
+          "start": 292,
+          "end": 317,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Hulu (No Ads) Monthly"
+        },
+        {
+          "start": 328,
+          "end": 334,
+          "label": "PAYMENT_AMOUNT",
+          "value": "56,99"
+        },
+        {
+          "start": 328,
+          "end": 331,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "PLN"
+        },
+        {
+          "start": 351,
+          "end": 377,
+          "label": "PAYMENT_DATE",
+          "value": "Tuesday, 12 September 2023"
+        },
+        {
+          "start": 396,
+          "end": 405,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard"
+        }
+      ]
+    },
+    {
+      "id": "bfb68d88-d3c1-44f7-9ef2-2065e80faeac",
+      "content": {
+        "raw_text": "From: Hulu Billing billing@hulu.com To: ines.muller29@example.de Date: Tue, 21 Nov 2023 16:05:12 +0100 Subject: Your Hulu plan renews on 01 Dec, Ines Hi Ines, Just a quick reminder \u2014 your Hulu subscription will renew on Friday, 01 December 2023. You\u2019re all set, and there\u2019s nothing you need to do if you wish to continue streaming without interruption. Plan: Hulu (No Ads) + Live TV Amount: \u20ac69.99 Payment Method: Mastercard ending in \u2022\u2022\u2022\u2022 4321 Subscription ID: HULU\u2011SUB\u201120231101\u2011DE If you want to update your plan or payment method before the renewal, you can do that here: [ \u2699\ufe0f Manage Subscription ] Coming soon to Hulu: Whispering Pines \u2013 Premieres 08 Dec Live UEFA matches this holiday season A fresh Kids\u2019 Winter Collection Questions about your renewal? Just reply to this email or reach us at billing@hulu.com \u2014 we\u2019re here 24/7. Thanks for streaming with us! \u2013 The Hulu Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 71,
+          "label": "USER_GMAIL",
+          "value": "ines.muller29@example.de"
+        },
+        {
+          "start": 116,
+          "end": 120,
+          "label": "COMPANY_NAME",
+          "value": "Hulu"
+        },
+        {
+          "start": 170,
+          "end": 194,
+          "label": "RENEWAL_DATE",
+          "value": "Friday, 01 December 2023"
+        },
+        {
+          "start": 224,
+          "end": 250,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Hulu (No Ads) + Live TV"
+        },
+        {
+          "start": 259,
+          "end": 265,
+          "label": "PAYMENT_AMOUNT",
+          "value": "69.99"
+        },
+        {
+          "start": 258,
+          "end": 259,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 283,
+          "end": 292,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard"
+        }
+      ]
+    },
+    {
+      "id": "d8e5985f-2d53-4db1-b6be-4099d58bb78a",
+      "content": {
+        "raw_text": "From: Hulu Billing billing@hulu.com To: ana.rodriguez58@example.es Date: Mon, 04 Dec 2023 13:22:49 +0100 Subject: Your refund has been processed, Ana Hi Ana, We hope you\u2019re having a great day. We wanted to let you know that your requested refund has been processed and the funds are on their way back to you\u2014thank you for giving us the chance to resolve this. Below is a summary of the refund details for your peace of mind: Description: Refund for Hulu (No Ads) Monthly subscription Amount Refunded: \u20ac11.99 Original Charge Date: Thursday, 30 November 2023 Refund Processed On: Monday, 04 December 2023 Payment Method: Mastercard ending in \u2022\u2022\u2022\u2022 8765 Refund Transaction ID: HULU\u2011REF\u201120231204\u2011ES Your access to Hulu remains active through the end of the current billing period, so you can still enjoy your favorite content without interruption. Going forward, you won't see another charge for this billing cycle, and your next payment will only occur if you choose to continue or modify your plan. If you have any questions about this refund or your account in general, please feel free to reply to this email or reach out to us at billing@hulu.com. We\u2019re here to help and want to ensure everything is exactly how you expect it. Thanks for being part of the Hulu community, Ana\u2014we value your trust and look forward to continuing to deliver the entertainment you love. Warm regards, The Hulu Billing Team Hulu, LLC 625 Madison Avenue, 22nd Floor \u2022 New York, NY 10022 \u00a9 2023 Hulu, LLC. All rights reserved."
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 72,
+          "label": "USER_GMAIL",
+          "value": "ana.rodriguez58@example.es"
+        },
+        {
+          "start": 112,
+          "end": 116,
+          "label": "COMPANY_NAME",
+          "value": "Hulu"
+        },
+        {
+          "start": 225,
+          "end": 250,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Hulu (No Ads) Monthly"
+        },
+        {
+          "start": 271,
+          "end": 277,
+          "label": "PAYMENT_AMOUNT",
+          "value": "11.99"
+        },
+        {
+          "start": 270,
+          "end": 271,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 306,
+          "end": 330,
+          "label": "PAYMENT_DATE",
+          "value": "Thursday, 30 November 2023"
+        },
+        {
+          "start": 355,
+          "end": 380,
+          "label": "RENEWAL_DATE",
+          "value": "Monday, 04 December 2023"
+        },
+        {
+          "start": 400,
+          "end": 409,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Mastercard"
+        }
+      ]
+    },
+    {
+      "id": "da8b7e7a-2d79-4cb1-a107-4aa4ecb8e46a",
+      "content": {
+        "raw_text": "From: Hulu Support support@hulu.com To: marco.dalessandro81@example.it Date: Fri, 15 Dec 2023 17:42:11 +0100 Subject: Your Hulu subscription has been canceled, Marco Hi Marco, We\u2019re sorry to see you go, but your cancellation request has been processed successfully. Below, you\u2019ll find all the details about your final access period and what to expect moving forward: Plan: Hulu (No Ads) Monthly Cancellation Requested On: Friday, 15 December 2023 Your Access Ends On: Sunday, 14 January 2024 Final Charge Amount: \u20ac11.99 (processed 15 Dec 2023) Payment Method: Visa ending in \u2022\u2022\u2022\u2022 3456 Subscription ID: HULU\u2011CANCEL\u201120231215\u2011IT Your account remains active\u2014so you can continue enjoying Hulu through Sunday, 14 January 2024, when your current billing cycle ends. After that, your subscription will stop, and no further charges will be made. We sincerely hope you\u2019ve enjoyed your time with us, whether it was diving into Originals, exploring new arrivals, or catching up on live events. If you ever change your mind, reactivating is easy\u2014just sign in and select Restart Subscription. And if you have feedback\u2014whether about content, pricing, or features\u2014we\u2019d love to hear it. Feel free to reply directly or send us your thoughts at support@hulu.com. Your voice helps us improve. Thanks for being a part of Hulu, Marco. We hope you\u2019ll return someday\u2014and that when you do, you\u2019ll find even more entertainment you love. Best wishes, The Hulu Support Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 77,
+          "label": "USER_GMAIL",
+          "value": "marco.dalessandro81@example.it"
+        },
+        {
+          "start": 102,
+          "end": 106,
+          "label": "COMPANY_NAME",
+          "value": "Hulu"
+        },
+        {
+          "start": 223,
+          "end": 248,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Hulu (No Ads) Monthly"
+        },
+        {
+          "start": 275,
+          "end": 300,
+          "label": "PAYMENT_DATE",
+          "value": "Friday, 15 December 2023"
+        },
+        {
+          "start": 322,
+          "end": 346,
+          "label": "RENEWAL_DATE",
+          "value": "Sunday, 14 January 2024"
+        },
+        {
+          "start": 368,
+          "end": 374,
+          "label": "PAYMENT_AMOUNT",
+          "value": "11.99"
+        },
+        {
+          "start": 367,
+          "end": 368,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 399,
+          "end": 403,
+          "label": "PAYMENT_DATE",
+          "value": "15 Dec 2023"
+        },
+        {
+          "start": 422,
+          "end": 426,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "id": "83ee5dcd-d8cb-4e93-9858-01551f20f946",
+      "content": {
+        "raw_text": "From: Hulu Support support@hulu.com To: camille.leblanc47@example.fr Date: Tue, 28 Nov 2023 10:33:58 +0100 Subject: Your Hulu account has been deleted, Camille Hi Camille, We wanted to let you know that your request to delete your Hulu account has been processed successfully. We understand that people\u2019s streaming needs change over time, and we appreciate that you gave us the opportunity to be part of your entertainment journey. Below, you\u2019ll find the details confirming that your account and associated data have been permanently removed from our active systems. Account Deletion Date: Tuesday, 28 November 2023 Email Associated: camille.leblanc47@example.fr Last Billing Cycle Ended: Monday, 27 November 2023 Outstanding Balance: \u20ac0.00 Deletion Confirmation ID: HULU\u2011DEL\u201120231128\u2011FR All personal data tied to your profile\u2014including watch history, saved shows, preferences, and payment information\u2014has been deleted in accordance with our privacy policy. Your feedback and insights were valuable to us, and while we\u2019re sad to see you go, we hope you\u2019ll consider us again in the future. If you\u2019d like to return down the line, reactivating is easy\u2014simply sign up again using the same email. You\u2019ll be welcomed back with new Originals, updated features, and personalized recommendations based on your renewed interests. Meanwhile, if you have any questions or wish to request copies of certain data, feel free to reply or reach out at support@hulu.com\u2014we\u2019re here to help. Thank you for your time with Hulu, Camille. We wish you all the best and hope our paths cross again! Warm regards, The Hulu Support Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 77,
+          "label": "USER_GMAIL",
+          "value": "camille.leblanc47@example.fr"
+        },
+        {
+          "start": 102,
+          "end": 106,
+          "label": "COMPANY_NAME",
+          "value": "Hulu"
+        },
+        {
+          "start": 384,
+          "end": 412,
+          "label": "PAYMENT_DATE",
+          "value": "Tuesday, 28 November 2023"
+        },
+        {
+          "start": 438,
+          "end": 474,
+          "label": "USER_GMAIL",
+          "value": "camille.leblanc47@example.fr"
+        },
+        {
+          "start": 507,
+          "end": 537,
+          "label": "RENEWAL_DATE",
+          "value": "Monday, 27 November 2023"
+        },
+        {
+          "start": 559,
+          "end": 564,
+          "label": "PAYMENT_AMOUNT",
+          "value": "0.00"
+        },
+        {
+          "start": 558,
+          "end": 559,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        }
+      ]
+    }
+  ]
+}

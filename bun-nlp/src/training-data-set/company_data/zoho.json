@@ -1,0 +1,446 @@
+{
+  "Zoho": [
+    {
+      "id": "4d6b7f14-d46b-4cf1-8e3f-7db30895b894",
+      "content": {
+        "raw_text": "From: billing@zohoaccounts.com To: clara.vandelli@outlook.fr Date: Fri, 24 Nov 2023, 10:52 AM Subject: Payment Received \u2013 Invoice #ZHO-2488119 Reply-To: support@zohoaccounts.com Hi Clara, We\u2019re writing to let you know that your recent payment for the Zoho Workplace subscription has been successfully processed. Your account has been updated, and the invoice is now available for your reference. Below are the payment details: Invoice Number: ZHO-2488119 Invoice Date: November 24, 2023 Plan: Zoho Workplace \u2013 Monthly Plan Billing Period: Nov 24, 2023 \u2013 Dec 23, 2023 Amount Paid: \u20ac47.00 EUR Payment Method: MasterCard **** 1032 Transaction ID: ZP-409183725 You can view or download your invoice here: View Invoice Your subscription is on auto-renew. If you need to make any changes to your billing preferences or payment method, you can do so anytime through the Zoho Billing portal. For any questions, feel free to reach out to us at support@zohoaccounts.com. We\u2019re happy to help. Thank you for choosing Zoho. Best, Zoho Accounts Team billing@zohoaccounts.com www.zoho.com"
+      },
+      "ner_entities": [
+        {
+          "start": 171,
+          "end": 175,
+          "label": "COMPANY_NAME",
+          "value": "Zoho"
+        },
+        {
+          "start": 51,
+          "end": 79,
+          "label": "USER_GMAIL",
+          "value": "clara.vandelli@outlook.fr"
+        },
+        {
+          "start": 233,
+          "end": 252,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Zoho Workplace"
+        },
+        {
+          "start": 255,
+          "end": 277,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly Plan"
+        },
+        {
+          "start": 344,
+          "end": 351,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 345,
+          "end": 351,
+          "label": "PAYMENT_AMOUNT",
+          "value": "47.00"
+        },
+        {
+          "start": 374,
+          "end": 378,
+          "label": "PAYMENT_PLATFORM",
+          "value": "MasterCard"
+        },
+        {
+          "start": 322,
+          "end": 338,
+          "label": "PAYMENT_DATE",
+          "value": "November 24, 2023"
+        }
+      ]
+    },
+    {
+      "id": "6cdbbd47-5486-43c1-80b3-9de7f35c9710",
+      "content": {
+        "raw_text": "From: noreply@zohocorp.com To: fabienne.ortega@webmail.ch Date: Wed, 6 Sep 2023, 09:31 AM Subject: Your Zoho CRM trial ends in 3 days \u2013 don\u2019t lose access Reply-To: support@zohoaccounts.com Hi Fabienne, We hope you've had a productive experience exploring Zoho CRM over the past few weeks. We wanted to remind you that your free trial will end in 3 days, on September 9, 2023. Once the trial expires, access to the features you've been using \u2014 such as advanced automation, lead scoring, workflow rules, and integrations \u2014 will be restricted. We understand how important uninterrupted access is when evaluating a tool for your business. To ensure continued access to your data and workflows, we recommend upgrading your account to one of our paid plans. Upgrading is seamless and takes just a few clicks \u2014 your trial data, users, and configurations will remain intact. Trial End Date: September 9, 2023 Product: Zoho CRM \u2013 Professional Trial Upgrade Link: Upgrade My Plan Need more time? If you\u2019d like to explore Zoho CRM a bit longer, you can request a trial extension from your account dashboard. We\u2019re here to help you make the most of your evaluation. If you have any questions or would like assistance choosing the right plan, feel free to reach out to our support team at support@zohoaccounts.com. Thank you for trying Zoho CRM. We hope to continue supporting your sales journey. Warm regards, Zoho CRM Team www.zoho.com/crm"
+      },
+      "ner_entities": [
+        {
+          "start": 43,
+          "end": 74,
+          "label": "USER_GMAIL",
+          "value": "fabienne.ortega@webmail.ch"
+        },
+        {
+          "start": 184,
+          "end": 192,
+          "label": "COMPANY_NAME",
+          "value": "Zoho CRM"
+        },
+        {
+          "start": 358,
+          "end": 375,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "September 9, 2023"
+        },
+        {
+          "start": 407,
+          "end": 429,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Professional Trial"
+        }
+      ]
+    },
+    {
+      "id": "9ae03d53-4a96-4b7a-a2b1-18c8b3a4c70e",
+      "content": {
+        "raw_text": "From: billing@zohoaccounts.com To: jonas.scholtz@t-online.de Date: Mon, 20 Nov 2023, 06:43 PM Subject: Your Zoho Projects subscription renews on Nov 27, 2023 Reply-To: support@zohoaccounts.com Hi Jonas, This is a quick reminder that your Zoho Projects subscription is scheduled for automatic renewal on November 27, 2023. The payment will be charged to the card ending in \u2022\u2022\u2022\u2022 7124 and the invoice will be issued shortly after the renewal is processed. Your current plan \u2014 Zoho Projects Premium (Annual) \u2014 has been active since last year, and we appreciate your continued use of our platform. If there have been any changes in your project needs, user count, or billing details, this might be a good time to review your subscription settings before the renewal date. Renewal Date: November 27, 2023 Subscription Plan: Zoho Projects \u2013 Premium (Annual) Renewal Amount: \u20ac540.00 EUR Payment Method: Visa ending in 7124 Next Billing Cycle: Nov 27, 2023 \u2013 Nov 26, 2024 \ud83d\udc49 Manage Subscription If you'd like to make adjustments to your plan \u2014 such as upgrading, downgrading, or canceling auto-renewal \u2014 you can do so at any time by visiting your account portal. Please ensure your payment details are up to date to avoid any interruptions to your service. Should you need any help making a change or have questions about your renewal, our support team is available around the clock at support@zohoaccounts.com. We\u2019re here to assist you every step of the way. Thank you for choosing Zoho Projects to manage your work. We look forward to another productive year together. Kind regards, Zoho Billing Team billing@zohoaccounts.com www.zoho.com/projects"
+      },
+      "ner_entities": [
+        {
+          "start": 37,
+          "end": 64,
+          "label": "USER_GMAIL",
+          "value": "jonas.scholtz@t-online.de"
+        },
+        {
+          "start": 129,
+          "end": 143,
+          "label": "RENEWAL_DATE",
+          "value": "November 27, 2023"
+        },
+        {
+          "start": 173,
+          "end": 193,
+          "label": "COMPANY_NAME",
+          "value": "Zoho Projects"
+        },
+        {
+          "start": 244,
+          "end": 249,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        },
+        {
+          "start": 279,
+          "end": 283,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium"
+        },
+        {
+          "start": 284,
+          "end": 292,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "(Annual)"
+        },
+        {
+          "start": 334,
+          "end": 352,
+          "label": "RENEWAL_DATE",
+          "value": "November 27, 2023"
+        },
+        {
+          "start": 381,
+          "end": 392,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac540.00"
+        },
+        {
+          "start": 392,
+          "end": 393,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        }
+      ]
+    },
+    {
+      "id": "51cfa16d-17c2-4f44-a3dc-36d55d93b89d",
+      "content": {
+        "raw_text": "From: billing@zohoaccounts.com To: luciano.fabretti@libero.it Date: Sat, 9 Dec 2023, 07:12 AM Subject: Your Zoho Books subscription has been renewed Reply-To: support@zohoaccounts.com Hi Luciano, We\u2019re writing to confirm that your Zoho Books subscription has been successfully renewed on December 9, 2023. The renewal was processed automatically using the default payment method linked to your account, and your billing cycle has now been extended without any service interruptions. Thank you for continuing to rely on Zoho Books to manage your business finances. Your subscription remains on the same plan and includes access to all the features you\u2019ve been using \u2014 such as invoicing, expense tracking, GST compliance, client portal access, and bank reconciliation. If your business needs have evolved or you\u2019re considering expanding your user base, feel free to explore other plan options at any time through your billing dashboard. Renewal Date: December 9, 2023 Plan: Zoho Books \u2013 Standard (Annual) Billing Cycle: Dec 9, 2023 \u2013 Dec 8, 2024 Amount Charged: \u20ac239.00 EUR Payment Method: MasterCard ending in 0097 \ud83d\udc49 Manage Subscription No action is required at your end unless you\u2019d like to update your billing preferences or modify your plan. You can review the full invoice under the \u201cBilling\u201d section of your Zoho account. If you encounter any issues or have questions about your renewal, our support team is always here to help. We sincerely appreciate your continued trust in Zoho. Best regards, Zoho Billing Team billing@zohoaccounts.com www.zoho.com/books"
+      },
+      "ner_entities": [
+        {
+          "start": 37,
+          "end": 66,
+          "label": "USER_GMAIL",
+          "value": "luciano.fabretti@libero.it"
+        },
+        {
+          "start": 168,
+          "end": 186,
+          "label": "RENEWAL_DATE",
+          "value": "December 9, 2023"
+        },
+        {
+          "start": 224,
+          "end": 235,
+          "label": "COMPANY_NAME",
+          "value": "Zoho Books"
+        },
+        {
+          "start": 338,
+          "end": 350,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Standard"
+        },
+        {
+          "start": 351,
+          "end": 359,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "(Annual)"
+        },
+        {
+          "start": 394,
+          "end": 412,
+          "label": "RENEWAL_DATE",
+          "value": "Dec 9, 2023"
+        },
+        {
+          "start": 415,
+          "end": 431,
+          "label": "RENEWAL_DATE",
+          "value": "Dec 8, 2024"
+        },
+        {
+          "start": 450,
+          "end": 459,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac239.00"
+        },
+        {
+          "start": 459,
+          "end": 460,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 478,
+          "end": 487,
+          "label": "PAYMENT_PLATFORM",
+          "value": "MasterCard"
+        }
+      ]
+    },
+    {
+      "id": "f4b22af3-b622-4a69-b7f3-11b38d003bb8",
+      "content": {
+        "raw_text": "From: billing@zohoaccounts.com To: anneliese.baur@freenet.de Date: Tue, 17 Oct 2023, 06:19 PM Subject: We couldn\u2019t process your payment \u2013 Zoho Mail subscription Reply-To: support@zohoaccounts.com Hi Anneliese, We attempted to process the renewal payment for your Zoho Mail subscription on October 17, 2023, but unfortunately, the transaction could not be completed. This may have occurred due to an expired card, insufficient balance, or restrictions imposed by your payment provider. At this time, your account remains active; however, we kindly request that you update your billing information at the earliest to avoid any disruption in service. Please note that your current subscription will remain in place through the grace period, but we will not be able to renew your plan unless the payment is successfully processed within the next few days. You can quickly update your payment method or switch to an alternative mode of payment from your account dashboard. Once the payment is cleared, your renewal will be completed automatically without data loss or changes to your current setup. Product: Zoho Mail \u2013 Standard (Monthly) Plan Period: Oct 17, 2023 \u2013 Nov 16, 2023 Amount Due: \u20ac4.00 EUR Failed Payment Method: Visa ending in 8620 Update Payment Method If you need help with this payment or face any issues updating your billing details, feel free to contact our billing support team at support@zohoaccounts.com. We're here to assist you at any time and ensure continuity of your Zoho services. Warm regards, Zoho Billing Team billing@zohoaccounts.com www.zoho.com/mail"
+      },
+      "ner_entities": [
+        {
+          "start": 37,
+          "end": 65,
+          "label": "USER_GMAIL",
+          "value": "anneliese.baur@freenet.de"
+        },
+        {
+          "start": 181,
+          "end": 199,
+          "label": "PAYMENT_DATE",
+          "value": "October 17, 2023"
+        },
+        {
+          "start": 240,
+          "end": 249,
+          "label": "COMPANY_NAME",
+          "value": "Zoho Mail"
+        },
+        {
+          "start": 252,
+          "end": 260,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Standard"
+        },
+        {
+          "start": 261,
+          "end": 270,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "(Monthly)"
+        },
+        {
+          "start": 283,
+          "end": 299,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "Oct 17, 2023"
+        },
+        {
+          "start": 302,
+          "end": 318,
+          "label": "RENEWAL_DATE",
+          "value": "Nov 16, 2023"
+        },
+        {
+          "start": 334,
+          "end": 340,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac4.00"
+        },
+        {
+          "start": 340,
+          "end": 341,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 366,
+          "end": 370,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "id": "ef6c029a-fcf3-4dcf-bd92-244b7bc150e1",
+      "content": {
+        "raw_text": "From: billing@zohoaccounts.com To: isabelle.rochette@orange.fr Date: Thu, 31 Aug 2023, 11:24 AM Subject: Your refund has been processed \u2013 Zoho One Subscription Reply-To: support@zohoaccounts.com Hi Isabelle, This is to confirm that a refund has been successfully processed for your Zoho One subscription. As requested, we\u2019ve reversed the payment made on August 28, 2023, and the refund has been initiated to the card ending in 4389. Depending on your bank's processing times, the refunded amount should reflect in your account within 5\u20137 business days. Please keep in mind that this timeline may vary slightly based on your card issuer or payment gateway. Below are the details of the refunded transaction for your reference. Your access to the associated services has been adjusted in line with the refund, and any associated invoices have also been marked accordingly in your billing portal. If you have any remaining credit or queries about the billing adjustment, we encourage you to reach out to us directly. Product: Zoho One \u2013 Monthly Subscription Refund Amount: \u20ac95.00 EUR Original Transaction Date: August 28, 2023 Refund Processed Date: August 31, 2023 Transaction ID: ZOHO-RFND-294712839 \ud83d\udc49 View Billing Details We hope this process has been smooth for you. If there\u2019s anything else we can assist you with, or if you would like to share feedback regarding your experience, please don\u2019t hesitate to write to us at support@zohoaccounts.com. We\u2019re here to help. Warm regards, Zoho Billing Team billing@zohoaccounts.com www.zoho.com/one"
+      },
+      "ner_entities": [
+        {
+          "start": 37,
+          "end": 68,
+          "label": "USER_GMAIL",
+          "value": "isabelle.rochette@orange.fr"
+        },
+        {
+          "start": 132,
+          "end": 140,
+          "label": "COMPANY_NAME",
+          "value": "Zoho One"
+        },
+        {
+          "start": 143,
+          "end": 163,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly Subscription"
+        },
+        {
+          "start": 241,
+          "end": 256,
+          "label": "PAYMENT_DATE",
+          "value": "August 28, 2023"
+        },
+        {
+          "start": 348,
+          "end": 355,
+          "label": "PAYMENT_PLATFORM",
+          "value": "4389"
+        },
+        {
+          "start": 418,
+          "end": 426,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac95.00"
+        },
+        {
+          "start": 426,
+          "end": 427,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 457,
+          "end": 474,
+          "label": "PAYMENT_DATE",
+          "value": "August 28, 2023"
+        },
+        {
+          "start": 502,
+          "end": 519,
+          "label": "RENEWAL_DATE",
+          "value": "August 31, 2023"
+        }
+      ]
+    },
+    {
+      "id": "a6e9e05a-dbc2-4620-a9ae-6d58cf49f542",
+      "content": {
+        "raw_text": "From: billing@zohoaccounts.com To: elena.cavallaro@virgilio.it Date: Tue, 12 Sep 2023, 04:37 PM Subject: Your Zoho Workplace subscription has been upgraded Reply-To: support@zohoaccounts.com Hi Elena, We\u2019re confirming that your Zoho Workplace subscription has been successfully upgraded to the Professional Plan on September 12, 2023. The new plan is now active on your account, and all enhanced features have been unlocked for your users immediately. This upgrade will allow access to additional storage, expanded admin controls, advanced email retention, and other tools designed for growing teams. All of your existing data, user configurations, and settings remain unchanged. There is no action required on your end, but we recommend reviewing your plan settings in the billing portal to ensure your usage and team structure align with the new plan limits. The billing amount has been adjusted accordingly, and you can find full details of the prorated charges and updated invoice within your account dashboard. Previous Plan: Zoho Workplace \u2013 Standard New Plan: Zoho Workplace \u2013 Professional Change Effective Date: September 12, 2023 Billing Cycle: Monthly Updated Amount: \u20ac24.00 EUR/month \ud83d\udc49 Manage My Subscription If you have any questions or need help adjusting user roles or settings, feel free to contact us at support@zohoaccounts.com. We're always happy to assist and ensure a smooth transition with your new plan. Thank you for using Zoho. Warm regards, Zoho Billing Team billing@zohoaccounts.com www.zoho.com/workplace"
+      },
+      "ner_entities": [
+        {
+          "start": 37,
+          "end": 67,
+          "label": "USER_GMAIL",
+          "value": "elena.cavallaro@virgilio.it"
+        },
+        {
+          "start": 118,
+          "end": 131,
+          "label": "COMPANY_NAME",
+          "value": "Zoho Workplace"
+        },
+        {
+          "start": 169,
+          "end": 187,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Professional Plan"
+        },
+        {
+          "start": 191,
+          "end": 210,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "September 12, 2023"
+        },
+        {
+          "start": 390,
+          "end": 417,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Zoho Workplace \u2013 Standard"
+        },
+        {
+          "start": 430,
+          "end": 454,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Zoho Workplace \u2013 Professional"
+        },
+        {
+          "start": 525,
+          "end": 544,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "September 12, 2023"
+        },
+        {
+          "start": 578,
+          "end": 585,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Monthly"
+        },
+        {
+          "start": 605,
+          "end": 616,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac24.00"
+        },
+        {
+          "start": 616,
+          "end": 617,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        }
+      ]
+    },
+    {
+      "id": "19cbad7f-0fc5-4c1e-b14a-6a49b0d2f2a9",
+      "content": {
+        "raw_text": "From: welcome@zohocorp.com To: marcin.wasilewski@onet.eu Date: Thu, 24 Aug 2023, 10:19 AM Subject: Welcome to Zoho CRM Reply-To: support@zohoaccounts.com Hi Marcin, Welcome to Zoho CRM \u2014 we\u2019re excited to have you on board. Whether you're here to streamline your sales process, gain better insights into your pipeline, or improve customer engagement, Zoho CRM is built to help you grow with clarity and control. Your account has been successfully created, and you're all set to begin exploring the platform. To help you get started, we recommend taking a quick tour of the dashboard and visiting our onboarding resources, where you\u2019ll find step-by-step guides and feature walkthroughs. If you\u2019re looking to customize your CRM, automate workflows, or integrate other Zoho apps, everything is available right within your setup panel. \ud83d\udc49 Get Started with Zoho CRM If you have questions or need help, our support team is just an email away. You can also visit the Zoho CRM Help Center to explore tutorials, videos, and FAQs tailored to new users. Thank you for choosing Zoho \u2014 we look forward to supporting your business journey. Warm regards, Zoho CRM Team support@zohoaccounts.com www.zoho.com/crm"
+      },
+      "ner_entities": [
+        {
+          "start": 37,
+          "end": 65,
+          "label": "USER_GMAIL",
+          "value": "marcin.wasilewski@onet.eu"
+        },
+        {
+          "start": 106,
+          "end": 114,
+          "label": "COMPANY_NAME",
+          "value": "Zoho CRM"
+        },
+        {
+          "start": 249,
+          "end": 257,
+          "label": "COMPANY_NAME",
+          "value": "Zoho CRM"
+        }
+      ]
+    }
+  ]
+}

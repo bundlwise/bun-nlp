@@ -1,0 +1,330 @@
+{
+  "Nintendo Switch Online": [
+    {
+      "id": "319e24ab-8651-4d93-aedc-2804ff5cd1f7",
+      "content": {
+        "raw_text": "From: Nintendo no-reply@accounts.nintendo.com To: hiroshi.sato@email.com Subject: Your Nintendo Switch Online Membership Payment - Receipt Included Hi Hiroshi Sato, Thank you for your recent payment for your Nintendo Switch Online membership! We're happy to confirm that your payment has been successfully processed. This means you can continue to enjoy all the exciting benefits, including online play with friends, a growing library of classic NES and Super NES games, cloud save data, and exclusive offers. Your membership keeps you connected to a world of fun and ensures you never miss a moment of the action. Payment Details: Membership Plan: Individual Membership (12 Months) Amount Paid: \u20b92,699.00 INR Payment Date: February 18, 2023 Next Renewal Date: February 18, 2024 You can view your full transaction history and manage your membership details anytime by signing in to your Nintendo Account online at https://accounts.nintendo.com/. If you have any questions about this payment or your membership, please visit our support page at https://en-americas-support.nintendo.com/. We're always here to help you get the most out of your Nintendo Switch. Thanks for being a member! The Nintendo Switch Online Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 63,
+          "label": "USER_GMAIL",
+          "value": "hiroshi.sato@email.com"
+        },
+        {
+          "start": 10,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Nintendo"
+        },
+        {
+          "start": 80,
+          "end": 93,
+          "label": "USERNAME",
+          "value": "Hiroshi Sato"
+        },
+        {
+          "start": 360,
+          "end": 396,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Individual Membership (12 Months)"
+        },
+        {
+          "start": 411,
+          "end": 426,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2,699.00"
+        },
+        {
+          "start": 405,
+          "end": 406,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 442,
+          "end": 460,
+          "label": "PAYMENT_DATE",
+          "value": "February 18, 2023"
+        },
+        {
+          "start": 486,
+          "end": 504,
+          "label": "RENEWAL_DATE",
+          "value": "February 18, 2024"
+        }
+      ]
+    },
+    {
+      "id": "3e39e8d9-9b36-4173-a78d-104f69bcb01b",
+      "content": {
+        "raw_text": "From: Nintendo no-reply@accounts.nintendo.com To: elena.ivanov@email.com Subject: Your Nintendo Switch Online Membership Refund Processed Dear Elena Ivanov, This email confirms that your refund for your recent Nintendo Switch Online membership purchase has been successfully processed. We understand that sometimes plans change, and we want to ensure a smooth experience for all our users. The refunded amount will be credited back to your original payment method. Please allow 5-7 business days for the funds to reflect in your account, as processing times can vary depending on your bank or financial institution. Refund Summary: Membership Plan: Individual Membership (3 Months) Amount Refunded: \u20b9799.00 INR Processed Date: April 05, 2022 Payment Method: Visa ending in **** 4321 Your Nintendo Switch Online membership associated with this refund has now been deactivated. While your online play and classic game access will cease, you can still enjoy offline gaming. Should you decide to re-join the fun and reconnect with online features, you can easily purchase a new membership anytime from the Nintendo eShop on your console or through your Nintendo Account online at https://accounts.nintendo.com/. We hope to see you back online soon! Sincerely, The Nintendo Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 63,
+          "label": "USER_GMAIL",
+          "value": "elena.ivanov@email.com"
+        },
+        {
+          "start": 10,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Nintendo"
+        },
+        {
+          "start": 85,
+          "end": 98,
+          "label": "USERNAME",
+          "value": "Elena Ivanov"
+        },
+        {
+          "start": 502,
+          "end": 537,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Individual Membership (3 Months)"
+        },
+        {
+          "start": 552,
+          "end": 557,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 553,
+          "end": 560,
+          "label": "PAYMENT_AMOUNT",
+          "value": "799.00"
+        },
+        {
+          "start": 580,
+          "end": 594,
+          "label": "PAYMENT_DATE",
+          "value": "April 05, 2022"
+        },
+        {
+          "start": 613,
+          "end": 617,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "id": "71b6e690-73bc-4b54-b94c-f50b2f58654f",
+      "content": {
+        "raw_text": "From: Nintendo no-reply@accounts.nintendo.com To: diego.garcia@email.com Subject: Your Nintendo Switch Online Membership Has Been Cancelled Hello Diego Garcia, This is to confirm that your Nintendo Switch Online Individual Membership has been successfully cancelled, as per your request. We're sad to see you go and hope you enjoyed the benefits of your membership. We appreciate you being part of the Nintendo Switch Online community and engaging in online play and exploring our classic game libraries. Cancellation Details: Membership Plan: Individual Membership Cancellation Date: September 10, 2024 Membership Access Ends On: October 10, 2024 (End of your current paid period) You will continue to have full access to all Nintendo Switch Online features, including online play, cloud save data, and the NES/Super NES game collections, until the end of your current paid period. After this date, your membership benefits will cease. Your Nintendo Account will remain active, allowing you to purchase games and content from the Nintendo eShop. Should you wish to resubscribe in the future, it's easy to do so directly from your Nintendo Switch console or through your Nintendo Account online. Thank you for playing with us! The Nintendo Switch Online Team"
+      },
+      "ner_entities": [
+        {
+          "start": 42,
+          "end": 64,
+          "label": "USER_GMAIL",
+          "value": "diego.garcia@email.com"
+        },
+        {
+          "start": 10,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Nintendo"
+        },
+        {
+          "start": 85,
+          "end": 98,
+          "label": "USERNAME",
+          "value": "Diego Garcia"
+        },
+        {
+          "start": 179,
+          "end": 202,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Individual Membership"
+        },
+        {
+          "start": 237,
+          "end": 255,
+          "label": "PAYMENT_DATE",
+          "value": "September 10, 2024"
+        },
+        {
+          "start": 285,
+          "end": 302,
+          "label": "RENEWAL_DATE",
+          "value": "October 10, 2024"
+        }
+      ]
+    },
+    {
+      "id": "4f3ab8e9-e378-4f2d-9471-2598dcf6b631",
+      "content": {
+        "raw_text": "From: Nintendo no-reply@accounts.nintendo.com To: sara.khan@email.com Subject: Welcome to Nintendo Switch Online! Let the Fun Begin! Hi Sara Khan, Welcome to Nintendo Switch Online! We're thrilled to have you join the millions of players enjoying enhanced gaming experiences on Nintendo Switch. Your membership unlocks a world of possibilities, from challenging friends in online multiplayer battles to revisiting beloved classics and ensuring your save data is always safe in the cloud. We're committed to expanding your fun with new features and content regularly. Here\u2019s what you can do right away to make the most of your new membership: Start Playing Online: Dive into your favorite games and connect with players around the globe. Explore Classic Games: Discover the growing libraries of NES and Super NES titles, free with your membership. Access them directly from the Nintendo Switch Online application on your console. Enable Cloud Save Data: Ensure your game progress is automatically backed up. Learn more at https://en-americas-support.nintendo.com/app/answers/detail/a_id/27533. Check Exclusive Offers: Look out for special offers and deals available only to Nintendo Switch Online members. If you need any assistance getting started or have questions, our comprehensive support resources are available at https://en-americas-support.nintendo.com/. Get ready for endless gaming adventures! Happy gaming! The Nintendo Switch Online Team"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Nintendo"
+        },
+        {
+          "start": 26,
+          "end": 44,
+          "label": "USER_GMAIL",
+          "value": "sara.khan@email.com"
+        },
+        {
+          "start": 79,
+          "end": 89,
+          "label": "USERNAME",
+          "value": "Sara Khan"
+        }
+      ]
+    },
+    {
+      "id": "b0df8650-5cce-4b9e-9307-c2f0f845a0b6",
+      "content": {
+        "raw_text": "From: Nintendo no-reply@accounts.nintendo.com To: marc.bernard@email.com Subject: Important: Your Nintendo Switch Online Payment Failed Dear Marc Bernard, We encountered an issue processing your recent payment for your Nintendo Switch Online membership. This could be due to an expired card, insufficient funds, or a temporary problem with your payment method. To ensure uninterrupted access to online play, cloud saves, and the classic game libraries, please update your payment information as soon as possible. We understand these things happen, and we want to help you resolve this quickly so your gaming fun isn't interrupted. Details of Failed Payment: Membership Plan: Family Membership (12 Months) Attempted Date: August 29, 2021 Amount Due: \u20b94,499.00 INR To update your payment method, please sign in to your Nintendo Account online at https://accounts.nintendo.com/ and navigate to the \"Shop Menu\" or \"Billing Information\" section. We will automatically retry the charge once your details are successfully updated. Please note that your membership benefits may be suspended if the payment is not resolved within a few days. For any assistance, our support team is available to help. Thank you for your prompt attention. Sincerely, The Nintendo Switch Online Team"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Nintendo"
+        },
+        {
+          "start": 26,
+          "end": 46,
+          "label": "USER_GMAIL",
+          "value": "marc.bernard@email.com"
+        },
+        {
+          "start": 84,
+          "end": 96,
+          "label": "USERNAME",
+          "value": "Marc Bernard"
+        },
+        {
+          "start": 329,
+          "end": 358,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Family Membership (12 Months)"
+        },
+        {
+          "start": 377,
+          "end": 393,
+          "label": "PAYMENT_DATE",
+          "value": "August 29, 2021"
+        },
+        {
+          "start": 409,
+          "end": 419,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 410,
+          "end": 417,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4,499.00"
+        }
+      ]
+    },
+    {
+      "id": "ba1d0646-bfa6-44f4-b930-407e4f5f6a2a",
+      "content": {
+        "raw_text": "From: Nintendo no-reply@accounts.nintendo.com To: anna.kuznetsov@email.com Subject: Reminder: Your Nintendo Switch Online Membership Renewal is Coming  Soon Hello Anna Kuznetsov, This is a friendly reminder that your Nintendo Switch Online Individual Membership is scheduled for automatic renewal on December 12, 2020. Your ongoing membership ensures you maintain access to online multiplayer, the growing library of classic NES and Super NES games, exclusive member offers, and the invaluable cloud save data feature that protects your game progress. We are continuously working to enhance your membership experience with new additions and features. Upcoming Renewal Details: Membership Plan: Individual Membership (12 Months) Renewal Date: December 12, 2020 Amount Due: \u20b92,699.00 INR Payment Method: Your saved payment method ending in **** 8765 will be charged automatically. No action is needed if you wish to continue enjoying your membership benefits without interruption. If you need to manage your membership, update your payment information, or cancel auto-renewal, please visit your Nintendo Account online at https://accounts.nintendo.com/ before the renewal date. If you choose not to renew, your membership benefits will cease after December 12, 2020. Thanks for being part of the online fun! The Nintendo Switch Online Team"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Nintendo"
+        },
+        {
+          "start": 26,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "anna.kuznetsov@email.com"
+        },
+        {
+          "start": 90,
+          "end": 106,
+          "label": "USERNAME",
+          "value": "Anna Kuznetsov"
+        },
+        {
+          "start": 187,
+          "end": 226,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Individual Membership (12 Months)"
+        },
+        {
+          "start": 253,
+          "end": 271,
+          "label": "RENEWAL_DATE",
+          "value": "December 12, 2020"
+        },
+        {
+          "start": 287,
+          "end": 297,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 288,
+          "end": 295,
+          "label": "PAYMENT_AMOUNT",
+          "value": "2,699.00"
+        }
+      ]
+    },
+    {
+      "id": "0fda06f4-1774-4c0c-9aa4-9517332b63a1",
+      "content": {
+        "raw_text": "From: Nintendo no-reply@accounts.nintendo.com To: mohammed.amin@email.com Subject: Your Nintendo Switch Online Membership is Active Hi Mohammed Amin, This email confirms that your Nintendo Switch Online Individual Membership is currently active. We wanted to provide you with a quick status update on your membership, assuring you that you have full access to all its fantastic benefits. Your active membership allows you to seamlessly engage in online multiplayer, download and play a wide selection of classic NES and Super NES titles, and utilize the cloud save data feature for peace of mind. Your Current Membership Status: Membership Plan: Individual Membership (12 Months) Membership Start Date: July 01, 2022 Next Renewal Date: July 01, 2023 Status: Active You can manage your membership, view your benefits, or explore other membership options by signing in to your Nintendo Account online at https://accounts.nintendo.com/. We encourage you to continue exploring all the ways your Nintendo Switch Online membership enhances your gaming experience. Our support resources are also available if you have any questions. Keep playing! The Nintendo Switch Online Team"
+      },
+      "ner_entities": [
+        {
+          "start": 10,
+          "end": 18,
+          "label": "COMPANY_NAME",
+          "value": "Nintendo"
+        },
+        {
+          "start": 26,
+          "end": 49,
+          "label": "USER_GMAIL",
+          "value": "mohammed.amin@email.com"
+        },
+        {
+          "start": 90,
+          "end": 104,
+          "label": "USERNAME",
+          "value": "Mohammed Amin"
+        },
+        {
+          "start": 312,
+          "end": 351,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Individual Membership (12 Months)"
+        },
+        {
+          "start": 373,
+          "end": 387,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "July 01, 2022"
+        },
+        {
+          "start": 411,
+          "end": 425,
+          "label": "RENEWAL_DATE",
+          "value": "July 01, 2023"
+        }
+      ]
+    }
+  ]
+}

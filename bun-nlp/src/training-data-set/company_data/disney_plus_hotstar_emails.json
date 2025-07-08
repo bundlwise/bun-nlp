@@ -1,0 +1,733 @@
+{
+  "disney_plus_hotstar_emails": [
+    {
+      "id": "59484755-5b81-4a49-a96c-5e0985c3b96e",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar <no-reply@hotstar.com> To: rajat.verma86@gmail.com Subject: \u2705 Welcome to Disney+ Hotstar Mobile! Your subscription is now active Date: Sat, 21 Jun 2025 10:45:12 +0530 MIME-Version: 1.0 Content-Type: text/html; charset=\"UTF-8\" ... Hello Rajat, Thanks for choosing Disney+ Hotstar Mobile (Monthly). Your subscription is active from 21 Jun 2025 and will renew automatically every month at \u20b9149 (incl. taxes). Payment summary Plan: Mobile Amount charged \u20b9149.00 Payment method UPI \u2022\u2022\u2022\u20224482 (rajat@ybl) GSTIN 27AAACN1234E1Z3 You can start streaming on one mobile device right away. Need more screens or 4K? Upgrade here. Happy streaming! \u2014 Team Disney+ Hotstar"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "rajat.verma86@gmail.com"
+        },
+        {
+          "start": 95,
+          "end": 100,
+          "label": "USERNAME",
+          "value": "Rajat"
+        },
+        {
+          "start": 137,
+          "end": 176,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Disney+ Hotstar Mobile (Monthly)"
+        },
+        {
+          "start": 201,
+          "end": 212,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "21 Jun 2025"
+        },
+        {
+          "start": 276,
+          "end": 282,
+          "label": "PAYMENT_AMOUNT",
+          "value": "149.00"
+        },
+        {
+          "start": 274,
+          "end": 275,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 315,
+          "end": 334,
+          "label": "PAYMENT_PLATFORM",
+          "value": "UPI \u2022\u2022\u2022\u20224482 (rajat@ybl)"
+        },
+        {
+          "start": 349,
+          "end": 364,
+          "label": "PAYMENT_BANK",
+          "value": "27AAACN1234E1Z3"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1965bb26-74c4-45b6-8a64-9f253af54dcb",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar Trials <trials@hotstar.com> To: sneha_kapoor29@outlook.com Subject: \ud83c\udfac Your 7-day Disney+ Hotstar trial is live \u2013 start watching now! Date: Mon, 17 Jun 2025 08:14:05 +0530 Content-Type: text/plain Hi Sneha, Welcome to Disney+ Hotstar! Your 7-day Mobile free trial started today and ends on 24 Jun 2025. After that, you\u2019ll be charged \u20b9149/month via UPI (sneha@ibl). Cancel anytime in Settings > Subscription. Start streaming: https://www.hotstar.com/in/start Happy binge-watching! Team Disney+ Hotstar"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 52,
+          "end": 75,
+          "label": "USER_GMAIL",
+          "value": "sneha_kapoor29@outlook.com"
+        },
+        {
+          "start": 77,
+          "end": 82,
+          "label": "USERNAME",
+          "value": "Sneha"
+        },
+        {
+          "start": 156,
+          "end": 167,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Mobile free trial"
+        },
+        {
+          "start": 180,
+          "end": 190,
+          "label": "RENEWAL_DATE",
+          "value": "24 Jun 2025"
+        },
+        {
+          "start": 213,
+          "end": 218,
+          "label": "PAYMENT_AMOUNT",
+          "value": "149"
+        },
+        {
+          "start": 212,
+          "end": 213,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 224,
+          "end": 241,
+          "label": "PAYMENT_PLATFORM",
+          "value": "UPI (sneha@ibl)"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f90f8ca2-1398-4462-bc15-9d52b061c94a",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar <reminder@hotstar.com> To: sneha_kapoor29@outlook.com Subject: \u23f0 Your free trial ends tomorrow \u2013 keep the magic alive Date: Sun, 23 Jun 2025 07:02:44 +0530 Content-Type: text/plain Hi Sneha, Your Disney+ Hotstar Mobile trial ends in 24 hours (24 Jun 2025). Do nothing and we\u2019ll automatically charge \u20b9149 via UPI (sneha@ibl) for the next month. Want to cancel? Visit Settings before 11:59 PM IST tomorrow. Thanks for streaming with us!"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 52,
+          "end": 75,
+          "label": "USER_GMAIL",
+          "value": "sneha_kapoor29@outlook.com"
+        },
+        {
+          "start": 77,
+          "end": 82,
+          "label": "USERNAME",
+          "value": "Sneha"
+        },
+        {
+          "start": 137,
+          "end": 147,
+          "label": "RENEWAL_DATE",
+          "value": "24 Jun 2025"
+        },
+        {
+          "start": 172,
+          "end": 178,
+          "label": "PAYMENT_AMOUNT",
+          "value": "149"
+        },
+        {
+          "start": 171,
+          "end": 172,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 182,
+          "end": 199,
+          "label": "PAYMENT_PLATFORM",
+          "value": "UPI (sneha@ibl)"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "5e8f07b8-e527-4d94-8e0b-d3f32a60ef8a",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar Billing <billing@hotstar.com> To: rajat.verma86@gmail.com Subject: Payment received \u2013 Enjoy Disney+ Hotstar Super in FHD Date: Wed, 26 Jun 2025 12:31:09 +0530 Content-Type: text/html Hi Rajat, We\u2019ve successfully processed \u20b9499 on your Visa \u2022\u2022\u2022\u2022 8765 for your upgrade to the Super Annual plan. Your new renewal date is 26 Jun 2026. Invoice #: HSR-INV-93018842 Download PDF: click here Enjoy FHD on two devices! \u00a9 2025 Disney+ Hotstar | Unsubscribe"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "rajat.verma86@gmail.com"
+        },
+        {
+          "start": 115,
+          "end": 120,
+          "label": "PAYMENT_AMOUNT",
+          "value": "499"
+        },
+        {
+          "start": 138,
+          "end": 152,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa \u2022\u2022\u2022\u2022 8765"
+        },
+        {
+          "start": 187,
+          "end": 203,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Super Annual"
+        },
+        {
+          "start": 235,
+          "end": 246,
+          "label": "RENEWAL_DATE",
+          "value": "26 Jun 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a317f927-9d44-4f5a-8fc9-b7f12e7a33a5",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar Billing <billing@hotstar.com> To: anirudh.bose88@yahoo.com Subject: \u26a0\ufe0f We couldn\u2019t renew your Disney+ Hotstar Super plan Date: Mon, 30 Jun 2025 04:15:22 +0530 Content-Type: text/plain Dear Anirudh, Your auto-renewal attempted on 30 Jun 2025 for \u20b9499 (Super Annual) was declined by HDFC Bank (card ending 1123). Your access will pause on 03 Jul 2025 if we can\u2019t process payment. Update card \u2192 https://www.hotstar.com/in/payments Need help? Call 1800-212-0000. Disney+ Hotstar Support"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 49,
+          "label": "USER_GMAIL",
+          "value": "anirudh.bose88@yahoo.com"
+        },
+        {
+          "start": 83,
+          "end": 95,
+          "label": "PAYMENT_AMOUNT",
+          "value": "499"
+        },
+        {
+          "start": 107,
+          "end": 117,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Super Annual"
+        },
+        {
+          "start": 134,
+          "end": 147,
+          "label": "PAYMENT_BANK",
+          "value": "HDFC Bank"
+        },
+        {
+          "start": 165,
+          "end": 169,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1123"
+        },
+        {
+          "start": 193,
+          "end": 201,
+          "label": "CANCELLATION_DATE",
+          "value": "03 Jul 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "6c6f135e-5f08-4031-b628-65eb989187c5",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar <no-reply@hotstar.com> To: shalini.mehra01@gmail.com Subject: Your Disney+ Hotstar Premium plan has been renewed Date: Fri, 11 Apr 2025 02:07:10 +0530 Content-Type: text/plain Hi Shalini, We charged \u20b91,499 to Amex \u2022\u2022\u2022\u2022 9900 on 11 Apr 2025 and renewed your Premium Annual plan through 11 Apr 2026. Watch in 4K on up to 4 devices at once. Invoice: https://www.hotstar.com/in/invoice/PRM-APR-2025-9900 Manage subscription: https://www.hotstar.com/in/account"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 50,
+          "label": "USER_GMAIL",
+          "value": "shalini.mehra01@gmail.com"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,499"
+        },
+        {
+          "start": 95,
+          "end": 99,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Amex"
+        },
+        {
+          "start": 134,
+          "end": 150,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Annual"
+        },
+        {
+          "start": 166,
+          "end": 177,
+          "label": "RENEWAL_DATE",
+          "value": "11 Apr 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "b00d6f97-1580-4225-bd7c-c431d4c7a1ef",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar <cancellations@hotstar.com> To: vivek.thakur14@gmail.com Subject: We\u2019re sorry to see you go Date: Wed, 28 May 2025 17:58:41 +0530 Content-Type: text/html Hi Vivek, Your Disney+ Hotstar Super membership was canceled effective 28 May 2025. You can keep streaming until 27 Jun 2025 (end of paid period). No further charges will apply. Changed your mind? Restart membership anytime. \u00a9 2025 Disney+ Hotstar"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 46,
+          "label": "USER_GMAIL",
+          "value": "vivek.thakur14@gmail.com"
+        },
+        {
+          "start": 49,
+          "end": 54,
+          "label": "USERNAME",
+          "value": "Vivek"
+        },
+        {
+          "start": 85,
+          "end": 97,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Super"
+        },
+        {
+          "start": 111,
+          "end": 121,
+          "label": "CANCELLATION_DATE",
+          "value": "28 May 2025"
+        },
+        {
+          "start": 139,
+          "end": 149,
+          "label": "RENEWAL_DATE",
+          "value": "27 Jun 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "bc7827f3-156a-43ee-bd0a-9c25c2fef51e",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar <upgrade@hotstar.com> To: rajat.verma86@gmail.com Subject: \ud83c\udf89 Upgrade successful \u2013 Super unlocked! Date: Thu, 26 Jun 2025 12:30:17 +0530 Content-Type: text/plain Congrats, Rajat! Your account is now on Super (Annual). \u20b9350 was charged (pro-rated) to Visa \u2022\u2022\u2022\u2022 8765. Enjoy FHD and Dolby 5.1 on 2 devices. Need help? https://help.hotstar.com"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "rajat.verma86@gmail.com"
+        },
+        {
+          "start": 81,
+          "end": 94,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Super (Annual)"
+        },
+        {
+          "start": 96,
+          "end": 99,
+          "label": "PAYMENT_AMOUNT",
+          "value": "350"
+        },
+        {
+          "start": 118,
+          "end": 131,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa \u2022\u2022\u2022\u2022 8765"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "f4bf3a89-47ec-4b65-bd49-e0d6eaaaf1f0",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar <update@hotstar.com> To: shalini.mehra01@gmail.com Subject: Your plan has been downgraded to Super Date: Mon, 05 May 2025 11:12:01 +0530 Content-Type: text/plain Hi Shalini, You\u2019ve switched to Super Monthly (\u20b9299). Your Premium benefits will remain until 11 Apr 2026, after which Super pricing applies. Questions? Reply to this e-mail."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 50,
+          "label": "USER_GMAIL",
+          "value": "shalini.mehra01@gmail.com"
+        },
+        {
+          "start": 82,
+          "end": 97,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Super Monthly"
+        },
+        {
+          "start": 100,
+          "end": 103,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 152,
+          "end": 162,
+          "label": "RENEWAL_DATE",
+          "value": "11 Apr 2026"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a1d33c13-6d43-4bb6-9b5c-4e715a9074b9",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar Deals <offers@hotstar.com> To: anirudh.bose88@yahoo.com Subject: Last 48 hrs: Upgrade to Premium at 50% off! Date: Tue, 09 Jul 2025 09:00:13 +0530 Content-Type: text/html Upgrade now and pay just \u20b9749 (worth \u20b91,499) for a full year of Disney+ Hotstar Premium. Claim offer \u2192 Offer valid until 11 Jul 2025 23:59 IST. T&C apply."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 50,
+          "label": "USER_GMAIL",
+          "value": "anirudh.bose88@yahoo.com"
+        },
+        {
+          "start": 99,
+          "end": 102,
+          "label": "PAYMENT_AMOUNT",
+          "value": "749"
+        },
+        {
+          "start": 114,
+          "end": 118,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,499"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1cb06be8-d8fc-49e6-b9d3-cbb341dd14a2",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar Billing <refunds@hotstar.com> To: armaan.rastogi22@icloud.com Subject: Refund processed \u2013 \u20b9299 has been credited Date: Thu, 20 Mar 2025 16:22:29 +0530 Content-Type: text/plain Hello Armaan, We\u2019ve issued a refund of \u20b9299 to your SBI card \u2022\u2022\u2022\u2022 4420 for the duplicate charge on 19 Mar 2025. Funds may take 5-7 business days to appear. Reference: RFND-HS-1920-299"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 51,
+          "label": "USER_GMAIL",
+          "value": "armaan.rastogi22@icloud.com"
+        },
+        {
+          "start": 84,
+          "end": 87,
+          "label": "PAYMENT_AMOUNT",
+          "value": "299"
+        },
+        {
+          "start": 100,
+          "end": 111,
+          "label": "PAYMENT_BANK",
+          "value": "SBI"
+        },
+        {
+          "start": 134,
+          "end": 138,
+          "label": "PAYMENT_AMOUNT",
+          "value": "4420"
+        },
+        {
+          "start": 190,
+          "end": 200,
+          "label": "PAYMENT_DATE",
+          "value": "19 Mar 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "5bbdb17b-4227-4663-8f6a-14d2ed7a5be9",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar Billing <billing@hotstar.com> To: rajat.verma86@gmail.com Subject: Your monthly Disney+ Hotstar invoice \u2013 June 2025 Date: Sat, 21 Jun 2025 10:45:14 +0530 Content-Type: text/plain Invoice #: HSR-M-0625-4482 Billed to: Rajat Verma (GSTIN 27AABCV1234R1Z5) Plan: Mobile Monthly \u2013 \u20b9149 Download PDF: https://www.hotstar.com/in/invoice/HSR-M-0625-4482"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "rajat.verma86@gmail.com"
+        },
+        {
+          "start": 64,
+          "end": 73,
+          "label": "USERNAME",
+          "value": "Rajat Verma"
+        },
+        {
+          "start": 77,
+          "end": 94,
+          "label": "PAYMENT_BANK",
+          "value": "27AABCV1234R1Z5"
+        },
+        {
+          "start": 103,
+          "end": 117,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Mobile Monthly"
+        },
+        {
+          "start": 120,
+          "end": 123,
+          "label": "PAYMENT_AMOUNT",
+          "value": "149"
+        },
+        {
+          "start": 119,
+          "end": 120,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "1627c317-4f7d-4f1a-9690-7d6e06c9a18d",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar <share@hotstar.com> To: rajat.verma86@gmail.com Subject: \ud83d\udcfa Add family members to your Super plan Date: Sun, 29 Jun 2025 13:04:55 +0530 Content-Type: text/plain Hi Rajat, Your Super plan lets you stream on two devices. Send the invite link below to share access with family: Invite link (expires in 72 hrs): https://www.hotstar.com/in/family/ab12cd34 Need more screens and 4K? Upgrade to Premium."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "rajat.verma86@gmail.com"
+        },
+        {
+          "start": 77,
+          "end": 82,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Super"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "fdafc1d7-7011-4a92-8f4d-4920eb5602ea",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar Statements <statements@hotstar.com> To: shalini.mehra01@gmail.com Subject: Your Disney+ Hotstar statement \u2013 May 2025 Date: Sat, 01 Jun 2025 08:02:21 +0530 Content-Type: text/plain May 2025 usage summary \u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014 Plan Premium Annual Devices used 4 Top genre K-Drama Hours streamed 104 h No payment due (annual plan prepaid). Full PDF \u2192 https://www.hotstar.com/in/statement/0525"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 50,
+          "label": "USER_GMAIL",
+          "value": "shalini.mehra01@gmail.com"
+        },
+        {
+          "start": 82,
+          "end": 96,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Annual"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "a4a2a3e0-3ec7-4a0f-b5b5-35cd0b1b8f7b",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar Deals <offers@hotstar.com> To: armaan.rastogi22@icloud.com Subject: \u23f3 Your 50% Premium upgrade coupon expires tonight Date: Fri, 11 Jul 2025 07:00:05 +0530 Content-Type: text/plain Hi Armaan, Just a heads-up that your coupon PREM50 expires at 23:59 IST today (11 Jul 2025). Redeem \u2192 https://www.hotstar.com/in/upgrade/promo?code=PREM50"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 51,
+          "label": "USER_GMAIL",
+          "value": "armaan.rastogi22@icloud.com"
+        },
+        {
+          "start": 112,
+          "end": 120,
+          "label": "RENEWAL_DATE",
+          "value": "11 Jul 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "7bb8bf6e-2d7a-4b03-b57d-2debb2c0ee32",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar Billing <billing@hotstar.com> To: sneha_kapoor29@outlook.com Subject: Payment received \u2013 Your Mobile plan continues Date: Tue, 24 Jun 2025 08:14:03 +0530 Content-Type: text/plain \u20b9149 was charged to UPI (sneha@ibl). Next renewal on 24 Jul 2025."
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 48,
+          "label": "USER_GMAIL",
+          "value": "sneha_kapoor29@outlook.com"
+        },
+        {
+          "start": 50,
+          "end": 56,
+          "label": "PAYMENT_AMOUNT",
+          "value": "149"
+        },
+        {
+          "start": 49,
+          "end": 50,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 65,
+          "end": 75,
+          "label": "RENEWAL_DATE",
+          "value": "24 Jul 2025"
+        }
+      ],
+      "is_subscription_email": true
+    },
+    {
+      "id": "fb59c937-c6bb-4e2b-8d87-cd7e4b4a0cbb",
+      "content": {
+        "raw_text": "From: Disney+ Hotstar <no-reply@hotstar.com> To: prakash.doshi17@rediffmail.com Subject: Disney+ Hotstar Premium renewed for another year Date: Thu, 15 May 2025 02:36:18 +0530 Content-Type: text/plain Hi Prakash, We charged \u20b91,499 on 15 May 2025 to Visa \u2022\u2022\u2022\u2022 6611 and extended your Premium Annual plan through 15 May 2026. Invoice: https://www.hotstar.com/in/invoice/PRM-0525-6611"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 23,
+          "label": "COMPANY_NAME",
+          "value": "Disney+ Hotstar"
+        },
+        {
+          "start": 29,
+          "end": 52,
+          "label": "USER_GMAIL",
+          "value": "prakash.doshi17@rediffmail.com"
+        },
+        {
+          "start": 79,
+          "end": 84,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,499"
+        },
+        {
+          "start": 88,
+          "end": 102,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa \u2022\u2022\u2022\u2022 6611"
+        },
+        {
+          "start": 126,
+          "end": 142,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Premium Annual"
+        },
+        {
+          "start": 153,
+          "end": 164,
+          "label": "RENEWAL_DATE",
+          "value": "15 May 2026"
+        }
+      ],
+      "is_subscription_email": true
+    }
+  ]
+}

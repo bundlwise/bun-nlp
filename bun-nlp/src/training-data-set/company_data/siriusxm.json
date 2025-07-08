@@ -1,0 +1,384 @@
+{
+  "SiriusXM": [
+    {
+      "id": "f72fd4d6-cb84-44e4-b452-12db7ed0875c",
+      "content": {
+        "raw_text": "Subject: Your SiriusXM Payment Was Successful - Enjoy Your Audio Entertainment From: SiriusXM no-reply@siriusxm.com To: anton.petrov@email.com Dear Anton Petrov, We're pleased to confirm that your recent payment for your SiriusXM subscription has been successfully processed. Thank you for your continued enjoyment of the widest variety of ad-free music, live sports, talk radio, and exclusive entertainment available. Your active subscription ensures uninterrupted access to all your favorite channels, whether you're in your car, at home, or on the go with the SiriusXM app. We are committed to delivering premium audio content that keeps you informed, entertained, and connected. Payment Details: Plan: Platinum Plan (Monthly) Amount Paid: \u20b91,099.00 INR Payment Date: November 12, 2023 Next Billing Date: December 12, 2023 You can always review your detailed billing history, manage your subscription, and update your payment information by logging into your SiriusXM account at https://www.siriusxm.com/myaccount/login. Should you have any questions regarding this payment or your service, our dedicated support team is available to assist you at https://care.siriusxm.com/. We appreciate your trust in SiriusXM as your ultimate audio entertainment destination. Sincerely, The SiriusXM Team"
+      },
+      "ner_entities": [
+        {
+          "start": 20,
+          "end": 28,
+          "label": "COMPANY_NAME",
+          "value": "SiriusXM"
+        },
+        {
+          "start": 59,
+          "end": 82,
+          "label": "USER_GMAIL",
+          "value": "anton.petrov@email.com"
+        },
+        {
+          "start": 89,
+          "end": 102,
+          "label": "USERNAME",
+          "value": "Anton Petrov"
+        },
+        {
+          "start": 500,
+          "end": 525,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Platinum Plan (Monthly)"
+        },
+        {
+          "start": 541,
+          "end": 548,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 541,
+          "end": 555,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b91,099.00 INR"
+        },
+        {
+          "start": 542,
+          "end": 549,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,099.00"
+        },
+        {
+          "start": 571,
+          "end": 588,
+          "label": "PAYMENT_DATE",
+          "value": "November 12, 2023"
+        },
+        {
+          "start": 612,
+          "end": 629,
+          "label": "RENEWAL_DATE",
+          "value": "December 12, 2023"
+        }
+      ]
+    },
+    {
+      "id": "6be7eb07-9f4c-4c76-b7b3-74f8ebc09e92",
+      "content": {
+        "raw_text": "Subject: Your SiriusXM Refund Has Been Processed From: SiriusXM care@siriusxm.com To: sakura.yamada@email.com Dear Sakura Yamada, This email confirms that your refund for your recent SiriusXM subscription has been successfully processed. We understand that sometimes circumstances change, and we aim to facilitate a clear and efficient refund experience for our listeners. The refunded amount will be credited back to your original payment method. Please allow 5-10 business days for the funds to reflect on your bank or card statement, as processing times can vary depending on your financial institution and local banking regulations. Refund Summary: Plan: Music & Entertainment Plan (Annual) Amount Refunded: \u20b98,999.00 INR Processed Date: April 20, 2022 Payment Method: Visa ending in **** 4321 Your SiriusXM subscription associated with this refund has now been deactivated. While your access to our channels will cease, we hope you enjoyed the diverse range of programming. Should you decide to reconnect with our content or explore other plans in the future, you can easily re-subscribe anytime at https://www.siriusxm.com/plans. Thank you for your understanding. Sincerely, The SiriusXM Team"
+      },
+      "ner_entities": [
+        {
+          "start": 20,
+          "end": 28,
+          "label": "COMPANY_NAME",
+          "value": "SiriusXM"
+        },
+        {
+          "start": 59,
+          "end": 82,
+          "label": "USER_GMAIL",
+          "value": "sakura.yamada@email.com"
+        },
+        {
+          "start": 89,
+          "end": 103,
+          "label": "USERNAME",
+          "value": "Sakura Yamada"
+        },
+        {
+          "start": 455,
+          "end": 493,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Music & Entertainment Plan (Annual)"
+        },
+        {
+          "start": 511,
+          "end": 518,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 511,
+          "end": 526,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b98,999.00 INR"
+        },
+        {
+          "start": 512,
+          "end": 519,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8,999.00"
+        },
+        {
+          "start": 545,
+          "end": 561,
+          "label": "PAYMENT_DATE",
+          "value": "April 20, 2022"
+        },
+        {
+          "start": 582,
+          "end": 586,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "id": "df6f97cf-182f-4b10-81db-f65f58cd6214",
+      "content": {
+        "raw_text": "Subject: Your SiriusXM Subscription Has Been Cancelled From: SiriusXM no-reply@siriusxm.com To: luis.garcia@email.com Dear Luis Garcia, This is to confirm that your SiriusXM Platinum Plan subscription has been successfully cancelled, as per your recent request. We regret to see you go and appreciate you having been a part of the SiriusXM family. We hope you enjoyed the extensive variety of ad-free music, exclusive talk shows, and live sports commentary that our service provides. We value your feedback as we continuously strive to enhance the listening experience for all our subscribers. Cancellation Details: Plan: Platinum Plan Radio ID: 0123456789 Cancellation Date: June 15, 2024 Access Ends On: July 15, 2024 (End of your current billing cycle) You will continue to have full access to all SiriusXM Platinum features, including streaming online and on the app, until the end of your current paid period. After this date, your service will cease. Should you wish to resume your subscription or explore other SiriusXM plans in the future, you can easily reactivate your plan anytime through your online account at https://www.siriusxm.com/myaccount/login. Thank you for being a part of the SiriusXM community. Sincerely, The SiriusXM Team"
+      },
+      "ner_entities": [
+        {
+          "start": 20,
+          "end": 28,
+          "label": "COMPANY_NAME",
+          "value": "SiriusXM"
+        },
+        {
+          "start": 59,
+          "end": 78,
+          "label": "USER_GMAIL",
+          "value": "luis.garcia@email.com"
+        },
+        {
+          "start": 85,
+          "end": 97,
+          "label": "USERNAME",
+          "value": "Luis Garcia"
+        },
+        {
+          "start": 142,
+          "end": 155,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Platinum Plan"
+        },
+        {
+          "start": 222,
+          "end": 230,
+          "label": "COMPANY_NAME",
+          "value": "SiriusXM"
+        },
+        {
+          "start": 305,
+          "end": 319,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Platinum Plan"
+        },
+        {
+          "start": 365,
+          "end": 379,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Platinum features"
+        },
+        {
+          "start": 457,
+          "end": 471,
+          "label": "PAYMENT_DATE",
+          "value": "June 15, 2024"
+        },
+        {
+          "start": 489,
+          "end": 504,
+          "label": "RENEWAL_DATE",
+          "value": "July 15, 2024"
+        }
+      ]
+    },
+    {
+      "id": "4dd165c9-21e5-474a-9e3f-8de8c9e8612a",
+      "content": {
+        "raw_text": "Subject: Welcome to SiriusXM! Your World of Audio Entertainment Awaits. From: SiriusXM welcome@siriusxm.com To: chloe.martin@email.com Dear Chloe Martin, Welcome to SiriusXM! We are absolutely thrilled to have you join us for an unparalleled audio entertainment experience. Your subscription is now active, granting you immediate access to hundreds of channels filled with ad-free music across all genres, live play-by-play sports, exclusive talk shows, comedy, news, and much more. Whether you're driving, at home, or on the go, SiriusXM brings you closer to the content you love. To help you get started and make the most of your new subscription: Activate Your Radio: If you're a new car subscriber, ensure your radio is activated. Visit https://www.siriusxm.com/activate for instructions. Download the App: Stream SiriusXM on your phone, tablet, and connected devices. Get the app here: https://www.siriusxm.com/app. Explore Channels: Browse our channel lineup to discover new favorites and hidden gems: https://www.siriusxm.com/channels. Visit Our Listener Care: For any questions or guidance on navigating your service, our comprehensive support portal is available at https://care.siriusxm.com/. We're excited for you to experience the best in audio entertainment. Enjoy the listen, The SiriusXM Team"
+      },
+      "ner_entities": [
+        {
+          "start": 20,
+          "end": 28,
+          "label": "COMPANY_NAME",
+          "value": "SiriusXM"
+        },
+        {
+          "start": 59,
+          "end": 78,
+          "label": "USER_GMAIL",
+          "value": "chloe.martin@email.com"
+        },
+        {
+          "start": 85,
+          "end": 97,
+          "label": "USERNAME",
+          "value": "Chloe Martin"
+        },
+        {
+          "start": 110,
+          "end": 118,
+          "label": "COMPANY_NAME",
+          "value": "SiriusXM"
+        }
+      ]
+    },
+    {
+      "id": "aeb6d7e5-7f59-4a75-bf37-ec5b086c12c3",
+      "content": {
+        "raw_text": "Subject: Action Required: Your SiriusXM Payment Could Not Be Processed From: SiriusXM billing@siriusxm.com To: rajesh.kumar@email.com Dear Rajesh Kumar, We regret to inform you that we encountered an issue processing your recent payment for your SiriusXM subscription. This could be due to several reasons, such as an expired credit card, insufficient funds, or a temporary issue with your bank. To ensure continuous access to your favorite channels and uninterrupted audio entertainment, it is crucial that you update your payment information promptly. We understand that these situations can arise, and we want to help you resolve this quickly to avoid any disruption to your listening experience. Details of Failed Payment: Plan: Music & Entertainment Plan Radio ID: 9876543210 Attempted Date: August 01, 2021 Amount Due: \u20b9899.00 INR To update your payment method and prevent any interruption to your SiriusXM service, please log into your account at https://www.siriusxm.com/myaccount/login and navigate to the \"Billing & Payment\" section. We will automatically retry the charge once your updated details are received. Please note that if payment is not successfully received within a few days, your service may be suspended. For assistance, our Listener Care team is ready to help at https://care.siriusxm.com/. Thank you for your immediate attention to this matter. Sincerely, The SiriusXM Team"
+      },
+      "ner_entities": [
+        {
+          "start": 46,
+          "end": 54,
+          "label": "COMPANY_NAME",
+          "value": "SiriusXM"
+        },
+        {
+          "start": 76,
+          "end": 100,
+          "label": "USER_GMAIL",
+          "value": "rajesh.kumar@email.com"
+        },
+        {
+          "start": 107,
+          "end": 119,
+          "label": "USERNAME",
+          "value": "Rajesh Kumar"
+        },
+        {
+          "start": 452,
+          "end": 477,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Music & Entertainment Plan"
+        },
+        {
+          "start": 516,
+          "end": 528,
+          "label": "PAYMENT_DATE",
+          "value": "August 01, 2021"
+        },
+        {
+          "start": 544,
+          "end": 555,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b9899.00 INR"
+        },
+        {
+          "start": 544,
+          "end": 545,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 546,
+          "end": 549,
+          "label": "PAYMENT_AMOUNT",
+          "value": "899"
+        }
+      ]
+    },
+    {
+      "id": "a2802160-03db-47e7-86a4-90f61b48a6f7",
+      "content": {
+        "raw_text": "Subject: Reminder: Your SiriusXM Subscription Will Renew Soon From: SiriusXM no-reply@siriusxm.com To: olga.ivanova@email.com Dear Olga Ivanova, This is a proactive notification to inform you that your SiriusXM Platinum Plan subscription is scheduled for automatic renewal on September 25, 2020. Your ongoing subscription ensures continuous access to our full spectrum of programming, including ad-free music, exclusive shows, every major sport, and personalized content, keeping you connected to the sounds you love. We are committed to continually enhancing your listening experience with new channels and features. Upcoming Renewal Information: Plan: Platinum Plan (Monthly) Radio ID: 1122334455 Renewal Date: September 25, 2020 Amount Due: \u20b91,099.00 INR (plus applicable taxes) Payment Method: Your saved payment method ending in **** 7890 will be charged automatically. No action is required from your side if you wish to continue enjoying uninterrupted access to your audio entertainment. If you need to manage your subscription, update your payment details, or cancel auto-renewal, please visit your SiriusXM account online at https://www.siriusxm.com/myaccount/login before the renewal date. If you choose not to renew, your service will expire after this date. Thank you for being a valued SiriusXM subscriber. Best regards, The SiriusXM Team"
+      },
+      "ner_entities": [
+        {
+          "start": 44,
+          "end": 52,
+          "label": "COMPANY_NAME",
+          "value": "SiriusXM"
+        },
+        {
+          "start": 74,
+          "end": 97,
+          "label": "USER_GMAIL",
+          "value": "olga.ivanova@email.com"
+        },
+        {
+          "start": 104,
+          "end": 117,
+          "label": "USERNAME",
+          "value": "Olga Ivanova"
+        },
+        {
+          "start": 222,
+          "end": 243,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Platinum Plan (Monthly)"
+        },
+        {
+          "start": 280,
+          "end": 299,
+          "label": "RENEWAL_DATE",
+          "value": "September 25, 2020"
+        },
+        {
+          "start": 330,
+          "end": 343,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b91,099.00 INR"
+        },
+        {
+          "start": 330,
+          "end": 331,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 332,
+          "end": 336,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1099"
+        }
+      ]
+    },
+    {
+      "id": "d78aebdb-63f6-4703-a9cf-baa8585d2df8",
+      "content": {
+        "raw_text": "Subject: Your SiriusXM Subscription is Active - Keep Listening From: SiriusXM no-reply@siriusxm.com To: fernando.silva@email.com Dear Fernando Silva, This email confirms that your SiriusXM Music & Entertainment Plan subscription is currently active. We wanted to provide you with a quick status update on your subscription, assuring you that you have full access to all its fantastic benefits. Your active plan allows you to seamlessly enjoy a vast array of music, talk, news, and sports channels, keeping you entertained wherever you go. We're excited for you to continue discovering new sounds and voices. Your Current Subscription Status: Plan: Music & Entertainment Plan (Annual) Radio ID: 6543210987 Subscription Start Date: January 30, 2024 Next Renewal Date: January 30, 2025 Status: Active You can manage all aspects of your SiriusXM subscription, including viewing details, exploring upgrade options, or updating your account information, by logging into your account at https://www.siriusxm.com/myaccount/login. We encourage you to explore all the features that your current plan offers to maximize your listening pleasure. Happy listening, The SiriusXM Team"
+      },
+      "ner_entities": [
+        {
+          "start": 48,
+          "end": 56,
+          "label": "COMPANY_NAME",
+          "value": "SiriusXM"
+        },
+        {
+          "start": 78,
+          "end": 103,
+          "label": "USER_GMAIL",
+          "value": "fernando.silva@email.com"
+        },
+        {
+          "start": 110,
+          "end": 125,
+          "label": "USERNAME",
+          "value": "Fernando Silva"
+        },
+        {
+          "start": 171,
+          "end": 206,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Music & Entertainment Plan"
+        },
+        {
+          "start": 262,
+          "end": 289,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Music & Entertainment Plan (Annual)"
+        },
+        {
+          "start": 327,
+          "end": 344,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "January 30, 2024"
+        },
+        {
+          "start": 371,
+          "end": 388,
+          "label": "RENEWAL_DATE",
+          "value": "January 30, 2025"
+        }
+      ]
+    }
+  ]
+}

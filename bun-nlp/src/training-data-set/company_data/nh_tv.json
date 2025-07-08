@@ -1,0 +1,254 @@
+{
+  "NH Tv": [
+    {
+      "id": "489a1806-cb38-44a6-a674-4c3b0e190d41",
+      "content": {
+        "raw_text": "From: NHL.tv Support <support@mail.nhl.tv> To: Lucas M\u00fcller <lucas.mueller92@gmail.com> Subject: Your NHL.tv Subscription Is Confirmed \ud83c\udf89 Hi Lucas, Thank you for subscribing to NHL.tv! Your out-of-market streaming access is now active. Subscription Details Plan: Monthly Pass Start Date: June\u202f20,\u202f2025 Amount Charged: \u20b9 1,299 (incl. applicable taxes) You\u2019re all set! No further action is needed at this time. You can start streaming live and on-demand NHL games anytime. Need help or updates? \u2022 Visit My Account to view your subscription or download your receipt. \u2022 Manage your payment info or preferences [on NHL.tv]. \u2022 For support, go to our [Help Center]. Quick Tips & Reminders Your plan auto-renews unless canceled before the renewal date. All payments are processed securely\u2014learn more in our [Terms & Conditions]. Thanks for joining the NHL.tv community\u2014enjoy the season! Best regards, The NHL.tv Team support@mail.nhl.tv"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "NHL.tv"
+        },
+        {
+          "start": 41,
+          "end": 67,
+          "label": "USER_GMAIL",
+          "value": "lucas.mueller92@gmail.com"
+        },
+        {
+          "start": 73,
+          "end": 78,
+          "label": "USERNAME",
+          "value": "Lucas"
+        },
+        {
+          "start": 142,
+          "end": 154,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly Pass"
+        },
+        {
+          "start": 168,
+          "end": 183,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "June\u202f20,\u202f2025"
+        },
+        {
+          "start": 201,
+          "end": 211,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 202,
+          "end": 206,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1299"
+        }
+      ]
+    },
+    {
+      "id": "78e89bb9-59a6-4c61-8e6b-c108fc6d3a8b",
+      "content": {
+        "raw_text": "From: NHL.tv Notifications <support@mail.nhl.tv> To: Las jhon <las.jhon92@gmail.com> Subject: Reminder: Your NHL.tv Renewal Is Coming Up Hi Lucas, This is a friendly reminder that your NHL.tv Monthly Pass will renew on July\u202f20,\u202f2025. Renewal Details Subscription: Monthly Pass Next Billing Date: July\u202f20,\u202f2025 Amount: \u20b9 1,299 Payment Method: \u2022\u2022\u2022\u2022\u202f9923 To avoid any interruption in access, please ensure your payment information is up to date. What You Can Do \u2022 Update your payment method via My Account \u2022 Need a different plan? Visit the Subscription Plans page \u2022 For assistance, head to our Help Center Just so you know\u2026 You have until 5 days after renewal to request a refund under our policy. If you\u2019d like to cancel, please do so before the billing date to prevent the next payment. Thanks for your continued support\u2014enjoy another great season with NHL.tv! Warm regards, The NHL.tv Team \ud83d\udce9 support@mail.nhl.tv"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "NHL.tv"
+        },
+        {
+          "start": 39,
+          "end": 61,
+          "label": "USER_GMAIL",
+          "value": "las.jhon92@gmail.com"
+        },
+        {
+          "start": 67,
+          "end": 72,
+          "label": "USERNAME",
+          "value": "Lucas"
+        },
+        {
+          "start": 129,
+          "end": 141,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly Pass"
+        },
+        {
+          "start": 163,
+          "end": 178,
+          "label": "RENEWAL_DATE",
+          "value": "July\u202f20,\u202f2025"
+        },
+        {
+          "start": 187,
+          "end": 191,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 192,
+          "end": 196,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1299"
+        }
+      ]
+    },
+    {
+      "id": "3ec4c270-b420-49f4-b6a6-088fdef3be01",
+      "content": {
+        "raw_text": "From: NHL.tv Billing <support@mail.nhl.tv> To: Lucas M\u00fcller <lucas.mueller92@gmail.com> Subject: Payment Failed \u2013 Update Required to Keep Your NHL.tv Access Hi Lucas, We were unable to process your NHL.tv Monthly Pass payment today. Payment Issue Due Date: June\u202f20,\u202f2025 Amount: \u20b9 1,299 Payment Method: \u2022\u2022\u2022\u2022\u202f9923 Please update your billing information within the next 7 days to avoid service interruption. How to Update Your Payment Info Log in and visit My Account \u2192 Billing Add a new payment method or select an existing one Re-submit the payment Once updated, your subscription will resume automatically without loss of access. Need Help? \u2022 Visit our Help Center or live chat \u2022 Contact support directly via the Support Portal Note: If payment isn\u2019t completed within 7 days, your subscription may be suspended. To maintain uninterrupted access, please update promptly. Thank you for choosing NHL.tv\u2014we\u2019re here if you need assistance. Sincerely, The NHL.tv Billing Team \ud83d\udce9 support@mail.nhl.tv"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "NHL.tv"
+        },
+        {
+          "start": 39,
+          "end": 65,
+          "label": "USER_GMAIL",
+          "value": "lucas.mueller92@gmail.com"
+        },
+        {
+          "start": 71,
+          "end": 76,
+          "label": "USERNAME",
+          "value": "Lucas"
+        },
+        {
+          "start": 126,
+          "end": 138,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Monthly Pass"
+        },
+        {
+          "start": 164,
+          "end": 179,
+          "label": "PAYMENT_DATE",
+          "value": "June\u202f20,\u202f2025"
+        },
+        {
+          "start": 188,
+          "end": 192,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 193,
+          "end": 197,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1299"
+        }
+      ]
+    },
+    {
+      "id": "7ed9a241-3c2a-4fc6-a2cb-27aefba4b08b",
+      "content": {
+        "raw_text": "From: NHL.tv Support <support@mail.nhl.tv> To: Lucas M\u00fcller <lucas.mueller92@gmail.com> Subject: Your NHL.tv Refund Has Been Processed Hi Lucas, We\u2019ve successfully processed your refund for your NHL.tv Monthly Pass subscription. Refund Summary Plan: NHL.tv Monthly Pass Refund Amount: \u20b9 1,299 Refund Date: June\u202f20,\u202f2025 Payment Method: \u2022\u2022\u2022\u2022\u202f9923 The amount will be credited back to your original payment method. Depending on your bank, it may take 5\u201310 business days to appear in your account. Need to Reactivate? Your subscription has been canceled. You can restart it anytime by visiting the My Account section on NHL.tv. Questions or Concerns? \u2022 Visit our [Help Center] for FAQs \u2022 Contact us directly at support@mail.nhl.tv Thank you for trying NHL.tv. We hope to see you back soon. Best regards, The NHL.tv Support Team \ud83d\udce9 support@mail.nhl.tv"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "NHL.tv"
+        },
+        {
+          "start": 39,
+          "end": 65,
+          "label": "USER_GMAIL",
+          "value": "lucas.mueller92@gmail.com"
+        },
+        {
+          "start": 71,
+          "end": 76,
+          "label": "USERNAME",
+          "value": "Lucas"
+        },
+        {
+          "start": 144,
+          "end": 166,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "NHL.tv Monthly Pass"
+        },
+        {
+          "start": 186,
+          "end": 190,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 191,
+          "end": 195,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1299"
+        },
+        {
+          "start": 212,
+          "end": 227,
+          "label": "PAYMENT_DATE",
+          "value": "June\u202f20,\u202f2025"
+        }
+      ]
+    },
+    {
+      "id": "f573a29a-3014-4c17-a973-6794416bd7f2",
+      "content": {
+        "raw_text": "From: NHL.tv Support <support@mail.nhl.tv> To: Jackson Reed <jackson.reed78@gmail.com> Subject: Your NHL.tv Account Has Been Deleted Hi Jackson, This is to confirm that your NHL.tv account associated with this email address has been successfully deleted as per your request. Account Details User Name: Jackson Reed Email ID: jackson.reed78@gmail.com Deletion Date: June\u202f20,\u202f2025 Your account data, subscription history, and any saved preferences have been removed from our system in accordance with our privacy policy. What Happens Next? If you had an active subscription, it has been canceled. You will no longer receive any promotional or service-related emails. Refunds (if applicable) have been processed separately If you did not request this change or believe this was a mistake, please contact our support team within 7 days. Need Help? \u2022 Visit our [Help Center] \u2022 Reach us directly at: support@mail.nhl.tv Thank you for being part of NHL.tv. We hope to welcome you back in the future. Warm regards, The NHL.tv Support Team \ud83d\udce9 support@mail.nhl.tv"
+      },
+      "ner_entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "label": "COMPANY_NAME",
+          "value": "NHL.tv"
+        },
+        {
+          "start": 39,
+          "end": 66,
+          "label": "USER_GMAIL",
+          "value": "jackson.reed78@gmail.com"
+        },
+        {
+          "start": 72,
+          "end": 79,
+          "label": "USERNAME",
+          "value": "Jackson"
+        },
+        {
+          "start": 154,
+          "end": 167,
+          "label": "COMPANY_NAME",
+          "value": "NHL.tv"
+        },
+        {
+          "start": 211,
+          "end": 223,
+          "label": "USERNAME",
+          "value": "Jackson Reed"
+        },
+        {
+          "start": 238,
+          "end": 265,
+          "label": "USER_GMAIL",
+          "value": "jackson.reed78@gmail.com"
+        },
+        {
+          "start": 283,
+          "end": 298,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "June\u202f20,\u202f2025"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "The Economist": [
+    {
+      "id": "a1b2c3d4-5678-90ef-1234-56789abcdef0",
+      "content": {
+        "raw_text": "Your Digital-Only Annual renewal is confirmed \u2013 invoice ECO-882314: Hi Alice, Thank you for renewing your Economist subscription. \u2022 Plan: Digital-Only Annual \u2022 Subscription ID: ECO-721345 \u2022 Invoice #: ECO-882314 \u2022 Amount charged: US $189.00 \u2022 Payment method: Visa \u2022\u2022\u2022\u2022 5273 \u2022 Next renewal: 23 Jun 2026"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Alice Johnson"
+        },
+        {
+          "start": 67,
+          "end": 92,
+          "label": "USER_GMAIL",
+          "value": "alice.johnson@example.com"
+        },
+        {
+          "start": 108,
+          "end": 132,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Digital-Only Annual"
+        },
+        {
+          "start": 146,
+          "end": 155,
+          "label": "PAYMENT_AMOUNT",
+          "value": "US $189.00"
+        },
+        {
+          "start": 146,
+          "end": 147,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 173,
+          "end": 191,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "23 Jun 2026"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "b2e3c4f5-6789-90ab-cdef-123456789abc",
+      "content": {
+        "raw_text": "Payment received \u2013 Print + Digital Monthly (ECO-648572): Dear Amitabh, Your monthly payment for The Economist has posted successfully. \u2022 Plan: Print + Digital Monthly \u2022 Subscription ID: ECO-648572 \u2022 Amount: \u20b9599.00 \u2022 Card ending: 9461 \u2022 Coverage: 23 Jun \u2013 22 Jul 2025"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 32,
+          "label": "USERNAME",
+          "value": "Amitabh Desai"
+        },
+        {
+          "start": 61,
+          "end": 88,
+          "label": "USER_GMAIL",
+          "value": "amitabh.desai@example.in"
+        },
+        {
+          "start": 108,
+          "end": 132,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Print + Digital Monthly"
+        },
+        {
+          "start": 146,
+          "end": 154,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20b9599.00"
+        },
+        {
+          "start": 146,
+          "end": 147,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 179,
+          "end": 194,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "23 Jun \u2013 22 Jul 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "c3f4d5e6-7890-abcd-efgh-23456789abcd",
+      "content": {
+        "raw_text": "Your Digital + Audio Annual renews soon (ECO-903421): Hola Maria, A reminder that your Digital + Audio Annual plan renews on 01 Jul 2025. \u2022 Subscription ID: ECO-903421 \u2022 Upcoming charge: \u20ac219.00 (Mastercard \u2022\u2022\u2022\u2022 1143) \u2022 Renewal term: 01 Jul 2025 \u2013 30 Jun 2026"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 38,
+          "label": "USERNAME",
+          "value": "Maria Gonz\u00e1lez"
+        },
+        {
+          "start": 69,
+          "end": 94,
+          "label": "USER_GMAIL",
+          "value": "maria.gonzalez@example.es"
+        },
+        {
+          "start": 118,
+          "end": 138,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Digital + Audio Annual"
+        },
+        {
+          "start": 152,
+          "end": 161,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac219.00"
+        },
+        {
+          "start": 152,
+          "end": 153,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 173,
+          "end": 198,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "01 Jul 2025 \u2013 30 Jun 2026"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "d4e5f6g7-8901-abcd-efgh-567890abcdef",
+      "content": {
+        "raw_text": "Action required: card declined for ECO-775332: Hi Kwame, We tried to process your renewal of US $19.95 for Digital Monthly but the card ending 3029 was declined. Please update your payment details by 27 Jun 2025 to avoid interruption."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 29,
+          "label": "USERNAME",
+          "value": "Kwame Mensah"
+        },
+        {
+          "start": 67,
+          "end": 92,
+          "label": "USER_GMAIL",
+          "value": "kwame.mensah@example.com"
+        },
+        {
+          "start": 129,
+          "end": 140,
+          "label": "PAYMENT_AMOUNT",
+          "value": "US $19.95"
+        },
+        {
+          "start": 129,
+          "end": 130,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US $"
+        },
+        {
+          "start": 157,
+          "end": 168,
+          "label": "PAYMENT_DATE",
+          "value": "27 Jun 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "e5f6g7h8-9012-3456-7890-abcdef123456",
+      "content": {
+        "raw_text": "Welcome to The Economist \u2013 ECO-514298: Beste Saskia, Thank you for joining The Economist. \u2022 Plan: Student Digital Annual \u2022 Subscription ID: ECO-514298 \u2022 Price paid: \u20ac99.00 \u2022 Start date: 24 Jun 2025 \u2022 End date: 23 Jun 2026"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 32,
+          "label": "USERNAME",
+          "value": "Saskia van der Meer"
+        },
+        {
+          "start": 70,
+          "end": 91,
+          "label": "USER_GMAIL",
+          "value": "s.vandermeer@example.nl"
+        },
+        {
+          "start": 115,
+          "end": 137,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Student Digital Annual"
+        },
+        {
+          "start": 144,
+          "end": 153,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac99.00"
+        },
+        {
+          "start": 144,
+          "end": 145,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        },
+        {
+          "start": 166,
+          "end": 181,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "24 Jun 2025 \u2013 23 Jun 2026"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "f6g7h8i9-0123-4567-8901-abcdef234567",
+      "content": {
+        "raw_text": "Your receipt for ECO-667710: Chen Wei, Attached is your VAT invoice. \u2022 Invoice #: CN-2025-44682 \u2022 Subscription ID: ECO-667710 \u2022 Plan: Digital-Only Annual \u2022 Amount: \u00a51,288.00 \u2022 Card: UnionPay \u2022\u2022\u2022\u2022 4377 \u2022 Date: 24 Jun 2025"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 21,
+          "end": 28,
+          "label": "USERNAME",
+          "value": "Chen Wei"
+        },
+        {
+          "start": 60,
+          "end": 80,
+          "label": "USER_GMAIL",
+          "value": "wei.chen@example.cn"
+        },
+        {
+          "start": 110,
+          "end": 126,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Digital-Only Annual"
+        },
+        {
+          "start": 130,
+          "end": 141,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u00a51,288.00"
+        },
+        {
+          "start": 130,
+          "end": 131,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a5"
+        },
+        {
+          "start": 151,
+          "end": 166,
+          "label": "SUBSCRIPTION_DATE",
+          "value": "24 Jun 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "g7h8i9j0-1234-5678-9012-abcdef345678",
+      "content": {
+        "raw_text": "Upgrade to Print + Digital and save 20%: Hi Laura, As a Digital-Only subscriber (ECO-845211) you can add the weekly print edition for \u20ac32.00 extra per year."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "label": "USERNAME",
+          "value": "Laura O\u2019Brien"
+        },
+        {
+          "start": 70,
+          "end": 93,
+          "label": "USER_GMAIL",
+          "value": "laura.obrien@example.ie"
+        },
+        {
+          "start": 120,
+          "end": 133,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u20ac32.00"
+        },
+        {
+          "start": 120,
+          "end": 121,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20ac"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "h8i9j0k1-2345-6789-0123-abcdef456789",
+      "content": {
+        "raw_text": "ECO-592344 has been cancelled as requested: Dear Hassan, Your subscription has been cancelled effective 25 Jun 2025. Access will continue until 14 Jul 2025. \u2022 Subscription ID: ECO-592344 \u2022 Plan: Digital Monthly \u2022 Refund: QAR 37.20 to card \u2022\u2022\u2022\u2022 8110"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 38,
+          "label": "USERNAME",
+          "value": "Hassan Al-Sayed"
+        },
+        {
+          "start": 78,
+          "end": 102,
+          "label": "USER_GMAIL",
+          "value": "hassan.sayed@example.qa"
+        },
+        {
+          "start": 124,
+          "end": 138,
+          "label": "PAYMENT_AMOUNT",
+          "value": "QAR 37.20"
+        },
+        {
+          "start": 124,
+          "end": 125,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "QAR"
+        },
+        {
+          "start": 148,
+          "end": 165,
+          "label": "SUBSCRIPTION_END_DATE",
+          "value": "14 Jul 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "i9j0k1l2-3456-7890-1234-abcdef567890",
+      "content": {
+        "raw_text": "Your gift subscription has been activated \u2013 ECO-419876: Ciao Isabella, A friend has gifted you The Economist for one year. \u2022 Activation code: GFT-4A9C-QE76 \u2022 Subscription ID (once you redeem): ECO-419876 \u2022 Redeem by: 31 Jul 2025"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Isabella Rossi"
+        },
+        {
+          "start": 70,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "isabella.rossi@example.it"
+        },
+        {
+          "start": 124,
+          "end": 144,
+          "label": "GIFT_ORDER_NUMBER",
+          "value": "GFT-4A9C-QE76"
+        },
+        {
+          "start": 146,
+          "end": 166,
+          "label": "REDEEM_BY_DATE",
+          "value": "31 Jul 2025"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "j0k1l2m3-4567-8901-2345-abcdef678901",
+      "content": {
+        "raw_text": "Refund processed for ECO-372215: Ol\u00e1 Felipe, We\u2019ve refunded R$216.00 to your Mastercard \u2022\u2022\u2022\u2022 0621 for the unshipped portion of your Print subscription. \u2022 Subscription ID: ECO-372215 \u2022 Refund date: 25 Jun 2025 \u2022 Reference: BR-902-993"
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "label": "USERNAME",
+          "value": "Felipe da Silva"
+        },
+        {
+          "start": 78,
+          "end": 99,
+          "label": "USER_GMAIL",
+          "value": "felipe.silva@example.br"
+        },
+        {
+          "start": 118,
+          "end": 134,
+          "label": "PAYMENT_AMOUNT",
+          "value": "R$216.00"
+        },
+        {
+          "start": 118,
+          "end": 119,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "R$"
+        },
+        {
+          "start": 139,
+          "end": 159,
+          "label": "SUBSCRIPTION_ID",
+          "value": "ECO-372215"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "k1l2m3n4-5678-9012-3456-abcdef789012",
+      "content": {
+        "raw_text": "Your 30-day free trial starts now \u2013 ECO-560888: Yukiko-san, Enjoy full Digital access until 25 Jul 2025 at no charge. Trial details ------------- Subscription ID: ECO-560888 Plan: Digital-Only (30-day trial) Card on file: Visa \u2022\u2022\u2022\u2022 9504 (no charge today) We\u2019ll remind you three days before the first payment of \u00a51,820."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 35,
+          "label": "USERNAME",
+          "value": "Yukiko Tanaka"
+        },
+        {
+          "start": 70,
+          "end": 96,
+          "label": "USER_GMAIL",
+          "value": "yukiko.tanaka@example.jp"
+        },
+        {
+          "start": 133,
+          "end": 145,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u00a51,820"
+        },
+        {
+          "start": 133,
+          "end": 134,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a5"
+        },
+        {
+          "start": 150,
+          "end": 170,
+          "label": "TRIAL_END_DATE",
+          "value": "25 Jul 2025"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "l2m3n4o5-6789-0123-4567-abcdef890123",
+      "content": {
+        "raw_text": "Address change confirmed for ECO-481299: Hallo Michael, Your print delivery address for subscription ECO-481299 has been updated. New address: Ludwig-Koch-Stra\u00dfe 14, 60437 Frankfurt am Main, Germany. Your next issue (28 Jun 2025) will arrive at the new location."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 32,
+          "label": "USERNAME",
+          "value": "Michael M\u00fcller"
+        },
+        {
+          "start": 70,
+          "end": 98,
+          "label": "USER_GMAIL",
+          "value": "m.mueller@example.de"
+        },
+        {
+          "start": 151,
+          "end": 197,
+          "label": "NEW_ADDRESS",
+          "value": "Ludwig-Koch-Stra\u00dfe 14, 60437 Frankfurt am Main, Germany"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "m3n4o5p6-7890-1234-5678-abcdef901234",
+      "content": {
+        "raw_text": "Receipt ECO-215667 \u2013 Digital Annual renewal: Hi Olivia, We have charged \u00a3179.00 to Amex \u2022\u2022\u2022\u2022 3004 for your Digital Annual renewal (ECO-215667). Your receipt is attached."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 28,
+          "label": "USERNAME",
+          "value": "Olivia Smith"
+        },
+        {
+          "start": 61,
+          "end": 85,
+          "label": "USER_GMAIL",
+          "value": "olivia.smith@example.co.uk"
+        },
+        {
+          "start": 118,
+          "end": 127,
+          "label": "PAYMENT_AMOUNT",
+          "value": "\u00a3179.00"
+        },
+        {
+          "start": 118,
+          "end": 119,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u00a3"
+        }
+      ],
+      "is_subscription_related": true
+    },
+    {
+      "id": "n4o5p6q7-8901-2345-6789-abcdef012345",
+      "content": {
+        "raw_text": "You\u2019re subscribed to our Daily Dispatch: Jabulani, You\u2019ve successfully added the Daily Dispatch newsletter to your Digital plan (ECO-986512). Expect your first issue tomorrow at 04:00 UTC."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 31,
+          "label": "USERNAME",
+          "value": "Jabulani Ndlovu"
+        },
+        {
+          "start": 72,
+          "end": 98,
+          "label": "USER_GMAIL",
+          "value": "j.ndlovu@example.co.za"
+        }
+      ],
+      "is_subscription_related": false
+    },
+    {
+      "id": "o5p6q7r8-9012-3456-7890-abcdef234567",
+      "content": {
+        "raw_text": "We couldn\u2019t deliver your 21 Jun print issue: Cze\u015b\u0107 Natalia, Our courier reported a failed delivery of the 21 Jun edition (ECO-664422). A replacement copy will be mailed today."
+      },
+      "ner_entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "label": "COMPANY_NAME",
+          "value": "The Economist"
+        },
+        {
+          "start": 22,
+          "end": 31,
+          "label": "USERNAME",
+          "value": "Natalia Kowalska"
+        },
+        {
+          "start": 72,
+          "end": 95,
+          "label": "USER_GMAIL",
+          "value": "n.kowalska@example.pl"
+        }
+      ],
+      "is_subscription_related": false
+    }
+  ]
+}

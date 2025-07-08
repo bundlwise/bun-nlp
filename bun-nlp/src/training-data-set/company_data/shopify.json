@@ -1,0 +1,304 @@
+{
+  "Shopify": [
+    {
+      "id": "163c850d-4e78-4192-aa2c-b62eb8aa9365",
+      "content": {
+        "raw_text": "Subject: Your Shopify Subscription Payment Was Successful - Receipt Included From: Shopify billing@shopify.com To: anika.malhotra@business.com Dear Anika Malhotra, We're pleased to confirm that your recent payment for your Shopify subscription has been successfully processed. Thank you for your continued partnership as you build and grow your online business with Shopify. Your active subscription ensures uninterrupted access to our powerful e-commerce platform, enabling you to manage your store, process orders, and connect with customers effortlessly. We are committed to providing you with the tools and support necessary to thrive in the dynamic world of online retail. Payment Details: Plan: Shopify Basic (Monthly) Amount Paid: \u20b91,999.00 INR Payment Date: December 10, 2023 Next Billing Date: January 10, 2024 You can always review your detailed billing history, manage your subscription, and update your payment information by logging into your Shopify admin at [suspicious link removed]. Should you have any questions regarding this payment or your store's subscription, our dedicated support team is available to assist you at https://help.shopify.com/. We appreciate your trust in Shopify as your e-commerce solution. Sincerely, The Shopify Team"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "Shopify"
+        },
+        {
+          "start": 50,
+          "end": 81,
+          "label": "USER_GMAIL",
+          "value": "anika.malhotra@business.com"
+        },
+        {
+          "start": 421,
+          "end": 446,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Shopify Basic (Monthly)"
+        },
+        {
+          "start": 462,
+          "end": 474,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 463,
+          "end": 474,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,999.00"
+        },
+        {
+          "start": 490,
+          "end": 508,
+          "label": "PAYMENT_DATE",
+          "value": "December 10, 2023"
+        },
+        {
+          "start": 530,
+          "end": 548,
+          "label": "RENEWAL_DATE",
+          "value": "January 10, 2024"
+        }
+      ]
+    },
+    {
+      "id": "1d546b25-d113-4f15-8607-ec2e71f01c7f",
+      "content": {
+        "raw_text": "Subject: Your Shopify Refund Has Been Processed - Confirmation #SHP-2022-7890 From: Shopify billing@shopify.com To: christoph.muller@business.com Dear Christoph M\u00fcller, This email confirms that your refund for your recent Shopify subscription payment has been successfully processed. We understand that circumstances can change, and we aim to facilitate a clear and efficient refund experience for our merchants. The refunded amount will be credited back to your original payment method. Please allow 5-10 business days for the funds to reflect on your bank or card statement, as processing times can vary depending on your financial institution and local banking regulations. Refund Summary: Plan: Shopify Starter (Monthly) Amount Refunded: \u20b91,499.00 INR Processed Date: August 25, 2022 Payment Method: Visa ending in **** 2345 Your Shopify subscription associated with this refund has now been adjusted or cancelled accordingly. While your access to certain features may cease, we hope you found the platform beneficial for your business needs. Should you decide to resume your subscription or explore other Shopify plans in the future, you can easily re-subscribe anytime at https://www.shopify.com/pricing. Thank you for your understanding. Sincerely, The Shopify Team"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "Shopify"
+        },
+        {
+          "start": 50,
+          "end": 82,
+          "label": "USER_GMAIL",
+          "value": "christoph.muller@business.com"
+        },
+        {
+          "start": 516,
+          "end": 541,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Shopify Starter (Monthly)"
+        },
+        {
+          "start": 558,
+          "end": 570,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 559,
+          "end": 570,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,499.00"
+        },
+        {
+          "start": 589,
+          "end": 607,
+          "label": "PAYMENT_DATE",
+          "value": "August 25, 2022"
+        },
+        {
+          "start": 628,
+          "end": 632,
+          "label": "PAYMENT_PLATFORM",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "id": "ee62d645-0c90-4f80-9265-0fd7e35ddfe4",
+      "content": {
+        "raw_text": "Subject: Your Shopify Subscription Has Been Cancelled - Action Required From: Shopify notifications@shopify.com To: fatima.zahra@business.com Dear Fatima Zahra, This is to confirm that your Shopify Basic subscription for your store, \"MyAwesomeStore,\" has been successfully cancelled, as per your recent request. We regret to see you go and appreciate you having used Shopify to manage your online business. We hope you found our platform intuitive and powerful in helping you reach your customers and grow your sales. We value your feedback as we continuously strive to improve our services for merchants worldwide. Cancellation Details: Plan: Shopify Basic Store Name: MyAwesomeStore Cancellation Date: March 15, 2024 Access Ends On: April 15, 2024 (End of your current billing cycle) You will continue to have full access to all Shopify Basic features, including your storefront, admin panel, and existing data, until the end of your current billing period. After this date, your store will become inaccessible, and you will no longer be able to sell products or manage orders through Shopify. We recommend backing up any essential store data before your access ends. Should you wish to resume your subscription, you can reactivate your plan anytime through your Shopify admin at [suspicious link removed]. Thank you for being part of the Shopify community. Sincerely, The Shopify Team"
+      },
+      "ner_entities": [
+        {
+          "start": 12,
+          "end": 19,
+          "label": "COMPANY_NAME",
+          "value": "Shopify"
+        },
+        {
+          "start": 50,
+          "end": 79,
+          "label": "USER_GMAIL",
+          "value": "fatima.zahra@business.com"
+        },
+        {
+          "start": 154,
+          "end": 168,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Shopify Basic"
+        },
+        {
+          "start": 185,
+          "end": 199,
+          "label": "USERNAME",
+          "value": "MyAwesomeStore"
+        },
+        {
+          "start": 235,
+          "end": 251,
+          "label": "PAYMENT_DATE",
+          "value": "March 15, 2024"
+        },
+        {
+          "start": 269,
+          "end": 285,
+          "label": "RENEWAL_DATE",
+          "value": "April 15, 2024"
+        }
+      ]
+    },
+    {
+      "id": "3c9967d9-865e-4403-b405-94edf9e54a48",
+      "content": {
+        "raw_text": "Subject: Action Required: Your Shopify Subscription Payment Failed From: Shopify billing@shopify.com To: sophie.dubois@business.com Dear Sophie Dubois, We regret to inform you that we encountered an issue processing your recent payment for your Shopify subscription. This could be due to several reasons, such as an expired credit card, insufficient funds, or a temporary issue with your bank. To ensure continuous operation of your online store and uninterrupted access to your Shopify admin, it is crucial that you update your payment information promptly. We understand that these situations can arise, and we want to help you resolve this quickly to avoid any disruption to your business. Details of Failed Payment: Plan: Shopify Advanced Store Name: Sophie's Crafts Attempted Date: July 20, 2021 Amount Due: \u20b98,999.00 INR To update your payment method and prevent any interruption to your Shopify service, please log into your Shopify admin at [suspicious link removed] and navigate to the \"Settings\" > \"Billing\" section. We will automatically retry the charge once your updated details are received. Please note that if payment is not successfully received within a few days, your store may be temporarily paused or closed. For assistance, our support team is ready to help at https://help.shopify.com/. Thank you for your immediate attention to this matter. Sincerely, The Shopify Team"
+      },
+      "ner_entities": [
+        {
+          "start": 31,
+          "end": 38,
+          "label": "COMPANY_NAME",
+          "value": "Shopify"
+        },
+        {
+          "start": 105,
+          "end": 131,
+          "label": "USER_GMAIL",
+          "value": "sophie.dubois@business.com"
+        },
+        {
+          "start": 726,
+          "end": 742,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Shopify Advanced"
+        },
+        {
+          "start": 813,
+          "end": 822,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "\u20b98,999.00"
+        },
+        {
+          "start": 813,
+          "end": 814,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 814,
+          "end": 822,
+          "label": "PAYMENT_AMOUNT",
+          "value": "8,999.00"
+        },
+        {
+          "start": 787,
+          "end": 800,
+          "label": "PAYMENT_DATE",
+          "value": "July 20, 2021"
+        }
+      ]
+    },
+    {
+      "id": "6d07ad5e-f8ec-4c93-8a59-391b536d2dd0",
+      "content": {
+        "raw_text": "Subject: Reminder: Your Shopify Subscription Will Renew Soon From: Shopify notifications@shopify.com To: ryan.patel@business.com Dear Ryan Patel, This is a proactive notification to inform you that your Shopify Basic subscription for your store, \"Ryan's Retro Games,\" is scheduled for automatic renewal on September 05, 2020. Your ongoing subscription ensures continuous access to our robust e-commerce platform, allowing you to manage products, process sales, and connect with your customers without interruption. We are committed to continuously enhancing our features to help your business grow and adapt to market demands. Upcoming Renewal Information: Plan: Shopify Basic (Monthly) Store Name: Ryan's Retro Games Renewal Date: September 05, 2020 Amount Due: \u20b91,999.00 INR (plus applicable taxes) Payment Method: Your saved payment method ending in **** 6789 will be charged automatically. No action is required from your side if you wish to continue enjoying uninterrupted service for your online store. If you need to manage your subscription, update your payment details, or cancel auto-renewal, please visit your Shopify admin online at [suspicious link removed] before the renewal date. If you choose not to renew, your store's access will be suspended after this date. Thank you for being a valued Shopify merchant. Best regards, The Shopify Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 57,
+          "label": "COMPANY_NAME",
+          "value": "Shopify"
+        },
+        {
+          "start": 88,
+          "end": 110,
+          "label": "USER_GMAIL",
+          "value": "ryan.patel@business.com"
+        },
+        {
+          "start": 214,
+          "end": 229,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Shopify Basic"
+        },
+        {
+          "start": 214,
+          "end": 243,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Shopify Basic (Monthly)"
+        },
+        {
+          "start": 311,
+          "end": 328,
+          "label": "RENEWAL_DATE",
+          "value": "September 05, 2020"
+        },
+        {
+          "start": 354,
+          "end": 365,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "\u20b9"
+        },
+        {
+          "start": 355,
+          "end": 364,
+          "label": "PAYMENT_AMOUNT",
+          "value": "1,999.00"
+        }
+      ]
+    },
+    {
+      "id": "3efab2be-24d5-4563-bf3c-ea4171a9a009",
+      "content": {
+        "raw_text": "Subject: Your Shopify Subscription for \"InnovateTech\" is Active From: Shopify notifications@shopify.com To: emily.jones@business.com Dear Emily Jones, This email confirms that your Shopify Professional subscription for your store, \"InnovateTech,\" is currently active. We wanted to provide you with a quick status update on your subscription, assuring you that you have full access to all its powerful features. Your active plan allows you to seamlessly continue managing your products, fulfilling orders, utilizing advanced reporting, and scaling your online presence with confidence. We are excited for you to continue leveraging Shopify to drive your business success. Your Current Subscription Status: Plan: Shopify Professional (Annual) Store Name: InnovateTech Subscription Start Date: January 10, 2023 Next Renewal Date: January 10, 2024 Status: Active You can manage all aspects of your Shopify subscription, including viewing details, exploring upgrade options, or updating your account information, by logging into your Shopify admin at [suspicious link removed]. We encourage you to explore all the features that your current plan offers to maximize your store's performance. Keep building, The Shopify Team"
+      },
+      "ner_entities": [
+        {
+          "start": 50,
+          "end": 57,
+          "label": "COMPANY_NAME",
+          "value": "Shopify"
+        },
+        {
+          "start": 88,
+          "end": 111,
+          "label": "USER_GMAIL",
+          "value": "emily.jones@business.com"
+        },
+        {
+          "start": 166,
+          "end": 187,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Shopify Professional"
+        },
+        {
+          "start": 166,
+          "end": 211,
+          "label": "SUBSCRIPTION_PERIOD",
+          "value": "Shopify Professional (Annual)"
+        },
+        {
+          "start": 304,
+          "end": 316,
+          "label": "USERNAME",
+          "value": "Emily Jones"
+        },
+        {
+          "start": 262,
+          "end": 273,
+          "label": "COMPANY_NAME",
+          "value": "InnovateTech"
+        },
+        {
+          "start": 349,
+          "end": 365,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "January 10, 2023"
+        },
+        {
+          "start": 389,
+          "end": 405,
+          "label": "RENEWAL_DATE",
+          "value": "January 10, 2024"
+        }
+      ]
+    }
+  ]
+}

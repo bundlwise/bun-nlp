@@ -1,0 +1,386 @@
+{
+  "Typeform": [
+    {
+      "id": "96db924f-6cd9-452c-b6a1-84a19d8c9604",
+      "content": {
+        "raw_text": "Subject: Welcome to Typeform, Sven \u2014 let\u2019s make forms feel fun From: hello@typeform.com To: sven.hartmann87@example.com Date: Fri, 15 Sep 2023 09:27:42 +0200 Hi Sven, We\u2019re absolutely thrilled you\u2019ve joined Typeform. You\u2019re now part of a global community of creators who believe that online forms can do more than collect data\u2014they can spark conversations, tell stories, and invite interaction. Whether you're building surveys, quizzes, feedback forms, or registrations, Typeform helps you craft experiences that are human, engaging, and a little bit delightful\u2014even when they\u2019re totally digital. Start by visiting your dashboard, where you\u2019ll find a variety of templates tailored for different goals. You might begin with something simple like a feedback form or experiment with our logic jumps and design themes to give your forms their own unique voice. And don\u2019t worry\u2014you\u2019re never alone. We\u2019ve sprinkled in a few helpful tips directly inside the builder, and our Help Center is just one click away if you ever get stuck. Over the next few days, we\u2019ll share a couple of friendly, no-pressure ideas to help you make the most of your first typeform. Think of them as gentle nudges\u2014not spam\u2014just here to keep things moving as smoothly as possible. Thanks for being here, Sven. We can\u2019t wait to see what you create! Warmly, \u2014\u202fThe Typeform Team"
+      },
+      "ner_entities": [
+        {
+          "start": 18,
+          "end": 26,
+          "label": "COMPANY_NAME",
+          "value": "Typeform"
+        },
+        {
+          "start": 54,
+          "end": 84,
+          "label": "USER_GMAIL",
+          "value": "sven.hartmann87@example.com"
+        }
+      ]
+    },
+    {
+      "id": "63663770-1732-4bc1-a728-1a83192b2df8",
+      "content": {
+        "raw_text": "Subject: Your payment went through, Wei \u2014 thank you for upgrading! From: billing@typeform.com To: wei.li35@example.com Date: Mon, 11 Dec 2023 14:45:27 +0800 Hi Wei, Thank you for completing your payment \u2014 your subscription to Typeform Plus is now active! We\u2019ve just securely processed your payment of US\u202f$\u200959.00, and your subscription is officially renewed. This gives you access to all the perks of Typeform Plus, including unlimited responses, custom branding, logic jumps, integrations, and more \u2014 so you can keep building forms that feel truly human and elevate how you collect insights. Your billing details are below: You can download your receipt any time by visiting your Account \u2192 Plan &\u202fBilling page. If you have any questions about billing, need help managing your subscription, or want to explore how to get even more out of Typeform, our Support team is always here \u2014 just click Help Center in your account. Thanks again for choosing Typeform. We can\u2019t wait to see the great forms you\u2019ll keep building! Wishing you creative momentum, \u2014\u202fThe Typeform Team"
+      },
+      "ner_entities": [
+        {
+          "start": 63,
+          "end": 84,
+          "label": "USER_GMAIL",
+          "value": "wei.li35@example.com"
+        },
+        {
+          "start": 135,
+          "end": 143,
+          "label": "USERNAME",
+          "value": "Wei"
+        },
+        {
+          "start": 176,
+          "end": 184,
+          "label": "COMPANY_NAME",
+          "value": "Typeform"
+        },
+        {
+          "start": 222,
+          "end": 234,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Typeform Plus"
+        },
+        {
+          "start": 271,
+          "end": 274,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 275,
+          "end": 281,
+          "label": "PAYMENT_AMOUNT",
+          "value": "59.00"
+        }
+      ]
+    },
+    {
+      "id": "ad4e5a80-83f7-47b0-8c34-64bfe88998e4",
+      "content": {
+        "raw_text": "Subject: Oops\u2014we couldn\u2019t process your payment, Luc\u00eda From: billing@typeform.com To: lucia.mendez42@example.com Date: Thu, 23 Nov 2023 08:39:15 +0100 Hi Luc\u00eda, We hit a snag when trying to process your payment for the Typeform Basic plan\u2014your last charge didn\u2019t go through. No worries, though\u2014we\u2019ve paused your plan for now, but it\u2019s easy to fix. Here\u2019s what happened: we attempted to charge US\u202f$\u202f19.00 on Nov 23, 2023, but the payment was declined by your bank or card provider. This could be due to an expired card, insufficient funds, or a temporary hold. To avoid any disruption in your access, simply update your billing details by visiting your Account \u2192 Plan & Billing page. We\u2019ll retry the payment immediately after you update. Your billing summary: Plan: Typeform Basic (monthly) Amount: US\u202f$\u202f19.00 Tried on: Nov 23, 2023 Next retry: Nov 26, 2023 Until your payment is successful, your account will be in limited-access mode\u2014forms will remain live, but downloading responses and premium features are paused until you\u2019re back on track. If you need help updating your card, want to switch plans, or just have questions, our Support team is here to assist. Just click the Help Center link in your account or this email. We value having you in the Typeform family, Luc\u00eda, and don\u2019t want you to miss a beat. Let\u2019s sort this out together. Warmly, \u2014\u202fThe Typeform Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 74,
+          "end": 100,
+          "label": "USER_GMAIL",
+          "value": "lucia.mendez42@example.com"
+        },
+        {
+          "start": 154,
+          "end": 159,
+          "label": "USERNAME",
+          "value": "Luc\u00eda"
+        },
+        {
+          "start": 207,
+          "end": 215,
+          "label": "COMPANY_NAME",
+          "value": "Typeform"
+        },
+        {
+          "start": 216,
+          "end": 230,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Typeform Basic"
+        },
+        {
+          "start": 269,
+          "end": 270,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 271,
+          "end": 276,
+          "label": "PAYMENT_AMOUNT",
+          "value": "19.00"
+        },
+        {
+          "start": 280,
+          "end": 294,
+          "label": "PAYMENT_DATE",
+          "value": "Nov 23, 2023"
+        },
+        {
+          "start": 323,
+          "end": 337,
+          "label": "RENEWAL_DATE",
+          "value": "Nov 26, 2023"
+        }
+      ]
+    },
+    {
+      "id": "b4f0f06b-021c-4ff2-a987-5c1e72649f37",
+      "content": {
+        "raw_text": "Subject: Your plan is renewed, Masato \u2014 let the creativity continue! From: billing@typeform.com To: masato.sato77@example.com Date: Tue, 12 Sep 2023 16:05:48 +0900 Hi Masato, Great news\u2014your Typeform Essentials (annual) plan has just been renewed, and your creativity can keep flowing without interruption. We\u2019ve securely processed your payment of US\u202f$\u202f99.00 today, September 12, 2023, ensuring you\u2019ll continue to enjoy unlimited responses, advanced collaboration tools, powerful analytics, and seamless integrations throughout the year ahead. Your renewal details Plan: Typeform Essentials (annual) Amount charged: US\u202f$\u202f99.00 Renewal date: Sep 12, 2023 Next renewal: Sep 12, 2024 Invoice number: TF\u201120230912\u2011Masato You can view or download your invoice any time from the Account \u2192 Plan & Billing page. Meanwhile, your account remains fully active\u2014feel free to continue building, sharing, and optimizing your forms. We\u2019re here to support you every step of the way. If you\u2019d like tips on boosting response rates, setting up logic jumps, or connecting Typeform with your favourite tools, our Help Center and Support team are just a click away. Thank you for being a valued member of our community, Masato. We\u2019re thrilled to support your projects in the year ahead and can\u2019t wait to see what you\u2019ll create. Cheers to another year of powerful insights and meaningful engagement! Warmly, \u2014\u202fThe Typeform Team"
+      },
+      "ner_entities": [
+        {
+          "start": 80,
+          "end": 108,
+          "label": "USER_GMAIL",
+          "value": "masato.sato77@example.com"
+        },
+        {
+          "start": 112,
+          "end": 118,
+          "label": "USERNAME",
+          "value": "Masato"
+        },
+        {
+          "start": 151,
+          "end": 159,
+          "label": "COMPANY_NAME",
+          "value": "Typeform"
+        },
+        {
+          "start": 160,
+          "end": 188,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Typeform Essentials (annual)"
+        },
+        {
+          "start": 241,
+          "end": 242,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 243,
+          "end": 248,
+          "label": "PAYMENT_AMOUNT",
+          "value": "99.00"
+        },
+        {
+          "start": 259,
+          "end": 274,
+          "label": "PAYMENT_DATE",
+          "value": "September 12, 2023"
+        },
+        {
+          "start": 319,
+          "end": 331,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "Sep 12, 2023"
+        },
+        {
+          "start": 351,
+          "end": 363,
+          "label": "RENEWAL_DATE",
+          "value": "Sep 12, 2024"
+        }
+      ]
+    },
+    {
+      "id": "e2c2b82d-e3d4-4f00-bcc4-80d2b7c52b7c",
+      "content": {
+        "raw_text": "Subject: Heads up \u2014 we couldn\u2019t renew your plan, Anya From: billing@typeform.com To: anya.kovalenko58@example.com Date: Wed, 29 Nov 2023 11:22:09 +0200 Hi Anya, We ran into a problem while trying to renew your Typeform Pro (monthly) plan\u2014your card was declined during the billing attempt today, November\u202f29,\u202f2023. We\u2019ve temporarily paused your plan to avoid overdrafts or repeated failed charges, but you still have a chance to restore uninterrupted access. This is what happened: we attempted to charge US\u202f$\u202f45.00, but the transaction was declined\u2014often it's something like an expired card, a bank hold, or insufficient funds. Don't worry, though: you can easily resolve this by updating your billing info in Account \u2192 Plan & Billing. We'll immediately retry the payment once you\u2019ve done that. Billing details: Plan: Typeform Pro (monthly) Amount due: US\u202f$\u202f45.00 Attempted on: Nov 29, 2023 Next retry: Dec 2, 2023 What to expect: until the payment succeeds, your account will be in limited mode\u2014forms will remain live, but premium features like logic jumps, file uploads, and unlimited responses will be temporarily unavailable. If you'd like help updating your card, choosing a different plan, or need assistance with anything else, our Support team is right here for you. Just visit the Help Center from your account or use the link below. We really value having you as part of the Typeform community, Anya, and we want to make sure everything stays seamless. Let\u2019s get this sorted so you can keep creating with confidence. Warm regards, \u2014\u202fThe Typeform Billing Team"
+      },
+      "ner_entities": [
+        {
+          "start": 77,
+          "end": 107,
+          "label": "USER_GMAIL",
+          "value": "anya.kovalenko58@example.com"
+        },
+        {
+          "start": 111,
+          "end": 115,
+          "label": "USERNAME",
+          "value": "Anya"
+        },
+        {
+          "start": 165,
+          "end": 173,
+          "label": "COMPANY_NAME",
+          "value": "Typeform"
+        },
+        {
+          "start": 174,
+          "end": 198,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Typeform Pro (monthly)"
+        },
+        {
+          "start": 295,
+          "end": 308,
+          "label": "PAYMENT_DATE",
+          "value": "November\u202f29,\u202f2023"
+        },
+        {
+          "start": 373,
+          "end": 374,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 375,
+          "end": 380,
+          "label": "PAYMENT_AMOUNT",
+          "value": "45.00"
+        }
+      ]
+    },
+    {
+      "id": "4fc62b6e-4646-4bd9-9d0d-90c2c2108e64",
+      "content": {
+        "raw_text": "Subject: Welcome aboard, Luis \u2014 your Typeform Plus subscription is now live From: billing@typeform.com To: luis.garcia63@example.com Date: Thu, 21 Sep 2023 13:18:04 +0200 Hi Luis, Congratulations\u2014and welcome to Typeform Plus! We\u2019ve successfully activated your new annual subscription, and we\u2019re thrilled to have you on board. You\u2019re now equipped with everything Plus offers: unlimited responses, advanced logic jumps, custom branding, integrations with your favorite tools, priority support, and so much more. Here\u2019s a snapshot of your subscription details: Plan: Typeform Plus (annual) Total paid: US\u202f$\u202f199.00 Date activated: Sep\u202f21,\u202f2023 Renewal date: Sep\u202f21,\u202f2024 Invoice number: TF\u201120230921\u2011LG To view or download your full invoice, head over to your Account \u2192 Plan & Billing section whenever you'd like. Your subscription is now active, and your account is ready for you to explore all the premium features and capabilities that go beyond basic plan limits. We\u2019ve also included a few custom resources to help you maximize your new tools: look out for emails from our team with ideas on using logic jumps, boosting completion rates, and integrating Typeform with your workflow. If you ever want advice, inspiration, or assistance, don\u2019t hesitate to visit our Help Center or reach out to our Support team. Thank you for trusting Typeform to power your forms, surveys, and interactions. We can\u2019t wait to see how you make Plus uniquely yours. Warmly, \u2014\u202fThe Typeform Team"
+      },
+      "ner_entities": [
+        {
+          "start": 80,
+          "end": 106,
+          "label": "USER_GMAIL",
+          "value": "luis.garcia63@example.com"
+        },
+        {
+          "start": 110,
+          "end": 114,
+          "label": "USERNAME",
+          "value": "Luis"
+        },
+        {
+          "start": 165,
+          "end": 173,
+          "label": "COMPANY_NAME",
+          "value": "Typeform"
+        },
+        {
+          "start": 258,
+          "end": 282,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Typeform Plus (annual)"
+        },
+        {
+          "start": 297,
+          "end": 298,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "$"
+        },
+        {
+          "start": 299,
+          "end": 305,
+          "label": "PAYMENT_AMOUNT",
+          "value": "199.00"
+        },
+        {
+          "start": 323,
+          "end": 336,
+          "label": "SUBSCRIPTION_START_DATE",
+          "value": "Sep\u202f21,\u202f2023"
+        },
+        {
+          "start": 355,
+          "end": 368,
+          "label": "RENEWAL_DATE",
+          "value": "Sep\u202f21,\u202f2024"
+        }
+      ]
+    },
+    {
+      "id": "ca15859f-13eb-4fc1-a303-50b32a9db81d",
+      "content": {
+        "raw_text": "Subject: We\u2019ve processed your cancellation, Emilia \u2014 thank you for being with us From: billing@typeform.com To: emilia.r\u00f6nnqvist42@example.com Date: Fri, 8 Dec 2023 10:54:33 +0100 Hi Emilia, We wanted to let you know that your request to cancel your Typeform Essential subscription has been processed successfully. Your plan will remain active until your current billing cycle ends \u2014 December\u202f8,\u202f2023 \u2014 and then it will move to the free plan at no additional cost. Here\u2019s what this means: while your subscription is still active, you\u2019ll continue enjoying all Essential features \u2014 unlimited forms, logic jumps, and access to response analytics \u2014 until midnight on your billing anniversary. After that, your account will shift to free, where you can still create forms and collect responses (with some feature limits). Any forms you\u2019ve published will remain live, and your previous data will still be available for download. If you've changed your mind or want to reconsider upgrading, we\u2019re here and happy to help. Just head over to Account \u2192 Plan & Billing, and you can easily pick a plan that suits your needs \u2014 or re-upgrade to Essential when you're ready. And of course, if you need support with anything, our Help Center is always open. Thank you, Emilia, for being part of the Typeform community. We appreciate the time and effort you\u2019ve invested in building with us. We hope to see you again soon \u2014 and remember, even on the free plan, you can continue creating forms and learning with us whenever you\u2019re ready. Warmly, \u2014\u202fThe Typeform Team"
+      },
+      "ner_entities": [
+        {
+          "start": 76,
+          "end": 107,
+          "label": "USER_GMAIL",
+          "value": "emilia.r\u00f6nnqvist42@example.com"
+        },
+        {
+          "start": 111,
+          "end": 117,
+          "label": "USERNAME",
+          "value": "Emilia"
+        },
+        {
+          "start": 201,
+          "end": 209,
+          "label": "COMPANY_NAME",
+          "value": "Typeform"
+        },
+        {
+          "start": 210,
+          "end": 232,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Essential subscription"
+        },
+        {
+          "start": 300,
+          "end": 315,
+          "label": "RENEWAL_DATE",
+          "value": "December\u202f8,\u202f2023"
+        }
+      ]
+    },
+    {
+      "id": "7c7d5b6e-47ae-4e16-b037-d1ef4b0d1a56",
+      "content": {
+        "raw_text": "Subject: Your refund has been issued, Alessio \u2014 here\u2019s what to expect From: billing@typeform.com To: alessio.bianchi27@example.com Date: Mon, 30 Oct 2023 14:12:39 +0200 Hi Alessio, We\u2019ve gone ahead and processed your refund for the Typeform Plus (monthly) plan, and the amount will be credited back to your original payment method. You\u2019ll receive US\u202f$\u202f35.00 within 5\u201310 business days, depending on your bank or card provider\u2019s processing times. We\u2019re sorry to see you go, but we understand that needs change. Whether you're switching directions, adjusting your tools, or just taking a break, we appreciate the time you spent with us. If you ever decide to return, your account history will be saved \u2014 and you\u2019ll be able to pick up right where you left off. Refund summary: Plan: Typeform Plus (monthly) Charged on: Oct 24, 2023 Refund issued: Oct 30, 2023 Amount: US\u202f$\u202f35.00 Invoice ID: TF\u201120231024\u2011AB You can view your refund and invoice record in Account \u2192 Plan & Billing at any time. If you have questions about your account, refund timelines, or how to switch plans in the future, our Support team is just a click away. Thanks again for giving Typeform a try, Alessio. We hope to see you again \u2014 and when you're ready, we\u2019ll be here. Warm wishes, \u2014\u202fThe Typeform Billing Team Visit Plan & Billing \u2192"
+      },
+      "ner_entities": [
+        {
+          "start": 81,
+          "end": 114,
+          "label": "USER_GMAIL",
+          "value": "alessio.bianchi27@example.com"
+        },
+        {
+          "start": 118,
+          "end": 125,
+          "label": "USERNAME",
+          "value": "Alessio"
+        },
+        {
+          "start": 180,
+          "end": 188,
+          "label": "COMPANY_NAME",
+          "value": "Typeform"
+        },
+        {
+          "start": 189,
+          "end": 212,
+          "label": "SUBSCRIPTION_TYPE",
+          "value": "Plus (monthly) plan"
+        },
+        {
+          "start": 333,
+          "end": 345,
+          "label": "PAYMENT_DATE",
+          "value": "Oct 24, 2023"
+        },
+        {
+          "start": 368,
+          "end": 380,
+          "label": "RENEWAL_DATE",
+          "value": "Oct 30, 2023"
+        },
+        {
+          "start": 390,
+          "end": 402,
+          "label": "PAYMENT_AMOUNT",
+          "value": "US\u202f$\u202f35.00"
+        },
+        {
+          "start": 390,
+          "end": 392,
+          "label": "PAYMENT_CURRENCY_TYPE",
+          "value": "US"
+        }
+      ]
+    }
+  ]
+}
