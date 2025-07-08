@@ -16,49 +16,21 @@ Advanced production-ready pipeline with:
 
 import os
 import json
-import logging
-import argparse
-import sys
-import warnings
-from typing import Dict, List, Any, Optional, Tuple, Union
-import time
-import random
-from dataclasses import dataclass, field
-from pathlib import Path
-
 import torch
-import torch.nn as nn
-from torch.utils.data import DataLoader, RandomSampler, SequentialSampler, DistributedSampler
-from torch.nn.parallel import DistributedDataParallel as DDP
-from torch.cuda.amp import autocast, GradScaler
-import torch.distributed as dist
-import torch.multiprocessing as mp
-
 import numpy as np
-from tqdm import tqdm
-from sklearn.metrics import accuracy_score, precision_recall_fscore_support, classification_report, f1_score
-from sklearn.model_selection import train_test_split, StratifiedKFold
+from dataclasses import dataclass, field
+from typing import List, Dict, Any, Optional
 from transformers import (
-    BertModel, BertPreTrainedModel, BertConfig, BertTokenizerFast,
-    get_linear_schedule_with_warmup, set_seed, TrainingArguments, 
-    EarlyStoppingCallback
+    BertConfig,
+    BertTokenizerFast,
+    BertPreTrainedModel,
+    BertModel,
+    Trainer,
+    TrainingArguments
 )
-from torch.optim import AdamW, Adam
-from torch.optim.lr_scheduler import CosineAnnealingLR, OneCycleLR
-
-# Optional imports for enhanced features
-try:
-    import wandb
-    WANDB_AVAILABLE = True
-except ImportError:
-    WANDB_AVAILABLE = False
-    warnings.warn("Weights & Biases not available. Install with: pip install wandb")
-
-try:
-    from torch.utils.tensorboard import SummaryWriter
-    TENSORBOARD_AVAILABLE = True
-except ImportError:
-    TENSORBOARD_AVAILABLE = False
+from torch.nn import CrossEntropyLoss
+import logging
+from tqdm import tqdm
 
 # Configure logging
 logging.basicConfig(
@@ -68,36 +40,134 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-@dataclass
+class MultiTaskBertForSubscription(BertPreTrainedModel):
+    def __init__(self, config):
+        super().__init__(config)
+        self.bert = BertModel(config)
+        self.dropout = torch.nn.Dropout(config.hidden_dropout_prob)
+        
+        # Task-specific heads
+        self.ner = torch.nn.Linear(config.hidden_size, config.num_ner_labels)
+        self.classifier = torch.nn.Linear(config.hidden_size, config.num_classification_labels)
+        self.sentiment = torch.nn.Linear(config.hidden_size, config.num_sentiment_labels)
+        self.subscription = torch.nn.Linear(config.hidden_size, config.num_subscription_labels)
+        
+        # Initialize weights
+        self.init_weights()
+    
+    def forward(
+        self,
+        input_ids=None,
+        attention_mask=None,
+        token_type_ids=None,
+        ner_labels=None,
+        classification_labels=None,
+        sentiment_labels=None,
+        subscription_labels=None,
+    ):
+        outputs = self.bert(
+            input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids,
+        )
+        
+        sequence_output = outputs[0]  # (batch_size, sequence_length, hidden_size)
+        pooled_output = outputs[1]    # (batch_size, hidden_size)
+        
+        sequence_output = self.dropout(sequence_output)
+        pooled_output = self.dropout(pooled_output)
+        
+        # Task-specific predictions
+        ner_logits = self.ner(sequence_output)
+        classification_logits = self.classifier(pooled_output)
+        sentiment_logits = self.sentiment(pooled_output)
+        subscription_logits = self.subscription(pooled_output)
+        
+        loss = None
+        if ner_labels is not None:
+            loss_fct = CrossEntropyLoss()
+            
+            # NER loss
+            active_loss = attention_mask.view(-1) == 1
+            active_logits = ner_logits.view(-1, self.config.num_ner_labels)
+            active_labels = torch.where(
+                active_loss,
+                ner_labels.view(-1),
+                torch.tensor(loss_fct.ignore_index).type_as(ner_labels)
+            )
+            ner_loss = loss_fct(active_logits, active_labels)
+            
+            # Classification loss
+            if classification_labels is not None:
+                classification_loss = loss_fct(classification_logits.view(-1, self.config.num_classification_labels),
+                                            classification_labels.view(-1))
+            else:
+                classification_loss = 0
+            
+            # Sentiment loss
+            if sentiment_labels is not None:
+                sentiment_loss = loss_fct(sentiment_logits.view(-1, self.config.num_sentiment_labels),
+                                        sentiment_labels.view(-1))
+            else:
+                sentiment_loss = 0
+            
+            # Subscription loss
+            if subscription_labels is not None:
+                subscription_loss = loss_fct(subscription_logits.view(-1, self.config.num_subscription_labels),
+                                          subscription_labels.view(-1))
+            else:
+                subscription_loss = 0
+            
+            # Combine losses with weights
+            loss = (
+                self.config.ner_weight * ner_loss +
+                self.config.classification_weight * classification_loss +
+                self.config.sentiment_weight * sentiment_loss +
+                self.config.subscription_weight * subscription_loss
+            )
+        
+        return {
+            'loss': loss,
+            'ner_logits': ner_logits,
+            'classification_logits': classification_logits,
+            'sentiment_logits': sentiment_logits,
+            'subscription_logits': subscription_logits,
+        }
+
 class MultiTaskConfig:
     """Configuration class for multi-task training specifically optimized for subscription emails"""
     
-    # Model parameters
-    model_name_or_path: str = "bert-large-uncased"  # Using bert-large for better performance
+    # Model parameters - switched to base model for better stability
+    model_name_or_path: str = "bert-base-uncased"
     num_classification_labels: int = 0  # Will be set dynamically based on company count
     num_ner_labels: int = 0  # Will be set dynamically based on entity types
     num_sentiment_labels: int = 3
     num_subscription_labels: int = 2
     
-    # Email specific entity types - updated based on the company data
+    # Subscription-specific entity types
     email_entity_types: List[str] = field(default_factory=lambda: [
-        "COMPANY_NAME", "USER_GMAIL", "USERNAME", "SUBSCRIPTION_TYPE", 
-        "PAYMENT_AMOUNT", "PAYMENT_CURRENCY_TYPE", "PAYMENT_DATE", 
-        "RENEWAL_DATE", "SUBSCRIPTION_END_DATE", "SUBSCRIPTION_START_DATE",
-        "IS_SUBSCRIPTION_EMAIL"
+        "COMPANY_NAME",           # Company providing the service
+        "SUBSCRIPTION_TYPE",      # Type of subscription (Premium, Basic, etc.)
+        "PAYMENT_AMOUNT",         # Cost of subscription
+        "PAYMENT_CURRENCY",       # Currency type
+        "PAYMENT_DATE",           # When payment will be processed
+        "RENEWAL_DATE",           # When subscription renews
+        "SUBSCRIPTION_END_DATE",  # When subscription ends
+        "CARD_INFO",             # Last 4 digits of card
+        "USER_EMAIL",            # User's email
+        "USER_NAME"              # User's name
     ])
     
-    # Training parameters optimized for BERT-large model
-    learning_rate: float = 1e-5  # Lower learning rate for BERT-large
+    # Training parameters optimized for BERT-base
+    learning_rate: float = 2e-5
     weight_decay: float = 0.01
     adam_epsilon: float = 1e-8
     max_grad_norm: float = 1.0
-    num_train_epochs: int = 5  # Slightly reduced for BERT-large
-    per_device_train_batch_size: int = 8  # Reduced batch size due to BERT-large memory requirements
-    per_device_eval_batch_size: int = 16
-    gradient_accumulation_steps: int = 2  # Increased for stability with BERT-large
+    num_train_epochs: int = 5
+    per_device_train_batch_size: int = 16  # Increased for BERT-base
+    per_device_eval_batch_size: int = 32
+    gradient_accumulation_steps: int = 1
     warmup_ratio: float = 0.1
-    warmup_steps: int = 0
     
     # Mixed precision & optimization
     fp16: bool = True
@@ -106,59 +176,36 @@ class MultiTaskConfig:
     
     # Early stopping & checkpointing
     evaluation_strategy: str = "steps"
-    eval_steps: int = 250  # More frequent evaluation
+    eval_steps: int = 100
     save_strategy: str = "steps"
-    save_steps: int = 500
-    logging_steps: int = 50  # More frequent logging
-    early_stopping_patience: int = 4  # Increased patience
+    save_steps: int = 100
+    logging_steps: int = 50
+    early_stopping_patience: int = 3
     early_stopping_threshold: float = 0.001
     load_best_model_at_end: bool = True
-    metric_for_best_model: str = "eval_ner_f1"  # Focus on NER performance for subscription data
+    metric_for_best_model: str = "eval_ner_f1"
     greater_is_better: bool = True
     
-    # Multi-task loss weights - optimized for subscription emails
-    classification_weight: float = 1.0  # Company classification
-    ner_weight: float = 2.5  # Increased weight for NER since it's critical for extracting subscription info
-    sentiment_weight: float = 0.3  # Reduced as it's less important for subscription data
-    subscription_weight: float = 2.0  # Increased as it's a key task
+    # Multi-task loss weights
+    classification_weight: float = 1.0
+    ner_weight: float = 2.0
+    sentiment_weight: float = 0.5
+    subscription_weight: float = 1.5
     
     # Data parameters
     max_seq_length: int = 512
     data_augmentation: bool = True
-    augmentation_prob: float = 0.2  # Reduced to avoid too much noise
+    augmentation_prob: float = 0.15
     
-    # Email dataset specific paths
+    # Paths
     company_data_dir: str = "./training-data-set/company_data"
-    
-    # spaCy integration
-    use_spacy: bool = True  # Enable spaCy integration
-    spacy_model: str = "en_core_web_lg"  # Large spaCy model for better entity extraction
-    
-    # Hyperparameter tuning
-    hyperparameter_search: bool = False
-    num_trials: int = 20
-    
-    # Distributed training
-    local_rank: int = -1
-    distributed_training: bool = False
-    
-    # Experiment tracking
-    experiment_name: str = "subscription_email_bert_large"
-    wandb_project: str = "email_subscription_analysis"
-    wandb_entity: Optional[str] = None
-    use_wandb: bool = True
-    use_tensorboard: bool = True
-    
-    # Output & logging
-    output_dir: str = "./outputs"
+    output_dir: str = "./outputs_m4/final_model"
     logging_dir: str = "./logs"
-    overwrite_output_dir: bool = True
-    seed: int = 42
     data_file: str = "bert_formatted_data.json"
     
-    # Cross-validation
-    use_cross_validation: bool = False
-    cv_folds: int = 5
+    # Other settings
+    seed: int = 42
+    overwrite_output_dir: bool = True
     
     def __post_init__(self):
         """Validate configuration after initialization"""

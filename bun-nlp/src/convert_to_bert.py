@@ -239,213 +239,251 @@ def merge_entities(bert_entities: List[Dict[str, Any]],
     # Sort by start position
     return sorted(all_entities, key=lambda x: x["start"])
 
-def convert_to_bert_format(company_data_dir='src/training-data-set/company_data', 
-                          output_file='bert_formatted_data.json',
-                          use_large_model=True,
-                          use_spacy=True):
+def extract_subscription_entities(text: str) -> List[Dict[str, Any]]:
     """
-    Convert company email data to BERT format with comprehensive error handling
+    Extract subscription-specific entities using custom patterns
+    """
+    if not text:
+        return []
+    
+    entities = []
+    
+    # Company name patterns
+    company_patterns = [
+        r'(?i)from:\s*([A-Za-z0-9\s]+(?:Inc\.|LLC|Ltd\.)?)',
+        r'(?i)(?:Your|the)\s+([A-Za-z0-9\s]+)\s+subscription',
+        r'(?i)(?:Welcome to|Thanks for choosing)\s+([A-Za-z0-9\s]+)'
+    ]
+    
+    # Subscription type patterns
+    subscription_patterns = [
+        r'(?i)(Premium|Basic|Pro|Plus|Standard|Free Trial|Monthly|Annual|Yearly)\s*(?:plan|subscription|membership|tier)',
+        r'(?i)(?:Your|the)\s+(Premium|Basic|Pro|Plus|Standard|Free Trial|Monthly|Annual|Yearly)\s*(?:plan|subscription|membership|tier)?'
+    ]
+    
+    # Payment amount patterns
+    payment_patterns = [
+        r'(?i)(?:charge|payment|price|cost|fee)\s*(?:of)?\s*([₹$€£¥]\s*\d+(?:\.\d{2})?)',
+        r'(?i)([₹$€£¥]\s*\d+(?:\.\d{2})?)\s*(?:per|\/)\s*(?:month|year|mo|yr)',
+        r'(?i)(\d+(?:\.\d{2})?\s*[₹$€£¥])'
+    ]
+    
+    # Card info patterns
+    card_patterns = [
+        r'(?i)card\s*(?:ending|number)?\s*(?:in|:)?\s*[•*x\s]*(\d{4})',
+        r'(?i)(?:visa|mastercard|amex)(?:[^0-9]+)(\d{4})'
+    ]
+    
+    # Date patterns
+    date_patterns = {
+        'PAYMENT_DATE': [
+            r'(?i)(?:will be charged|payment due|next payment)(?:[^0-9a-zA-Z]+)([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})',
+            r'(?i)(?:will be charged|payment due|next payment)(?:[^0-9]+)(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})'
+        ],
+        'RENEWAL_DATE': [
+            r'(?i)(?:renews|renew|renewal|auto-renew)(?:[^0-9a-zA-Z]+)([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})',
+            r'(?i)(?:renews|renew|renewal|auto-renew)(?:[^0-9]+)(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})'
+        ],
+        'SUBSCRIPTION_END_DATE': [
+            r'(?i)(?:expires|end|cancel|termination)(?:[^0-9a-zA-Z]+)([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})',
+            r'(?i)(?:expires|end|cancel|termination)(?:[^0-9]+)(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})'
+        ]
+    }
+    
+    # Email patterns
+    email_patterns = [
+        r'[\w\.-]+@[\w\.-]+\.\w+'
+    ]
+    
+    # Name patterns
+    name_patterns = [
+        r'(?i)Dear\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)',
+        r'(?i)Hi\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)',
+        r'(?i)Hello\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)'
+    ]
+    
+    # Extract company names
+    for pattern in company_patterns:
+        matches = re.finditer(pattern, text)
+        for match in matches:
+            entities.append({
+                "start": match.start(1),
+                "end": match.end(1),
+                "label": "COMPANY_NAME",
+                "value": match.group(1).strip()
+            })
+    
+    # Extract subscription types
+    for pattern in subscription_patterns:
+        matches = re.finditer(pattern, text)
+        for match in matches:
+            entities.append({
+                "start": match.start(1),
+                "end": match.end(1),
+                "label": "SUBSCRIPTION_TYPE",
+                "value": match.group(1).strip()
+            })
+    
+    # Extract payment amounts
+    for pattern in payment_patterns:
+        matches = re.finditer(pattern, text)
+        for match in matches:
+            amount = match.group(1)
+            # Extract currency symbol
+            currency_match = re.search(r'([₹$€£¥])', amount)
+            if currency_match:
+                currency = currency_match.group(1)
+                entities.append({
+                    "start": match.start(1) + currency_match.start(1),
+                    "end": match.start(1) + currency_match.end(1),
+                    "label": "PAYMENT_CURRENCY",
+                    "value": currency
+                })
+            # Extract amount without currency
+            amount_clean = re.sub(r'[₹$€£¥\s]', '', amount)
+            entities.append({
+                "start": match.start(1),
+                "end": match.end(1),
+                "label": "PAYMENT_AMOUNT",
+                "value": amount_clean
+            })
+    
+    # Extract dates
+    for label, patterns in date_patterns.items():
+        for pattern in patterns:
+            matches = re.finditer(pattern, text)
+            for match in matches:
+                entities.append({
+                    "start": match.start(1),
+                    "end": match.end(1),
+                    "label": label,
+                    "value": match.group(1).strip()
+                })
+    
+    # Extract card info
+    for pattern in card_patterns:
+        matches = re.finditer(pattern, text)
+        for match in matches:
+            entities.append({
+                "start": match.start(1),
+                "end": match.end(1),
+                "label": "CARD_INFO",
+                "value": match.group(1).strip()
+            })
+    
+    # Extract emails
+    for pattern in email_patterns:
+        matches = re.finditer(pattern, text)
+        for match in matches:
+            entities.append({
+                "start": match.start(),
+                "end": match.end(),
+                "label": "USER_EMAIL",
+                "value": match.group().strip()
+            })
+    
+    # Extract names
+    for pattern in name_patterns:
+        matches = re.finditer(pattern, text)
+        for match in matches:
+            entities.append({
+                "start": match.start(1),
+                "end": match.end(1),
+                "label": "USER_NAME",
+                "value": match.group(1).strip()
+            })
+    
+    return entities
+
+def convert_to_bert_format(company_data_dir='training-data-set/company_data', 
+                         output_file='bert_formatted_data.json',
+                         use_spacy=False):
+    """
+    Convert company data to BERT training format with improved entity handling
     """
     try:
-        print("Loading BERT tokenizer...")
-        model_name = "bert-large-uncased" if use_large_model else "bert-base-uncased"
-        tokenizer = BertTokenizerFast.from_pretrained(model_name)
-        print(f"Using tokenizer from {model_name}")
-        
-        print("Loading company data...")
+        # Load company data
         company_data = load_company_data(company_data_dir)
         
-        # Create a list to store all processed examples
-        processed_data = []
-        total_examples = sum(len(examples) for examples in company_data.values())
-        processed_count = 0
-        entity_counter = {}  # Track entity types for statistics
+        # Initialize tokenizer
+        tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
         
-        # Process each company in the data
+        formatted_data = []
+        
         for company_name, examples in tqdm(company_data.items(), desc="Processing companies"):
-            print(f"Processing company: {company_name}")
-            
-            for example_idx, example in enumerate(tqdm(examples, desc=f"Processing {company_name} examples")):
-                try:
-                    processed_count += 1
-                    
-                    # Validate example structure
-                    if not isinstance(example, dict):
-                        print(f"Warning: Example {example_idx} for {company_name} is not a dictionary")
-                        continue
-                    
-                    if 'content' not in example or 'raw_text' not in example['content']:
-                        print(f"Warning: Example {example_idx} for {company_name} missing raw_text")
-                        continue
-                    
-                    # Extract text from the example
-                    raw_text = example['content']['raw_text']
-                    
-                    if not isinstance(raw_text, str) or len(raw_text.strip()) == 0:
-                        print(f"Warning: Empty or invalid raw_text in example {example_idx} for {company_name}")
-                        continue
-                    
-                    # Extract entities using spaCy if enabled
-                    spacy_entities = []
-                    if use_spacy and SPACY_AVAILABLE:
-                        spacy_entities = extract_spacy_entities(raw_text)
-                        if spacy_entities:
-                            print(f"Found {len(spacy_entities)} entities using spaCy for example {example_idx}")
-                    
-                    # Tokenize with both tensors and offsets
-                    encoding = tokenizer(
-                        raw_text,
-                        padding='max_length',
-                        truncation=True,
-                        max_length=512,
-                        return_tensors='pt',
-                        return_offsets_mapping=True
+            for example in examples:
+                text = example.get('text', '').strip()
+                if not text:
+                    continue
+                
+                # Extract entities
+                entities = extract_subscription_entities(text)
+                
+                # Tokenize text
+                encoding = tokenizer(
+                    text,
+                    padding=False,
+                    truncation=True,
+                    max_length=512,
+                    return_offsets_mapping=True
+                )
+                
+                # Convert character positions to token positions
+                token_entities = []
+                offset_mapping = encoding.offset_mapping
+                
+                for entity in entities:
+                    token_start, token_end = find_token_positions(
+                        offset_mapping, 
+                        entity['start'], 
+                        entity['end']
                     )
                     
-                    # Convert tensors to lists for JSON serialization
-                    input_ids = encoding['input_ids'][0].tolist()
-                    attention_mask = encoding['attention_mask'][0].tolist()
-                    token_type_ids = encoding['token_type_ids'][0].tolist()
-                    offset_mapping = encoding['offset_mapping'][0].tolist()
-                    
-                    # Create BERT-compatible format
-                    bert_example = {
-                        'id': example.get('id', f"{company_name}_{example_idx}"),
-                        'category': company_name,  # Use company name as the category
-                        'input_ids': input_ids,
-                        'attention_mask': attention_mask,
-                        'token_type_ids': token_type_ids,
-                        'entities': [],
-                        'raw_text': raw_text  # Add raw text for validation/debugging
-                    }
-                    
-                    # Add NER entities if available with token positions
-                    bert_entities = []
-                    if 'ner_entities' in example and example['ner_entities']:
-                        entities = example['ner_entities']
-                        if isinstance(entities, list):
-                            for entity_idx, entity in enumerate(entities):
-                                try:
-                                    # Validate entity structure
-                                    if not isinstance(entity, dict):
-                                        print(f"Warning: Entity {entity_idx} is not a dictionary")
-                                        continue
-                                    
-                                    required_fields = ['start', 'end', 'label', 'value']
-                                    if not all(field in entity for field in required_fields):
-                                        print(f"Warning: Entity {entity_idx} missing required fields")
-                                        continue
-                                    
-                                    # Validate entity positions
-                                    char_start = entity['start']
-                                    char_end = entity['end']
-                                    
-                                    if not isinstance(char_start, int) or not isinstance(char_end, int):
-                                        print(f"Warning: Invalid entity positions: {char_start}, {char_end}")
-                                        continue
-                                    
-                                    if char_start >= char_end or char_start < 0 or char_end > len(raw_text):
-                                        print(f"Warning: Invalid entity span: {char_start}-{char_end} for text length {len(raw_text)}")
-                                        continue
-                                    
-                                    # Map character positions to token positions
-                                    token_start, token_end = find_token_positions(
-                                        offset_mapping, char_start, char_end
-                                    )
-                                    
-                                    # Verify token positions
-                                    if token_start is None or token_end is None or token_start >= token_end:
-                                        print(f"Warning: Invalid token positions: {token_start}-{token_end}")
-                                        continue
-                                    
-                                    # Add entity with token positions
-                                    bert_entity = {
-                                        'start': char_start,
-                                        'end': char_end,
-                                        'label': entity['label'],
-                                        'value': entity['value'],
-                                        'token_start': token_start,
-                                        'token_end': token_end
-                                    }
-                                    
-                                    bert_entities.append(bert_entity)
-                                    
-                                    # Track entity types
-                                    entity_type = entity['label']
-                                    entity_counter[entity_type] = entity_counter.get(entity_type, 0) + 1
-                                    
-                                except Exception as e:
-                                    print(f"Error processing entity {entity_idx}: {e}")
-                                    continue
-                    
-                    # Merge BERT and spaCy entities if enabled
-                    final_entities = bert_entities
-                    if use_spacy and spacy_entities:
-                        final_entities = merge_entities(bert_entities, spacy_entities)
-                        
-                        # Now calculate token positions for the spaCy entities
-                        for entity in final_entities:
-                            if 'token_start' not in entity or 'token_end' not in entity:
-                                char_start = entity['start']
-                                char_end = entity['end']
-                                token_start, token_end = find_token_positions(
-                                    offset_mapping, char_start, char_end
-                                )
-                                entity['token_start'] = token_start
-                                entity['token_end'] = token_end
-                    
-                    bert_example['entities'] = final_entities
-                    
-                    # Add subscription flag if available
-                    bert_example['is_subscription_email'] = example.get('is_subscription_email', True)  # Default to True for this dataset
-                    
-                    processed_data.append(bert_example)
-                    
-                    # Progress indicator
-                    if processed_count % 50 == 0:
-                        print(f"Processed {processed_count}/{total_examples} examples...")
-                        
-                except Exception as e:
-                    print(f"Error processing example {example_idx} for {company_name}: {e}")
-                    continue
+                    if token_start is not None and token_end is not None:
+                        token_entities.append({
+                            'start': token_start,
+                            'end': token_end,
+                            'label': entity['label'],
+                            'value': entity['value']
+                        })
+                
+                # Create formatted example
+                formatted_example = {
+                    'text': text,
+                    'company': company_name,
+                    'tokens': encoding.tokens(),
+                    'input_ids': encoding.input_ids,
+                    'attention_mask': encoding.attention_mask,
+                    'entities': token_entities
+                }
+                
+                formatted_data.append(formatted_example)
         
-        print(f"Successfully processed {len(processed_data)} examples")
+        # Save formatted data
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                'data': formatted_data,
+                'label_map': {
+                    'companies': sorted(company_data.keys()),
+                    'entity_types': [
+                        "COMPANY_NAME", "SUBSCRIPTION_TYPE", "PAYMENT_AMOUNT",
+                        "PAYMENT_CURRENCY", "PAYMENT_DATE", "RENEWAL_DATE",
+                        "SUBSCRIPTION_END_DATE", "CARD_INFO", "USER_EMAIL",
+                        "USER_NAME"
+                    ]
+                }
+            }, f, indent=2)
         
-        # Print entity statistics
-        print("\nEntity type statistics:")
-        for entity_type, count in sorted(entity_counter.items(), key=lambda x: x[1], reverse=True):
-            print(f"  {entity_type}: {count}")
-        
-        # Save the processed data to the output file
-        try:
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(processed_data, f, indent=2, ensure_ascii=False)
-            print(f"Conversion complete! Output saved to: {output_file}")
-        except Exception as e:
-            print(f"Error saving output file: {e}")
-            raise
-        
-        # Also save a sample for inspection
-        if processed_data:
-            sample_path = 'bert_sample.json'
-            try:
-                sample_data = processed_data[:min(5, len(processed_data))]
-                with open(sample_path, 'w', encoding='utf-8') as f:
-                    json.dump(sample_data, f, indent=2, ensure_ascii=False)
-                print(f"Sample saved to: {sample_path}")
-            except Exception as e:
-                print(f"Warning: Could not save sample file: {e}")
-        
-        return processed_data
+        print(f"Saved {len(formatted_data)} formatted examples to {output_file}")
         
     except Exception as e:
-        print(f"Fatal error during conversion: {e}")
-        print(f"Traceback: {traceback.format_exc()}")
+        print(f"Error converting data: {e}")
+        traceback.print_exc()
         raise
 
 if __name__ == "__main__":
     try:
-        convert_to_bert_format(use_large_model=True, use_spacy=True)
+        convert_to_bert_format(use_spacy=True)
     except Exception as e:
         print(f"Script failed: {e}")
         exit(1) 
